@@ -1,0 +1,234 @@
+abk-Abkhaz
+aca-Achagua
+acn-Achang
+adn-Adang
+ady-Adyghe
+aey-Amele
+ain-Ainu
+ale-Aleut
+aly-Alyawarr
+arb-Arabic, Standard
+are-Arrarnta, Western
+arh-Arhuaco
+atb-Zaiwa
+ava-Avar
+ayz-Mai Brat
+azj-Azerbaijani, North
+bak-Bashkort
+bam-Bamanankan
+bao-Waimaha
+bdl-Bajau, Indonesian
+ben-Bengali
+bhw-Biak
+bib-Bisa
+bmr-Muinane
+boa-Bora
+bre-Breton
+bsk-Burushaski
+bsn-Barasana-Eduria
+bul-Bulgarian
+cat-Catalan
+cbb-Cabiyarí
+cbc-Carapana
+cbd-Carijona
+cbg-Chimila
+cbi-Chachi
+cbv-Cacua
+cdm-Chepang
+ces-Czech
+che-Chechen
+chv-Chuvash
+ckt-Chukchi
+cmi-Emberá-Chamí
+cmn-Chinese, Mandarin
+cng-Qiang, Northern
+coe-Koreguaje
+cof-Colorado
+cqd-Miao, Chuanqiandian Cluster
+cto-Emberá-Catío
+cub-Cubeo
+cui-Cuiba
+cym-Welsh
+dan-Danish
+dbl-Dyirbal
+ddo-Dido
+des-Desano
+deu-German, Standard
+dif-Dieri
+djm-Dogon, Jamsay
+ell-Greek
+emp-Emberá, Northern
+enf-Enets, Forest
+eng-English
+ers-Ersu
+ess-Yupik, Central Siberian
+eus-Basque
+evn-Evenki
+ffm-Fulfulde, Maasina
+fin-Finnish
+fra-French
+gbd-Karadjeri
+gld-Nanai
+gle-Irish
+guc-Wayuu
+guh-Guahibo
+gum-Guambiano
+guo-Guayabero
+gvc-Guanano
+gvn-Kuku-Yalanji
+gvr-Gurung
+heb-Hebrew
+hin-Hindi
+hoa-Hoava
+hrv-Croatian
+hto-Huitoto, Minica
+hun-Hungarian
+huu-Huitoto, Murui
+hye-Armenian
+igo-Isebe
+inb-Inga
+ind-Indonesian
+irh-Irarutu
+isl-Icelandic
+ita-Italian
+itl-Itelmen
+ium-Iu Mien
+jao-Yanyuwa
+jbj-Arandai
+jpn-Japanese
+jup-Hupdë
+kac-Jingpho
+kal-Greenlandic
+kan-Kannada
+kat-Georgian
+kbh-Camsá
+kca-Khanty
+ket-Ket
+khc-Tukang Besi North
+khg-Tibetan, Khams
+khk-Mongolian, Halh
+khq-Songhay, Koyra Chiini
+kkk-Kokota
+kmr-Kurdish, Northern
+knd-Konda
+kog-Kogi
+koi-Komi-Permyak
+kor-Korean
+kpc-Curripaco
+kpv-Komi-Zyrian
+krl-Karelian
+ktg-Kalkutung
+kwd-Kwaio
+kwi-Awa-Cuaiquer
+lbe-Lak
+lez-Lezgi
+lis-Lisu
+lit-Lithuanian
+liv-Liv
+lus-Mizo
+lvk-Lavukaleve
+mal-Malayalam
+mbn-Macaguán
+mbp-Malayo
+mbr-Nukak Makú
+mdf-Moksha
+mhr-Mari, Meadow
+mjw-Karbi
+mnc-Manchu
+mni-Meitei
+mns-Mansi
+moq-Mor
+mot-Barí
+mrj-Mari, Hill
+mwp-Kala Lagaw Ya
+mxj-Miju-Mishmi
+mya-Burmese
+myv-Erzya
+myy-Macuna
+nbi-Naga, Mao
+nbj-Ngarinman
+new-Newar
+nio-Nganasan
+niv-Gilyak
+njh-Naga, Lotha
+njm-Naga, Angami
+njo-Naga, Ao
+nkh-Naga, Khezha
+nld-Dutch
+nmf-Naga, Tangkhul
+nna-Nyangumarta
+noa-Woun Meu
+nor-Norwegian
+npi-Nepali
+nri-Naga, Chokri
+nru-Narua
+nsm-Naga, Sumi
+nst-Naga, Tangshang
+ntu-Natügu
+nxg-Ngad’a
+oca-Ocaina
+ore-Maijuna
+oss-Ossetic
+pbb-Páez
+pbu-Pashto, Northern
+pes-Persian, Iranian
+pio-Piapoco
+pir-Piratapuyo
+pjt-Pitjantjatjara
+pol-Polish
+por-Portuguese
+pui-Puinave
+rgr-Resígaro
+ron-Romanian
+rus-Russian
+sah-Yakut
+sel-Selkup
+sey-Secoya
+sja-Epena
+sjd-Saami, Kildin
+slc-Sáliba
+slk-Slovak
+slv-Slovene
+sma-Saami, South
+sme-Saami, North
+sms-Saami, Skolt
+snn-Siona
+spa-Spanish
+sri-Siriano
+svs-Savosavo
+swe-Swedish
+sxg-Shixing
+tae-Tariana
+tam-Tamil
+tat-Tatar
+tav-Tatuyo
+tel-Telugu
+tet-Tetun
+ths-Thakali
+tnc-Tanimuca-Retuarã
+tsj-Tshangla
+tue-Tuyuca
+tuf-Tunebo, Central
+tuo-Tucano
+tur-Turkish
+udm-Udmurt
+ukr-Ukrainian
+uzn-Uzbek, Northern
+vep-Veps
+vmb-Barbaram
+wim-Wik-Mungkan
+wnu-Usan
+woi-Kamang
+wyb-Wangaaybuwan-Ngiyambaa
+xal-Kalmyk-Oirat
+xbr-Kambera
+xsr-Sherpa
+xxk-Ke’o
+ycn-Yucuna
+yii-Yidiny
+yix-Axi
+ykg-Yukaghir, Northern
+yrk-Nenets
+yui-Wajiara
+yup-Yukpa
+yux-Yukaghir, Southern
