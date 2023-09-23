@@ -1,6 +1,5 @@
 # LangChangeSimulator
 Application for simulating language change and diversification over historical time.
-Application for simulating language change and diversification over historical time.
 
 A world map is seeded with a number of tribes with distinct languages. The tribes are then allowed to be fruitful and multiply and spread across the map, while their languages evolve and split up. The end result is a world with thousands of languages in a number of different families.
 
