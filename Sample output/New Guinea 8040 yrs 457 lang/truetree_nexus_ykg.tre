@@ -1,0 +1,8 @@
+#NEXUS
+
+BEGIN TREES;
+	Translate
+	;
+tree 'ykg' = ykg19:100
+;
+END;

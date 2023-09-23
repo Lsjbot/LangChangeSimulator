@@ -1,0 +1,8 @@
+#NEXUS
+
+BEGIN TREES;
+	Translate
+	;
+tree 'mxj' = mxj13:100
+;
+END;

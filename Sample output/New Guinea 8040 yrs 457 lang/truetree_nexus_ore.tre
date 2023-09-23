@@ -1,0 +1,8 @@
+#NEXUS
+
+BEGIN TREES;
+	Translate
+	;
+tree 'ore' = ore1:100
+;
+END;

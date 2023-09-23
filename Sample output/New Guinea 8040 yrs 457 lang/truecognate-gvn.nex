@@ -1,0 +1,30 @@
+#NEXUS
+BEGIN TAXA;
+	Dimensions NTax=8;
+	TaxLabels gvn4585 gvn1721 gvn1999 gvn312 gvn3275 gvn6074 gvn2017 protogvn18;
+END;
+
+BEGIN CHARACTERS;
+	Dimensions NChar=100;
+	format datatype=standard symbols="A~Z" gap =-;
+	charlabels  'ALL' 'ASH' 'BARK' 'BELLY' 'BIG' 'BIRD' 'BITE' 'BLACK' 'BLOOD' 'BONE' 'BREAST' 'BURN' 'CLAW' 'CLOUD' 'COLD' 'COME' 'DIE' 'DOG' 'DRINK' 'DRY' 'EAR' 'EARTH (SOIL)' 'EAT' 'EGG' 'EYE' 'FAT (ORGANIC SUBSTANCE)' 'FEATHER' 'FIRE' 'FISH' 'FLESH OR MEAT' 'FLY (MOVE THROUGH AIR)' 'FOOT' 'FULL' 'GIVE' 'GOOD' 'GREEN' 'HAIR' 'HAND' 'HEAD' 'HEAR' 'HEART' 'HORN (ANATOMY)' 'HOT OR WARM' 'I' 'KILL' 'KNEE' 'KNOW (SOMETHING)' 'LEAF' 'LIE (REST)' 'LIVER' 'LONG' 'LOUSE' 'MAN' 'MANY' 'MOON' 'MOUNTAIN' 'MOUTH' 'NAME' 'NECK' 'NEW' 'NIGHT' 'NOSE' 'NOT' 'ONE' 'PERSON' 'RAINING OR RAIN' 'RED' 'ROAD' 'ROOT' 'ROUND' 'SAND' 'SAY' 'SEE' 'SEED' 'SIT' 'SKIN' 'SLEEP' 'SMALL' 'SMOKE (EXHAUST)' 'STAND' 'STAR' 'STONE' 'SUN' 'SWIM' 'TAIL' 'THAT' 'THIS' 'THOU' 'TONGUE' 'TOOTH' 'TREE' 'TWO' 'WALK' 'WATER' 'WE' 'WHAT' 'WHITE' 'WHO' 'WOMAN' 'YELLOW';
+	Matrix
+	gvn4585 A--AAAAA--AA-A---A-AA-AAAAA-AAAA--A-AAA-----AA-A-AAAA-A-AAAAA--AAAA-A-AAA---AAAA-A-AAA-AAAA-AA-AAA--
+	gvn1721 ------AB-AAA--AA-AA---A-B---A-A--AA-B--A-----AA------A--AAAAAA-A-AA---AA--A-ABAA-AAA-BA-A-AA----A---
+	gvn1999 AA-AAAAAABAA--AA-AAAAAAABA-AAAAA--A-AAAB---A-AAA-AAAB---AAAAAA-AABA---A--AAAACBA-AAAAAA-AA-AB--AAB--
+	gvn312 A-AA--AAACAA-BAA-AB---BABA--AAA--B--AA---A-----A-AAA-ABA-AAAA-A-ABA-A-A-BBA-ACA---AAA--BAB-AB----B--
+	gvn3275 AA-AAAABAAAA-BAA-A-A-AAABA--AAAA-AA-AAAB-----AAB-AAA-A--AAAAAA-AA-A---A-A-A-ACA-AAAAAAABA-AAAB-AA---
+	gvn6074 ---A--A-BAAA-BAA-A-A-AAAB-ABAAAB-AA-BAAB-----AAB--AA-AAAAAAAAA-A-AA---A---A-ACAA-AAA--A-ACAA----A---
+	gvn2017 --B-----A-AA--A-AAA-A-A---B-A-AB--B-A-AB---A-AA-AAAA--A--AAAA--A-B--B--AAAAA-BA-AAA-A-AB-B-AB--BA--A
+	protogvn18 AA-AAAAAACAA-BAA-AAAAAAABAAAAAAA--A-AAAB---AAAAA-AAA--A-AAAAAA-AABA-A-AAC-AAACAAAAAAAAABABBABB-AAB--
+;
+END;
+
+BEGIN PAUP;
+	outgroup protogvn18;
+	set criterion=parsimony;
+	hsearch nreps=25;
+	describe 1 / plot=phylogram;
+	savetrees file=G:\Ling\LangChangeSimulator\output\New Guinea 8040 yrs 2023-09-22\truecognate-gvn.tre brlens;
+	contree /treeFile=G:\Ling\LangChangeSimulator\output\New Guinea 8040 yrs 2023-09-22\truecognate-gvn-consensus.nex;
+END;

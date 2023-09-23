@@ -1,0 +1,8 @@
+#NEXUS
+
+BEGIN TREES;
+	Translate
+	;
+tree 'vmb' = vmb3:100
+;
+END;

@@ -1,0 +1,8 @@
+#NEXUS
+
+BEGIN TREES;
+	Translate
+	;
+tree 'njo' = njo9:100
+;
+END;
