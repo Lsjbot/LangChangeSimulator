@@ -83,6 +83,8 @@ namespace LangChangeSimulator
                 return swadesh100;
             else if (listtype.Contains("200"))
                 return swadesh200;
+            else if (listtype.Contains("numbers"))
+                return numbersonly;
             else if (listtype.ToLower().Contains("clics"))
             {
                 return (from c in Form1.dbclics3.ConcepticonTable select c.Concepticon_Gloss).ToList();
@@ -91,26 +93,35 @@ namespace LangChangeSimulator
                 return new List<string>();
         }
 
+        public static Dictionary<string, List<int>> conceptcodelistdict = new Dictionary<string, List<int>>();
+
         public static List<int> conceptcodelist(string listtype)
         {
+            if (conceptcodelistdict.ContainsKey(listtype))
+                return conceptcodelistdict[listtype];
             swadeshtype = listtype;
             if (conceptcodedict.Count == 0)
                 fillconceptdicts();
-            if (listtype.ToLower().Contains("swad"))
+            if (listtype.ToLower().Contains("swad")|| listtype.ToLower().Contains("numbers"))
             {
                 List<string> lss = new List<string>();
                 if (listtype.Contains("100"))
                     lss = swadesh100;
                 else if (listtype.Contains("200"))
                     lss = swadesh200;
+                else if (listtype.Contains("numbers"))
+                    lss = numbersonly;
                 var q = from c in Form1.dbclics3.ConcepticonTable
                         where lss.Contains(c.Concepticon_Gloss)
                         select c.ID;
+                conceptcodelistdict.Add(listtype, q.ToList());
                 return q.ToList();
             }
             else if (listtype.ToLower().Contains("clics"))
             {
-                return (from c in Form1.dbclics3.ConcepticonTable select c.ID).ToList();
+                var q = from c in Form1.dbclics3.ConcepticonTable select c.ID;
+                conceptcodelistdict.Add(listtype, q.ToList());
+                return q.ToList();
             }
             else
                 return new List<int>();
@@ -401,6 +412,20 @@ namespace LangChangeSimulator
 
 
         }
+
+        public static List<string> numbersonly = new List<string>()
+        {
+            {"ONE"},
+            {"TWO"},
+            {"THREE"},
+            {"FOUR"},
+            {"FIVE"},
+            {"SIX"},
+            {"SEVEN"},
+            {"EIGHT"},
+            {"NINE"},
+            {"TEN"}
+        };
 
 
         public static List<string> swadesh100 = new List<string>()

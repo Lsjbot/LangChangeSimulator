@@ -47,7 +47,7 @@ namespace LangChangeSimulator
             defaultparams.pdict.Add("soundchangeenabled", "true");
             defaultparams.pdict.Add("unconditionalenabled", "true");
             defaultparams.pdict.Add("conditionalenabled", "true");
-            defaultparams.pdict.Add("soundborrowingenabled", "false");
+            defaultparams.pdict.Add("soundborrowingenabled", "true");
             defaultparams.pdict.Add("contactenabled", "true");
             defaultparams.pdict.Add("semanticshiftenabled", "true");
             defaultparams.pdict.Add("switchrate", "100"); //rate of minority switch to majority language
@@ -58,7 +58,8 @@ namespace LangChangeSimulator
             defaultparams.pdict.Add("arealradius", "1"); //radius around focus square for areal effects
             defaultparams.pdict.Add("arealcenterbonus", "3"); //extra weight for focus square in areal effects
             defaultparams.pdict.Add("arealminlang", "10"); //min #languages with arealradius to consider areal effects
-            //defaultparams.pdict.Add("", "");
+            defaultparams.pdict.Add("arealwordborrowingrate", "0.0001"); //per lexicon per year
+            defaultparams.pdict.Add("arealsoundborrowingrate", "0.0001"); //per inventory per year
             //defaultparams.pdict.Add("", "");
             //defaultparams.pdict.Add("", "");
             //defaultparams.pdict.Add("", "");

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -587,8 +588,9 @@ namespace LangChangeSimulator
             Random rnd = new Random();
             int icc = rnd.Next(sourcelang.lexicon.words.Count);
             wordclass nwc = new wordclass(sourcelang.lexicon.words.ElementAt(icc),destlang.id);
+            if (!destlang.lexicon.hasword(nwc))
+                destlang.lexicon.addword(nwc);
             //MessageBox.Show("Borrowing random word " + swadeshclass.codeconceptdict[nwc.concepts.First()] + " " + segmentclass.DecodeForm(nwc.codedform));
-            destlang.lexicon.addword(nwc);
         }
 
         private void borrow_tech(languageclass sourcelang, languageclass destlang)
@@ -648,6 +650,8 @@ namespace LangChangeSimulator
             int arealradius = parameterclass.p.get<int>("arealradius");
             int centerbonus = parameterclass.p.get<int>("arealcenterbonus");
             int arealminlang = parameterclass.p.get<int>("arealminlang");
+            double arealwordborrowingrate = parameterclass.p.get<double>("arealwordborrowingrate");
+            double arealsoundborrowingrate = parameterclass.p.get<double>("arealsoundborrowingrate");
 
             int rmax = 1;
             foreach (int il in origlang)
@@ -704,24 +708,37 @@ namespace LangChangeSimulator
                         if (CB_areal.Checked)
                         {
                             //do areal effects:
+                            double wrate = arealwordborrowingrate * timestep * lc.culture.openness;
+                            double srate = arealsoundborrowingrate * timestep * lc.culture.openness;
                             int nlregion = areaclass.nlangregion(lc.ilat, lc.ilon, arealradius, centerbonus);
                             if (nlregion >= arealminlang)
                             {
                                 areaclass regionsum = areaclass.sumregion(lc.ilat, lc.ilon, arealradius, centerbonus);
-                                if (CB_arealword.Checked)
+                                if (CB_arealword.Checked && rnd.NextDouble() < wrate)
                                 {
                                     wordclass wc = regionsum.findmajorityword(lc);
                                     if (wc != null)
                                     {
                                         lc.lexicon.addword(wc);
-                                        memo("Area borrow " + wc.getform());
+                                        //memo("Area borrow " + wc.getform());
                                     }
-                                    else
-                                        memo("Area borrow failed");
+                                    //else
+                                    //{
+                                    //    memo("Area borrow failed");
+                                    //}
                                 }
-                                if (CB_soundborrowing.Checked)
+                                if (CB_soundborrowing.Checked && rnd.NextDouble() < srate)
                                 {
-
+                                    int areasound = regionsum.findmajoritysound(lc);
+                                    if (areasound >= 0)
+                                    {
+                                        int oldsound = lc.inventory.findnearest(areasound);
+                                        if (oldsound >= 0)
+                                        {
+                                            lc.unconditional_soundchange(oldsound, areasound);
+                                            memo("areasound " + oldsound + ", " + areasound);
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -1063,7 +1080,10 @@ namespace LangChangeSimulator
 
         private void savebutton_Click(object sender, EventArgs e)
         {
-            string fn = util.unusedfilename(Form1.folder + @"output\parameters-" + DateTime.Now.ToShortDateString() + ".txt");
+            string runfolder = Form1.folder + @"output\"+FormGeography.region+" "+time+" yrs "+DateTime.Now.ToShortDateString()+@"\";
+            if (!Directory.Exists(runfolder))
+                Directory.CreateDirectory(runfolder);
+            string fn = util.unusedfilename(runfolder+"parameters.txt");
             fn = fn.Replace("parameters", "swadesh");
             memo("Saving to " + fn);
             if (CB_Swadesh.Checked)

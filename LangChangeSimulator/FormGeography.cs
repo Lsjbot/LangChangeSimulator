@@ -12,6 +12,7 @@ namespace LangChangeSimulator
 {
     public partial class FormGeography : Form
     {
+        public static string region = "World";
         private FormMap fm;
         public FormGeography(FormMap fmpar)
         {
@@ -28,7 +29,7 @@ namespace LangChangeSimulator
 
         private void BasemapButton_Click(object sender, EventArgs e)
         {
-            string region = "World";
+            //string region = "World";
             if (LB_region.SelectedItem != null)
             {
                 region = LB_region.SelectedItem.ToString();

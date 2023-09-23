@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Colexification;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -186,6 +187,15 @@ namespace LangChangeSimulator
             cf[i + d] = c;
             codedform = new string(cf);
             //Console.WriteLine("metathesis");
+        }
+
+        public bool close(wordclass wc2,int maxdist)
+        {
+            int dist = Levenshtein.EditDistance(this.codedform, wc2.codedform);
+            if (dist <= maxdist)
+                return true;
+            else
+                return false;
         }
     }
 }

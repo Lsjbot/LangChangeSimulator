@@ -96,6 +96,27 @@ namespace LangChangeSimulator
 
         }
 
+        public bool hasword(wordclass wc) //true if a close cognate of wc already in lexicon
+        {
+            foreach (int ic in wc.concepts)
+            {
+                if (this.concepts.ContainsKey(ic))
+                {
+                    foreach (int iw in this.concepts[ic])
+                    {
+                        wordclass wc2 = getword(iw);
+                        if (wc.close(wc2,1))
+                            return true;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return false;
+        }
+
         public wordclass getword(int wordid)
         {
             return (from c in this.words where c.id == wordid select c).FirstOrDefault();

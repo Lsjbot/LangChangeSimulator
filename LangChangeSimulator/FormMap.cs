@@ -76,7 +76,7 @@ namespace LangChangeSimulator
 
         public static Dictionary<string, Color> langcolor = new Dictionary<string, Color>();
         public static Dictionary<string, Color> subcolor = new Dictionary<string, Color>() {
-            {"hunter-gatherer",Color.Red },
+            {"hunter-gatherer",Color.HotPink },
             {"horticulture",Color.Orange },
             {"agriculture", Color.Green },
             {"herding", Color.Yellow }

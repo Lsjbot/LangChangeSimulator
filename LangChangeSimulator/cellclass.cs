@@ -82,11 +82,11 @@ namespace LangChangeSimulator
                 }
                 if (mapgridclass.basemap[ilat,ilon].terrain.landfraction < 0.95)
                 {
-                    cc += 0.5;
+                    cc += 0.7;
                     if (culture.knows("boats"))
-                        cc += 0.8;
+                        cc += 1.0;
                     if (culture.knows("oceangoing"))
-                        cc += 1.5;
+                        cc += 2.0;
                 }
                 if ((mapgridclass.basemap[ilat, ilon].climate.landcover == 16) || (mapgridclass.basemap[ilat, ilon].climate.temp_min < -20))
                 { //arctic weather

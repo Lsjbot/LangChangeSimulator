@@ -201,6 +201,11 @@ namespace LangChangeSimulator
             }
         }
 
+        public static double segdist(int s1,int s2)
+        {
+            return segdistmatrix[s1, s2];
+        }
+
         public int get_changecandidate(Random rnd)
         {
             double x = rnd.NextDouble() * (this.probsum);

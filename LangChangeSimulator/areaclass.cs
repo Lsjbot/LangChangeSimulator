@@ -211,5 +211,30 @@ namespace LangChangeSimulator
 
             return wc;
         }
+        public int findmajoritysound(languageclass lc)
+        {
+            wordclass wc = null;
+            int ccmax = -1;
+            int nlangmax = -1;
+
+            foreach (int cc in sounddict.Keys)
+            {
+                if (!lc.inventory.sounds.Contains(cc))
+                {
+                    if (sounddict[cc] > nlangmax)
+                    {
+                        nlangmax = sounddict[cc];
+                        ccmax = cc;
+                    }
+                }
+            }
+
+            if (nlangmax > nlang/2)
+            {
+                return ccmax;
+            }
+
+            return -1;
+        }
     }
 }

@@ -224,6 +224,12 @@ namespace LangChangeSimulator
             return mapgridclass.basemap[this.ilat, this.ilon].lon;
         }
 
+        public void unconditional_soundchange(int oldsound, int newsound)
+        {
+            int index = this.inventory.sounds.IndexOf(oldsound);
+            unconditional_soundchange(index, oldsound, newsound);
+        }
+
         public void unconditional_soundchange(int index, int oldsound, int newsound)
         {
             this.lexicon.unconditional_soundchange(oldsound, newsound);

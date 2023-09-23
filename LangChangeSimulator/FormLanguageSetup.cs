@@ -150,7 +150,7 @@ namespace LangChangeSimulator
         private void makebutton_Click(object sender, EventArgs e)
         {
             memo("Reading segments");
-            segmentclass.init_segments(@"G:\clics\");
+            segmentclass.init_segments(Form1.folder); // (@"G:\clics\");
             memo("Segments done");
 
             int nlang = util.tryconvert(TB_nlang.Text);
@@ -174,6 +174,12 @@ namespace LangChangeSimulator
                 conceptlist = swadeshclass.conceptcodelist("clics3");
                 parameterclass.p.put("conceptset", "clics3");
             }
+            else if (RBnumbers.Checked)
+            {
+                conceptlist = swadeshclass.conceptcodelist("numbersonly");
+                parameterclass.p.put("conceptset", "numbersonly");
+            }
+
 
 
             if (RB_scratch.Checked)

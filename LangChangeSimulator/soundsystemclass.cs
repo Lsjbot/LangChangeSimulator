@@ -82,6 +82,28 @@ namespace LangChangeSimulator
             return sb.ToString();
         }
 
+        public int findnearest(int newsegid)
+        {
+            double mindist = 1;
+            int smin = -1;
+            foreach (int s0 in sounds)
+            {
+                double d = segmentclass.segdist(s0, newsegid);
+                if (d < mindist)
+                {
+                    mindist = d;
+                    smin = s0;
+                }
+            }
+
+            if (smin > 0)
+            {
+                return smin;
+            }
+
+            return -1;
+        }
+
         public string compare_segmentlist(List<string> seglist)
         {
             StringBuilder sbmis1 = new StringBuilder("");
