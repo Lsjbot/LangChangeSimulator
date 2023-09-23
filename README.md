@@ -5,11 +5,11 @@ A world map is seeded with a number of tribes with distinct languages. The tribe
 
 Linguistic processes included:
 
-    Languages represented as word lists, with meanings and word forms.
-    Regular sound change, conditional or unconditional.
-    Lexical borrowing fron neighboring tribes.
-    Word loss and word gain.
-    Areal effects, e.g. gaining a sound that is common in the region.
+*    Languages represented as word lists, with meanings and word forms.
+*    Regular sound change, conditional or unconditional.
+*    Lexical borrowing fron neighboring tribes.
+*    Word loss and word gain.
+*    Areal effects, e.g. gaining a sound that is common in the region.
 
 Non-linguistic processes included:
 
