@@ -88,12 +88,12 @@ namespace LangChangeSimulator
                     if (culture.knows("oceangoing"))
                         cc += 2.0;
                 }
-                if ((mapgridclass.basemap[ilat, ilon].climate.landcover == 16) || (mapgridclass.basemap[ilat, ilon].climate.temp_min < -20))
+                if ((mapgridclass.basemap[ilat, ilon].climate.landcover == 16) || (mapgridclass.basemap[ilat, ilon].climate.temp_min+nasaclass.tempoffset < -20))
                 { //arctic weather
                     if (!culture.knows("arctic"))
                         cc = 0;
                 }
-                else if (mapgridclass.basemap[ilat, ilon].climate.temp_min < -12)
+                else if (mapgridclass.basemap[ilat, ilon].climate.temp_min + nasaclass.tempoffset < -12)
                 { //cold weather
                     if (!culture.knows("coldgear"))
                         cc = 0;
@@ -128,6 +128,8 @@ namespace LangChangeSimulator
             cc *= basecarryingcapacity;
             //cc *= mapgridclass.basemap[ilat, ilon].terrain.landfraction;
             cc *= mapgridclass.km * mapgridclass.km;
+
+            cc *= (1 + 0.05*nasaclass.tempoffset); //lower during ice ages
 
             int icc = (int)cc;
             int fluctuation = rnd.Next(icc/2) - rnd.Next(icc / 3);

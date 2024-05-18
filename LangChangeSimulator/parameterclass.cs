@@ -33,13 +33,13 @@ namespace LangChangeSimulator
             defaultparams.pdict.Add("maxtime", "");
             defaultparams.pdict.Add("basepopgrowth", "0.02"); //population growth per year if unchecked
             defaultparams.pdict.Add("basetravelcost", "20"); //per km
-            defaultparams.pdict.Add("basetravelbudget", "400");
-            defaultparams.pdict.Add("minimumviable", "150"); //smallest viable language community
+            defaultparams.pdict.Add("basetravelbudget", "800");
+            defaultparams.pdict.Add("minimumviable", "200"); //smallest viable language community
             defaultparams.pdict.Add("soundchangeprob", "0.02"); //per year per inventory
             defaultparams.pdict.Add("unconditionalfraction", "0.4"); //fraction of sound changes that are unconditional
-            defaultparams.pdict.Add("baseinventionrate", "0.000002"); //per year
+            defaultparams.pdict.Add("baseinventionrate", "0.000004"); //per year
             defaultparams.pdict.Add("wordborrowingrate", "0.0001"); //per lexicon per contact per year
-            defaultparams.pdict.Add("techborrowingrate", "0.002"); //per contact per year
+            defaultparams.pdict.Add("techborrowingrate", "0.004"); //per contact per year
             defaultparams.pdict.Add("wefactorbase", "2"); //enhanced borrowing between related peoples
             defaultparams.pdict.Add("polysemyloss", "0.001"); //per year per polysemy
             defaultparams.pdict.Add("synonymyloss", "0.001"); //per year per synonymy
@@ -60,7 +60,7 @@ namespace LangChangeSimulator
             defaultparams.pdict.Add("arealminlang", "10"); //min #languages with arealradius to consider areal effects
             defaultparams.pdict.Add("arealwordborrowingrate", "0.0001"); //per lexicon per year
             defaultparams.pdict.Add("arealsoundborrowingrate", "0.0001"); //per inventory per year
-            //defaultparams.pdict.Add("", "");
+            defaultparams.pdict.Add("basegrammarrate", "0.001"); //per feature per year
             //defaultparams.pdict.Add("", "");
             //defaultparams.pdict.Add("", "");
 

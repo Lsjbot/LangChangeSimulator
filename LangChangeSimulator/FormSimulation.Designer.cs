@@ -57,6 +57,11 @@
             this.CBscreenshot = new System.Windows.Forms.CheckBox();
             this.TB_memlimit = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.Worddistbutton = new System.Windows.Forms.Button();
+            this.TB_startyear = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.CBgrammar = new System.Windows.Forms.CheckBox();
+            this.CBsavegrammar = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -80,7 +85,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(607, 22);
+            this.label1.Location = new System.Drawing.Point(607, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 13);
             this.label1.TabIndex = 2;
@@ -88,7 +93,7 @@
             // 
             // TB_timestep
             // 
-            this.TB_timestep.Location = new System.Drawing.Point(700, 19);
+            this.TB_timestep.Location = new System.Drawing.Point(700, 12);
             this.TB_timestep.Name = "TB_timestep";
             this.TB_timestep.Size = new System.Drawing.Size(46, 20);
             this.TB_timestep.TabIndex = 3;
@@ -108,7 +113,7 @@
             this.CB_migration.AutoSize = true;
             this.CB_migration.Checked = true;
             this.CB_migration.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CB_migration.Location = new System.Drawing.Point(637, 82);
+            this.CB_migration.Location = new System.Drawing.Point(637, 89);
             this.CB_migration.Name = "CB_migration";
             this.CB_migration.Size = new System.Drawing.Size(69, 17);
             this.CB_migration.TabIndex = 5;
@@ -132,7 +137,7 @@
             this.CB_soundchange.AutoSize = true;
             this.CB_soundchange.Checked = true;
             this.CB_soundchange.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CB_soundchange.Location = new System.Drawing.Point(637, 287);
+            this.CB_soundchange.Location = new System.Drawing.Point(637, 276);
             this.CB_soundchange.Name = "CB_soundchange";
             this.CB_soundchange.Size = new System.Drawing.Size(96, 17);
             this.CB_soundchange.TabIndex = 7;
@@ -145,7 +150,7 @@
             this.CB_unconditional.AutoSize = true;
             this.CB_unconditional.Checked = true;
             this.CB_unconditional.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CB_unconditional.Location = new System.Drawing.Point(653, 310);
+            this.CB_unconditional.Location = new System.Drawing.Point(653, 299);
             this.CB_unconditional.Name = "CB_unconditional";
             this.CB_unconditional.Size = new System.Drawing.Size(130, 17);
             this.CB_unconditional.TabIndex = 8;
@@ -157,7 +162,7 @@
             this.CB_conditional.AutoSize = true;
             this.CB_conditional.Checked = true;
             this.CB_conditional.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CB_conditional.Location = new System.Drawing.Point(653, 333);
+            this.CB_conditional.Location = new System.Drawing.Point(653, 322);
             this.CB_conditional.Name = "CB_conditional";
             this.CB_conditional.Size = new System.Drawing.Size(117, 17);
             this.CB_conditional.TabIndex = 9;
@@ -198,7 +203,7 @@
             // 
             // TB_maxtime
             // 
-            this.TB_maxtime.Location = new System.Drawing.Point(700, 45);
+            this.TB_maxtime.Location = new System.Drawing.Point(700, 37);
             this.TB_maxtime.Name = "TB_maxtime";
             this.TB_maxtime.Size = new System.Drawing.Size(46, 20);
             this.TB_maxtime.TabIndex = 13;
@@ -207,7 +212,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(624, 51);
+            this.label2.Location = new System.Drawing.Point(624, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 14;
@@ -255,7 +260,7 @@
             this.CB_semantics.AutoSize = true;
             this.CB_semantics.Checked = true;
             this.CB_semantics.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CB_semantics.Location = new System.Drawing.Point(636, 356);
+            this.CB_semantics.Location = new System.Drawing.Point(636, 345);
             this.CB_semantics.Name = "CB_semantics";
             this.CB_semantics.Size = new System.Drawing.Size(97, 17);
             this.CB_semantics.TabIndex = 18;
@@ -371,11 +376,67 @@
             this.label3.TabIndex = 28;
             this.label3.Text = "Memory limit:";
             // 
+            // Worddistbutton
+            // 
+            this.Worddistbutton.Location = new System.Drawing.Point(547, 422);
+            this.Worddistbutton.Name = "Worddistbutton";
+            this.Worddistbutton.Size = new System.Drawing.Size(114, 44);
+            this.Worddistbutton.TabIndex = 29;
+            this.Worddistbutton.Text = "Word distance statistics";
+            this.Worddistbutton.UseVisualStyleBackColor = true;
+            this.Worddistbutton.Click += new System.EventHandler(this.Worddistbutton_Click);
+            // 
+            // TB_startyear
+            // 
+            this.TB_startyear.Location = new System.Drawing.Point(700, 63);
+            this.TB_startyear.Name = "TB_startyear";
+            this.TB_startyear.Size = new System.Drawing.Size(46, 20);
+            this.TB_startyear.TabIndex = 30;
+            this.TB_startyear.Text = "-10000";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(620, 67);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.TabIndex = 31;
+            this.label4.Text = "Starting year";
+            // 
+            // CBgrammar
+            // 
+            this.CBgrammar.AutoSize = true;
+            this.CBgrammar.Checked = true;
+            this.CBgrammar.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.CBgrammar.Location = new System.Drawing.Point(637, 368);
+            this.CBgrammar.Name = "CBgrammar";
+            this.CBgrammar.Size = new System.Drawing.Size(107, 17);
+            this.CBgrammar.TabIndex = 32;
+            this.CBgrammar.Text = "Grammar change";
+            this.CBgrammar.UseVisualStyleBackColor = true;
+            // 
+            // CBsavegrammar
+            // 
+            this.CBsavegrammar.AutoSize = true;
+            this.CBsavegrammar.Checked = true;
+            this.CBsavegrammar.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.CBsavegrammar.Location = new System.Drawing.Point(537, 602);
+            this.CBsavegrammar.Name = "CBsavegrammar";
+            this.CBsavegrammar.Size = new System.Drawing.Size(120, 17);
+            this.CBsavegrammar.TabIndex = 33;
+            this.CBsavegrammar.Text = "Save grammar table";
+            this.CBsavegrammar.UseVisualStyleBackColor = true;
+            // 
             // FormSimulation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 754);
+            this.Controls.Add(this.CBsavegrammar);
+            this.Controls.Add(this.CBgrammar);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.TB_startyear);
+            this.Controls.Add(this.Worddistbutton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TB_memlimit);
             this.Controls.Add(this.CBscreenshot);
@@ -443,5 +504,10 @@
         private System.Windows.Forms.CheckBox CBscreenshot;
         private System.Windows.Forms.TextBox TB_memlimit;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Worddistbutton;
+        private System.Windows.Forms.TextBox TB_startyear;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox CBgrammar;
+        private System.Windows.Forms.CheckBox CBsavegrammar;
     }
 }

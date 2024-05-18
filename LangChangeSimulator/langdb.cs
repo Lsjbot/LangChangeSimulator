@@ -21,7 +21,7 @@ using System.Reflection;
 
 
 
-[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="Langdb v1")]
+[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="langdb v1")]
 public partial class LangdbV1 : System.Data.Linq.DataContext
 {
 	
@@ -47,6 +47,21 @@ public partial class LangdbV1 : System.Data.Linq.DataContext
   partial void InsertFamily_relation(Family_relation instance);
   partial void UpdateFamily_relation(Family_relation instance);
   partial void DeleteFamily_relation(Family_relation instance);
+  partial void InsertGrambank_code(Grambank_code instance);
+  partial void UpdateGrambank_code(Grambank_code instance);
+  partial void DeleteGrambank_code(Grambank_code instance);
+  partial void InsertGrambank_family(Grambank_family instance);
+  partial void UpdateGrambank_family(Grambank_family instance);
+  partial void DeleteGrambank_family(Grambank_family instance);
+  partial void InsertGrambank_familylink(Grambank_familylink instance);
+  partial void UpdateGrambank_familylink(Grambank_familylink instance);
+  partial void DeleteGrambank_familylink(Grambank_familylink instance);
+  partial void InsertGrambank_parameter(Grambank_parameter instance);
+  partial void UpdateGrambank_parameter(Grambank_parameter instance);
+  partial void DeleteGrambank_parameter(Grambank_parameter instance);
+  partial void InsertGrambank_value(Grambank_value instance);
+  partial void UpdateGrambank_value(Grambank_value instance);
+  partial void DeleteGrambank_value(Grambank_value instance);
   partial void InsertInventoryBibtex(InventoryBibtex instance);
   partial void UpdateInventoryBibtex(InventoryBibtex instance);
   partial void DeleteInventoryBibtex(InventoryBibtex instance);
@@ -178,6 +193,46 @@ public partial class LangdbV1 : System.Data.Linq.DataContext
 		get
 		{
 			return this.GetTable<Family_relation>();
+		}
+	}
+	
+	public System.Data.Linq.Table<Grambank_code> Grambank_code
+	{
+		get
+		{
+			return this.GetTable<Grambank_code>();
+		}
+	}
+	
+	public System.Data.Linq.Table<Grambank_family> Grambank_family
+	{
+		get
+		{
+			return this.GetTable<Grambank_family>();
+		}
+	}
+	
+	public System.Data.Linq.Table<Grambank_familylink> Grambank_familylink
+	{
+		get
+		{
+			return this.GetTable<Grambank_familylink>();
+		}
+	}
+	
+	public System.Data.Linq.Table<Grambank_parameter> Grambank_parameter
+	{
+		get
+		{
+			return this.GetTable<Grambank_parameter>();
+		}
+	}
+	
+	public System.Data.Linq.Table<Grambank_value> Grambank_value
+	{
+		get
+		{
+			return this.GetTable<Grambank_value>();
 		}
 	}
 	
@@ -354,6 +409,14 @@ public partial class Allophone : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	private int _AllophoneOf;
 	
+	private EntityRef<Soundininventory> _Soundininventory;
+	
+	private EntityRef<Soundininventory> _AllophoneOfSoundininventory;
+	
+	private EntityRef<Sound> _SoundSound;
+	
+	private EntityRef<Sound> @__Allophone__Sound__17036CC0;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -368,6 +431,10 @@ public partial class Allophone : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public Allophone()
 	{
+		this._Soundininventory = default(EntityRef<Soundininventory>);
+		this._AllophoneOfSoundininventory = default(EntityRef<Soundininventory>);
+		this._SoundSound = default(EntityRef<Sound>);
+		this.@__Allophone__Sound__17036CC0 = default(EntityRef<Sound>);
 		OnCreated();
 	}
 	
@@ -402,6 +469,10 @@ public partial class Allophone : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Sound != value))
 			{
+				if ((this._SoundSound.HasLoadedOrAssignedValue || this.@__Allophone__Sound__17036CC0.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnSoundChanging(value);
 				this.SendPropertyChanging();
 				this._Sound = value;
@@ -422,11 +493,151 @@ public partial class Allophone : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._AllophoneOf != value))
 			{
+				if ((this._Soundininventory.HasLoadedOrAssignedValue || this._AllophoneOfSoundininventory.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnAllophoneOfChanging(value);
 				this.SendPropertyChanging();
 				this._AllophoneOf = value;
 				this.SendPropertyChanged("AllophoneOf");
 				this.OnAllophoneOfChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Allop__02FC7413", Storage="_Soundininventory", ThisKey="AllophoneOf", OtherKey="Id", IsForeignKey=true)]
+	public Soundininventory Soundininventory
+	{
+		get
+		{
+			return this._Soundininventory.Entity;
+		}
+		set
+		{
+			Soundininventory previousValue = this._Soundininventory.Entity;
+			if (((previousValue != value) 
+						|| (this._Soundininventory.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Soundininventory.Entity = null;
+					previousValue.Allophone.Remove(this);
+				}
+				this._Soundininventory.Entity = value;
+				if ((value != null))
+				{
+					value.Allophone.Add(this);
+					this._AllophoneOf = value.Id;
+				}
+				else
+				{
+					this._AllophoneOf = default(int);
+				}
+				this.SendPropertyChanged("Soundininventory");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Allop__17F790F9", Storage="_AllophoneOfSoundininventory", ThisKey="AllophoneOf", OtherKey="Id", IsForeignKey=true)]
+	public Soundininventory AllophoneOfSoundininventory
+	{
+		get
+		{
+			return this._AllophoneOfSoundininventory.Entity;
+		}
+		set
+		{
+			Soundininventory previousValue = this._AllophoneOfSoundininventory.Entity;
+			if (((previousValue != value) 
+						|| (this._AllophoneOfSoundininventory.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._AllophoneOfSoundininventory.Entity = null;
+					previousValue._Allophone__Allop__17F790F9.Remove(this);
+				}
+				this._AllophoneOfSoundininventory.Entity = value;
+				if ((value != null))
+				{
+					value._Allophone__Allop__17F790F9.Add(this);
+					this._AllophoneOf = value.Id;
+				}
+				else
+				{
+					this._AllophoneOf = default(int);
+				}
+				this.SendPropertyChanged("AllophoneOfSoundininventory");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Sound__02084FDA", Storage="_SoundSound", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound SoundSound
+	{
+		get
+		{
+			return this._SoundSound.Entity;
+		}
+		set
+		{
+			Sound previousValue = this._SoundSound.Entity;
+			if (((previousValue != value) 
+						|| (this._SoundSound.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._SoundSound.Entity = null;
+					previousValue.Allophone.Remove(this);
+				}
+				this._SoundSound.Entity = value;
+				if ((value != null))
+				{
+					value.Allophone.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("SoundSound");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Sound__17036CC0", Storage="__Allophone__Sound__17036CC0", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound _Allophone__Sound__17036CC0
+	{
+		get
+		{
+			return this.@__Allophone__Sound__17036CC0.Entity;
+		}
+		set
+		{
+			Sound previousValue = this.@__Allophone__Sound__17036CC0.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Allophone__Sound__17036CC0.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Allophone__Sound__17036CC0.Entity = null;
+					previousValue._Allophone__Sound__17036CC0.Remove(this);
+				}
+				this.@__Allophone__Sound__17036CC0.Entity = value;
+				if ((value != null))
+				{
+					value._Allophone__Sound__17036CC0.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("_Allophone__Sound__17036CC0");
 			}
 		}
 	}
@@ -466,6 +677,10 @@ public partial class BibtexParameter : INotifyPropertyChanging, INotifyPropertyC
 	
 	private string _Value;
 	
+	private EntityRef<PhoibleBibtex> _PhoibleBibtex;
+	
+	private EntityRef<PhoibleBibtex> _BibtexPhoibleBibtex;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -482,6 +697,8 @@ public partial class BibtexParameter : INotifyPropertyChanging, INotifyPropertyC
 	
 	public BibtexParameter()
 	{
+		this._PhoibleBibtex = default(EntityRef<PhoibleBibtex>);
+		this._BibtexPhoibleBibtex = default(EntityRef<PhoibleBibtex>);
 		OnCreated();
 	}
 	
@@ -516,6 +733,10 @@ public partial class BibtexParameter : INotifyPropertyChanging, INotifyPropertyC
 		{
 			if ((this._Bibtex != value))
 			{
+				if ((this._PhoibleBibtex.HasLoadedOrAssignedValue || this._BibtexPhoibleBibtex.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnBibtexChanging(value);
 				this.SendPropertyChanging();
 				this._Bibtex = value;
@@ -561,6 +782,74 @@ public partial class BibtexParameter : INotifyPropertyChanging, INotifyPropertyC
 				this._Value = value;
 				this.SendPropertyChanged("Value");
 				this.OnValueChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__BibtexPar__Bibte__03F0984C", Storage="_PhoibleBibtex", ThisKey="Bibtex", OtherKey="BibtexKey", IsForeignKey=true)]
+	public PhoibleBibtex PhoibleBibtex
+	{
+		get
+		{
+			return this._PhoibleBibtex.Entity;
+		}
+		set
+		{
+			PhoibleBibtex previousValue = this._PhoibleBibtex.Entity;
+			if (((previousValue != value) 
+						|| (this._PhoibleBibtex.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._PhoibleBibtex.Entity = null;
+					previousValue.BibtexParameter.Remove(this);
+				}
+				this._PhoibleBibtex.Entity = value;
+				if ((value != null))
+				{
+					value.BibtexParameter.Add(this);
+					this._Bibtex = value.BibtexKey;
+				}
+				else
+				{
+					this._Bibtex = default(string);
+				}
+				this.SendPropertyChanged("PhoibleBibtex");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__BibtexPar__Bibte__18EBB532", Storage="_BibtexPhoibleBibtex", ThisKey="Bibtex", OtherKey="BibtexKey", IsForeignKey=true)]
+	public PhoibleBibtex BibtexPhoibleBibtex
+	{
+		get
+		{
+			return this._BibtexPhoibleBibtex.Entity;
+		}
+		set
+		{
+			PhoibleBibtex previousValue = this._BibtexPhoibleBibtex.Entity;
+			if (((previousValue != value) 
+						|| (this._BibtexPhoibleBibtex.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._BibtexPhoibleBibtex.Entity = null;
+					previousValue.BibtexKeyBibtexParameter.Remove(this);
+				}
+				this._BibtexPhoibleBibtex.Entity = value;
+				if ((value != null))
+				{
+					value.BibtexKeyBibtexParameter.Add(this);
+					this._Bibtex = value.BibtexKey;
+				}
+				else
+				{
+					this._Bibtex = default(string);
+				}
+				this.SendPropertyChanged("BibtexPhoibleBibtex");
 			}
 		}
 	}
@@ -616,6 +905,22 @@ public partial class Country : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	private string _Area;
 	
+	private EntityRef<Region> _RegionRegion;
+	
+	private EntitySet<Language> _Language;
+	
+	private EntitySet<LanguageIndex> _LanguageIndex;
+	
+	private EntitySet<LanguageIndex> _IsoLanguageIndex;
+	
+	private EntitySet<LanguageIndex> @__LanguageI__Count__7B5B524B;
+	
+	private EntitySet<LIC> _LIC;
+	
+	private EntitySet<LIC> _IsoLIC;
+	
+	private EntitySet<LIC> @__LIC__Country__787EE5A0;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -648,6 +953,14 @@ public partial class Country : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public Country()
 	{
+		this._RegionRegion = default(EntityRef<Region>);
+		this._Language = new EntitySet<Language>(new Action<Language>(this.attach_Language), new Action<Language>(this.detach_Language));
+		this._LanguageIndex = new EntitySet<LanguageIndex>(new Action<LanguageIndex>(this.attach_LanguageIndex), new Action<LanguageIndex>(this.detach_LanguageIndex));
+		this._IsoLanguageIndex = new EntitySet<LanguageIndex>(new Action<LanguageIndex>(this.attach_IsoLanguageIndex), new Action<LanguageIndex>(this.detach_IsoLanguageIndex));
+		this.@__LanguageI__Count__7B5B524B = new EntitySet<LanguageIndex>(new Action<LanguageIndex>(this.attach__LanguageI__Count__7B5B524B), new Action<LanguageIndex>(this.detach__LanguageI__Count__7B5B524B));
+		this._LIC = new EntitySet<LIC>(new Action<LIC>(this.attach_LIC), new Action<LIC>(this.detach_LIC));
+		this._IsoLIC = new EntitySet<LIC>(new Action<LIC>(this.attach_IsoLIC), new Action<LIC>(this.detach_IsoLIC));
+		this.@__LIC__Country__787EE5A0 = new EntitySet<LIC>(new Action<LIC>(this.attach__LIC__Country__787EE5A0), new Action<LIC>(this.detach__LIC__Country__787EE5A0));
 		OnCreated();
 	}
 	
@@ -862,6 +1175,10 @@ public partial class Country : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Region != value))
 			{
+				if (this._RegionRegion.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnRegionChanging(value);
 				this.SendPropertyChanging();
 				this._Region = value;
@@ -891,6 +1208,131 @@ public partial class Country : INotifyPropertyChanging, INotifyPropertyChanged
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Country__Region__6B24EA82", Storage="_RegionRegion", ThisKey="Region", OtherKey="Code", IsForeignKey=true)]
+	public Region RegionRegion
+	{
+		get
+		{
+			return this._RegionRegion.Entity;
+		}
+		set
+		{
+			Region previousValue = this._RegionRegion.Entity;
+			if (((previousValue != value) 
+						|| (this._RegionRegion.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._RegionRegion.Entity = null;
+					previousValue.Country.Remove(this);
+				}
+				this._RegionRegion.Entity = value;
+				if ((value != null))
+				{
+					value.Country.Add(this);
+					this._Region = value.Code;
+				}
+				else
+				{
+					this._Region = default(string);
+				}
+				this.SendPropertyChanged("RegionRegion");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Countr__6C190EBB", Storage="_Language", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<Language> Language
+	{
+		get
+		{
+			return this._Language;
+		}
+		set
+		{
+			this._Language.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Count__10566F31", Storage="_LanguageIndex", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<LanguageIndex> LanguageIndex
+	{
+		get
+		{
+			return this._LanguageIndex;
+		}
+		set
+		{
+			this._LanguageIndex.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Count__73BA3083", Storage="_IsoLanguageIndex", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<LanguageIndex> IsoLanguageIndex
+	{
+		get
+		{
+			return this._IsoLanguageIndex;
+		}
+		set
+		{
+			this._IsoLanguageIndex.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Count__7B5B524B", Storage="__LanguageI__Count__7B5B524B", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<LanguageIndex> _LanguageI__Count__7B5B524B
+	{
+		get
+		{
+			return this.@__LanguageI__Count__7B5B524B;
+		}
+		set
+		{
+			this.@__LanguageI__Count__7B5B524B.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Country__0D7A0286", Storage="_LIC", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> LIC
+	{
+		get
+		{
+			return this._LIC;
+		}
+		set
+		{
+			this._LIC.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Country__70DDC3D8", Storage="_IsoLIC", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> IsoLIC
+	{
+		get
+		{
+			return this._IsoLIC;
+		}
+		set
+		{
+			this._IsoLIC.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Country__787EE5A0", Storage="__LIC__Country__787EE5A0", ThisKey="Iso", OtherKey="Country", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> _LIC__Country__787EE5A0
+	{
+		get
+		{
+			return this.@__LIC__Country__787EE5A0;
+		}
+		set
+		{
+			this.@__LIC__Country__787EE5A0.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -910,6 +1352,90 @@ public partial class Country : INotifyPropertyChanging, INotifyPropertyChanged
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.CountryCountry = this;
+	}
+	
+	private void detach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.CountryCountry = null;
+	}
+	
+	private void attach_LanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity.CountryCountry = this;
+	}
+	
+	private void detach_LanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity.CountryCountry = null;
+	}
+	
+	private void attach_IsoLanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Count__73BA3083 = this;
+	}
+	
+	private void detach_IsoLanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Count__73BA3083 = null;
+	}
+	
+	private void attach__LanguageI__Count__7B5B524B(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Count__7B5B524B = this;
+	}
+	
+	private void detach__LanguageI__Count__7B5B524B(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Count__7B5B524B = null;
+	}
+	
+	private void attach_LIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.CountryCountry = this;
+	}
+	
+	private void detach_LIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.CountryCountry = null;
+	}
+	
+	private void attach_IsoLIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Country__70DDC3D8 = this;
+	}
+	
+	private void detach_IsoLIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Country__70DDC3D8 = null;
+	}
+	
+	private void attach__LIC__Country__787EE5A0(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Country__787EE5A0 = this;
+	}
+	
+	private void detach__LIC__Country__787EE5A0(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Country__787EE5A0 = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.EGIDS")]
@@ -921,6 +1447,8 @@ public partial class EGIDS : INotifyPropertyChanging, INotifyPropertyChanged
 	private string _Id;
 	
 	private string _Name;
+	
+	private EntitySet<Language> _Language;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -934,6 +1462,7 @@ public partial class EGIDS : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public EGIDS()
 	{
+		this._Language = new EntitySet<Language>(new Action<Language>(this.attach_Language), new Action<Language>(this.detach_Language));
 		OnCreated();
 	}
 	
@@ -977,6 +1506,19 @@ public partial class EGIDS : INotifyPropertyChanging, INotifyPropertyChanged
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__EGIDS__6FE99F9F", Storage="_Language", ThisKey="Id", OtherKey="EGIDS", DeleteRule="NO ACTION")]
+	public EntitySet<Language> Language
+	{
+		get
+		{
+			return this._Language;
+		}
+		set
+		{
+			this._Language.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -996,6 +1538,18 @@ public partial class EGIDS : INotifyPropertyChanging, INotifyPropertyChanged
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.EGIDSEGIDS = this;
+	}
+	
+	private void detach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.EGIDSEGIDS = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Family")]
@@ -1011,6 +1565,16 @@ public partial class Family : INotifyPropertyChanging, INotifyPropertyChanged
 	private string _Fullstring;
 	
 	private System.Nullable<int> _L1_Users;
+	
+	private EntitySet<Family_relation> _Family_relation;
+	
+	private EntitySet<Family_relation> @__Family_relat__Up__693CA210;
+	
+	private EntitySet<Grambank_family> _Grambank_family;
+	
+	private EntitySet<Language> _Language;
+	
+	private EntitySet<Language> @__Language__Family__6EF57B66;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -1028,6 +1592,11 @@ public partial class Family : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public Family()
 	{
+		this._Family_relation = new EntitySet<Family_relation>(new Action<Family_relation>(this.attach_Family_relation), new Action<Family_relation>(this.detach_Family_relation));
+		this.@__Family_relat__Up__693CA210 = new EntitySet<Family_relation>(new Action<Family_relation>(this.attach__Family_relat__Up__693CA210), new Action<Family_relation>(this.detach__Family_relat__Up__693CA210));
+		this._Grambank_family = new EntitySet<Grambank_family>(new Action<Grambank_family>(this.attach_Grambank_family), new Action<Grambank_family>(this.detach_Grambank_family));
+		this._Language = new EntitySet<Language>(new Action<Language>(this.attach_Language), new Action<Language>(this.detach_Language));
+		this.@__Language__Family__6EF57B66 = new EntitySet<Language>(new Action<Language>(this.attach__Language__Family__6EF57B66), new Action<Language>(this.detach__Language__Family__6EF57B66));
 		OnCreated();
 	}
 	
@@ -1111,6 +1680,71 @@ public partial class Family : INotifyPropertyChanging, INotifyPropertyChanged
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Family_rel__Down__6A30C649", Storage="_Family_relation", ThisKey="Id", OtherKey="Down", DeleteRule="NO ACTION")]
+	public EntitySet<Family_relation> Family_relation
+	{
+		get
+		{
+			return this._Family_relation;
+		}
+		set
+		{
+			this._Family_relation.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Family_relat__Up__693CA210", Storage="__Family_relat__Up__693CA210", ThisKey="Id", OtherKey="Up", DeleteRule="NO ACTION")]
+	public EntitySet<Family_relation> _Family_relat__Up__693CA210
+	{
+		get
+		{
+			return this.@__Family_relat__Up__693CA210;
+		}
+		set
+		{
+			this.@__Family_relat__Up__693CA210.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Famil__628FA481", Storage="_Grambank_family", ThisKey="Id", OtherKey="Family", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_family> Grambank_family
+	{
+		get
+		{
+			return this._Grambank_family;
+		}
+		set
+		{
+			this._Grambank_family.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Family__6E01572D", Storage="_Language", ThisKey="Id", OtherKey="Family_top", DeleteRule="NO ACTION")]
+	public EntitySet<Language> Language
+	{
+		get
+		{
+			return this._Language;
+		}
+		set
+		{
+			this._Language.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Family__6EF57B66", Storage="__Language__Family__6EF57B66", ThisKey="Id", OtherKey="Family_near", DeleteRule="NO ACTION")]
+	public EntitySet<Language> _Language__Family__6EF57B66
+	{
+		get
+		{
+			return this.@__Language__Family__6EF57B66;
+		}
+		set
+		{
+			this.@__Language__Family__6EF57B66.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -1130,6 +1764,66 @@ public partial class Family : INotifyPropertyChanging, INotifyPropertyChanged
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Family_relation(Family_relation entity)
+	{
+		this.SendPropertyChanging();
+		entity.Family = this;
+	}
+	
+	private void detach_Family_relation(Family_relation entity)
+	{
+		this.SendPropertyChanging();
+		entity.Family = null;
+	}
+	
+	private void attach__Family_relat__Up__693CA210(Family_relation entity)
+	{
+		this.SendPropertyChanging();
+		entity.UpFamily = this;
+	}
+	
+	private void detach__Family_relat__Up__693CA210(Family_relation entity)
+	{
+		this.SendPropertyChanging();
+		entity.UpFamily = null;
+	}
+	
+	private void attach_Grambank_family(Grambank_family entity)
+	{
+		this.SendPropertyChanging();
+		entity.FamilyFamily = this;
+	}
+	
+	private void detach_Grambank_family(Grambank_family entity)
+	{
+		this.SendPropertyChanging();
+		entity.FamilyFamily = null;
+	}
+	
+	private void attach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Family = this;
+	}
+	
+	private void detach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Family = null;
+	}
+	
+	private void attach__Language__Family__6EF57B66(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Family_nearFamily = this;
+	}
+	
+	private void detach__Language__Family__6EF57B66(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Family_nearFamily = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Family_relation")]
@@ -1143,6 +1837,10 @@ public partial class Family_relation : INotifyPropertyChanging, INotifyPropertyC
 	private int _Up;
 	
 	private int _Down;
+	
+	private EntityRef<Family> _Family;
+	
+	private EntityRef<Family> _UpFamily;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -1158,6 +1856,8 @@ public partial class Family_relation : INotifyPropertyChanging, INotifyPropertyC
 	
 	public Family_relation()
 	{
+		this._Family = default(EntityRef<Family>);
+		this._UpFamily = default(EntityRef<Family>);
 		OnCreated();
 	}
 	
@@ -1192,6 +1892,10 @@ public partial class Family_relation : INotifyPropertyChanging, INotifyPropertyC
 		{
 			if ((this._Up != value))
 			{
+				if (this._UpFamily.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnUpChanging(value);
 				this.SendPropertyChanging();
 				this._Up = value;
@@ -1212,11 +1916,1476 @@ public partial class Family_relation : INotifyPropertyChanging, INotifyPropertyC
 		{
 			if ((this._Down != value))
 			{
+				if (this._Family.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnDownChanging(value);
 				this.SendPropertyChanging();
 				this._Down = value;
 				this.SendPropertyChanged("Down");
 				this.OnDownChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Family_rel__Down__6A30C649", Storage="_Family", ThisKey="Down", OtherKey="Id", IsForeignKey=true)]
+	public Family Family
+	{
+		get
+		{
+			return this._Family.Entity;
+		}
+		set
+		{
+			Family previousValue = this._Family.Entity;
+			if (((previousValue != value) 
+						|| (this._Family.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Family.Entity = null;
+					previousValue.Family_relation.Remove(this);
+				}
+				this._Family.Entity = value;
+				if ((value != null))
+				{
+					value.Family_relation.Add(this);
+					this._Down = value.Id;
+				}
+				else
+				{
+					this._Down = default(int);
+				}
+				this.SendPropertyChanged("Family");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Family_relat__Up__693CA210", Storage="_UpFamily", ThisKey="Up", OtherKey="Id", IsForeignKey=true)]
+	public Family UpFamily
+	{
+		get
+		{
+			return this._UpFamily.Entity;
+		}
+		set
+		{
+			Family previousValue = this._UpFamily.Entity;
+			if (((previousValue != value) 
+						|| (this._UpFamily.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._UpFamily.Entity = null;
+					previousValue._Family_relat__Up__693CA210.Remove(this);
+				}
+				this._UpFamily.Entity = value;
+				if ((value != null))
+				{
+					value._Family_relat__Up__693CA210.Add(this);
+					this._Up = value.Id;
+				}
+				else
+				{
+					this._Up = default(int);
+				}
+				this.SendPropertyChanged("UpFamily");
+			}
+		}
+	}
+	
+	public event PropertyChangingEventHandler PropertyChanging;
+	
+	public event PropertyChangedEventHandler PropertyChanged;
+	
+	protected virtual void SendPropertyChanging()
+	{
+		if ((this.PropertyChanging != null))
+		{
+			this.PropertyChanging(this, emptyChangingEventArgs);
+		}
+	}
+	
+	protected virtual void SendPropertyChanged(String propertyName)
+	{
+		if ((this.PropertyChanged != null))
+		{
+			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+		}
+	}
+}
+
+[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Grambank_code")]
+public partial class Grambank_code : INotifyPropertyChanging, INotifyPropertyChanged
+{
+	
+	private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+	
+	private string _Id;
+	
+	private string _Parameter;
+	
+	private System.Nullable<int> _Value;
+	
+	private string _Description;
+	
+	private EntitySet<Grambank_value> _Grambank_value;
+	
+	private EntityRef<Grambank_parameter> _Grambank_parameter;
+	
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(string value);
+    partial void OnIdChanged();
+    partial void OnParameterChanging(string value);
+    partial void OnParameterChanged();
+    partial void OnValueChanging(System.Nullable<int> value);
+    partial void OnValueChanged();
+    partial void OnDescriptionChanging(string value);
+    partial void OnDescriptionChanged();
+    #endregion
+	
+	public Grambank_code()
+	{
+		this._Grambank_value = new EntitySet<Grambank_value>(new Action<Grambank_value>(this.attach_Grambank_value), new Action<Grambank_value>(this.detach_Grambank_value));
+		this._Grambank_parameter = default(EntityRef<Grambank_parameter>);
+		OnCreated();
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="Char(7) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+	public string Id
+	{
+		get
+		{
+			return this._Id;
+		}
+		set
+		{
+			if ((this._Id != value))
+			{
+				this.OnIdChanging(value);
+				this.SendPropertyChanging();
+				this._Id = value;
+				this.SendPropertyChanged("Id");
+				this.OnIdChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Parameter", DbType="Char(5) NOT NULL", CanBeNull=false)]
+	public string Parameter
+	{
+		get
+		{
+			return this._Parameter;
+		}
+		set
+		{
+			if ((this._Parameter != value))
+			{
+				if (this._Grambank_parameter.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnParameterChanging(value);
+				this.SendPropertyChanging();
+				this._Parameter = value;
+				this.SendPropertyChanged("Parameter");
+				this.OnParameterChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Value", DbType="Int")]
+	public System.Nullable<int> Value
+	{
+		get
+		{
+			return this._Value;
+		}
+		set
+		{
+			if ((this._Value != value))
+			{
+				this.OnValueChanging(value);
+				this.SendPropertyChanging();
+				this._Value = value;
+				this.SendPropertyChanged("Value");
+				this.OnValueChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Description", DbType="VarChar(40)")]
+	public string Description
+	{
+		get
+		{
+			return this._Description;
+		}
+		set
+		{
+			if ((this._Description != value))
+			{
+				this.OnDescriptionChanging(value);
+				this.SendPropertyChanging();
+				this._Description = value;
+				this.SendPropertyChanged("Description");
+				this.OnDescriptionChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Code___2739D489", Storage="_Grambank_value", ThisKey="Id", OtherKey="Code_id", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_value> Grambank_value
+	{
+		get
+		{
+			return this._Grambank_value;
+		}
+		set
+		{
+			this._Grambank_value.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Param__2645B050", Storage="_Grambank_parameter", ThisKey="Parameter", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_parameter Grambank_parameter
+	{
+		get
+		{
+			return this._Grambank_parameter.Entity;
+		}
+		set
+		{
+			Grambank_parameter previousValue = this._Grambank_parameter.Entity;
+			if (((previousValue != value) 
+						|| (this._Grambank_parameter.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Grambank_parameter.Entity = null;
+					previousValue.Grambank_code.Remove(this);
+				}
+				this._Grambank_parameter.Entity = value;
+				if ((value != null))
+				{
+					value.Grambank_code.Add(this);
+					this._Parameter = value.Id;
+				}
+				else
+				{
+					this._Parameter = default(string);
+				}
+				this.SendPropertyChanged("Grambank_parameter");
+			}
+		}
+	}
+	
+	public event PropertyChangingEventHandler PropertyChanging;
+	
+	public event PropertyChangedEventHandler PropertyChanged;
+	
+	protected virtual void SendPropertyChanging()
+	{
+		if ((this.PropertyChanging != null))
+		{
+			this.PropertyChanging(this, emptyChangingEventArgs);
+		}
+	}
+	
+	protected virtual void SendPropertyChanged(String propertyName)
+	{
+		if ((this.PropertyChanged != null))
+		{
+			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+		}
+	}
+	
+	private void attach_Grambank_value(Grambank_value entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_code = this;
+	}
+	
+	private void detach_Grambank_value(Grambank_value entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_code = null;
+	}
+}
+
+[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Grambank_family")]
+public partial class Grambank_family : INotifyPropertyChanging, INotifyPropertyChanged
+{
+	
+	private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+	
+	private string _Id;
+	
+	private System.Nullable<int> _Family;
+	
+	private string _Name;
+	
+	private EntityRef<Family> _FamilyFamily;
+	
+	private EntitySet<Grambank_familylink> _Grambank_familylink;
+	
+	private EntitySet<Grambank_familylink> @__Grambank_fam__Up__656C112C;
+	
+	private EntitySet<Language> _Language;
+	
+	private EntitySet<Language> @__Language__GBfami__68487DD7;
+	
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(string value);
+    partial void OnIdChanged();
+    partial void OnFamilyChanging(System.Nullable<int> value);
+    partial void OnFamilyChanged();
+    partial void OnNameChanging(string value);
+    partial void OnNameChanged();
+    #endregion
+	
+	public Grambank_family()
+	{
+		this._FamilyFamily = default(EntityRef<Family>);
+		this._Grambank_familylink = new EntitySet<Grambank_familylink>(new Action<Grambank_familylink>(this.attach_Grambank_familylink), new Action<Grambank_familylink>(this.detach_Grambank_familylink));
+		this.@__Grambank_fam__Up__656C112C = new EntitySet<Grambank_familylink>(new Action<Grambank_familylink>(this.attach__Grambank_fam__Up__656C112C), new Action<Grambank_familylink>(this.detach__Grambank_fam__Up__656C112C));
+		this._Language = new EntitySet<Language>(new Action<Language>(this.attach_Language), new Action<Language>(this.detach_Language));
+		this.@__Language__GBfami__68487DD7 = new EntitySet<Language>(new Action<Language>(this.attach__Language__GBfami__68487DD7), new Action<Language>(this.detach__Language__GBfami__68487DD7));
+		OnCreated();
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="Char(8) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+	public string Id
+	{
+		get
+		{
+			return this._Id;
+		}
+		set
+		{
+			if ((this._Id != value))
+			{
+				this.OnIdChanging(value);
+				this.SendPropertyChanging();
+				this._Id = value;
+				this.SendPropertyChanged("Id");
+				this.OnIdChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Family", DbType="Int")]
+	public System.Nullable<int> Family
+	{
+		get
+		{
+			return this._Family;
+		}
+		set
+		{
+			if ((this._Family != value))
+			{
+				if (this._FamilyFamily.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnFamilyChanging(value);
+				this.SendPropertyChanging();
+				this._Family = value;
+				this.SendPropertyChanged("Family");
+				this.OnFamilyChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Name", DbType="VarChar(50)")]
+	public string Name
+	{
+		get
+		{
+			return this._Name;
+		}
+		set
+		{
+			if ((this._Name != value))
+			{
+				this.OnNameChanging(value);
+				this.SendPropertyChanging();
+				this._Name = value;
+				this.SendPropertyChanged("Name");
+				this.OnNameChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Famil__628FA481", Storage="_FamilyFamily", ThisKey="Family", OtherKey="Id", IsForeignKey=true)]
+	public Family FamilyFamily
+	{
+		get
+		{
+			return this._FamilyFamily.Entity;
+		}
+		set
+		{
+			Family previousValue = this._FamilyFamily.Entity;
+			if (((previousValue != value) 
+						|| (this._FamilyFamily.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._FamilyFamily.Entity = null;
+					previousValue.Grambank_family.Remove(this);
+				}
+				this._FamilyFamily.Entity = value;
+				if ((value != null))
+				{
+					value.Grambank_family.Add(this);
+					this._Family = value.Id;
+				}
+				else
+				{
+					this._Family = default(Nullable<int>);
+				}
+				this.SendPropertyChanged("FamilyFamily");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank_f__Down__66603565", Storage="_Grambank_familylink", ThisKey="Id", OtherKey="Down", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_familylink> Grambank_familylink
+	{
+		get
+		{
+			return this._Grambank_familylink;
+		}
+		set
+		{
+			this._Grambank_familylink.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank_fam__Up__656C112C", Storage="__Grambank_fam__Up__656C112C", ThisKey="Id", OtherKey="Up", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_familylink> _Grambank_fam__Up__656C112C
+	{
+		get
+		{
+			return this.@__Grambank_fam__Up__656C112C;
+		}
+		set
+		{
+			this.@__Grambank_fam__Up__656C112C.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__GBfami__6754599E", Storage="_Language", ThisKey="Id", OtherKey="GBfamilytop", DeleteRule="NO ACTION")]
+	public EntitySet<Language> Language
+	{
+		get
+		{
+			return this._Language;
+		}
+		set
+		{
+			this._Language.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__GBfami__68487DD7", Storage="__Language__GBfami__68487DD7", ThisKey="Id", OtherKey="GBfamilynear", DeleteRule="NO ACTION")]
+	public EntitySet<Language> _Language__GBfami__68487DD7
+	{
+		get
+		{
+			return this.@__Language__GBfami__68487DD7;
+		}
+		set
+		{
+			this.@__Language__GBfami__68487DD7.Assign(value);
+		}
+	}
+	
+	public event PropertyChangingEventHandler PropertyChanging;
+	
+	public event PropertyChangedEventHandler PropertyChanged;
+	
+	protected virtual void SendPropertyChanging()
+	{
+		if ((this.PropertyChanging != null))
+		{
+			this.PropertyChanging(this, emptyChangingEventArgs);
+		}
+	}
+	
+	protected virtual void SendPropertyChanged(String propertyName)
+	{
+		if ((this.PropertyChanged != null))
+		{
+			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+		}
+	}
+	
+	private void attach_Grambank_familylink(Grambank_familylink entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_family = this;
+	}
+	
+	private void detach_Grambank_familylink(Grambank_familylink entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_family = null;
+	}
+	
+	private void attach__Grambank_fam__Up__656C112C(Grambank_familylink entity)
+	{
+		this.SendPropertyChanging();
+		entity.UpGrambank_family = this;
+	}
+	
+	private void detach__Grambank_fam__Up__656C112C(Grambank_familylink entity)
+	{
+		this.SendPropertyChanging();
+		entity.UpGrambank_family = null;
+	}
+	
+	private void attach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_family = this;
+	}
+	
+	private void detach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_family = null;
+	}
+	
+	private void attach__Language__GBfami__68487DD7(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.GBfamilynearGrambank_family = this;
+	}
+	
+	private void detach__Language__GBfami__68487DD7(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.GBfamilynearGrambank_family = null;
+	}
+}
+
+[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Grambank_familylink")]
+public partial class Grambank_familylink : INotifyPropertyChanging, INotifyPropertyChanged
+{
+	
+	private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+	
+	private int _Id;
+	
+	private string _Up;
+	
+	private string _Down;
+	
+	private EntityRef<Grambank_family> _Grambank_family;
+	
+	private EntityRef<Grambank_family> _UpGrambank_family;
+	
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(int value);
+    partial void OnIdChanged();
+    partial void OnUpChanging(string value);
+    partial void OnUpChanged();
+    partial void OnDownChanging(string value);
+    partial void OnDownChanged();
+    #endregion
+	
+	public Grambank_familylink()
+	{
+		this._Grambank_family = default(EntityRef<Grambank_family>);
+		this._UpGrambank_family = default(EntityRef<Grambank_family>);
+		OnCreated();
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="Int NOT NULL", IsPrimaryKey=true)]
+	public int Id
+	{
+		get
+		{
+			return this._Id;
+		}
+		set
+		{
+			if ((this._Id != value))
+			{
+				this.OnIdChanging(value);
+				this.SendPropertyChanging();
+				this._Id = value;
+				this.SendPropertyChanged("Id");
+				this.OnIdChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Up", DbType="Char(8) NOT NULL", CanBeNull=false)]
+	public string Up
+	{
+		get
+		{
+			return this._Up;
+		}
+		set
+		{
+			if ((this._Up != value))
+			{
+				if (this._UpGrambank_family.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnUpChanging(value);
+				this.SendPropertyChanging();
+				this._Up = value;
+				this.SendPropertyChanged("Up");
+				this.OnUpChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Down", DbType="Char(8) NOT NULL", CanBeNull=false)]
+	public string Down
+	{
+		get
+		{
+			return this._Down;
+		}
+		set
+		{
+			if ((this._Down != value))
+			{
+				if (this._Grambank_family.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnDownChanging(value);
+				this.SendPropertyChanging();
+				this._Down = value;
+				this.SendPropertyChanged("Down");
+				this.OnDownChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank_f__Down__66603565", Storage="_Grambank_family", ThisKey="Down", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_family Grambank_family
+	{
+		get
+		{
+			return this._Grambank_family.Entity;
+		}
+		set
+		{
+			Grambank_family previousValue = this._Grambank_family.Entity;
+			if (((previousValue != value) 
+						|| (this._Grambank_family.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Grambank_family.Entity = null;
+					previousValue.Grambank_familylink.Remove(this);
+				}
+				this._Grambank_family.Entity = value;
+				if ((value != null))
+				{
+					value.Grambank_familylink.Add(this);
+					this._Down = value.Id;
+				}
+				else
+				{
+					this._Down = default(string);
+				}
+				this.SendPropertyChanged("Grambank_family");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank_fam__Up__656C112C", Storage="_UpGrambank_family", ThisKey="Up", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_family UpGrambank_family
+	{
+		get
+		{
+			return this._UpGrambank_family.Entity;
+		}
+		set
+		{
+			Grambank_family previousValue = this._UpGrambank_family.Entity;
+			if (((previousValue != value) 
+						|| (this._UpGrambank_family.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._UpGrambank_family.Entity = null;
+					previousValue._Grambank_fam__Up__656C112C.Remove(this);
+				}
+				this._UpGrambank_family.Entity = value;
+				if ((value != null))
+				{
+					value._Grambank_fam__Up__656C112C.Add(this);
+					this._Up = value.Id;
+				}
+				else
+				{
+					this._Up = default(string);
+				}
+				this.SendPropertyChanged("UpGrambank_family");
+			}
+		}
+	}
+	
+	public event PropertyChangingEventHandler PropertyChanging;
+	
+	public event PropertyChangedEventHandler PropertyChanged;
+	
+	protected virtual void SendPropertyChanging()
+	{
+		if ((this.PropertyChanging != null))
+		{
+			this.PropertyChanging(this, emptyChangingEventArgs);
+		}
+	}
+	
+	protected virtual void SendPropertyChanged(String propertyName)
+	{
+		if ((this.PropertyChanged != null))
+		{
+			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+		}
+	}
+}
+
+[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Grambank_parameter")]
+public partial class Grambank_parameter : INotifyPropertyChanging, INotifyPropertyChanged
+{
+	
+	private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+	
+	private string _Id;
+	
+	private string _Name;
+	
+	private string _ColumnSpec;
+	
+	private string _Patrons;
+	
+	private string _Grambank_ID_desc;
+	
+	private string _Boundness;
+	
+	private string _Flexivity;
+	
+	private string _Gender_or_Noun_Class;
+	
+	private string _Locus_of_Marking;
+	
+	private string _Word_Order;
+	
+	private string _Informativity;
+	
+	private EntitySet<Grambank_code> _Grambank_code;
+	
+	private EntitySet<Grambank_value> _Grambank_value;
+	
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(string value);
+    partial void OnIdChanged();
+    partial void OnNameChanging(string value);
+    partial void OnNameChanged();
+    partial void OnColumnSpecChanging(string value);
+    partial void OnColumnSpecChanged();
+    partial void OnPatronsChanging(string value);
+    partial void OnPatronsChanged();
+    partial void OnGrambank_ID_descChanging(string value);
+    partial void OnGrambank_ID_descChanged();
+    partial void OnBoundnessChanging(string value);
+    partial void OnBoundnessChanged();
+    partial void OnFlexivityChanging(string value);
+    partial void OnFlexivityChanged();
+    partial void OnGender_or_Noun_ClassChanging(string value);
+    partial void OnGender_or_Noun_ClassChanged();
+    partial void OnLocus_of_MarkingChanging(string value);
+    partial void OnLocus_of_MarkingChanged();
+    partial void OnWord_OrderChanging(string value);
+    partial void OnWord_OrderChanged();
+    partial void OnInformativityChanging(string value);
+    partial void OnInformativityChanged();
+    #endregion
+	
+	public Grambank_parameter()
+	{
+		this._Grambank_code = new EntitySet<Grambank_code>(new Action<Grambank_code>(this.attach_Grambank_code), new Action<Grambank_code>(this.detach_Grambank_code));
+		this._Grambank_value = new EntitySet<Grambank_value>(new Action<Grambank_value>(this.attach_Grambank_value), new Action<Grambank_value>(this.detach_Grambank_value));
+		OnCreated();
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="Char(5) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+	public string Id
+	{
+		get
+		{
+			return this._Id;
+		}
+		set
+		{
+			if ((this._Id != value))
+			{
+				this.OnIdChanging(value);
+				this.SendPropertyChanging();
+				this._Id = value;
+				this.SendPropertyChanged("Id");
+				this.OnIdChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Name", DbType="VarChar(200)")]
+	public string Name
+	{
+		get
+		{
+			return this._Name;
+		}
+		set
+		{
+			if ((this._Name != value))
+			{
+				this.OnNameChanging(value);
+				this.SendPropertyChanging();
+				this._Name = value;
+				this.SendPropertyChanged("Name");
+				this.OnNameChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ColumnSpec", DbType="VarChar(10)")]
+	public string ColumnSpec
+	{
+		get
+		{
+			return this._ColumnSpec;
+		}
+		set
+		{
+			if ((this._ColumnSpec != value))
+			{
+				this.OnColumnSpecChanging(value);
+				this.SendPropertyChanging();
+				this._ColumnSpec = value;
+				this.SendPropertyChanged("ColumnSpec");
+				this.OnColumnSpecChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Patrons", DbType="VarChar(10)")]
+	public string Patrons
+	{
+		get
+		{
+			return this._Patrons;
+		}
+		set
+		{
+			if ((this._Patrons != value))
+			{
+				this.OnPatronsChanging(value);
+				this.SendPropertyChanging();
+				this._Patrons = value;
+				this.SendPropertyChanged("Patrons");
+				this.OnPatronsChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Grambank_ID_desc", DbType="VarChar(30)")]
+	public string Grambank_ID_desc
+	{
+		get
+		{
+			return this._Grambank_ID_desc;
+		}
+		set
+		{
+			if ((this._Grambank_ID_desc != value))
+			{
+				this.OnGrambank_ID_descChanging(value);
+				this.SendPropertyChanging();
+				this._Grambank_ID_desc = value;
+				this.SendPropertyChanged("Grambank_ID_desc");
+				this.OnGrambank_ID_descChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Boundness", DbType="VarChar(20)")]
+	public string Boundness
+	{
+		get
+		{
+			return this._Boundness;
+		}
+		set
+		{
+			if ((this._Boundness != value))
+			{
+				this.OnBoundnessChanging(value);
+				this.SendPropertyChanging();
+				this._Boundness = value;
+				this.SendPropertyChanged("Boundness");
+				this.OnBoundnessChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Flexivity", DbType="VarChar(20)")]
+	public string Flexivity
+	{
+		get
+		{
+			return this._Flexivity;
+		}
+		set
+		{
+			if ((this._Flexivity != value))
+			{
+				this.OnFlexivityChanging(value);
+				this.SendPropertyChanging();
+				this._Flexivity = value;
+				this.SendPropertyChanged("Flexivity");
+				this.OnFlexivityChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Gender_or_Noun_Class", DbType="VarChar(20)")]
+	public string Gender_or_Noun_Class
+	{
+		get
+		{
+			return this._Gender_or_Noun_Class;
+		}
+		set
+		{
+			if ((this._Gender_or_Noun_Class != value))
+			{
+				this.OnGender_or_Noun_ClassChanging(value);
+				this.SendPropertyChanging();
+				this._Gender_or_Noun_Class = value;
+				this.SendPropertyChanged("Gender_or_Noun_Class");
+				this.OnGender_or_Noun_ClassChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Locus_of_Marking", DbType="VarChar(20)")]
+	public string Locus_of_Marking
+	{
+		get
+		{
+			return this._Locus_of_Marking;
+		}
+		set
+		{
+			if ((this._Locus_of_Marking != value))
+			{
+				this.OnLocus_of_MarkingChanging(value);
+				this.SendPropertyChanging();
+				this._Locus_of_Marking = value;
+				this.SendPropertyChanged("Locus_of_Marking");
+				this.OnLocus_of_MarkingChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Word_Order", DbType="VarChar(20)")]
+	public string Word_Order
+	{
+		get
+		{
+			return this._Word_Order;
+		}
+		set
+		{
+			if ((this._Word_Order != value))
+			{
+				this.OnWord_OrderChanging(value);
+				this.SendPropertyChanging();
+				this._Word_Order = value;
+				this.SendPropertyChanged("Word_Order");
+				this.OnWord_OrderChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Informativity", DbType="VarChar(30)")]
+	public string Informativity
+	{
+		get
+		{
+			return this._Informativity;
+		}
+		set
+		{
+			if ((this._Informativity != value))
+			{
+				this.OnInformativityChanging(value);
+				this.SendPropertyChanging();
+				this._Informativity = value;
+				this.SendPropertyChanged("Informativity");
+				this.OnInformativityChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Param__2645B050", Storage="_Grambank_code", ThisKey="Id", OtherKey="Parameter", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_code> Grambank_code
+	{
+		get
+		{
+			return this._Grambank_code;
+		}
+		set
+		{
+			this._Grambank_code.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Param__5FB337D6", Storage="_Grambank_value", ThisKey="Id", OtherKey="Parameter", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_value> Grambank_value
+	{
+		get
+		{
+			return this._Grambank_value;
+		}
+		set
+		{
+			this._Grambank_value.Assign(value);
+		}
+	}
+	
+	public event PropertyChangingEventHandler PropertyChanging;
+	
+	public event PropertyChangedEventHandler PropertyChanged;
+	
+	protected virtual void SendPropertyChanging()
+	{
+		if ((this.PropertyChanging != null))
+		{
+			this.PropertyChanging(this, emptyChangingEventArgs);
+		}
+	}
+	
+	protected virtual void SendPropertyChanged(String propertyName)
+	{
+		if ((this.PropertyChanged != null))
+		{
+			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+		}
+	}
+	
+	private void attach_Grambank_code(Grambank_code entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_parameter = this;
+	}
+	
+	private void detach_Grambank_code(Grambank_code entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_parameter = null;
+	}
+	
+	private void attach_Grambank_value(Grambank_value entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_parameter = this;
+	}
+	
+	private void detach_Grambank_value(Grambank_value entity)
+	{
+		this.SendPropertyChanging();
+		entity.Grambank_parameter = null;
+	}
+}
+
+[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Grambank_value")]
+public partial class Grambank_value : INotifyPropertyChanging, INotifyPropertyChanged
+{
+	
+	private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+	
+	private string _Id;
+	
+	private string _Language;
+	
+	private string _Parameter;
+	
+	private System.Nullable<int> _Value;
+	
+	private string _Code_id;
+	
+	private string _Comment;
+	
+	private string _Source;
+	
+	private string _Source_comment;
+	
+	private string _Coders;
+	
+	private EntityRef<Grambank_code> _Grambank_code;
+	
+	private EntityRef<Language> _LanguageLanguage;
+	
+	private EntityRef<Grambank_parameter> _Grambank_parameter;
+	
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdChanging(string value);
+    partial void OnIdChanged();
+    partial void OnLanguageChanging(string value);
+    partial void OnLanguageChanged();
+    partial void OnParameterChanging(string value);
+    partial void OnParameterChanged();
+    partial void OnValueChanging(System.Nullable<int> value);
+    partial void OnValueChanged();
+    partial void OnCode_idChanging(string value);
+    partial void OnCode_idChanged();
+    partial void OnCommentChanging(string value);
+    partial void OnCommentChanged();
+    partial void OnSourceChanging(string value);
+    partial void OnSourceChanged();
+    partial void OnSource_commentChanging(string value);
+    partial void OnSource_commentChanged();
+    partial void OnCodersChanging(string value);
+    partial void OnCodersChanged();
+    #endregion
+	
+	public Grambank_value()
+	{
+		this._Grambank_code = default(EntityRef<Grambank_code>);
+		this._LanguageLanguage = default(EntityRef<Language>);
+		this._Grambank_parameter = default(EntityRef<Grambank_parameter>);
+		OnCreated();
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", DbType="Char(14) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+	public string Id
+	{
+		get
+		{
+			return this._Id;
+		}
+		set
+		{
+			if ((this._Id != value))
+			{
+				this.OnIdChanging(value);
+				this.SendPropertyChanging();
+				this._Id = value;
+				this.SendPropertyChanged("Id");
+				this.OnIdChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Language", DbType="Char(3) NOT NULL", CanBeNull=false)]
+	public string Language
+	{
+		get
+		{
+			return this._Language;
+		}
+		set
+		{
+			if ((this._Language != value))
+			{
+				if (this._LanguageLanguage.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnLanguageChanging(value);
+				this.SendPropertyChanging();
+				this._Language = value;
+				this.SendPropertyChanged("Language");
+				this.OnLanguageChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Parameter", DbType="Char(5) NOT NULL", CanBeNull=false)]
+	public string Parameter
+	{
+		get
+		{
+			return this._Parameter;
+		}
+		set
+		{
+			if ((this._Parameter != value))
+			{
+				if (this._Grambank_parameter.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnParameterChanging(value);
+				this.SendPropertyChanging();
+				this._Parameter = value;
+				this.SendPropertyChanged("Parameter");
+				this.OnParameterChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Value", DbType="Int")]
+	public System.Nullable<int> Value
+	{
+		get
+		{
+			return this._Value;
+		}
+		set
+		{
+			if ((this._Value != value))
+			{
+				this.OnValueChanging(value);
+				this.SendPropertyChanging();
+				this._Value = value;
+				this.SendPropertyChanged("Value");
+				this.OnValueChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Code_id", DbType="Char(7)")]
+	public string Code_id
+	{
+		get
+		{
+			return this._Code_id;
+		}
+		set
+		{
+			if ((this._Code_id != value))
+			{
+				if (this._Grambank_code.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnCode_idChanging(value);
+				this.SendPropertyChanging();
+				this._Code_id = value;
+				this.SendPropertyChanged("Code_id");
+				this.OnCode_idChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Comment", DbType="VarChar(200)")]
+	public string Comment
+	{
+		get
+		{
+			return this._Comment;
+		}
+		set
+		{
+			if ((this._Comment != value))
+			{
+				this.OnCommentChanging(value);
+				this.SendPropertyChanging();
+				this._Comment = value;
+				this.SendPropertyChanged("Comment");
+				this.OnCommentChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Source", DbType="VarChar(100)")]
+	public string Source
+	{
+		get
+		{
+			return this._Source;
+		}
+		set
+		{
+			if ((this._Source != value))
+			{
+				this.OnSourceChanging(value);
+				this.SendPropertyChanging();
+				this._Source = value;
+				this.SendPropertyChanged("Source");
+				this.OnSourceChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Source_comment", DbType="VarChar(200)")]
+	public string Source_comment
+	{
+		get
+		{
+			return this._Source_comment;
+		}
+		set
+		{
+			if ((this._Source_comment != value))
+			{
+				this.OnSource_commentChanging(value);
+				this.SendPropertyChanging();
+				this._Source_comment = value;
+				this.SendPropertyChanged("Source_comment");
+				this.OnSource_commentChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Coders", DbType="VarChar(40)")]
+	public string Coders
+	{
+		get
+		{
+			return this._Coders;
+		}
+		set
+		{
+			if ((this._Coders != value))
+			{
+				this.OnCodersChanging(value);
+				this.SendPropertyChanging();
+				this._Coders = value;
+				this.SendPropertyChanged("Coders");
+				this.OnCodersChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Code___2739D489", Storage="_Grambank_code", ThisKey="Code_id", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_code Grambank_code
+	{
+		get
+		{
+			return this._Grambank_code.Entity;
+		}
+		set
+		{
+			Grambank_code previousValue = this._Grambank_code.Entity;
+			if (((previousValue != value) 
+						|| (this._Grambank_code.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Grambank_code.Entity = null;
+					previousValue.Grambank_value.Remove(this);
+				}
+				this._Grambank_code.Entity = value;
+				if ((value != null))
+				{
+					value.Grambank_value.Add(this);
+					this._Code_id = value.Id;
+				}
+				else
+				{
+					this._Code_id = default(string);
+				}
+				this.SendPropertyChanged("Grambank_code");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Langu__5EBF139D", Storage="_LanguageLanguage", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language LanguageLanguage
+	{
+		get
+		{
+			return this._LanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._LanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._LanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._LanguageLanguage.Entity = null;
+					previousValue.Grambank_value.Remove(this);
+				}
+				this._LanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.Grambank_value.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("LanguageLanguage");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Param__5FB337D6", Storage="_Grambank_parameter", ThisKey="Parameter", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_parameter Grambank_parameter
+	{
+		get
+		{
+			return this._Grambank_parameter.Entity;
+		}
+		set
+		{
+			Grambank_parameter previousValue = this._Grambank_parameter.Entity;
+			if (((previousValue != value) 
+						|| (this._Grambank_parameter.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Grambank_parameter.Entity = null;
+					previousValue.Grambank_value.Remove(this);
+				}
+				this._Grambank_parameter.Entity = value;
+				if ((value != null))
+				{
+					value.Grambank_value.Add(this);
+					this._Parameter = value.Id;
+				}
+				else
+				{
+					this._Parameter = default(string);
+				}
+				this.SendPropertyChanged("Grambank_parameter");
 			}
 		}
 	}
@@ -1256,6 +3425,14 @@ public partial class InventoryBibtex : INotifyPropertyChanging, INotifyPropertyC
 	
 	private string _Source;
 	
+	private EntityRef<PhoibleBibtex> _PhoibleBibtex;
+	
+	private EntityRef<PhoibleBibtex> _BibtexPhoibleBibtex;
+	
+	private EntityRef<Phonemeinventory> _Phonemeinventory;
+	
+	private EntityRef<Phonemeinventory> _InventoryPhonemeinventory;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1272,6 +3449,10 @@ public partial class InventoryBibtex : INotifyPropertyChanging, INotifyPropertyC
 	
 	public InventoryBibtex()
 	{
+		this._PhoibleBibtex = default(EntityRef<PhoibleBibtex>);
+		this._BibtexPhoibleBibtex = default(EntityRef<PhoibleBibtex>);
+		this._Phonemeinventory = default(EntityRef<Phonemeinventory>);
+		this._InventoryPhonemeinventory = default(EntityRef<Phonemeinventory>);
 		OnCreated();
 	}
 	
@@ -1306,6 +3487,10 @@ public partial class InventoryBibtex : INotifyPropertyChanging, INotifyPropertyC
 		{
 			if ((this._Inventory != value))
 			{
+				if ((this._Phonemeinventory.HasLoadedOrAssignedValue || this._InventoryPhonemeinventory.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnInventoryChanging(value);
 				this.SendPropertyChanging();
 				this._Inventory = value;
@@ -1326,6 +3511,10 @@ public partial class InventoryBibtex : INotifyPropertyChanging, INotifyPropertyC
 		{
 			if ((this._Bibtex != value))
 			{
+				if ((this._PhoibleBibtex.HasLoadedOrAssignedValue || this._BibtexPhoibleBibtex.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnBibtexChanging(value);
 				this.SendPropertyChanging();
 				this._Bibtex = value;
@@ -1351,6 +3540,142 @@ public partial class InventoryBibtex : INotifyPropertyChanging, INotifyPropertyC
 				this._Source = value;
 				this.SendPropertyChanged("Source");
 				this.OnSourceChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Bibte__05D8E0BE", Storage="_PhoibleBibtex", ThisKey="Bibtex", OtherKey="BibtexKey", IsForeignKey=true)]
+	public PhoibleBibtex PhoibleBibtex
+	{
+		get
+		{
+			return this._PhoibleBibtex.Entity;
+		}
+		set
+		{
+			PhoibleBibtex previousValue = this._PhoibleBibtex.Entity;
+			if (((previousValue != value) 
+						|| (this._PhoibleBibtex.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._PhoibleBibtex.Entity = null;
+					previousValue.InventoryBibtex.Remove(this);
+				}
+				this._PhoibleBibtex.Entity = value;
+				if ((value != null))
+				{
+					value.InventoryBibtex.Add(this);
+					this._Bibtex = value.BibtexKey;
+				}
+				else
+				{
+					this._Bibtex = default(string);
+				}
+				this.SendPropertyChanged("PhoibleBibtex");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Bibte__1AD3FDA4", Storage="_BibtexPhoibleBibtex", ThisKey="Bibtex", OtherKey="BibtexKey", IsForeignKey=true)]
+	public PhoibleBibtex BibtexPhoibleBibtex
+	{
+		get
+		{
+			return this._BibtexPhoibleBibtex.Entity;
+		}
+		set
+		{
+			PhoibleBibtex previousValue = this._BibtexPhoibleBibtex.Entity;
+			if (((previousValue != value) 
+						|| (this._BibtexPhoibleBibtex.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._BibtexPhoibleBibtex.Entity = null;
+					previousValue.BibtexKeyInventoryBibtex.Remove(this);
+				}
+				this._BibtexPhoibleBibtex.Entity = value;
+				if ((value != null))
+				{
+					value.BibtexKeyInventoryBibtex.Add(this);
+					this._Bibtex = value.BibtexKey;
+				}
+				else
+				{
+					this._Bibtex = default(string);
+				}
+				this.SendPropertyChanged("BibtexPhoibleBibtex");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Inven__04E4BC85", Storage="_Phonemeinventory", ThisKey="Inventory", OtherKey="Id", IsForeignKey=true)]
+	public Phonemeinventory Phonemeinventory
+	{
+		get
+		{
+			return this._Phonemeinventory.Entity;
+		}
+		set
+		{
+			Phonemeinventory previousValue = this._Phonemeinventory.Entity;
+			if (((previousValue != value) 
+						|| (this._Phonemeinventory.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Phonemeinventory.Entity = null;
+					previousValue.InventoryBibtex.Remove(this);
+				}
+				this._Phonemeinventory.Entity = value;
+				if ((value != null))
+				{
+					value.InventoryBibtex.Add(this);
+					this._Inventory = value.Id;
+				}
+				else
+				{
+					this._Inventory = default(int);
+				}
+				this.SendPropertyChanged("Phonemeinventory");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Inven__19DFD96B", Storage="_InventoryPhonemeinventory", ThisKey="Inventory", OtherKey="Id", IsForeignKey=true)]
+	public Phonemeinventory InventoryPhonemeinventory
+	{
+		get
+		{
+			return this._InventoryPhonemeinventory.Entity;
+		}
+		set
+		{
+			Phonemeinventory previousValue = this._InventoryPhonemeinventory.Entity;
+			if (((previousValue != value) 
+						|| (this._InventoryPhonemeinventory.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._InventoryPhonemeinventory.Entity = null;
+					previousValue._Inventory__Inven__19DFD96B.Remove(this);
+				}
+				this._InventoryPhonemeinventory.Entity = value;
+				if ((value != null))
+				{
+					value._Inventory__Inven__19DFD96B.Add(this);
+					this._Inventory = value.Id;
+				}
+				else
+				{
+					this._Inventory = default(int);
+				}
+				this.SendPropertyChanged("InventoryPhonemeinventory");
 			}
 		}
 	}
@@ -1416,6 +3741,56 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	private string _Iso2;
 	
+	private string _GBfamilytop;
+	
+	private string _GBfamilynear;
+	
+	private EntitySet<Grambank_value> _Grambank_value;
+	
+	private EntitySet<Language_connection> _Language_connection;
+	
+	private EntitySet<Language_connection> _IsoLanguage_connection;
+	
+	private EntityRef<Country> _CountryCountry;
+	
+	private EntityRef<EGIDS> _EGIDSEGIDS;
+	
+	private EntityRef<Family> _Family;
+	
+	private EntityRef<Family> _Family_nearFamily;
+	
+	private EntityRef<Grambank_family> _Grambank_family;
+	
+	private EntityRef<Grambank_family> _GBfamilynearGrambank_family;
+	
+	private EntityRef<Region> _RegionRegion;
+	
+	private EntitySet<LanguageIndex> _LanguageIndex;
+	
+	private EntitySet<LanguageIndex> _IsoLanguageIndex;
+	
+	private EntitySet<LanguageIndex> @__LanguageI__Langu__7C4F7684;
+	
+	private EntitySet<LIC> _LIC;
+	
+	private EntitySet<LIC> _IsoLIC;
+	
+	private EntitySet<LIC> @__LIC__Language__797309D9;
+	
+	private EntitySet<Phonemeinventory> _Phonemeinventory;
+	
+	private EntitySet<Phonemeinventory> _IsoPhonemeinventory;
+	
+	private EntitySet<Phonemeinventory> @__Phonemein__Langu__7D439ABD;
+	
+	private EntitySet<Swadesh_language> _Swadesh_language;
+	
+	private EntitySet<Swadesh_language> _IsoSwadesh_language;
+	
+	private EntitySet<WALS_languagefeature> _WALS_languagefeature;
+	
+	private EntitySet<WALS_languagefeature> _IsoWALS_languagefeature;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1454,10 +3829,37 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
     partial void OnGlottocodeChanged();
     partial void OnIso2Changing(string value);
     partial void OnIso2Changed();
+    partial void OnGBfamilytopChanging(string value);
+    partial void OnGBfamilytopChanged();
+    partial void OnGBfamilynearChanging(string value);
+    partial void OnGBfamilynearChanged();
     #endregion
 	
 	public Language()
 	{
+		this._Grambank_value = new EntitySet<Grambank_value>(new Action<Grambank_value>(this.attach_Grambank_value), new Action<Grambank_value>(this.detach_Grambank_value));
+		this._Language_connection = new EntitySet<Language_connection>(new Action<Language_connection>(this.attach_Language_connection), new Action<Language_connection>(this.detach_Language_connection));
+		this._IsoLanguage_connection = new EntitySet<Language_connection>(new Action<Language_connection>(this.attach_IsoLanguage_connection), new Action<Language_connection>(this.detach_IsoLanguage_connection));
+		this._CountryCountry = default(EntityRef<Country>);
+		this._EGIDSEGIDS = default(EntityRef<EGIDS>);
+		this._Family = default(EntityRef<Family>);
+		this._Family_nearFamily = default(EntityRef<Family>);
+		this._Grambank_family = default(EntityRef<Grambank_family>);
+		this._GBfamilynearGrambank_family = default(EntityRef<Grambank_family>);
+		this._RegionRegion = default(EntityRef<Region>);
+		this._LanguageIndex = new EntitySet<LanguageIndex>(new Action<LanguageIndex>(this.attach_LanguageIndex), new Action<LanguageIndex>(this.detach_LanguageIndex));
+		this._IsoLanguageIndex = new EntitySet<LanguageIndex>(new Action<LanguageIndex>(this.attach_IsoLanguageIndex), new Action<LanguageIndex>(this.detach_IsoLanguageIndex));
+		this.@__LanguageI__Langu__7C4F7684 = new EntitySet<LanguageIndex>(new Action<LanguageIndex>(this.attach__LanguageI__Langu__7C4F7684), new Action<LanguageIndex>(this.detach__LanguageI__Langu__7C4F7684));
+		this._LIC = new EntitySet<LIC>(new Action<LIC>(this.attach_LIC), new Action<LIC>(this.detach_LIC));
+		this._IsoLIC = new EntitySet<LIC>(new Action<LIC>(this.attach_IsoLIC), new Action<LIC>(this.detach_IsoLIC));
+		this.@__LIC__Language__797309D9 = new EntitySet<LIC>(new Action<LIC>(this.attach__LIC__Language__797309D9), new Action<LIC>(this.detach__LIC__Language__797309D9));
+		this._Phonemeinventory = new EntitySet<Phonemeinventory>(new Action<Phonemeinventory>(this.attach_Phonemeinventory), new Action<Phonemeinventory>(this.detach_Phonemeinventory));
+		this._IsoPhonemeinventory = new EntitySet<Phonemeinventory>(new Action<Phonemeinventory>(this.attach_IsoPhonemeinventory), new Action<Phonemeinventory>(this.detach_IsoPhonemeinventory));
+		this.@__Phonemein__Langu__7D439ABD = new EntitySet<Phonemeinventory>(new Action<Phonemeinventory>(this.attach__Phonemein__Langu__7D439ABD), new Action<Phonemeinventory>(this.detach__Phonemein__Langu__7D439ABD));
+		this._Swadesh_language = new EntitySet<Swadesh_language>(new Action<Swadesh_language>(this.attach_Swadesh_language), new Action<Swadesh_language>(this.detach_Swadesh_language));
+		this._IsoSwadesh_language = new EntitySet<Swadesh_language>(new Action<Swadesh_language>(this.attach_IsoSwadesh_language), new Action<Swadesh_language>(this.detach_IsoSwadesh_language));
+		this._WALS_languagefeature = new EntitySet<WALS_languagefeature>(new Action<WALS_languagefeature>(this.attach_WALS_languagefeature), new Action<WALS_languagefeature>(this.detach_WALS_languagefeature));
+		this._IsoWALS_languagefeature = new EntitySet<WALS_languagefeature>(new Action<WALS_languagefeature>(this.attach_IsoWALS_languagefeature), new Action<WALS_languagefeature>(this.detach_IsoWALS_languagefeature));
 		OnCreated();
 	}
 	
@@ -1532,6 +3934,10 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Country != value))
 			{
+				if (this._CountryCountry.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnCountryChanging(value);
 				this.SendPropertyChanging();
 				this._Country = value;
@@ -1552,6 +3958,10 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Region != value))
 			{
+				if (this._RegionRegion.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnRegionChanging(value);
 				this.SendPropertyChanging();
 				this._Region = value;
@@ -1632,6 +4042,10 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Family_top != value))
 			{
+				if (this._Family.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnFamily_topChanging(value);
 				this.SendPropertyChanging();
 				this._Family_top = value;
@@ -1652,6 +4066,10 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Family_near != value))
 			{
+				if (this._Family_nearFamily.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnFamily_nearChanging(value);
 				this.SendPropertyChanging();
 				this._Family_near = value;
@@ -1712,6 +4130,10 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._EGIDS != value))
 			{
+				if (this._EGIDSEGIDS.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnEGIDSChanging(value);
 				this.SendPropertyChanging();
 				this._EGIDS = value;
@@ -1801,6 +4223,500 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GBfamilytop", DbType="Char(8)")]
+	public string GBfamilytop
+	{
+		get
+		{
+			return this._GBfamilytop;
+		}
+		set
+		{
+			if ((this._GBfamilytop != value))
+			{
+				if (this._Grambank_family.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnGBfamilytopChanging(value);
+				this.SendPropertyChanging();
+				this._GBfamilytop = value;
+				this.SendPropertyChanged("GBfamilytop");
+				this.OnGBfamilytopChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GBfamilynear", DbType="Char(8)")]
+	public string GBfamilynear
+	{
+		get
+		{
+			return this._GBfamilynear;
+		}
+		set
+		{
+			if ((this._GBfamilynear != value))
+			{
+				if (this._GBfamilynearGrambank_family.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
+				this.OnGBfamilynearChanging(value);
+				this.SendPropertyChanging();
+				this._GBfamilynear = value;
+				this.SendPropertyChanged("GBfamilynear");
+				this.OnGBfamilynearChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Grambank___Langu__5EBF139D", Storage="_Grambank_value", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<Grambank_value> Grambank_value
+	{
+		get
+		{
+			return this._Grambank_value;
+		}
+		set
+		{
+			this._Grambank_value.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language___Mainl__22751F6C", Storage="_Language_connection", ThisKey="Iso", OtherKey="Mainlanguage", DeleteRule="NO ACTION")]
+	public EntitySet<Language_connection> Language_connection
+	{
+		get
+		{
+			return this._Language_connection;
+		}
+		set
+		{
+			this._Language_connection.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language___Subla__236943A5", Storage="_IsoLanguage_connection", ThisKey="Iso", OtherKey="Sublanguage", DeleteRule="NO ACTION")]
+	public EntitySet<Language_connection> IsoLanguage_connection
+	{
+		get
+		{
+			return this._IsoLanguage_connection;
+		}
+		set
+		{
+			this._IsoLanguage_connection.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Countr__6C190EBB", Storage="_CountryCountry", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country CountryCountry
+	{
+		get
+		{
+			return this._CountryCountry.Entity;
+		}
+		set
+		{
+			Country previousValue = this._CountryCountry.Entity;
+			if (((previousValue != value) 
+						|| (this._CountryCountry.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._CountryCountry.Entity = null;
+					previousValue.Language.Remove(this);
+				}
+				this._CountryCountry.Entity = value;
+				if ((value != null))
+				{
+					value.Language.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("CountryCountry");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__EGIDS__6FE99F9F", Storage="_EGIDSEGIDS", ThisKey="EGIDS", OtherKey="Id", IsForeignKey=true)]
+	public EGIDS EGIDSEGIDS
+	{
+		get
+		{
+			return this._EGIDSEGIDS.Entity;
+		}
+		set
+		{
+			EGIDS previousValue = this._EGIDSEGIDS.Entity;
+			if (((previousValue != value) 
+						|| (this._EGIDSEGIDS.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._EGIDSEGIDS.Entity = null;
+					previousValue.Language.Remove(this);
+				}
+				this._EGIDSEGIDS.Entity = value;
+				if ((value != null))
+				{
+					value.Language.Add(this);
+					this._EGIDS = value.Id;
+				}
+				else
+				{
+					this._EGIDS = default(string);
+				}
+				this.SendPropertyChanged("EGIDSEGIDS");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Family__6E01572D", Storage="_Family", ThisKey="Family_top", OtherKey="Id", IsForeignKey=true)]
+	public Family Family
+	{
+		get
+		{
+			return this._Family.Entity;
+		}
+		set
+		{
+			Family previousValue = this._Family.Entity;
+			if (((previousValue != value) 
+						|| (this._Family.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Family.Entity = null;
+					previousValue.Language.Remove(this);
+				}
+				this._Family.Entity = value;
+				if ((value != null))
+				{
+					value.Language.Add(this);
+					this._Family_top = value.Id;
+				}
+				else
+				{
+					this._Family_top = default(Nullable<int>);
+				}
+				this.SendPropertyChanged("Family");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Family__6EF57B66", Storage="_Family_nearFamily", ThisKey="Family_near", OtherKey="Id", IsForeignKey=true)]
+	public Family Family_nearFamily
+	{
+		get
+		{
+			return this._Family_nearFamily.Entity;
+		}
+		set
+		{
+			Family previousValue = this._Family_nearFamily.Entity;
+			if (((previousValue != value) 
+						|| (this._Family_nearFamily.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Family_nearFamily.Entity = null;
+					previousValue._Language__Family__6EF57B66.Remove(this);
+				}
+				this._Family_nearFamily.Entity = value;
+				if ((value != null))
+				{
+					value._Language__Family__6EF57B66.Add(this);
+					this._Family_near = value.Id;
+				}
+				else
+				{
+					this._Family_near = default(Nullable<int>);
+				}
+				this.SendPropertyChanged("Family_nearFamily");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__GBfami__6754599E", Storage="_Grambank_family", ThisKey="GBfamilytop", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_family Grambank_family
+	{
+		get
+		{
+			return this._Grambank_family.Entity;
+		}
+		set
+		{
+			Grambank_family previousValue = this._Grambank_family.Entity;
+			if (((previousValue != value) 
+						|| (this._Grambank_family.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Grambank_family.Entity = null;
+					previousValue.Language.Remove(this);
+				}
+				this._Grambank_family.Entity = value;
+				if ((value != null))
+				{
+					value.Language.Add(this);
+					this._GBfamilytop = value.Id;
+				}
+				else
+				{
+					this._GBfamilytop = default(string);
+				}
+				this.SendPropertyChanged("Grambank_family");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__GBfami__68487DD7", Storage="_GBfamilynearGrambank_family", ThisKey="GBfamilynear", OtherKey="Id", IsForeignKey=true)]
+	public Grambank_family GBfamilynearGrambank_family
+	{
+		get
+		{
+			return this._GBfamilynearGrambank_family.Entity;
+		}
+		set
+		{
+			Grambank_family previousValue = this._GBfamilynearGrambank_family.Entity;
+			if (((previousValue != value) 
+						|| (this._GBfamilynearGrambank_family.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._GBfamilynearGrambank_family.Entity = null;
+					previousValue._Language__GBfami__68487DD7.Remove(this);
+				}
+				this._GBfamilynearGrambank_family.Entity = value;
+				if ((value != null))
+				{
+					value._Language__GBfami__68487DD7.Add(this);
+					this._GBfamilynear = value.Id;
+				}
+				else
+				{
+					this._GBfamilynear = default(string);
+				}
+				this.SendPropertyChanged("GBfamilynearGrambank_family");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Region__6D0D32F4", Storage="_RegionRegion", ThisKey="Region", OtherKey="Code", IsForeignKey=true)]
+	public Region RegionRegion
+	{
+		get
+		{
+			return this._RegionRegion.Entity;
+		}
+		set
+		{
+			Region previousValue = this._RegionRegion.Entity;
+			if (((previousValue != value) 
+						|| (this._RegionRegion.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._RegionRegion.Entity = null;
+					previousValue.Language.Remove(this);
+				}
+				this._RegionRegion.Entity = value;
+				if ((value != null))
+				{
+					value.Language.Add(this);
+					this._Region = value.Code;
+				}
+				else
+				{
+					this._Region = default(string);
+				}
+				this.SendPropertyChanged("RegionRegion");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Langu__114A936A", Storage="_LanguageIndex", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<LanguageIndex> LanguageIndex
+	{
+		get
+		{
+			return this._LanguageIndex;
+		}
+		set
+		{
+			this._LanguageIndex.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Langu__74AE54BC", Storage="_IsoLanguageIndex", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<LanguageIndex> IsoLanguageIndex
+	{
+		get
+		{
+			return this._IsoLanguageIndex;
+		}
+		set
+		{
+			this._IsoLanguageIndex.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Langu__7C4F7684", Storage="__LanguageI__Langu__7C4F7684", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<LanguageIndex> _LanguageI__Langu__7C4F7684
+	{
+		get
+		{
+			return this.@__LanguageI__Langu__7C4F7684;
+		}
+		set
+		{
+			this.@__LanguageI__Langu__7C4F7684.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Language__0E6E26BF", Storage="_LIC", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> LIC
+	{
+		get
+		{
+			return this._LIC;
+		}
+		set
+		{
+			this._LIC.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Language__71D1E811", Storage="_IsoLIC", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> IsoLIC
+	{
+		get
+		{
+			return this._IsoLIC;
+		}
+		set
+		{
+			this._IsoLIC.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Language__797309D9", Storage="__LIC__Language__797309D9", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> _LIC__Language__797309D9
+	{
+		get
+		{
+			return this.@__LIC__Language__797309D9;
+		}
+		set
+		{
+			this.@__LIC__Language__797309D9.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Phonemein__Langu__123EB7A3", Storage="_Phonemeinventory", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<Phonemeinventory> Phonemeinventory
+	{
+		get
+		{
+			return this._Phonemeinventory;
+		}
+		set
+		{
+			this._Phonemeinventory.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Phonemein__Langu__75A278F5", Storage="_IsoPhonemeinventory", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<Phonemeinventory> IsoPhonemeinventory
+	{
+		get
+		{
+			return this._IsoPhonemeinventory;
+		}
+		set
+		{
+			this._IsoPhonemeinventory.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Phonemein__Langu__7D439ABD", Storage="__Phonemein__Langu__7D439ABD", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<Phonemeinventory> _Phonemein__Langu__7D439ABD
+	{
+		get
+		{
+			return this.@__Phonemein__Langu__7D439ABD;
+		}
+		set
+		{
+			this.@__Phonemein__Langu__7D439ABD.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_l__Langu__0C85DE4D", Storage="_Swadesh_language", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<Swadesh_language> Swadesh_language
+	{
+		get
+		{
+			return this._Swadesh_language;
+		}
+		set
+		{
+			this._Swadesh_language.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_l__Langu__2180FB33", Storage="_IsoSwadesh_language", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<Swadesh_language> IsoSwadesh_language
+	{
+		get
+		{
+			return this._IsoSwadesh_language;
+		}
+		set
+		{
+			this._IsoSwadesh_language.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Langu__0A9D95DB", Storage="_WALS_languagefeature", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_languagefeature> WALS_languagefeature
+	{
+		get
+		{
+			return this._WALS_languagefeature;
+		}
+		set
+		{
+			this._WALS_languagefeature.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Langu__1F98B2C1", Storage="_IsoWALS_languagefeature", ThisKey="Iso", OtherKey="Language", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_languagefeature> IsoWALS_languagefeature
+	{
+		get
+		{
+			return this._IsoWALS_languagefeature;
+		}
+		set
+		{
+			this._IsoWALS_languagefeature.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -1820,6 +4736,198 @@ public partial class Language : INotifyPropertyChanging, INotifyPropertyChanged
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Grambank_value(Grambank_value entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = this;
+	}
+	
+	private void detach_Grambank_value(Grambank_value entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = null;
+	}
+	
+	private void attach_Language_connection(Language_connection entity)
+	{
+		this.SendPropertyChanging();
+		entity.Language = this;
+	}
+	
+	private void detach_Language_connection(Language_connection entity)
+	{
+		this.SendPropertyChanging();
+		entity.Language = null;
+	}
+	
+	private void attach_IsoLanguage_connection(Language_connection entity)
+	{
+		this.SendPropertyChanging();
+		entity.SublanguageLanguage = this;
+	}
+	
+	private void detach_IsoLanguage_connection(Language_connection entity)
+	{
+		this.SendPropertyChanging();
+		entity.SublanguageLanguage = null;
+	}
+	
+	private void attach_LanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = this;
+	}
+	
+	private void detach_LanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = null;
+	}
+	
+	private void attach_IsoLanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Langu__74AE54BC = this;
+	}
+	
+	private void detach_IsoLanguageIndex(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Langu__74AE54BC = null;
+	}
+	
+	private void attach__LanguageI__Langu__7C4F7684(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Langu__7C4F7684 = this;
+	}
+	
+	private void detach__LanguageI__Langu__7C4F7684(LanguageIndex entity)
+	{
+		this.SendPropertyChanging();
+		entity._LanguageI__Langu__7C4F7684 = null;
+	}
+	
+	private void attach_LIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = this;
+	}
+	
+	private void detach_LIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = null;
+	}
+	
+	private void attach_IsoLIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Language__71D1E811 = this;
+	}
+	
+	private void detach_IsoLIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Language__71D1E811 = null;
+	}
+	
+	private void attach__LIC__Language__797309D9(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Language__797309D9 = this;
+	}
+	
+	private void detach__LIC__Language__797309D9(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Language__797309D9 = null;
+	}
+	
+	private void attach_Phonemeinventory(Phonemeinventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = this;
+	}
+	
+	private void detach_Phonemeinventory(Phonemeinventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = null;
+	}
+	
+	private void attach_IsoPhonemeinventory(Phonemeinventory entity)
+	{
+		this.SendPropertyChanging();
+		entity._Phonemein__Langu__75A278F5 = this;
+	}
+	
+	private void detach_IsoPhonemeinventory(Phonemeinventory entity)
+	{
+		this.SendPropertyChanging();
+		entity._Phonemein__Langu__75A278F5 = null;
+	}
+	
+	private void attach__Phonemein__Langu__7D439ABD(Phonemeinventory entity)
+	{
+		this.SendPropertyChanging();
+		entity._Phonemein__Langu__7D439ABD = this;
+	}
+	
+	private void detach__Phonemein__Langu__7D439ABD(Phonemeinventory entity)
+	{
+		this.SendPropertyChanging();
+		entity._Phonemein__Langu__7D439ABD = null;
+	}
+	
+	private void attach_Swadesh_language(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = this;
+	}
+	
+	private void detach_Swadesh_language(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = null;
+	}
+	
+	private void attach_IsoSwadesh_language(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity._Swadesh_l__Langu__2180FB33 = this;
+	}
+	
+	private void detach_IsoSwadesh_language(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity._Swadesh_l__Langu__2180FB33 = null;
+	}
+	
+	private void attach_WALS_languagefeature(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = this;
+	}
+	
+	private void detach_WALS_languagefeature(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.LanguageLanguage = null;
+	}
+	
+	private void attach_IsoWALS_languagefeature(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._WALS_lang__Langu__1F98B2C1 = this;
+	}
+	
+	private void detach_IsoWALS_languagefeature(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._WALS_lang__Langu__1F98B2C1 = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Language_connection")]
@@ -1833,6 +4941,10 @@ public partial class Language_connection : INotifyPropertyChanging, INotifyPrope
 	private string _Mainlanguage;
 	
 	private string _Sublanguage;
+	
+	private EntityRef<Language> _Language;
+	
+	private EntityRef<Language> _SublanguageLanguage;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -1848,6 +4960,8 @@ public partial class Language_connection : INotifyPropertyChanging, INotifyPrope
 	
 	public Language_connection()
 	{
+		this._Language = default(EntityRef<Language>);
+		this._SublanguageLanguage = default(EntityRef<Language>);
 		OnCreated();
 	}
 	
@@ -1882,6 +4996,10 @@ public partial class Language_connection : INotifyPropertyChanging, INotifyPrope
 		{
 			if ((this._Mainlanguage != value))
 			{
+				if (this._Language.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnMainlanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Mainlanguage = value;
@@ -1902,11 +5020,83 @@ public partial class Language_connection : INotifyPropertyChanging, INotifyPrope
 		{
 			if ((this._Sublanguage != value))
 			{
+				if (this._SublanguageLanguage.HasLoadedOrAssignedValue)
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnSublanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Sublanguage = value;
 				this.SendPropertyChanged("Sublanguage");
 				this.OnSublanguageChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language___Mainl__22751F6C", Storage="_Language", ThisKey="Mainlanguage", OtherKey="Iso", IsForeignKey=true)]
+	public Language Language
+	{
+		get
+		{
+			return this._Language.Entity;
+		}
+		set
+		{
+			Language previousValue = this._Language.Entity;
+			if (((previousValue != value) 
+						|| (this._Language.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Language.Entity = null;
+					previousValue.Language_connection.Remove(this);
+				}
+				this._Language.Entity = value;
+				if ((value != null))
+				{
+					value.Language_connection.Add(this);
+					this._Mainlanguage = value.Iso;
+				}
+				else
+				{
+					this._Mainlanguage = default(string);
+				}
+				this.SendPropertyChanged("Language");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language___Subla__236943A5", Storage="_SublanguageLanguage", ThisKey="Sublanguage", OtherKey="Iso", IsForeignKey=true)]
+	public Language SublanguageLanguage
+	{
+		get
+		{
+			return this._SublanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._SublanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._SublanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._SublanguageLanguage.Entity = null;
+					previousValue.IsoLanguage_connection.Remove(this);
+				}
+				this._SublanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.IsoLanguage_connection.Add(this);
+					this._Sublanguage = value.Iso;
+				}
+				else
+				{
+					this._Sublanguage = default(string);
+				}
+				this.SendPropertyChanged("SublanguageLanguage");
 			}
 		}
 	}
@@ -1942,6 +5132,12 @@ public partial class Language_Function : INotifyPropertyChanging, INotifyPropert
 	
 	private string _Function_Label;
 	
+	private EntitySet<LIC> _LIC;
+	
+	private EntitySet<LIC> _Function_CodeLIC;
+	
+	private EntitySet<LIC> @__LIC__Function_Co__7A672E12;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1954,6 +5150,9 @@ public partial class Language_Function : INotifyPropertyChanging, INotifyPropert
 	
 	public Language_Function()
 	{
+		this._LIC = new EntitySet<LIC>(new Action<LIC>(this.attach_LIC), new Action<LIC>(this.detach_LIC));
+		this._Function_CodeLIC = new EntitySet<LIC>(new Action<LIC>(this.attach_Function_CodeLIC), new Action<LIC>(this.detach_Function_CodeLIC));
+		this.@__LIC__Function_Co__7A672E12 = new EntitySet<LIC>(new Action<LIC>(this.attach__LIC__Function_Co__7A672E12), new Action<LIC>(this.detach__LIC__Function_Co__7A672E12));
 		OnCreated();
 	}
 	
@@ -1997,6 +5196,45 @@ public partial class Language_Function : INotifyPropertyChanging, INotifyPropert
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Function_Co__0F624AF8", Storage="_LIC", ThisKey="Function_Code", OtherKey="Function_Code", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> LIC
+	{
+		get
+		{
+			return this._LIC;
+		}
+		set
+		{
+			this._LIC.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Function_Co__72C60C4A", Storage="_Function_CodeLIC", ThisKey="Function_Code", OtherKey="Function_Code", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> Function_CodeLIC
+	{
+		get
+		{
+			return this._Function_CodeLIC;
+		}
+		set
+		{
+			this._Function_CodeLIC.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Function_Co__7A672E12", Storage="__LIC__Function_Co__7A672E12", ThisKey="Function_Code", OtherKey="Function_Code", DeleteRule="NO ACTION")]
+	public EntitySet<LIC> _LIC__Function_Co__7A672E12
+	{
+		get
+		{
+			return this.@__LIC__Function_Co__7A672E12;
+		}
+		set
+		{
+			this.@__LIC__Function_Co__7A672E12.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -2016,6 +5254,42 @@ public partial class Language_Function : INotifyPropertyChanging, INotifyPropert
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_LIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.Language_Function = this;
+	}
+	
+	private void detach_LIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.Language_Function = null;
+	}
+	
+	private void attach_Function_CodeLIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.Function_CodeLanguage_Function = this;
+	}
+	
+	private void detach_Function_CodeLIC(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity.Function_CodeLanguage_Function = null;
+	}
+	
+	private void attach__LIC__Function_Co__7A672E12(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Function_Co__7A672E12 = this;
+	}
+	
+	private void detach__LIC__Function_Co__7A672E12(LIC entity)
+	{
+		this.SendPropertyChanging();
+		entity._LIC__Function_Co__7A672E12 = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.LanguageIndex")]
@@ -2033,6 +5307,18 @@ public partial class LanguageIndex : INotifyPropertyChanging, INotifyPropertyCha
 	private string _NameType;
 	
 	private string _Name;
+	
+	private EntityRef<Country> _CountryCountry;
+	
+	private EntityRef<Country> @__LanguageI__Count__73BA3083;
+	
+	private EntityRef<Country> @__LanguageI__Count__7B5B524B;
+	
+	private EntityRef<Language> _LanguageLanguage;
+	
+	private EntityRef<Language> @__LanguageI__Langu__74AE54BC;
+	
+	private EntityRef<Language> @__LanguageI__Langu__7C4F7684;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -2052,6 +5338,12 @@ public partial class LanguageIndex : INotifyPropertyChanging, INotifyPropertyCha
 	
 	public LanguageIndex()
 	{
+		this._CountryCountry = default(EntityRef<Country>);
+		this.@__LanguageI__Count__73BA3083 = default(EntityRef<Country>);
+		this.@__LanguageI__Count__7B5B524B = default(EntityRef<Country>);
+		this._LanguageLanguage = default(EntityRef<Language>);
+		this.@__LanguageI__Langu__74AE54BC = default(EntityRef<Language>);
+		this.@__LanguageI__Langu__7C4F7684 = default(EntityRef<Language>);
 		OnCreated();
 	}
 	
@@ -2086,6 +5378,11 @@ public partial class LanguageIndex : INotifyPropertyChanging, INotifyPropertyCha
 		{
 			if ((this._Country != value))
 			{
+				if (((this._CountryCountry.HasLoadedOrAssignedValue || this.@__LanguageI__Count__73BA3083.HasLoadedOrAssignedValue) 
+							|| this.@__LanguageI__Count__7B5B524B.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnCountryChanging(value);
 				this.SendPropertyChanging();
 				this._Country = value;
@@ -2106,6 +5403,11 @@ public partial class LanguageIndex : INotifyPropertyChanging, INotifyPropertyCha
 		{
 			if ((this._Language != value))
 			{
+				if (((this._LanguageLanguage.HasLoadedOrAssignedValue || this.@__LanguageI__Langu__74AE54BC.HasLoadedOrAssignedValue) 
+							|| this.@__LanguageI__Langu__7C4F7684.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnLanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Language = value;
@@ -2151,6 +5453,210 @@ public partial class LanguageIndex : INotifyPropertyChanging, INotifyPropertyCha
 				this._Name = value;
 				this.SendPropertyChanged("Name");
 				this.OnNameChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Count__10566F31", Storage="_CountryCountry", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country CountryCountry
+	{
+		get
+		{
+			return this._CountryCountry.Entity;
+		}
+		set
+		{
+			Country previousValue = this._CountryCountry.Entity;
+			if (((previousValue != value) 
+						|| (this._CountryCountry.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._CountryCountry.Entity = null;
+					previousValue.LanguageIndex.Remove(this);
+				}
+				this._CountryCountry.Entity = value;
+				if ((value != null))
+				{
+					value.LanguageIndex.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("CountryCountry");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Count__73BA3083", Storage="__LanguageI__Count__73BA3083", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country _LanguageI__Count__73BA3083
+	{
+		get
+		{
+			return this.@__LanguageI__Count__73BA3083.Entity;
+		}
+		set
+		{
+			Country previousValue = this.@__LanguageI__Count__73BA3083.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LanguageI__Count__73BA3083.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LanguageI__Count__73BA3083.Entity = null;
+					previousValue.IsoLanguageIndex.Remove(this);
+				}
+				this.@__LanguageI__Count__73BA3083.Entity = value;
+				if ((value != null))
+				{
+					value.IsoLanguageIndex.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("_LanguageI__Count__73BA3083");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Count__7B5B524B", Storage="__LanguageI__Count__7B5B524B", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country _LanguageI__Count__7B5B524B
+	{
+		get
+		{
+			return this.@__LanguageI__Count__7B5B524B.Entity;
+		}
+		set
+		{
+			Country previousValue = this.@__LanguageI__Count__7B5B524B.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LanguageI__Count__7B5B524B.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LanguageI__Count__7B5B524B.Entity = null;
+					previousValue._LanguageI__Count__7B5B524B.Remove(this);
+				}
+				this.@__LanguageI__Count__7B5B524B.Entity = value;
+				if ((value != null))
+				{
+					value._LanguageI__Count__7B5B524B.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("_LanguageI__Count__7B5B524B");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Langu__114A936A", Storage="_LanguageLanguage", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language LanguageLanguage
+	{
+		get
+		{
+			return this._LanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._LanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._LanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._LanguageLanguage.Entity = null;
+					previousValue.LanguageIndex.Remove(this);
+				}
+				this._LanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.LanguageIndex.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("LanguageLanguage");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Langu__74AE54BC", Storage="__LanguageI__Langu__74AE54BC", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _LanguageI__Langu__74AE54BC
+	{
+		get
+		{
+			return this.@__LanguageI__Langu__74AE54BC.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__LanguageI__Langu__74AE54BC.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LanguageI__Langu__74AE54BC.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LanguageI__Langu__74AE54BC.Entity = null;
+					previousValue.IsoLanguageIndex.Remove(this);
+				}
+				this.@__LanguageI__Langu__74AE54BC.Entity = value;
+				if ((value != null))
+				{
+					value.IsoLanguageIndex.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_LanguageI__Langu__74AE54BC");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LanguageI__Langu__7C4F7684", Storage="__LanguageI__Langu__7C4F7684", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _LanguageI__Langu__7C4F7684
+	{
+		get
+		{
+			return this.@__LanguageI__Langu__7C4F7684.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__LanguageI__Langu__7C4F7684.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LanguageI__Langu__7C4F7684.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LanguageI__Langu__7C4F7684.Entity = null;
+					previousValue._LanguageI__Langu__7C4F7684.Remove(this);
+				}
+				this.@__LanguageI__Langu__7C4F7684.Entity = value;
+				if ((value != null))
+				{
+					value._LanguageI__Langu__7C4F7684.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_LanguageI__Langu__7C4F7684");
 			}
 		}
 	}
@@ -2206,6 +5712,24 @@ public partial class LIC : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	private string _Function_Code;
 	
+	private EntityRef<Country> _CountryCountry;
+	
+	private EntityRef<Country> @__LIC__Country__70DDC3D8;
+	
+	private EntityRef<Country> @__LIC__Country__787EE5A0;
+	
+	private EntityRef<Language_Function> _Language_Function;
+	
+	private EntityRef<Language_Function> _Function_CodeLanguage_Function;
+	
+	private EntityRef<Language_Function> @__LIC__Function_Co__7A672E12;
+	
+	private EntityRef<Language> _LanguageLanguage;
+	
+	private EntityRef<Language> @__LIC__Language__71D1E811;
+	
+	private EntityRef<Language> @__LIC__Language__797309D9;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -2238,6 +5762,15 @@ public partial class LIC : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public LIC()
 	{
+		this._CountryCountry = default(EntityRef<Country>);
+		this.@__LIC__Country__70DDC3D8 = default(EntityRef<Country>);
+		this.@__LIC__Country__787EE5A0 = default(EntityRef<Country>);
+		this._Language_Function = default(EntityRef<Language_Function>);
+		this._Function_CodeLanguage_Function = default(EntityRef<Language_Function>);
+		this.@__LIC__Function_Co__7A672E12 = default(EntityRef<Language_Function>);
+		this._LanguageLanguage = default(EntityRef<Language>);
+		this.@__LIC__Language__71D1E811 = default(EntityRef<Language>);
+		this.@__LIC__Language__797309D9 = default(EntityRef<Language>);
 		OnCreated();
 	}
 	
@@ -2272,6 +5805,11 @@ public partial class LIC : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Country != value))
 			{
+				if (((this._CountryCountry.HasLoadedOrAssignedValue || this.@__LIC__Country__70DDC3D8.HasLoadedOrAssignedValue) 
+							|| this.@__LIC__Country__787EE5A0.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnCountryChanging(value);
 				this.SendPropertyChanging();
 				this._Country = value;
@@ -2292,6 +5830,11 @@ public partial class LIC : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Language != value))
 			{
+				if (((this._LanguageLanguage.HasLoadedOrAssignedValue || this.@__LIC__Language__71D1E811.HasLoadedOrAssignedValue) 
+							|| this.@__LIC__Language__797309D9.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnLanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Language = value;
@@ -2472,11 +6015,322 @@ public partial class LIC : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			if ((this._Function_Code != value))
 			{
+				if (((this._Language_Function.HasLoadedOrAssignedValue || this._Function_CodeLanguage_Function.HasLoadedOrAssignedValue) 
+							|| this.@__LIC__Function_Co__7A672E12.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnFunction_CodeChanging(value);
 				this.SendPropertyChanging();
 				this._Function_Code = value;
 				this.SendPropertyChanged("Function_Code");
 				this.OnFunction_CodeChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Country__0D7A0286", Storage="_CountryCountry", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country CountryCountry
+	{
+		get
+		{
+			return this._CountryCountry.Entity;
+		}
+		set
+		{
+			Country previousValue = this._CountryCountry.Entity;
+			if (((previousValue != value) 
+						|| (this._CountryCountry.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._CountryCountry.Entity = null;
+					previousValue.LIC.Remove(this);
+				}
+				this._CountryCountry.Entity = value;
+				if ((value != null))
+				{
+					value.LIC.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("CountryCountry");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Country__70DDC3D8", Storage="__LIC__Country__70DDC3D8", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country _LIC__Country__70DDC3D8
+	{
+		get
+		{
+			return this.@__LIC__Country__70DDC3D8.Entity;
+		}
+		set
+		{
+			Country previousValue = this.@__LIC__Country__70DDC3D8.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LIC__Country__70DDC3D8.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LIC__Country__70DDC3D8.Entity = null;
+					previousValue.IsoLIC.Remove(this);
+				}
+				this.@__LIC__Country__70DDC3D8.Entity = value;
+				if ((value != null))
+				{
+					value.IsoLIC.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("_LIC__Country__70DDC3D8");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Country__787EE5A0", Storage="__LIC__Country__787EE5A0", ThisKey="Country", OtherKey="Iso", IsForeignKey=true)]
+	public Country _LIC__Country__787EE5A0
+	{
+		get
+		{
+			return this.@__LIC__Country__787EE5A0.Entity;
+		}
+		set
+		{
+			Country previousValue = this.@__LIC__Country__787EE5A0.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LIC__Country__787EE5A0.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LIC__Country__787EE5A0.Entity = null;
+					previousValue._LIC__Country__787EE5A0.Remove(this);
+				}
+				this.@__LIC__Country__787EE5A0.Entity = value;
+				if ((value != null))
+				{
+					value._LIC__Country__787EE5A0.Add(this);
+					this._Country = value.Iso;
+				}
+				else
+				{
+					this._Country = default(string);
+				}
+				this.SendPropertyChanged("_LIC__Country__787EE5A0");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Function_Co__0F624AF8", Storage="_Language_Function", ThisKey="Function_Code", OtherKey="Function_Code", IsForeignKey=true)]
+	public Language_Function Language_Function
+	{
+		get
+		{
+			return this._Language_Function.Entity;
+		}
+		set
+		{
+			Language_Function previousValue = this._Language_Function.Entity;
+			if (((previousValue != value) 
+						|| (this._Language_Function.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Language_Function.Entity = null;
+					previousValue.LIC.Remove(this);
+				}
+				this._Language_Function.Entity = value;
+				if ((value != null))
+				{
+					value.LIC.Add(this);
+					this._Function_Code = value.Function_Code;
+				}
+				else
+				{
+					this._Function_Code = default(string);
+				}
+				this.SendPropertyChanged("Language_Function");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Function_Co__72C60C4A", Storage="_Function_CodeLanguage_Function", ThisKey="Function_Code", OtherKey="Function_Code", IsForeignKey=true)]
+	public Language_Function Function_CodeLanguage_Function
+	{
+		get
+		{
+			return this._Function_CodeLanguage_Function.Entity;
+		}
+		set
+		{
+			Language_Function previousValue = this._Function_CodeLanguage_Function.Entity;
+			if (((previousValue != value) 
+						|| (this._Function_CodeLanguage_Function.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Function_CodeLanguage_Function.Entity = null;
+					previousValue.Function_CodeLIC.Remove(this);
+				}
+				this._Function_CodeLanguage_Function.Entity = value;
+				if ((value != null))
+				{
+					value.Function_CodeLIC.Add(this);
+					this._Function_Code = value.Function_Code;
+				}
+				else
+				{
+					this._Function_Code = default(string);
+				}
+				this.SendPropertyChanged("Function_CodeLanguage_Function");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Function_Co__7A672E12", Storage="__LIC__Function_Co__7A672E12", ThisKey="Function_Code", OtherKey="Function_Code", IsForeignKey=true)]
+	public Language_Function _LIC__Function_Co__7A672E12
+	{
+		get
+		{
+			return this.@__LIC__Function_Co__7A672E12.Entity;
+		}
+		set
+		{
+			Language_Function previousValue = this.@__LIC__Function_Co__7A672E12.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LIC__Function_Co__7A672E12.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LIC__Function_Co__7A672E12.Entity = null;
+					previousValue._LIC__Function_Co__7A672E12.Remove(this);
+				}
+				this.@__LIC__Function_Co__7A672E12.Entity = value;
+				if ((value != null))
+				{
+					value._LIC__Function_Co__7A672E12.Add(this);
+					this._Function_Code = value.Function_Code;
+				}
+				else
+				{
+					this._Function_Code = default(string);
+				}
+				this.SendPropertyChanged("_LIC__Function_Co__7A672E12");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Language__0E6E26BF", Storage="_LanguageLanguage", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language LanguageLanguage
+	{
+		get
+		{
+			return this._LanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._LanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._LanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._LanguageLanguage.Entity = null;
+					previousValue.LIC.Remove(this);
+				}
+				this._LanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.LIC.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("LanguageLanguage");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Language__71D1E811", Storage="__LIC__Language__71D1E811", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _LIC__Language__71D1E811
+	{
+		get
+		{
+			return this.@__LIC__Language__71D1E811.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__LIC__Language__71D1E811.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LIC__Language__71D1E811.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LIC__Language__71D1E811.Entity = null;
+					previousValue.IsoLIC.Remove(this);
+				}
+				this.@__LIC__Language__71D1E811.Entity = value;
+				if ((value != null))
+				{
+					value.IsoLIC.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_LIC__Language__71D1E811");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__LIC__Language__797309D9", Storage="__LIC__Language__797309D9", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _LIC__Language__797309D9
+	{
+		get
+		{
+			return this.@__LIC__Language__797309D9.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__LIC__Language__797309D9.Entity;
+			if (((previousValue != value) 
+						|| (this.@__LIC__Language__797309D9.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__LIC__Language__797309D9.Entity = null;
+					previousValue._LIC__Language__797309D9.Remove(this);
+				}
+				this.@__LIC__Language__797309D9.Entity = value;
+				if ((value != null))
+				{
+					value._LIC__Language__797309D9.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_LIC__Language__797309D9");
 			}
 		}
 	}
@@ -2512,6 +6366,14 @@ public partial class PhoibleBibtex : INotifyPropertyChanging, INotifyPropertyCha
 	
 	private string _BibtexType;
 	
+	private EntitySet<BibtexParameter> _BibtexParameter;
+	
+	private EntitySet<BibtexParameter> _BibtexKeyBibtexParameter;
+	
+	private EntitySet<InventoryBibtex> _InventoryBibtex;
+	
+	private EntitySet<InventoryBibtex> _BibtexKeyInventoryBibtex;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -2524,6 +6386,10 @@ public partial class PhoibleBibtex : INotifyPropertyChanging, INotifyPropertyCha
 	
 	public PhoibleBibtex()
 	{
+		this._BibtexParameter = new EntitySet<BibtexParameter>(new Action<BibtexParameter>(this.attach_BibtexParameter), new Action<BibtexParameter>(this.detach_BibtexParameter));
+		this._BibtexKeyBibtexParameter = new EntitySet<BibtexParameter>(new Action<BibtexParameter>(this.attach_BibtexKeyBibtexParameter), new Action<BibtexParameter>(this.detach_BibtexKeyBibtexParameter));
+		this._InventoryBibtex = new EntitySet<InventoryBibtex>(new Action<InventoryBibtex>(this.attach_InventoryBibtex), new Action<InventoryBibtex>(this.detach_InventoryBibtex));
+		this._BibtexKeyInventoryBibtex = new EntitySet<InventoryBibtex>(new Action<InventoryBibtex>(this.attach_BibtexKeyInventoryBibtex), new Action<InventoryBibtex>(this.detach_BibtexKeyInventoryBibtex));
 		OnCreated();
 	}
 	
@@ -2567,6 +6433,58 @@ public partial class PhoibleBibtex : INotifyPropertyChanging, INotifyPropertyCha
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__BibtexPar__Bibte__03F0984C", Storage="_BibtexParameter", ThisKey="BibtexKey", OtherKey="Bibtex", DeleteRule="NO ACTION")]
+	public EntitySet<BibtexParameter> BibtexParameter
+	{
+		get
+		{
+			return this._BibtexParameter;
+		}
+		set
+		{
+			this._BibtexParameter.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__BibtexPar__Bibte__18EBB532", Storage="_BibtexKeyBibtexParameter", ThisKey="BibtexKey", OtherKey="Bibtex", DeleteRule="NO ACTION")]
+	public EntitySet<BibtexParameter> BibtexKeyBibtexParameter
+	{
+		get
+		{
+			return this._BibtexKeyBibtexParameter;
+		}
+		set
+		{
+			this._BibtexKeyBibtexParameter.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Bibte__05D8E0BE", Storage="_InventoryBibtex", ThisKey="BibtexKey", OtherKey="Bibtex", DeleteRule="NO ACTION")]
+	public EntitySet<InventoryBibtex> InventoryBibtex
+	{
+		get
+		{
+			return this._InventoryBibtex;
+		}
+		set
+		{
+			this._InventoryBibtex.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Bibte__1AD3FDA4", Storage="_BibtexKeyInventoryBibtex", ThisKey="BibtexKey", OtherKey="Bibtex", DeleteRule="NO ACTION")]
+	public EntitySet<InventoryBibtex> BibtexKeyInventoryBibtex
+	{
+		get
+		{
+			return this._BibtexKeyInventoryBibtex;
+		}
+		set
+		{
+			this._BibtexKeyInventoryBibtex.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -2586,6 +6504,54 @@ public partial class PhoibleBibtex : INotifyPropertyChanging, INotifyPropertyCha
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_BibtexParameter(BibtexParameter entity)
+	{
+		this.SendPropertyChanging();
+		entity.PhoibleBibtex = this;
+	}
+	
+	private void detach_BibtexParameter(BibtexParameter entity)
+	{
+		this.SendPropertyChanging();
+		entity.PhoibleBibtex = null;
+	}
+	
+	private void attach_BibtexKeyBibtexParameter(BibtexParameter entity)
+	{
+		this.SendPropertyChanging();
+		entity.BibtexPhoibleBibtex = this;
+	}
+	
+	private void detach_BibtexKeyBibtexParameter(BibtexParameter entity)
+	{
+		this.SendPropertyChanging();
+		entity.BibtexPhoibleBibtex = null;
+	}
+	
+	private void attach_InventoryBibtex(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.PhoibleBibtex = this;
+	}
+	
+	private void detach_InventoryBibtex(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.PhoibleBibtex = null;
+	}
+	
+	private void attach_BibtexKeyInventoryBibtex(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.BibtexPhoibleBibtex = this;
+	}
+	
+	private void detach_BibtexKeyInventoryBibtex(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.BibtexPhoibleBibtex = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Phonemefeature")]
@@ -2601,6 +6567,12 @@ public partial class Phonemefeature : INotifyPropertyChanging, INotifyPropertyCh
 	private string _Abbrev;
 	
 	private System.Nullable<int> _Category;
+	
+	private EntitySet<Soundfeature> _Soundfeature;
+	
+	private EntitySet<Soundfeature> @__Soundfeat__Featu__778AC167;
+	
+	private EntitySet<Soundfeature> @__Soundfeat__Featu__7F2BE32F;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -2618,6 +6590,9 @@ public partial class Phonemefeature : INotifyPropertyChanging, INotifyPropertyCh
 	
 	public Phonemefeature()
 	{
+		this._Soundfeature = new EntitySet<Soundfeature>(new Action<Soundfeature>(this.attach_Soundfeature), new Action<Soundfeature>(this.detach_Soundfeature));
+		this.@__Soundfeat__Featu__778AC167 = new EntitySet<Soundfeature>(new Action<Soundfeature>(this.attach__Soundfeat__Featu__778AC167), new Action<Soundfeature>(this.detach__Soundfeat__Featu__778AC167));
+		this.@__Soundfeat__Featu__7F2BE32F = new EntitySet<Soundfeature>(new Action<Soundfeature>(this.attach__Soundfeat__Featu__7F2BE32F), new Action<Soundfeature>(this.detach__Soundfeat__Featu__7F2BE32F));
 		OnCreated();
 	}
 	
@@ -2701,6 +6676,45 @@ public partial class Phonemefeature : INotifyPropertyChanging, INotifyPropertyCh
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Featu__14270015", Storage="_Soundfeature", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<Soundfeature> Soundfeature
+	{
+		get
+		{
+			return this._Soundfeature;
+		}
+		set
+		{
+			this._Soundfeature.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Featu__778AC167", Storage="__Soundfeat__Featu__778AC167", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<Soundfeature> _Soundfeat__Featu__778AC167
+	{
+		get
+		{
+			return this.@__Soundfeat__Featu__778AC167;
+		}
+		set
+		{
+			this.@__Soundfeat__Featu__778AC167.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Featu__7F2BE32F", Storage="__Soundfeat__Featu__7F2BE32F", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<Soundfeature> _Soundfeat__Featu__7F2BE32F
+	{
+		get
+		{
+			return this.@__Soundfeat__Featu__7F2BE32F;
+		}
+		set
+		{
+			this.@__Soundfeat__Featu__7F2BE32F.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -2720,6 +6734,42 @@ public partial class Phonemefeature : INotifyPropertyChanging, INotifyPropertyCh
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Soundfeature(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.Phonemefeature = this;
+	}
+	
+	private void detach_Soundfeature(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.Phonemefeature = null;
+	}
+	
+	private void attach__Soundfeat__Featu__778AC167(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.FeaturePhonemefeature = this;
+	}
+	
+	private void detach__Soundfeat__Featu__778AC167(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.FeaturePhonemefeature = null;
+	}
+	
+	private void attach__Soundfeat__Featu__7F2BE32F(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundfeat__Featu__7F2BE32F = this;
+	}
+	
+	private void detach__Soundfeat__Featu__7F2BE32F(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundfeat__Featu__7F2BE32F = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Phonemeinventory")]
@@ -2733,6 +6783,20 @@ public partial class Phonemeinventory : INotifyPropertyChanging, INotifyProperty
 	private string _Language;
 	
 	private string _Dialect;
+	
+	private EntitySet<InventoryBibtex> _InventoryBibtex;
+	
+	private EntitySet<InventoryBibtex> @__Inventory__Inven__19DFD96B;
+	
+	private EntityRef<Language> _LanguageLanguage;
+	
+	private EntityRef<Language> @__Phonemein__Langu__75A278F5;
+	
+	private EntityRef<Language> @__Phonemein__Langu__7D439ABD;
+	
+	private EntitySet<Soundininventory> _Soundininventory;
+	
+	private EntitySet<Soundininventory> @__Soundinin__Inven__151B244E;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -2748,6 +6812,13 @@ public partial class Phonemeinventory : INotifyPropertyChanging, INotifyProperty
 	
 	public Phonemeinventory()
 	{
+		this._InventoryBibtex = new EntitySet<InventoryBibtex>(new Action<InventoryBibtex>(this.attach_InventoryBibtex), new Action<InventoryBibtex>(this.detach_InventoryBibtex));
+		this.@__Inventory__Inven__19DFD96B = new EntitySet<InventoryBibtex>(new Action<InventoryBibtex>(this.attach__Inventory__Inven__19DFD96B), new Action<InventoryBibtex>(this.detach__Inventory__Inven__19DFD96B));
+		this._LanguageLanguage = default(EntityRef<Language>);
+		this.@__Phonemein__Langu__75A278F5 = default(EntityRef<Language>);
+		this.@__Phonemein__Langu__7D439ABD = default(EntityRef<Language>);
+		this._Soundininventory = new EntitySet<Soundininventory>(new Action<Soundininventory>(this.attach_Soundininventory), new Action<Soundininventory>(this.detach_Soundininventory));
+		this.@__Soundinin__Inven__151B244E = new EntitySet<Soundininventory>(new Action<Soundininventory>(this.attach__Soundinin__Inven__151B244E), new Action<Soundininventory>(this.detach__Soundinin__Inven__151B244E));
 		OnCreated();
 	}
 	
@@ -2782,6 +6853,11 @@ public partial class Phonemeinventory : INotifyPropertyChanging, INotifyProperty
 		{
 			if ((this._Language != value))
 			{
+				if (((this._LanguageLanguage.HasLoadedOrAssignedValue || this.@__Phonemein__Langu__75A278F5.HasLoadedOrAssignedValue) 
+							|| this.@__Phonemein__Langu__7D439ABD.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnLanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Language = value;
@@ -2811,6 +6887,160 @@ public partial class Phonemeinventory : INotifyPropertyChanging, INotifyProperty
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Inven__04E4BC85", Storage="_InventoryBibtex", ThisKey="Id", OtherKey="Inventory", DeleteRule="NO ACTION")]
+	public EntitySet<InventoryBibtex> InventoryBibtex
+	{
+		get
+		{
+			return this._InventoryBibtex;
+		}
+		set
+		{
+			this._InventoryBibtex.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Inventory__Inven__19DFD96B", Storage="__Inventory__Inven__19DFD96B", ThisKey="Id", OtherKey="Inventory", DeleteRule="NO ACTION")]
+	public EntitySet<InventoryBibtex> _Inventory__Inven__19DFD96B
+	{
+		get
+		{
+			return this.@__Inventory__Inven__19DFD96B;
+		}
+		set
+		{
+			this.@__Inventory__Inven__19DFD96B.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Phonemein__Langu__123EB7A3", Storage="_LanguageLanguage", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language LanguageLanguage
+	{
+		get
+		{
+			return this._LanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._LanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._LanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._LanguageLanguage.Entity = null;
+					previousValue.Phonemeinventory.Remove(this);
+				}
+				this._LanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.Phonemeinventory.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("LanguageLanguage");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Phonemein__Langu__75A278F5", Storage="__Phonemein__Langu__75A278F5", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _Phonemein__Langu__75A278F5
+	{
+		get
+		{
+			return this.@__Phonemein__Langu__75A278F5.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__Phonemein__Langu__75A278F5.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Phonemein__Langu__75A278F5.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Phonemein__Langu__75A278F5.Entity = null;
+					previousValue.IsoPhonemeinventory.Remove(this);
+				}
+				this.@__Phonemein__Langu__75A278F5.Entity = value;
+				if ((value != null))
+				{
+					value.IsoPhonemeinventory.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_Phonemein__Langu__75A278F5");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Phonemein__Langu__7D439ABD", Storage="__Phonemein__Langu__7D439ABD", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _Phonemein__Langu__7D439ABD
+	{
+		get
+		{
+			return this.@__Phonemein__Langu__7D439ABD.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__Phonemein__Langu__7D439ABD.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Phonemein__Langu__7D439ABD.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Phonemein__Langu__7D439ABD.Entity = null;
+					previousValue._Phonemein__Langu__7D439ABD.Remove(this);
+				}
+				this.@__Phonemein__Langu__7D439ABD.Entity = value;
+				if ((value != null))
+				{
+					value._Phonemein__Langu__7D439ABD.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_Phonemein__Langu__7D439ABD");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Inven__00200768", Storage="_Soundininventory", ThisKey="Id", OtherKey="Inventory", DeleteRule="NO ACTION")]
+	public EntitySet<Soundininventory> Soundininventory
+	{
+		get
+		{
+			return this._Soundininventory;
+		}
+		set
+		{
+			this._Soundininventory.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Inven__151B244E", Storage="__Soundinin__Inven__151B244E", ThisKey="Id", OtherKey="Inventory", DeleteRule="NO ACTION")]
+	public EntitySet<Soundininventory> _Soundinin__Inven__151B244E
+	{
+		get
+		{
+			return this.@__Soundinin__Inven__151B244E;
+		}
+		set
+		{
+			this.@__Soundinin__Inven__151B244E.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -2830,6 +7060,54 @@ public partial class Phonemeinventory : INotifyPropertyChanging, INotifyProperty
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_InventoryBibtex(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.Phonemeinventory = this;
+	}
+	
+	private void detach_InventoryBibtex(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.Phonemeinventory = null;
+	}
+	
+	private void attach__Inventory__Inven__19DFD96B(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.InventoryPhonemeinventory = this;
+	}
+	
+	private void detach__Inventory__Inven__19DFD96B(InventoryBibtex entity)
+	{
+		this.SendPropertyChanging();
+		entity.InventoryPhonemeinventory = null;
+	}
+	
+	private void attach_Soundininventory(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.Phonemeinventory = this;
+	}
+	
+	private void detach_Soundininventory(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.Phonemeinventory = null;
+	}
+	
+	private void attach__Soundinin__Inven__151B244E(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.InventoryPhonemeinventory = this;
+	}
+	
+	private void detach__Soundinin__Inven__151B244E(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.InventoryPhonemeinventory = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Region")]
@@ -2841,6 +7119,10 @@ public partial class Region : INotifyPropertyChanging, INotifyPropertyChanged
 	private string _Code;
 	
 	private string _Name;
+	
+	private EntitySet<Country> _Country;
+	
+	private EntitySet<Language> _Language;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -2854,6 +7136,8 @@ public partial class Region : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public Region()
 	{
+		this._Country = new EntitySet<Country>(new Action<Country>(this.attach_Country), new Action<Country>(this.detach_Country));
+		this._Language = new EntitySet<Language>(new Action<Language>(this.attach_Language), new Action<Language>(this.detach_Language));
 		OnCreated();
 	}
 	
@@ -2897,6 +7181,32 @@ public partial class Region : INotifyPropertyChanging, INotifyPropertyChanged
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Country__Region__6B24EA82", Storage="_Country", ThisKey="Code", OtherKey="Region", DeleteRule="NO ACTION")]
+	public EntitySet<Country> Country
+	{
+		get
+		{
+			return this._Country;
+		}
+		set
+		{
+			this._Country.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Language__Region__6D0D32F4", Storage="_Language", ThisKey="Code", OtherKey="Region", DeleteRule="NO ACTION")]
+	public EntitySet<Language> Language
+	{
+		get
+		{
+			return this._Language;
+		}
+		set
+		{
+			this._Language.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -2915,6 +7225,30 @@ public partial class Region : INotifyPropertyChanging, INotifyPropertyChanged
 		{
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
+	}
+	
+	private void attach_Country(Country entity)
+	{
+		this.SendPropertyChanging();
+		entity.RegionRegion = this;
+	}
+	
+	private void detach_Country(Country entity)
+	{
+		this.SendPropertyChanging();
+		entity.RegionRegion = null;
+	}
+	
+	private void attach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.RegionRegion = this;
+	}
+	
+	private void detach_Language(Language entity)
+	{
+		this.SendPropertyChanging();
+		entity.RegionRegion = null;
 	}
 }
 
@@ -2944,6 +7278,20 @@ public partial class Sound : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	private string _Source;
 	
+	private EntitySet<Allophone> _Allophone;
+	
+	private EntitySet<Allophone> @__Allophone__Sound__17036CC0;
+	
+	private EntitySet<Soundfeature> _Soundfeature;
+	
+	private EntitySet<Soundfeature> @__Soundfeat__Sound__76969D2E;
+	
+	private EntitySet<Soundfeature> @__Soundfeat__Sound__7E37BEF6;
+	
+	private EntitySet<Soundininventory> _Soundininventory;
+	
+	private EntitySet<Soundininventory> @__Soundinin__Sound__160F4887;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -2972,6 +7320,13 @@ public partial class Sound : INotifyPropertyChanging, INotifyPropertyChanged
 	
 	public Sound()
 	{
+		this._Allophone = new EntitySet<Allophone>(new Action<Allophone>(this.attach_Allophone), new Action<Allophone>(this.detach_Allophone));
+		this.@__Allophone__Sound__17036CC0 = new EntitySet<Allophone>(new Action<Allophone>(this.attach__Allophone__Sound__17036CC0), new Action<Allophone>(this.detach__Allophone__Sound__17036CC0));
+		this._Soundfeature = new EntitySet<Soundfeature>(new Action<Soundfeature>(this.attach_Soundfeature), new Action<Soundfeature>(this.detach_Soundfeature));
+		this.@__Soundfeat__Sound__76969D2E = new EntitySet<Soundfeature>(new Action<Soundfeature>(this.attach__Soundfeat__Sound__76969D2E), new Action<Soundfeature>(this.detach__Soundfeat__Sound__76969D2E));
+		this.@__Soundfeat__Sound__7E37BEF6 = new EntitySet<Soundfeature>(new Action<Soundfeature>(this.attach__Soundfeat__Sound__7E37BEF6), new Action<Soundfeature>(this.detach__Soundfeat__Sound__7E37BEF6));
+		this._Soundininventory = new EntitySet<Soundininventory>(new Action<Soundininventory>(this.attach_Soundininventory), new Action<Soundininventory>(this.detach_Soundininventory));
+		this.@__Soundinin__Sound__160F4887 = new EntitySet<Soundininventory>(new Action<Soundininventory>(this.attach__Soundinin__Sound__160F4887), new Action<Soundininventory>(this.detach__Soundinin__Sound__160F4887));
 		OnCreated();
 	}
 	
@@ -3175,6 +7530,97 @@ public partial class Sound : INotifyPropertyChanging, INotifyPropertyChanged
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Sound__02084FDA", Storage="_Allophone", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Allophone> Allophone
+	{
+		get
+		{
+			return this._Allophone;
+		}
+		set
+		{
+			this._Allophone.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Sound__17036CC0", Storage="__Allophone__Sound__17036CC0", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Allophone> _Allophone__Sound__17036CC0
+	{
+		get
+		{
+			return this.@__Allophone__Sound__17036CC0;
+		}
+		set
+		{
+			this.@__Allophone__Sound__17036CC0.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Sound__1332DBDC", Storage="_Soundfeature", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Soundfeature> Soundfeature
+	{
+		get
+		{
+			return this._Soundfeature;
+		}
+		set
+		{
+			this._Soundfeature.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Sound__76969D2E", Storage="__Soundfeat__Sound__76969D2E", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Soundfeature> _Soundfeat__Sound__76969D2E
+	{
+		get
+		{
+			return this.@__Soundfeat__Sound__76969D2E;
+		}
+		set
+		{
+			this.@__Soundfeat__Sound__76969D2E.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Sound__7E37BEF6", Storage="__Soundfeat__Sound__7E37BEF6", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Soundfeature> _Soundfeat__Sound__7E37BEF6
+	{
+		get
+		{
+			return this.@__Soundfeat__Sound__7E37BEF6;
+		}
+		set
+		{
+			this.@__Soundfeat__Sound__7E37BEF6.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Sound__01142BA1", Storage="_Soundininventory", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Soundininventory> Soundininventory
+	{
+		get
+		{
+			return this._Soundininventory;
+		}
+		set
+		{
+			this._Soundininventory.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Sound__160F4887", Storage="__Soundinin__Sound__160F4887", ThisKey="Id", OtherKey="Sound", DeleteRule="NO ACTION")]
+	public EntitySet<Soundininventory> _Soundinin__Sound__160F4887
+	{
+		get
+		{
+			return this.@__Soundinin__Sound__160F4887;
+		}
+		set
+		{
+			this.@__Soundinin__Sound__160F4887.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -3194,6 +7640,90 @@ public partial class Sound : INotifyPropertyChanging, INotifyPropertyChanged
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Allophone(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity.SoundSound = this;
+	}
+	
+	private void detach_Allophone(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity.SoundSound = null;
+	}
+	
+	private void attach__Allophone__Sound__17036CC0(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity._Allophone__Sound__17036CC0 = this;
+	}
+	
+	private void detach__Allophone__Sound__17036CC0(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity._Allophone__Sound__17036CC0 = null;
+	}
+	
+	private void attach_Soundfeature(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.SoundSound = this;
+	}
+	
+	private void detach_Soundfeature(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.SoundSound = null;
+	}
+	
+	private void attach__Soundfeat__Sound__76969D2E(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundfeat__Sound__76969D2E = this;
+	}
+	
+	private void detach__Soundfeat__Sound__76969D2E(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundfeat__Sound__76969D2E = null;
+	}
+	
+	private void attach__Soundfeat__Sound__7E37BEF6(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundfeat__Sound__7E37BEF6 = this;
+	}
+	
+	private void detach__Soundfeat__Sound__7E37BEF6(Soundfeature entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundfeat__Sound__7E37BEF6 = null;
+	}
+	
+	private void attach_Soundininventory(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.SoundSound = this;
+	}
+	
+	private void detach_Soundininventory(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity.SoundSound = null;
+	}
+	
+	private void attach__Soundinin__Sound__160F4887(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundinin__Sound__160F4887 = this;
+	}
+	
+	private void detach__Soundinin__Sound__160F4887(Soundininventory entity)
+	{
+		this.SendPropertyChanging();
+		entity._Soundinin__Sound__160F4887 = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Soundfeature")]
@@ -3209,6 +7739,18 @@ public partial class Soundfeature : INotifyPropertyChanging, INotifyPropertyChan
 	private int _Feature;
 	
 	private string _Value;
+	
+	private EntityRef<Phonemefeature> _Phonemefeature;
+	
+	private EntityRef<Phonemefeature> _FeaturePhonemefeature;
+	
+	private EntityRef<Phonemefeature> @__Soundfeat__Featu__7F2BE32F;
+	
+	private EntityRef<Sound> _SoundSound;
+	
+	private EntityRef<Sound> @__Soundfeat__Sound__76969D2E;
+	
+	private EntityRef<Sound> @__Soundfeat__Sound__7E37BEF6;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3226,6 +7768,12 @@ public partial class Soundfeature : INotifyPropertyChanging, INotifyPropertyChan
 	
 	public Soundfeature()
 	{
+		this._Phonemefeature = default(EntityRef<Phonemefeature>);
+		this._FeaturePhonemefeature = default(EntityRef<Phonemefeature>);
+		this.@__Soundfeat__Featu__7F2BE32F = default(EntityRef<Phonemefeature>);
+		this._SoundSound = default(EntityRef<Sound>);
+		this.@__Soundfeat__Sound__76969D2E = default(EntityRef<Sound>);
+		this.@__Soundfeat__Sound__7E37BEF6 = default(EntityRef<Sound>);
 		OnCreated();
 	}
 	
@@ -3260,6 +7808,11 @@ public partial class Soundfeature : INotifyPropertyChanging, INotifyPropertyChan
 		{
 			if ((this._Sound != value))
 			{
+				if (((this._SoundSound.HasLoadedOrAssignedValue || this.@__Soundfeat__Sound__76969D2E.HasLoadedOrAssignedValue) 
+							|| this.@__Soundfeat__Sound__7E37BEF6.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnSoundChanging(value);
 				this.SendPropertyChanging();
 				this._Sound = value;
@@ -3280,6 +7833,11 @@ public partial class Soundfeature : INotifyPropertyChanging, INotifyPropertyChan
 		{
 			if ((this._Feature != value))
 			{
+				if (((this._Phonemefeature.HasLoadedOrAssignedValue || this._FeaturePhonemefeature.HasLoadedOrAssignedValue) 
+							|| this.@__Soundfeat__Featu__7F2BE32F.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnFeatureChanging(value);
 				this.SendPropertyChanging();
 				this._Feature = value;
@@ -3305,6 +7863,210 @@ public partial class Soundfeature : INotifyPropertyChanging, INotifyPropertyChan
 				this._Value = value;
 				this.SendPropertyChanged("Value");
 				this.OnValueChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Featu__14270015", Storage="_Phonemefeature", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public Phonemefeature Phonemefeature
+	{
+		get
+		{
+			return this._Phonemefeature.Entity;
+		}
+		set
+		{
+			Phonemefeature previousValue = this._Phonemefeature.Entity;
+			if (((previousValue != value) 
+						|| (this._Phonemefeature.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Phonemefeature.Entity = null;
+					previousValue.Soundfeature.Remove(this);
+				}
+				this._Phonemefeature.Entity = value;
+				if ((value != null))
+				{
+					value.Soundfeature.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("Phonemefeature");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Featu__778AC167", Storage="_FeaturePhonemefeature", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public Phonemefeature FeaturePhonemefeature
+	{
+		get
+		{
+			return this._FeaturePhonemefeature.Entity;
+		}
+		set
+		{
+			Phonemefeature previousValue = this._FeaturePhonemefeature.Entity;
+			if (((previousValue != value) 
+						|| (this._FeaturePhonemefeature.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._FeaturePhonemefeature.Entity = null;
+					previousValue._Soundfeat__Featu__778AC167.Remove(this);
+				}
+				this._FeaturePhonemefeature.Entity = value;
+				if ((value != null))
+				{
+					value._Soundfeat__Featu__778AC167.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("FeaturePhonemefeature");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Featu__7F2BE32F", Storage="__Soundfeat__Featu__7F2BE32F", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public Phonemefeature _Soundfeat__Featu__7F2BE32F
+	{
+		get
+		{
+			return this.@__Soundfeat__Featu__7F2BE32F.Entity;
+		}
+		set
+		{
+			Phonemefeature previousValue = this.@__Soundfeat__Featu__7F2BE32F.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Soundfeat__Featu__7F2BE32F.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Soundfeat__Featu__7F2BE32F.Entity = null;
+					previousValue._Soundfeat__Featu__7F2BE32F.Remove(this);
+				}
+				this.@__Soundfeat__Featu__7F2BE32F.Entity = value;
+				if ((value != null))
+				{
+					value._Soundfeat__Featu__7F2BE32F.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("_Soundfeat__Featu__7F2BE32F");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Sound__1332DBDC", Storage="_SoundSound", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound SoundSound
+	{
+		get
+		{
+			return this._SoundSound.Entity;
+		}
+		set
+		{
+			Sound previousValue = this._SoundSound.Entity;
+			if (((previousValue != value) 
+						|| (this._SoundSound.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._SoundSound.Entity = null;
+					previousValue.Soundfeature.Remove(this);
+				}
+				this._SoundSound.Entity = value;
+				if ((value != null))
+				{
+					value.Soundfeature.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("SoundSound");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Sound__76969D2E", Storage="__Soundfeat__Sound__76969D2E", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound _Soundfeat__Sound__76969D2E
+	{
+		get
+		{
+			return this.@__Soundfeat__Sound__76969D2E.Entity;
+		}
+		set
+		{
+			Sound previousValue = this.@__Soundfeat__Sound__76969D2E.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Soundfeat__Sound__76969D2E.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Soundfeat__Sound__76969D2E.Entity = null;
+					previousValue._Soundfeat__Sound__76969D2E.Remove(this);
+				}
+				this.@__Soundfeat__Sound__76969D2E.Entity = value;
+				if ((value != null))
+				{
+					value._Soundfeat__Sound__76969D2E.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("_Soundfeat__Sound__76969D2E");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundfeat__Sound__7E37BEF6", Storage="__Soundfeat__Sound__7E37BEF6", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound _Soundfeat__Sound__7E37BEF6
+	{
+		get
+		{
+			return this.@__Soundfeat__Sound__7E37BEF6.Entity;
+		}
+		set
+		{
+			Sound previousValue = this.@__Soundfeat__Sound__7E37BEF6.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Soundfeat__Sound__7E37BEF6.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Soundfeat__Sound__7E37BEF6.Entity = null;
+					previousValue._Soundfeat__Sound__7E37BEF6.Remove(this);
+				}
+				this.@__Soundfeat__Sound__7E37BEF6.Entity = value;
+				if ((value != null))
+				{
+					value._Soundfeat__Sound__7E37BEF6.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("_Soundfeat__Sound__7E37BEF6");
 			}
 		}
 	}
@@ -3342,6 +8104,18 @@ public partial class Soundininventory : INotifyPropertyChanging, INotifyProperty
 	
 	private int _Sound;
 	
+	private EntitySet<Allophone> _Allophone;
+	
+	private EntitySet<Allophone> @__Allophone__Allop__17F790F9;
+	
+	private EntityRef<Phonemeinventory> _Phonemeinventory;
+	
+	private EntityRef<Phonemeinventory> _InventoryPhonemeinventory;
+	
+	private EntityRef<Sound> _SoundSound;
+	
+	private EntityRef<Sound> @__Soundinin__Sound__160F4887;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -3356,6 +8130,12 @@ public partial class Soundininventory : INotifyPropertyChanging, INotifyProperty
 	
 	public Soundininventory()
 	{
+		this._Allophone = new EntitySet<Allophone>(new Action<Allophone>(this.attach_Allophone), new Action<Allophone>(this.detach_Allophone));
+		this.@__Allophone__Allop__17F790F9 = new EntitySet<Allophone>(new Action<Allophone>(this.attach__Allophone__Allop__17F790F9), new Action<Allophone>(this.detach__Allophone__Allop__17F790F9));
+		this._Phonemeinventory = default(EntityRef<Phonemeinventory>);
+		this._InventoryPhonemeinventory = default(EntityRef<Phonemeinventory>);
+		this._SoundSound = default(EntityRef<Sound>);
+		this.@__Soundinin__Sound__160F4887 = default(EntityRef<Sound>);
 		OnCreated();
 	}
 	
@@ -3390,6 +8170,10 @@ public partial class Soundininventory : INotifyPropertyChanging, INotifyProperty
 		{
 			if ((this._Inventory != value))
 			{
+				if ((this._Phonemeinventory.HasLoadedOrAssignedValue || this._InventoryPhonemeinventory.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnInventoryChanging(value);
 				this.SendPropertyChanging();
 				this._Inventory = value;
@@ -3410,11 +8194,177 @@ public partial class Soundininventory : INotifyPropertyChanging, INotifyProperty
 		{
 			if ((this._Sound != value))
 			{
+				if ((this._SoundSound.HasLoadedOrAssignedValue || this.@__Soundinin__Sound__160F4887.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnSoundChanging(value);
 				this.SendPropertyChanging();
 				this._Sound = value;
 				this.SendPropertyChanged("Sound");
 				this.OnSoundChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Allop__02FC7413", Storage="_Allophone", ThisKey="Id", OtherKey="AllophoneOf", DeleteRule="NO ACTION")]
+	public EntitySet<Allophone> Allophone
+	{
+		get
+		{
+			return this._Allophone;
+		}
+		set
+		{
+			this._Allophone.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Allophone__Allop__17F790F9", Storage="__Allophone__Allop__17F790F9", ThisKey="Id", OtherKey="AllophoneOf", DeleteRule="NO ACTION")]
+	public EntitySet<Allophone> _Allophone__Allop__17F790F9
+	{
+		get
+		{
+			return this.@__Allophone__Allop__17F790F9;
+		}
+		set
+		{
+			this.@__Allophone__Allop__17F790F9.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Inven__00200768", Storage="_Phonemeinventory", ThisKey="Inventory", OtherKey="Id", IsForeignKey=true)]
+	public Phonemeinventory Phonemeinventory
+	{
+		get
+		{
+			return this._Phonemeinventory.Entity;
+		}
+		set
+		{
+			Phonemeinventory previousValue = this._Phonemeinventory.Entity;
+			if (((previousValue != value) 
+						|| (this._Phonemeinventory.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Phonemeinventory.Entity = null;
+					previousValue.Soundininventory.Remove(this);
+				}
+				this._Phonemeinventory.Entity = value;
+				if ((value != null))
+				{
+					value.Soundininventory.Add(this);
+					this._Inventory = value.Id;
+				}
+				else
+				{
+					this._Inventory = default(int);
+				}
+				this.SendPropertyChanged("Phonemeinventory");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Inven__151B244E", Storage="_InventoryPhonemeinventory", ThisKey="Inventory", OtherKey="Id", IsForeignKey=true)]
+	public Phonemeinventory InventoryPhonemeinventory
+	{
+		get
+		{
+			return this._InventoryPhonemeinventory.Entity;
+		}
+		set
+		{
+			Phonemeinventory previousValue = this._InventoryPhonemeinventory.Entity;
+			if (((previousValue != value) 
+						|| (this._InventoryPhonemeinventory.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._InventoryPhonemeinventory.Entity = null;
+					previousValue._Soundinin__Inven__151B244E.Remove(this);
+				}
+				this._InventoryPhonemeinventory.Entity = value;
+				if ((value != null))
+				{
+					value._Soundinin__Inven__151B244E.Add(this);
+					this._Inventory = value.Id;
+				}
+				else
+				{
+					this._Inventory = default(int);
+				}
+				this.SendPropertyChanged("InventoryPhonemeinventory");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Sound__01142BA1", Storage="_SoundSound", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound SoundSound
+	{
+		get
+		{
+			return this._SoundSound.Entity;
+		}
+		set
+		{
+			Sound previousValue = this._SoundSound.Entity;
+			if (((previousValue != value) 
+						|| (this._SoundSound.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._SoundSound.Entity = null;
+					previousValue.Soundininventory.Remove(this);
+				}
+				this._SoundSound.Entity = value;
+				if ((value != null))
+				{
+					value.Soundininventory.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("SoundSound");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Soundinin__Sound__160F4887", Storage="__Soundinin__Sound__160F4887", ThisKey="Sound", OtherKey="Id", IsForeignKey=true)]
+	public Sound _Soundinin__Sound__160F4887
+	{
+		get
+		{
+			return this.@__Soundinin__Sound__160F4887.Entity;
+		}
+		set
+		{
+			Sound previousValue = this.@__Soundinin__Sound__160F4887.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Soundinin__Sound__160F4887.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Soundinin__Sound__160F4887.Entity = null;
+					previousValue._Soundinin__Sound__160F4887.Remove(this);
+				}
+				this.@__Soundinin__Sound__160F4887.Entity = value;
+				if ((value != null))
+				{
+					value._Soundinin__Sound__160F4887.Add(this);
+					this._Sound = value.Id;
+				}
+				else
+				{
+					this._Sound = default(int);
+				}
+				this.SendPropertyChanged("_Soundinin__Sound__160F4887");
 			}
 		}
 	}
@@ -3438,6 +8388,30 @@ public partial class Soundininventory : INotifyPropertyChanging, INotifyProperty
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Allophone(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity.Soundininventory = this;
+	}
+	
+	private void detach_Allophone(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity.Soundininventory = null;
+	}
+	
+	private void attach__Allophone__Allop__17F790F9(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity.AllophoneOfSoundininventory = this;
+	}
+	
+	private void detach__Allophone__Allop__17F790F9(Allophone entity)
+	{
+		this.SendPropertyChanging();
+		entity.AllophoneOfSoundininventory = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Swadesh_language")]
@@ -3453,6 +8427,14 @@ public partial class Swadesh_language : INotifyPropertyChanging, INotifyProperty
 	private int _Term;
 	
 	private string _Language;
+	
+	private EntityRef<Language> _LanguageLanguage;
+	
+	private EntityRef<Language> @__Swadesh_l__Langu__2180FB33;
+	
+	private EntityRef<Swadesh_term> _Swadesh_term;
+	
+	private EntityRef<Swadesh_term> _TermSwadesh_term;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3470,6 +8452,10 @@ public partial class Swadesh_language : INotifyPropertyChanging, INotifyProperty
 	
 	public Swadesh_language()
 	{
+		this._LanguageLanguage = default(EntityRef<Language>);
+		this.@__Swadesh_l__Langu__2180FB33 = default(EntityRef<Language>);
+		this._Swadesh_term = default(EntityRef<Swadesh_term>);
+		this._TermSwadesh_term = default(EntityRef<Swadesh_term>);
 		OnCreated();
 	}
 	
@@ -3524,6 +8510,10 @@ public partial class Swadesh_language : INotifyPropertyChanging, INotifyProperty
 		{
 			if ((this._Term != value))
 			{
+				if ((this._Swadesh_term.HasLoadedOrAssignedValue || this._TermSwadesh_term.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnTermChanging(value);
 				this.SendPropertyChanging();
 				this._Term = value;
@@ -3544,11 +8534,151 @@ public partial class Swadesh_language : INotifyPropertyChanging, INotifyProperty
 		{
 			if ((this._Language != value))
 			{
+				if ((this._LanguageLanguage.HasLoadedOrAssignedValue || this.@__Swadesh_l__Langu__2180FB33.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnLanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Language = value;
 				this.SendPropertyChanged("Language");
 				this.OnLanguageChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_l__Langu__0C85DE4D", Storage="_LanguageLanguage", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language LanguageLanguage
+	{
+		get
+		{
+			return this._LanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._LanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._LanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._LanguageLanguage.Entity = null;
+					previousValue.Swadesh_language.Remove(this);
+				}
+				this._LanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.Swadesh_language.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("LanguageLanguage");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_l__Langu__2180FB33", Storage="__Swadesh_l__Langu__2180FB33", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _Swadesh_l__Langu__2180FB33
+	{
+		get
+		{
+			return this.@__Swadesh_l__Langu__2180FB33.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__Swadesh_l__Langu__2180FB33.Entity;
+			if (((previousValue != value) 
+						|| (this.@__Swadesh_l__Langu__2180FB33.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__Swadesh_l__Langu__2180FB33.Entity = null;
+					previousValue.IsoSwadesh_language.Remove(this);
+				}
+				this.@__Swadesh_l__Langu__2180FB33.Entity = value;
+				if ((value != null))
+				{
+					value.IsoSwadesh_language.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_Swadesh_l__Langu__2180FB33");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_la__Term__0B91BA14", Storage="_Swadesh_term", ThisKey="Term", OtherKey="Id", IsForeignKey=true)]
+	public Swadesh_term Swadesh_term
+	{
+		get
+		{
+			return this._Swadesh_term.Entity;
+		}
+		set
+		{
+			Swadesh_term previousValue = this._Swadesh_term.Entity;
+			if (((previousValue != value) 
+						|| (this._Swadesh_term.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._Swadesh_term.Entity = null;
+					previousValue.Swadesh_language.Remove(this);
+				}
+				this._Swadesh_term.Entity = value;
+				if ((value != null))
+				{
+					value.Swadesh_language.Add(this);
+					this._Term = value.Id;
+				}
+				else
+				{
+					this._Term = default(int);
+				}
+				this.SendPropertyChanged("Swadesh_term");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_la__Term__208CD6FA", Storage="_TermSwadesh_term", ThisKey="Term", OtherKey="Id", IsForeignKey=true)]
+	public Swadesh_term TermSwadesh_term
+	{
+		get
+		{
+			return this._TermSwadesh_term.Entity;
+		}
+		set
+		{
+			Swadesh_term previousValue = this._TermSwadesh_term.Entity;
+			if (((previousValue != value) 
+						|| (this._TermSwadesh_term.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._TermSwadesh_term.Entity = null;
+					previousValue._Swadesh_la__Term__208CD6FA.Remove(this);
+				}
+				this._TermSwadesh_term.Entity = value;
+				if ((value != null))
+				{
+					value._Swadesh_la__Term__208CD6FA.Add(this);
+					this._Term = value.Id;
+				}
+				else
+				{
+					this._Term = default(int);
+				}
+				this.SendPropertyChanged("TermSwadesh_term");
 			}
 		}
 	}
@@ -3584,6 +8714,10 @@ public partial class Swadesh_term : INotifyPropertyChanging, INotifyPropertyChan
 	
 	private string _Name;
 	
+	private EntitySet<Swadesh_language> _Swadesh_language;
+	
+	private EntitySet<Swadesh_language> @__Swadesh_la__Term__208CD6FA;
+	
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -3596,6 +8730,8 @@ public partial class Swadesh_term : INotifyPropertyChanging, INotifyPropertyChan
 	
 	public Swadesh_term()
 	{
+		this._Swadesh_language = new EntitySet<Swadesh_language>(new Action<Swadesh_language>(this.attach_Swadesh_language), new Action<Swadesh_language>(this.detach_Swadesh_language));
+		this.@__Swadesh_la__Term__208CD6FA = new EntitySet<Swadesh_language>(new Action<Swadesh_language>(this.attach__Swadesh_la__Term__208CD6FA), new Action<Swadesh_language>(this.detach__Swadesh_la__Term__208CD6FA));
 		OnCreated();
 	}
 	
@@ -3639,6 +8775,32 @@ public partial class Swadesh_term : INotifyPropertyChanging, INotifyPropertyChan
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_la__Term__0B91BA14", Storage="_Swadesh_language", ThisKey="Id", OtherKey="Term", DeleteRule="NO ACTION")]
+	public EntitySet<Swadesh_language> Swadesh_language
+	{
+		get
+		{
+			return this._Swadesh_language;
+		}
+		set
+		{
+			this._Swadesh_language.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__Swadesh_la__Term__208CD6FA", Storage="__Swadesh_la__Term__208CD6FA", ThisKey="Id", OtherKey="Term", DeleteRule="NO ACTION")]
+	public EntitySet<Swadesh_language> _Swadesh_la__Term__208CD6FA
+	{
+		get
+		{
+			return this.@__Swadesh_la__Term__208CD6FA;
+		}
+		set
+		{
+			this.@__Swadesh_la__Term__208CD6FA.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -3658,6 +8820,30 @@ public partial class Swadesh_term : INotifyPropertyChanging, INotifyPropertyChan
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_Swadesh_language(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Swadesh_term = this;
+	}
+	
+	private void detach_Swadesh_language(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity.Swadesh_term = null;
+	}
+	
+	private void attach__Swadesh_la__Term__208CD6FA(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity.TermSwadesh_term = this;
+	}
+	
+	private void detach__Swadesh_la__Term__208CD6FA(Swadesh_language entity)
+	{
+		this.SendPropertyChanging();
+		entity.TermSwadesh_term = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.WALS_category")]
@@ -3667,6 +8853,10 @@ public partial class WALS_category : INotifyPropertyChanging, INotifyPropertyCha
 	private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 	
 	private string _Name;
+	
+	private EntitySet<WALS_chapter> _WALS_chapter;
+	
+	private EntitySet<WALS_chapter> _NameWALS_chapter;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3678,6 +8868,8 @@ public partial class WALS_category : INotifyPropertyChanging, INotifyPropertyCha
 	
 	public WALS_category()
 	{
+		this._WALS_chapter = new EntitySet<WALS_chapter>(new Action<WALS_chapter>(this.attach_WALS_chapter), new Action<WALS_chapter>(this.detach_WALS_chapter));
+		this._NameWALS_chapter = new EntitySet<WALS_chapter>(new Action<WALS_chapter>(this.attach_NameWALS_chapter), new Action<WALS_chapter>(this.detach_NameWALS_chapter));
 		OnCreated();
 	}
 	
@@ -3701,6 +8893,32 @@ public partial class WALS_category : INotifyPropertyChanging, INotifyPropertyCha
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_chap__Categ__06CD04F7", Storage="_WALS_chapter", ThisKey="Name", OtherKey="Category", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_chapter> WALS_chapter
+	{
+		get
+		{
+			return this._WALS_chapter;
+		}
+		set
+		{
+			this._WALS_chapter.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_chap__Categ__1BC821DD", Storage="_NameWALS_chapter", ThisKey="Name", OtherKey="Category", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_chapter> NameWALS_chapter
+	{
+		get
+		{
+			return this._NameWALS_chapter;
+		}
+		set
+		{
+			this._NameWALS_chapter.Assign(value);
+		}
+	}
+	
 	public event PropertyChangingEventHandler PropertyChanging;
 	
 	public event PropertyChangedEventHandler PropertyChanged;
@@ -3720,6 +8938,30 @@ public partial class WALS_category : INotifyPropertyChanging, INotifyPropertyCha
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_WALS_chapter(WALS_chapter entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_category = this;
+	}
+	
+	private void detach_WALS_chapter(WALS_chapter entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_category = null;
+	}
+	
+	private void attach_NameWALS_chapter(WALS_chapter entity)
+	{
+		this.SendPropertyChanging();
+		entity.CategoryWALS_category = this;
+	}
+	
+	private void detach_NameWALS_chapter(WALS_chapter entity)
+	{
+		this.SendPropertyChanging();
+		entity.CategoryWALS_category = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.WALS_chapter")]
@@ -3735,6 +8977,14 @@ public partial class WALS_chapter : INotifyPropertyChanging, INotifyPropertyChan
 	private string _Author;
 	
 	private string _Category;
+	
+	private EntityRef<WALS_category> _WALS_category;
+	
+	private EntityRef<WALS_category> _CategoryWALS_category;
+	
+	private EntitySet<WALS_feature> _WALS_feature;
+	
+	private EntitySet<WALS_feature> @__WALS_feat__Chapt__1CBC4616;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3752,6 +9002,10 @@ public partial class WALS_chapter : INotifyPropertyChanging, INotifyPropertyChan
 	
 	public WALS_chapter()
 	{
+		this._WALS_category = default(EntityRef<WALS_category>);
+		this._CategoryWALS_category = default(EntityRef<WALS_category>);
+		this._WALS_feature = new EntitySet<WALS_feature>(new Action<WALS_feature>(this.attach_WALS_feature), new Action<WALS_feature>(this.detach_WALS_feature));
+		this.@__WALS_feat__Chapt__1CBC4616 = new EntitySet<WALS_feature>(new Action<WALS_feature>(this.attach__WALS_feat__Chapt__1CBC4616), new Action<WALS_feature>(this.detach__WALS_feat__Chapt__1CBC4616));
 		OnCreated();
 	}
 	
@@ -3826,12 +9080,110 @@ public partial class WALS_chapter : INotifyPropertyChanging, INotifyPropertyChan
 		{
 			if ((this._Category != value))
 			{
+				if ((this._WALS_category.HasLoadedOrAssignedValue || this._CategoryWALS_category.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnCategoryChanging(value);
 				this.SendPropertyChanging();
 				this._Category = value;
 				this.SendPropertyChanged("Category");
 				this.OnCategoryChanged();
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_chap__Categ__06CD04F7", Storage="_WALS_category", ThisKey="Category", OtherKey="Name", IsForeignKey=true)]
+	public WALS_category WALS_category
+	{
+		get
+		{
+			return this._WALS_category.Entity;
+		}
+		set
+		{
+			WALS_category previousValue = this._WALS_category.Entity;
+			if (((previousValue != value) 
+						|| (this._WALS_category.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._WALS_category.Entity = null;
+					previousValue.WALS_chapter.Remove(this);
+				}
+				this._WALS_category.Entity = value;
+				if ((value != null))
+				{
+					value.WALS_chapter.Add(this);
+					this._Category = value.Name;
+				}
+				else
+				{
+					this._Category = default(string);
+				}
+				this.SendPropertyChanged("WALS_category");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_chap__Categ__1BC821DD", Storage="_CategoryWALS_category", ThisKey="Category", OtherKey="Name", IsForeignKey=true)]
+	public WALS_category CategoryWALS_category
+	{
+		get
+		{
+			return this._CategoryWALS_category.Entity;
+		}
+		set
+		{
+			WALS_category previousValue = this._CategoryWALS_category.Entity;
+			if (((previousValue != value) 
+						|| (this._CategoryWALS_category.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._CategoryWALS_category.Entity = null;
+					previousValue.NameWALS_chapter.Remove(this);
+				}
+				this._CategoryWALS_category.Entity = value;
+				if ((value != null))
+				{
+					value.NameWALS_chapter.Add(this);
+					this._Category = value.Name;
+				}
+				else
+				{
+					this._Category = default(string);
+				}
+				this.SendPropertyChanged("CategoryWALS_category");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Chapt__07C12930", Storage="_WALS_feature", ThisKey="Id", OtherKey="Chapter", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_feature> WALS_feature
+	{
+		get
+		{
+			return this._WALS_feature;
+		}
+		set
+		{
+			this._WALS_feature.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Chapt__1CBC4616", Storage="__WALS_feat__Chapt__1CBC4616", ThisKey="Id", OtherKey="Chapter", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_feature> _WALS_feat__Chapt__1CBC4616
+	{
+		get
+		{
+			return this.@__WALS_feat__Chapt__1CBC4616;
+		}
+		set
+		{
+			this.@__WALS_feat__Chapt__1CBC4616.Assign(value);
 		}
 	}
 	
@@ -3854,6 +9206,30 @@ public partial class WALS_chapter : INotifyPropertyChanging, INotifyPropertyChan
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_WALS_feature(WALS_feature entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_chapter = this;
+	}
+	
+	private void detach_WALS_feature(WALS_feature entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_chapter = null;
+	}
+	
+	private void attach__WALS_feat__Chapt__1CBC4616(WALS_feature entity)
+	{
+		this.SendPropertyChanging();
+		entity.ChapterWALS_chapter = this;
+	}
+	
+	private void detach__WALS_feat__Chapt__1CBC4616(WALS_feature entity)
+	{
+		this.SendPropertyChanging();
+		entity.ChapterWALS_chapter = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.WALS_feature")]
@@ -3867,6 +9243,14 @@ public partial class WALS_feature : INotifyPropertyChanging, INotifyPropertyChan
 	private string _Name;
 	
 	private int _Chapter;
+	
+	private EntityRef<WALS_chapter> _WALS_chapter;
+	
+	private EntityRef<WALS_chapter> _ChapterWALS_chapter;
+	
+	private EntitySet<WALS_featurevalue> _WALS_featurevalue;
+	
+	private EntitySet<WALS_featurevalue> @__WALS_feat__Featu__1DB06A4F;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3882,6 +9266,10 @@ public partial class WALS_feature : INotifyPropertyChanging, INotifyPropertyChan
 	
 	public WALS_feature()
 	{
+		this._WALS_chapter = default(EntityRef<WALS_chapter>);
+		this._ChapterWALS_chapter = default(EntityRef<WALS_chapter>);
+		this._WALS_featurevalue = new EntitySet<WALS_featurevalue>(new Action<WALS_featurevalue>(this.attach_WALS_featurevalue), new Action<WALS_featurevalue>(this.detach_WALS_featurevalue));
+		this.@__WALS_feat__Featu__1DB06A4F = new EntitySet<WALS_featurevalue>(new Action<WALS_featurevalue>(this.attach__WALS_feat__Featu__1DB06A4F), new Action<WALS_featurevalue>(this.detach__WALS_feat__Featu__1DB06A4F));
 		OnCreated();
 	}
 	
@@ -3936,12 +9324,110 @@ public partial class WALS_feature : INotifyPropertyChanging, INotifyPropertyChan
 		{
 			if ((this._Chapter != value))
 			{
+				if ((this._WALS_chapter.HasLoadedOrAssignedValue || this._ChapterWALS_chapter.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnChapterChanging(value);
 				this.SendPropertyChanging();
 				this._Chapter = value;
 				this.SendPropertyChanged("Chapter");
 				this.OnChapterChanged();
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Chapt__07C12930", Storage="_WALS_chapter", ThisKey="Chapter", OtherKey="Id", IsForeignKey=true)]
+	public WALS_chapter WALS_chapter
+	{
+		get
+		{
+			return this._WALS_chapter.Entity;
+		}
+		set
+		{
+			WALS_chapter previousValue = this._WALS_chapter.Entity;
+			if (((previousValue != value) 
+						|| (this._WALS_chapter.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._WALS_chapter.Entity = null;
+					previousValue.WALS_feature.Remove(this);
+				}
+				this._WALS_chapter.Entity = value;
+				if ((value != null))
+				{
+					value.WALS_feature.Add(this);
+					this._Chapter = value.Id;
+				}
+				else
+				{
+					this._Chapter = default(int);
+				}
+				this.SendPropertyChanged("WALS_chapter");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Chapt__1CBC4616", Storage="_ChapterWALS_chapter", ThisKey="Chapter", OtherKey="Id", IsForeignKey=true)]
+	public WALS_chapter ChapterWALS_chapter
+	{
+		get
+		{
+			return this._ChapterWALS_chapter.Entity;
+		}
+		set
+		{
+			WALS_chapter previousValue = this._ChapterWALS_chapter.Entity;
+			if (((previousValue != value) 
+						|| (this._ChapterWALS_chapter.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._ChapterWALS_chapter.Entity = null;
+					previousValue._WALS_feat__Chapt__1CBC4616.Remove(this);
+				}
+				this._ChapterWALS_chapter.Entity = value;
+				if ((value != null))
+				{
+					value._WALS_feat__Chapt__1CBC4616.Add(this);
+					this._Chapter = value.Id;
+				}
+				else
+				{
+					this._Chapter = default(int);
+				}
+				this.SendPropertyChanged("ChapterWALS_chapter");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Featu__08B54D69", Storage="_WALS_featurevalue", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_featurevalue> WALS_featurevalue
+	{
+		get
+		{
+			return this._WALS_featurevalue;
+		}
+		set
+		{
+			this._WALS_featurevalue.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Featu__1DB06A4F", Storage="__WALS_feat__Featu__1DB06A4F", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_featurevalue> _WALS_feat__Featu__1DB06A4F
+	{
+		get
+		{
+			return this.@__WALS_feat__Featu__1DB06A4F;
+		}
+		set
+		{
+			this.@__WALS_feat__Featu__1DB06A4F.Assign(value);
 		}
 	}
 	
@@ -3964,6 +9450,30 @@ public partial class WALS_feature : INotifyPropertyChanging, INotifyPropertyChan
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_WALS_featurevalue(WALS_featurevalue entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_feature = this;
+	}
+	
+	private void detach_WALS_featurevalue(WALS_featurevalue entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_feature = null;
+	}
+	
+	private void attach__WALS_feat__Featu__1DB06A4F(WALS_featurevalue entity)
+	{
+		this.SendPropertyChanging();
+		entity.FeatureWALS_feature = this;
+	}
+	
+	private void detach__WALS_feat__Featu__1DB06A4F(WALS_featurevalue entity)
+	{
+		this.SendPropertyChanging();
+		entity.FeatureWALS_feature = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.WALS_featurevalue")]
@@ -3979,6 +9489,14 @@ public partial class WALS_featurevalue : INotifyPropertyChanging, INotifyPropert
 	private System.Nullable<int> _Number;
 	
 	private int _Feature;
+	
+	private EntityRef<WALS_feature> _WALS_feature;
+	
+	private EntityRef<WALS_feature> _FeatureWALS_feature;
+	
+	private EntitySet<WALS_languagefeature> _WALS_languagefeature;
+	
+	private EntitySet<WALS_languagefeature> @__WALS_lang__Featu__1EA48E88;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -3996,6 +9514,10 @@ public partial class WALS_featurevalue : INotifyPropertyChanging, INotifyPropert
 	
 	public WALS_featurevalue()
 	{
+		this._WALS_feature = default(EntityRef<WALS_feature>);
+		this._FeatureWALS_feature = default(EntityRef<WALS_feature>);
+		this._WALS_languagefeature = new EntitySet<WALS_languagefeature>(new Action<WALS_languagefeature>(this.attach_WALS_languagefeature), new Action<WALS_languagefeature>(this.detach_WALS_languagefeature));
+		this.@__WALS_lang__Featu__1EA48E88 = new EntitySet<WALS_languagefeature>(new Action<WALS_languagefeature>(this.attach__WALS_lang__Featu__1EA48E88), new Action<WALS_languagefeature>(this.detach__WALS_lang__Featu__1EA48E88));
 		OnCreated();
 	}
 	
@@ -4070,12 +9592,110 @@ public partial class WALS_featurevalue : INotifyPropertyChanging, INotifyPropert
 		{
 			if ((this._Feature != value))
 			{
+				if ((this._WALS_feature.HasLoadedOrAssignedValue || this._FeatureWALS_feature.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnFeatureChanging(value);
 				this.SendPropertyChanging();
 				this._Feature = value;
 				this.SendPropertyChanged("Feature");
 				this.OnFeatureChanged();
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Featu__08B54D69", Storage="_WALS_feature", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public WALS_feature WALS_feature
+	{
+		get
+		{
+			return this._WALS_feature.Entity;
+		}
+		set
+		{
+			WALS_feature previousValue = this._WALS_feature.Entity;
+			if (((previousValue != value) 
+						|| (this._WALS_feature.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._WALS_feature.Entity = null;
+					previousValue.WALS_featurevalue.Remove(this);
+				}
+				this._WALS_feature.Entity = value;
+				if ((value != null))
+				{
+					value.WALS_featurevalue.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("WALS_feature");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_feat__Featu__1DB06A4F", Storage="_FeatureWALS_feature", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public WALS_feature FeatureWALS_feature
+	{
+		get
+		{
+			return this._FeatureWALS_feature.Entity;
+		}
+		set
+		{
+			WALS_feature previousValue = this._FeatureWALS_feature.Entity;
+			if (((previousValue != value) 
+						|| (this._FeatureWALS_feature.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._FeatureWALS_feature.Entity = null;
+					previousValue._WALS_feat__Featu__1DB06A4F.Remove(this);
+				}
+				this._FeatureWALS_feature.Entity = value;
+				if ((value != null))
+				{
+					value._WALS_feat__Featu__1DB06A4F.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("FeatureWALS_feature");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Featu__09A971A2", Storage="_WALS_languagefeature", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_languagefeature> WALS_languagefeature
+	{
+		get
+		{
+			return this._WALS_languagefeature;
+		}
+		set
+		{
+			this._WALS_languagefeature.Assign(value);
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Featu__1EA48E88", Storage="__WALS_lang__Featu__1EA48E88", ThisKey="Id", OtherKey="Feature", DeleteRule="NO ACTION")]
+	public EntitySet<WALS_languagefeature> _WALS_lang__Featu__1EA48E88
+	{
+		get
+		{
+			return this.@__WALS_lang__Featu__1EA48E88;
+		}
+		set
+		{
+			this.@__WALS_lang__Featu__1EA48E88.Assign(value);
 		}
 	}
 	
@@ -4098,6 +9718,30 @@ public partial class WALS_featurevalue : INotifyPropertyChanging, INotifyPropert
 			this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 		}
 	}
+	
+	private void attach_WALS_languagefeature(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_featurevalue = this;
+	}
+	
+	private void detach_WALS_languagefeature(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.WALS_featurevalue = null;
+	}
+	
+	private void attach__WALS_lang__Featu__1EA48E88(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.FeatureWALS_featurevalue = this;
+	}
+	
+	private void detach__WALS_lang__Featu__1EA48E88(WALS_languagefeature entity)
+	{
+		this.SendPropertyChanging();
+		entity.FeatureWALS_featurevalue = null;
+	}
 }
 
 [global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.WALS_languagefeature")]
@@ -4111,6 +9755,14 @@ public partial class WALS_languagefeature : INotifyPropertyChanging, INotifyProp
 	private int _Feature;
 	
 	private string _Language;
+	
+	private EntityRef<WALS_featurevalue> _WALS_featurevalue;
+	
+	private EntityRef<WALS_featurevalue> _FeatureWALS_featurevalue;
+	
+	private EntityRef<Language> _LanguageLanguage;
+	
+	private EntityRef<Language> @__WALS_lang__Langu__1F98B2C1;
 	
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -4126,6 +9778,10 @@ public partial class WALS_languagefeature : INotifyPropertyChanging, INotifyProp
 	
 	public WALS_languagefeature()
 	{
+		this._WALS_featurevalue = default(EntityRef<WALS_featurevalue>);
+		this._FeatureWALS_featurevalue = default(EntityRef<WALS_featurevalue>);
+		this._LanguageLanguage = default(EntityRef<Language>);
+		this.@__WALS_lang__Langu__1F98B2C1 = default(EntityRef<Language>);
 		OnCreated();
 	}
 	
@@ -4160,6 +9816,10 @@ public partial class WALS_languagefeature : INotifyPropertyChanging, INotifyProp
 		{
 			if ((this._Feature != value))
 			{
+				if ((this._WALS_featurevalue.HasLoadedOrAssignedValue || this._FeatureWALS_featurevalue.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnFeatureChanging(value);
 				this.SendPropertyChanging();
 				this._Feature = value;
@@ -4180,11 +9840,151 @@ public partial class WALS_languagefeature : INotifyPropertyChanging, INotifyProp
 		{
 			if ((this._Language != value))
 			{
+				if ((this._LanguageLanguage.HasLoadedOrAssignedValue || this.@__WALS_lang__Langu__1F98B2C1.HasLoadedOrAssignedValue))
+				{
+					throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+				}
 				this.OnLanguageChanging(value);
 				this.SendPropertyChanging();
 				this._Language = value;
 				this.SendPropertyChanged("Language");
 				this.OnLanguageChanged();
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Featu__09A971A2", Storage="_WALS_featurevalue", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public WALS_featurevalue WALS_featurevalue
+	{
+		get
+		{
+			return this._WALS_featurevalue.Entity;
+		}
+		set
+		{
+			WALS_featurevalue previousValue = this._WALS_featurevalue.Entity;
+			if (((previousValue != value) 
+						|| (this._WALS_featurevalue.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._WALS_featurevalue.Entity = null;
+					previousValue.WALS_languagefeature.Remove(this);
+				}
+				this._WALS_featurevalue.Entity = value;
+				if ((value != null))
+				{
+					value.WALS_languagefeature.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("WALS_featurevalue");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Featu__1EA48E88", Storage="_FeatureWALS_featurevalue", ThisKey="Feature", OtherKey="Id", IsForeignKey=true)]
+	public WALS_featurevalue FeatureWALS_featurevalue
+	{
+		get
+		{
+			return this._FeatureWALS_featurevalue.Entity;
+		}
+		set
+		{
+			WALS_featurevalue previousValue = this._FeatureWALS_featurevalue.Entity;
+			if (((previousValue != value) 
+						|| (this._FeatureWALS_featurevalue.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._FeatureWALS_featurevalue.Entity = null;
+					previousValue._WALS_lang__Featu__1EA48E88.Remove(this);
+				}
+				this._FeatureWALS_featurevalue.Entity = value;
+				if ((value != null))
+				{
+					value._WALS_lang__Featu__1EA48E88.Add(this);
+					this._Feature = value.Id;
+				}
+				else
+				{
+					this._Feature = default(int);
+				}
+				this.SendPropertyChanged("FeatureWALS_featurevalue");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Langu__0A9D95DB", Storage="_LanguageLanguage", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language LanguageLanguage
+	{
+		get
+		{
+			return this._LanguageLanguage.Entity;
+		}
+		set
+		{
+			Language previousValue = this._LanguageLanguage.Entity;
+			if (((previousValue != value) 
+						|| (this._LanguageLanguage.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this._LanguageLanguage.Entity = null;
+					previousValue.WALS_languagefeature.Remove(this);
+				}
+				this._LanguageLanguage.Entity = value;
+				if ((value != null))
+				{
+					value.WALS_languagefeature.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("LanguageLanguage");
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.AssociationAttribute(Name="FK__WALS_lang__Langu__1F98B2C1", Storage="__WALS_lang__Langu__1F98B2C1", ThisKey="Language", OtherKey="Iso", IsForeignKey=true)]
+	public Language _WALS_lang__Langu__1F98B2C1
+	{
+		get
+		{
+			return this.@__WALS_lang__Langu__1F98B2C1.Entity;
+		}
+		set
+		{
+			Language previousValue = this.@__WALS_lang__Langu__1F98B2C1.Entity;
+			if (((previousValue != value) 
+						|| (this.@__WALS_lang__Langu__1F98B2C1.HasLoadedOrAssignedValue == false)))
+			{
+				this.SendPropertyChanging();
+				if ((previousValue != null))
+				{
+					this.@__WALS_lang__Langu__1F98B2C1.Entity = null;
+					previousValue.IsoWALS_languagefeature.Remove(this);
+				}
+				this.@__WALS_lang__Langu__1F98B2C1.Entity = value;
+				if ((value != null))
+				{
+					value.IsoWALS_languagefeature.Add(this);
+					this._Language = value.Iso;
+				}
+				else
+				{
+					this._Language = default(string);
+				}
+				this.SendPropertyChanged("_WALS_lang__Langu__1F98B2C1");
 			}
 		}
 	}

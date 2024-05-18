@@ -31,6 +31,7 @@ namespace LangChangeSimulator
             swadeshclass.fillconceptdicts();
             techclass.init_tech(folder);
             walsclass.initWALS();
+            gramfeatureclass.fill_gramfeatures();
         }
 
         private void GeographyButton_Click(object sender, EventArgs e)

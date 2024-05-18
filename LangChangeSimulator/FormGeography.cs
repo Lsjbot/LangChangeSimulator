@@ -18,13 +18,12 @@ namespace LangChangeSimulator
         {
             InitializeComponent();
             fm = fmpar;
-            LB_region.Items.Add("World");
-            LB_region.Items.Add("Australia");
-            LB_region.Items.Add("Africa");
-            LB_region.Items.Add("New Guinea");
-            LB_region.Items.Add("South America");
+            foreach (string rr in mapgridclass.regiondict.Keys)
+                LB_region.Items.Add(rr);
             foreach (string s in LB_region.Items)
                 LB_startregion.Items.Add(s);
+
+            nasaclass.read_historicaltemperatures(Form1.folder+"41586_2016_BFnature19798_MOESM245_ESM.txt");
         }
 
         private void BasemapButton_Click(object sender, EventArgs e)

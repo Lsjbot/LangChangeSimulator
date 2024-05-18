@@ -24,6 +24,7 @@ namespace LangChangeSimulator
         Thread thread = null;
         FormSimDisplay fsd = null;
         FormMap fm;
+        public static int maxtime;
         public FormSimulation()
         {
             InitializeComponent();
@@ -736,7 +737,7 @@ namespace LangChangeSimulator
                                         if (oldsound >= 0)
                                         {
                                             lc.unconditional_soundchange(oldsound, areasound);
-                                            memo("areasound " + oldsound + ", " + areasound);
+                                            //memo("areasound " + oldsound + ", " + areasound);
                                         }
                                     }
                                 }
@@ -896,6 +897,23 @@ namespace LangChangeSimulator
 
         }
 
+        private void do_grammar(List<int> origlang)
+        {
+            Random rnd = new Random();
+            DateTime starttime = DateTime.Now;
+            double grammarrate = timestep * parameterclass.p.get<double>("basegrammarrate");
+            foreach (int il in origlang)
+            {
+                languageclass lc = languageclass.langdict[il];
+                if (lc.speakers > 0)
+                {
+                    lc.grammar.mutate(rnd, grammarrate, lc);
+                }
+            }
+            memo("Grammar done in " + (DateTime.Now - starttime).TotalSeconds.ToString("F2"));
+
+        }
+
         string maptype = "bylanguage";
 
         private void simulate()
@@ -909,11 +927,12 @@ namespace LangChangeSimulator
             timestep = util.tryconvert(TB_timestep.Text);
             if (timestep < 0)
                 timestep = 20;
+            int startyear = util.tryconvert(TB_startyear.Text);
             parameterclass.p.put<int>("timestep", timestep);
             int memlimit = util.tryconvert(TB_memlimit.Text);
             int nlang = languageclass.langdict.Count;
             bool abort = false;
-            int maxtime = util.tryconvert(TB_maxtime.Text);
+            maxtime = util.tryconvert(TB_maxtime.Text);
             if (maxtime < 0)
                 maxtime = 99999;
             parameterclass.p.put<int>("maxtime", maxtime);
@@ -921,6 +940,8 @@ namespace LangChangeSimulator
             do
             {
                 time += timestep;
+                nasaclass.set_tempoffset(startyear + time);
+                memo("tempoffset = " + nasaclass.tempoffset);
                 //memo(time.ToString());
                 List<int> origlang = languageclass.langdict.Keys.ToList(); //dummy list to avoid loop problems when adding languages
                 Console.WriteLine("Year " + time.ToString() + ": " + origlang.Count);
@@ -946,6 +967,9 @@ namespace LangChangeSimulator
 
                 if (CB_semantics.Checked)
                     do_semantics(origlang);
+
+                if (CBgrammar.Checked)
+                    do_grammar(origlang);
 
                 //if (stopthread)
                 //    break;
@@ -1088,6 +1112,9 @@ namespace LangChangeSimulator
             memo("Saving to " + fn);
             if (CB_Swadesh.Checked)
                 swadeshclass.write_swadeshtable(fn, "");
+            string fngram = fn.Replace("swadesh", "grammar");
+            if (CBsavegrammar.Checked)
+                grammarclass.write_grammartable(fngram, "");
             if (CB_CLDF.Checked)
             {
                 memo("Saving CLDF");
@@ -1139,6 +1166,158 @@ namespace LangChangeSimulator
                 parameterclass.p.put("semanticshiftenabled", "true");
             else
                 parameterclass.p.put("semanticshiftenabled", "false");
+
+        }
+
+        private void Worddistbutton_Click(object sender, EventArgs e)
+        {
+            hbookclass samefamhist = new hbookclass("Same family");
+            samefamhist.SetBins(0, 1, 20);
+            hbookclass difffamhist = new hbookclass("Different family");
+            difffamhist.SetBins(0, 1, 20);
+
+            //if (LB_concepts.SelectedItem == null)
+            //{
+            //    memo("No concept selected");
+            //    return;
+            //}
+
+            //string selectedconcept = LB_concepts.SelectedItem.ToString();
+
+            //List<string> conceptlist = new List<string>();
+            //if (selectedconcept == allstring)
+            //{
+            //    foreach (string ss in LB_concepts.Items)
+            //        conceptlist.Add(ss);
+            //}
+            //else
+            //{
+            //    conceptlist.Add(selectedconcept);
+
+            //}
+            int nlang = 0;
+            foreach (languageclass ll in languageclass.langdict.Values)
+            {
+                nlang++;
+                if (nlang % 10 == 0)
+                    memo(nlang + " " + ll.source + ll.id);
+                foreach (languageclass ll2 in languageclass.langdict.Values)
+                {
+                    if (ll2.id <= ll.id)
+                        continue;
+                    bool samefam = ll.root == ll2.root;
+                    foreach (int ic in ll.lexicon.concepts.Keys)
+                    {
+                        if (!ll2.lexicon.concepts.ContainsKey(ic))
+                            continue;
+                        foreach (int iw in ll.lexicon.concepts[ic])
+                        {
+                            wordclass wc = ll.lexicon.getword(iw);
+                            foreach (int iw2 in ll2.lexicon.concepts[ic])
+                            {
+                                wordclass wc2 = ll2.lexicon.getword(iw2);
+                                double dist = Colexification.Levenshtein.WeightedDistance(wc.codedform, wc2.codedform, segmentclass.segdistmatrix) 
+                                    / (double)Math.Max(wc.codedform.Length,wc2.codedform.Length);
+                                if (Double.IsNaN(dist))
+                                    memo("IsNaN! " + wc.codedform + "|||" + wc2.codedform + "|||");
+                                if (samefam)
+                                    samefamhist.Add(dist);
+                                else
+                                {
+                                    difffamhist.Add(dist);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //foreach (string concept in conceptlist)
+            //{
+
+            //    //string[] codedforms = new string[q.Count()];
+            //    //string[] formfamily = new string[q.Count()];
+            //    //int ift = 0;
+            //    //foreach (FormTable ft in q)
+            //    //{
+            //    //    codedforms[ift] = EncodeForm(ft);
+            //    //    formfamily[ift] = ft.LanguageTable.Family;
+            //    //    ift++;
+
+            //    //}
+            //    memo(DateTime.Now.ToString());
+            //    //if (CB_weighteddist.Checked)
+            //    {
+            //        var q = from c in db.CodedFormTable
+            //                where c.ConcepticonTable.Concepticon_Gloss == concept
+            //                select c;
+            //        memo(q.Count() + " forms");
+
+            //        foreach (CodedFormTable cf1 in q)
+            //        {
+            //            if (String.IsNullOrEmpty(cf1.CodedForm))
+            //                continue;
+            //            foreach (CodedFormTable cf2 in q)
+            //            {
+            //                if (cf2.ID <= cf1.ID)
+            //                    continue;
+            //                if (String.IsNullOrEmpty(cf2.CodedForm))
+            //                    continue;
+            //                double dist = Colexification.Levenshtein.WeightedDistance(cf1.CodedForm, cf2.CodedForm, segmentclass.segdistmatrix) / (double)(cf1.CodedForm.Length + cf2.CodedForm.Length);
+            //                if (Double.IsNaN(dist))
+            //                    memo("IsNaN! " + cf1.CodedForm + "|||" + cf2.CodedForm + "|||");
+            //                if (cf1.Family == cf2.Family)
+            //                    samefamhist.Add(dist);
+            //                else
+            //                {
+            //                    difffamhist.Add(dist);
+            //                }
+            //            }
+            //        }
+            //    }
+            //    //else
+            //    //{
+            //    //    var q = from c in db.FormTable
+            //    //            where c.ParameterTable.Concepticon_Gloss == concept
+            //    //            select c;
+            //    //    memo(concept + ": " + q.Count() + " forms");
+            //    //    List<string> donelist = new List<string>();
+
+            //    //    foreach (FormTable ft1 in q)
+            //    //    {
+            //    //        string form1 = cyrilliclist.Contains(ft1.LanguageTable.Name) ? ft1.AlternativeValue : ft1.Form;
+            //    //        if (form1 == null)
+            //    //            form1 = ft1.Clics_form;
+            //    //        //memo(ft1.Form + "\t" + ft1.LanguageTable.Name);
+
+            //    //        foreach (FormTable ft2 in q)
+            //    //        {
+            //    //            if (ft1.ID == ft2.ID)
+            //    //                continue;
+            //    //            if (donelist.Contains(ft2.ID))
+            //    //                continue;
+            //    //            string form2 = cyrilliclist.Contains(ft2.LanguageTable.Name) ? ft2.AlternativeValue : ft2.Form;
+            //    //            if (form2 == null)
+            //    //                form2 = ft2.Clics_form;
+            //    //            double dist = (double)Levenshtein.EditDistance(form1, form2) / (double)(form1.Length + form2.Length);
+            //    //            if (ft1.LanguageTable.Family == ft2.LanguageTable.Family)
+            //    //                samefamhist.Add(dist);
+            //    //            else
+            //    //            {
+            //    //                difffamhist.Add(dist);
+            //    //                if (dist == 0)
+            //    //                {
+            //    //                    memo(ft1.Form + "\t" + ft1.LanguageTable.Name + "(" + ft1.LanguageTable.Family + ")\t" + ft2.LanguageTable.Name + "(" + ft2.LanguageTable.Family + ")");
+            //    //                }
+            //    //            }
+            //    //        }
+            //    //        donelist.Add(ft1.ID);
+            //    //    }
+            //    //}
+            //    memo(DateTime.Now.ToString());
+            //}
+            memo(samefamhist.GetDHist());
+            memo(difffamhist.GetDHist());
 
         }
     }

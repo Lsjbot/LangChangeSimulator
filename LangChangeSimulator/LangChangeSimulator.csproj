@@ -95,6 +95,8 @@
     <Compile Include="FormSimulation.Designer.cs">
       <DependentUpon>FormSimulation.cs</DependentUpon>
     </Compile>
+    <Compile Include="gramfeatureclass.cs" />
+    <Compile Include="grammarclass.cs" />
     <Compile Include="hbookclass.cs" />
     <Compile Include="langdb.cs" />
     <Compile Include="langedgeclass.cs" />

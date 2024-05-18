@@ -21,6 +21,8 @@ namespace LangChangeSimulator
         public soundsystemclass inventory;
         public int speakers;
         public lexiconclass lexicon;
+        public grammarclass grammar;
+        public double fitness = 1;
 
         public int birthyear = 0;
         public int deathyear = -1;
@@ -44,6 +46,7 @@ namespace LangChangeSimulator
 
             this.lexicon = new lexiconclass(this, conceptlist);
             this.inventory = new soundsystemclass(this.lexicon);
+            this.grammar = new grammarclass();
             //startingwords(conceptlist);
             startingposition();
 
@@ -64,6 +67,7 @@ namespace LangChangeSimulator
             this.inventory = util.DeepCopy<soundsystemclass>(parent.inventory);
             this.lexicon = new lexiconclass(this,parent.lexicon);
             this.culture = util.DeepCopy<cultureclass>(parent.culture);
+            this.grammar = parent.grammar.clone();
             this.birthyear = year;
 
             this.ilat = ilatpar;

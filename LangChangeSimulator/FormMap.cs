@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
+using System.IO;
 
 namespace LangChangeSimulator
 {
@@ -15,7 +16,7 @@ namespace LangChangeSimulator
     {
         private Dictionary<int, Color> colordict = new Dictionary<int, Color>();
         private string prefix = "";
-        public static string imagefolder = @"G:\Ling\LangChangeSimulator\output\images\";
+        public static string imagefolder;// = @"G:\Ling\LangChangeSimulator\output\images\";
         public FormMap()
         {
             InitializeComponent();
@@ -62,6 +63,10 @@ namespace LangChangeSimulator
             colordict.Add(40, Color.Wheat);
 
             prefix = DateTime.Now.ToShortTimeString().Replace(":",".");
+
+            imagefolder = Form1.folder + @"output\images\" + FormGeography.region + " " + FormSimulation.maxtime + " yrs " + DateTime.Now.ToShortDateString() + @"\";
+            if (!Directory.Exists(imagefolder))
+                Directory.CreateDirectory(imagefolder);
         }
 
         private void FormMap_ResizeEnd(object sender, EventArgs e)
@@ -164,7 +169,7 @@ namespace LangChangeSimulator
             }
             g.Flush();
             pictureBox1.Image = b;
-            string fn = prefix + "-" + maptype + year + ".jpg";
+            string fn = prefix + "-" + maptype + year.ToString("D5") + ".jpg";
             if (savescreenshot)
                 pictureBox1.Image.Save(imagefolder + fn, ImageFormat.Jpeg);
             //this.Invalidate();

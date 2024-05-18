@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace LangChangeSimulator
@@ -150,6 +151,77 @@ namespace LangChangeSimulator
             final = final.Remove(initialpos, 1).Insert(initialpos, s);
             //s += orig.Remove(0, 1);
             return final;
+        }
+
+        public static string ReadMultiple(StreamReader sr)
+        {
+            char pairchar = '"';
+            return ReadMultiple(sr, pairchar);
+        }
+        public static string ReadMultiple(StreamReader sr,char pairchar)
+            {
+                //reads and concatenates multiple lines until no unpaired pairchars
+            string line = sr.ReadLine();
+            while (CountOccurrences(line,pairchar) % 2 == 1)
+            {
+                line += "\n" + sr.ReadLine();
+            }
+            return line;
+       }
+
+        public static int CountOccurrences(string testchars, char tocount)
+        {
+            int count = 0;
+            int length = testchars.Length;
+            for (int n = length - 1; n >= 0; n--)
+            {
+                if (testchars[n] == '/')
+                    count++;
+            }
+            return count;
+        }
+        public static string[] splitcsv(string line)
+        {
+            if (line.Contains("\";\""))
+                return splitcsv(line, ';');
+            else
+                return splitcsv(line, ',');
+        }
+
+        public static string[] splitcsv(string line, char splitchar)
+        {
+            string rex = "\\\"([^\"]*)\\\"" + splitchar;
+            //string splitstring =  "\"" + splitchar + "\"" ;
+            MatchCollection matches = Regex.Matches(line + splitchar, rex);
+            if (matches.Count > 0)
+            {
+                //int imatch = 0;
+                for (int imatch = 0; imatch < matches.Count; imatch++)
+                {
+                    line = line.Replace(matches[imatch].Groups[1].Value, "%%%MATCH£" + imatch);
+                    imatch++;
+                }
+                string[] words = line.Split(splitchar);
+                for (int i = 0; i < words.Length; i++)
+                {
+                    if (words[i].StartsWith("%%%MATCH£"))
+                    {
+                        int imatch = util.tryconvert(words[i].Split('£')[1]);
+                        words[i] = matches[imatch].Groups[1].Value;
+                    }
+                }
+                //string[] words = new string[matches.Count];
+                //int imatch = 0;
+                //foreach (Match match in matches)
+                //{
+                //    words[imatch] = match.Groups[1].Value;
+                //    imatch++;
+                //}
+                return words;
+            }
+            else
+                return line.Split(splitchar);
+            //string[] words = line.Split(splitstring, 99, System.StringSplitOptions.None);
         }
 
 

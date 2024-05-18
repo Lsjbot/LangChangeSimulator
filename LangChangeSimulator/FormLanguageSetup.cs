@@ -15,6 +15,7 @@ namespace LangChangeSimulator
     {
         public static Dictionary<string, Language> reallangdict = new Dictionary<string, Language>();
         public static Dictionary<string, Phonemeinventory> inventorydict = new Dictionary<string, Phonemeinventory>();
+        public static Dictionary<string, grammarclass> grammardict = new Dictionary<string, grammarclass>();
         public FormLanguageSetup()
         {
             InitializeComponent();
@@ -23,7 +24,7 @@ namespace LangChangeSimulator
             
             foreach (string iso in fulldata_languages())
             {
-                LB_lang.Items.Add(iso + "-" + reallangdict[iso].Name);
+                LB_lang.Items.Add(iso + "-" + reallangdict[iso].Name+"-"+reallangdict[iso].Family.Name);
             }
 
             //using (StreamWriter sw = new StreamWriter(Form1.folder + @"fulldata_languages.txt"))
@@ -71,6 +72,8 @@ namespace LangChangeSimulator
             }
 
         }
+
+
 
         List<string> fulldata_languages()
         {
@@ -125,10 +128,15 @@ namespace LangChangeSimulator
                 Phonemeinventory pp = (from c in Form1.dblang.Phonemeinventory where c.Language == iso select c).FirstOrDefault();
                 if (pp == null)
                     continue;
+                var qgb = from c in Form1.dblang.Grambank_value where c.Language == iso select c;
+                if (qgb.Count() == 0)
+                    continue;
                 reallangdict.Add(iso, ll);
                 inventorydict.Add(iso, pp);
                 ls.Add(iso);
+                memo(iso+"-"+ll.Name);
             }
+
 
             memo("nseg = " + nseg);
             memo("nnoseg = " + nnoseg);
@@ -194,21 +202,25 @@ namespace LangChangeSimulator
             else if (RB_random.Checked)
             {
                 string langlist = "";
+                List<string> usedfamilies = new List<string>();
                 Random rnd = new Random();
                 int nmax = LB_lang.Items.Count;
                 for (int i=0;i<nlang;i++)
                 {
                     string iso = "";
+                    string fam = "";
                     bool used = false;
                     do
                     {
                         int jitem = rnd.Next(nmax);
                         iso = LB_lang.Items[jitem].ToString().Split('-')[0];
-                        used = langtreeclass.treedict.ContainsKey(iso);
+                        fam = LB_lang.Items[jitem].ToString().Split('-')[2];
+                        used = langtreeclass.treedict.ContainsKey(iso) || usedfamilies.Contains(fam);
                     }
                     while (used);
                     addlanguage(iso, conceptlist);
                     langlist += (iso + "|");
+                    usedfamilies.Add(fam);
                 }
                 parameterclass.p.put("languageorigin", "random");
                 parameterclass.p.put("languageset", langlist.Trim('|'));

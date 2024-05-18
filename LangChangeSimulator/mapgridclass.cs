@@ -63,6 +63,7 @@ namespace LangChangeSimulator
         {"Australia",new Rectangle(110,-45,50,45)},
         {"South America",new Rectangle(-83,-57,51,71)},
         {"Africa",new Rectangle(-18,-35,71,73)},
+        {"Africa Subsaharan",new Rectangle(-18,-35,71,40)},
         {"New Guinea",new Rectangle(125,-10,25,10)}
         };
 
