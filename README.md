@@ -14,6 +14,8 @@ Linguistic processes included:
 
 •	Word loss and word gain.
 
+•	Grammar changes.
+
 •	Areal effects, e.g. gaining a sound that is common in the region.
 
 Non-linguistic processes included:
@@ -45,3 +47,6 @@ Output:
 •	True tree of descent.
 
 •	True cognate classes (taking into acount borrowing).
+
+•	Maps of the spread of languages.
+
