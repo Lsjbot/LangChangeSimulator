@@ -1,0 +1,462 @@
+Lang	Latitude	Longitude	NINE	ONE	SEVEN	SIX	TEN	THREE	TWO	EIGHT	FIVE	FOUR
+1	-5,99999999999983	26,3063063063072	ˀk ɨ w    	āː ˀk e r    	ɨ ŋː f    	āː w e n m    	ˀk ə m ŋː āː r    	t̪ f āː r    	ˀk r āː āː    	ə w r    	r ɨ m    	ŋː ə t̪ f    
+3	0,306306306306476	29,4594594594604	ʰt aːi aˑ    	eː ɗː    ɛ ʈ    	n̊ ʉː    	ɛ s k sː    	aːi t aˑ    	t r uɔ    	v t oː    	aˑ tː a    	ɨ f m    	yː f r a    
+5	-5,54954954954938	26,7567567567577	i s t    	s œː ə r    	i f ṽ    	t n œː ə m    	a s f m ɔ̃ː r    	ṽ œː j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f j oi ṽ    
+6	-5,09909909909893	27,2072072072081	ɐu dʲː ɯ̱    	o tsʰ e r    	ʒ ɐu cː    	o ɯ̱ n e m    	dʲː a m ʒ u r    	cː dʲː o r    	dʲː r u u    	a ɯ̱ r    	r ɐu m    	a ʒ dʲː cː    
+7	-5,09909909909893	26,7567567567577	i s w    	ɑˑ s o r    	i χ k    	o w ɑˑ kˀ m    	s ãː m χ ɑ̠ r    	k k o r    	s ɑ̠ r ɑ̠    	w ãː r    	r i m    	χ k ãː k    
+9	-3,29729729729713	29,0090090090099	i ˀd w    	o e ˀd pʲ    	i ɓ cː    	w o θ e ʋ    	yː ˀd ʋ ɓ u g    	ˀd cː o g    	ˀd u r u    	a w pʲ    	i r ʋ    	ˀd ɓ yː cː    
+10	-2,84684684684668	29,0090090090099	s i w    	o s ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m    	s ɔˑ m f ɐː ʃʰ    	k ə kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	f kp ɔˑ h    
+11	-4,64864864864848	26,7567567567577	s ĩ w    	o s e ɗ    	ĩ j ɕʲ    	w ʃː o e m    	á s m j uɔ ɗ    	o ɕʲ j ɗ    	s ɔ̃ː ɗ ɔ̃ː    	w á ɗ    	ɗ ĩ m    	j j á ɕʲ    
+12	-6,45045045045028	25,4054054054063	s i w    	ɬ o œ d̪    	f i k    		s m f ə æ̃ d̪    	k o j d̪    	s r u u    	ə w d̪    	i r m    	f j ə k    
+63	-1,94594594594578	26,7567567567577	d̥ ɒː t    	d̥ œː ə ɣʷ    	i f b    	t œː n ə m    	a d̥ f m o ɣʷ    	b œː j ɣʷ    	d̥ ɣʷ ɔ̃ː ɔ̃ː    	t a ɣʷ    	ɣʷ ɒː m    	f j ɒ b    
+197	-1,94594594594578	29,0090090090099	ˀd i w    		i ɓ cː    	w o θ e m    	ˀd ɨˤ m ɓ ɑː pʲ    	ˀd cː o pʲ    	ˀd ɑː r ɑː    	a w pʲ    	r i m    	ˀd ɓ ɨˤ l̪    
+15	-3,29729729729713	28,5585585585595	r̃ ŏ w    	o au r̃ ɣ    	f ŏ cː    	w o j au z    	r̃ a z f u ɣ    	cː r̃ o ɣ    	r u r̃ u    	a w ts    	r ŏ z    	r̃ f a cː    
+16	-5,99999999999983	25,4054054054063	s i w    	s əɯ œ ɦ    	i dʑ k    	w əɯ n œ m    	s ɔˑ m dʑ u ɦ    	k j əɯ ɦ    	s r u u    	ɔˑ w ɦ    	r i m    	dʑ j ɔˑ k    
+17	3,90990990991008	25,8558558558568	n aːi i    	ʀ iɛ    ɓ ɛ    	ɧ ʉː    	ɛ s j sː    	t aːi i    	r t i    	v t ʏ    	tː i a    	f ɨi m    	yː f r a    
+18	-5,99999999999983	25,8558558558568	h i w    	h o e d̪    	i f h    	w ə n e m    	h ɔˑ f m ia d̪    	h ə b d̪    	h ia b̥ īː    	ɔˑ w d̪    	b̥ i m    	f b ɔˑ ʈː    
+19	-3,74774774774758	26,3063063063072	i s t    	s au ə r    	i f k    	t au n i m    	a m s ɔ̃ː f r    	k au j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f j a ŋ    
+20	-2,84684684684668	28,108108108109	s i w    	u s e pʲ    	f i cː    	w u n e m    	s aɯ m f ĩː pʲ    	cː s u pʲ    	s r ĩː ĩː    	aɯ w pʲ    	r i m    	s f aɯ cː    
+21	-3,74774774774758	28,5585585585595	ʀ i w    	õ ʀ e r    	f i ŋ    	w õ e ʁ m    	ʀ ə m f ɔ̃ r    	ɔ̃ t̪ ŋ r    	ʀ r õ õ    	w ə r    	i r m    	f t̪ ə ŋ    
+196	-8,25225225225208	30,3603603603613	ɑː dʲː kʼ    	o ɭ e r    	ɑː ʒ cː    	o kʼ n e m    	dʲː a m ʒ u r    	cː dʲː o r    	dʲː r u u    	a kʼ r    	r ɑː m    	ʒ a dʲː cː    
+23	-6,45045045045028	25,8558558558568	s i kʼ    	o p ɵ r    	ts i cː    	o n kʼ ɵ ˀj    	s ʌ ˀj ts u r    	o cː s r    	s u r u    	ŭ kʼ r    	r i ˀj    	ts s ʌ cː    
+24	-11,4054054054052	20,4504504504514	l̪ i w    	ɑˑ o l̪ r    	f i k    	w o ˀd ɑˑ m    	l̪ u m f u ɸ    	k k o ɸ    	l̪ u m u    	w u ɸ    	r i m    	f k u k    
+25	-7,35135135135118	24,9549549549559	i s tː    	s o e r    	ɭː i cː    	tː o e n m    	s a m u ɭː r    	cː t̪ o r    	s u r u    	a tː r    	r i m    	t̪ a ɭː cː    
+26	-3,29729729729713	25,8558558558568	ɸ i w    	ɸ o e pʲ    	i f d̪    	w o n e m    	ɸ œː m f aː pʲ    	d̪ ɸ o pʲ    	ɸ aː pʰ aː    	œː w pʲ    	ŋ i m    	ɸ f œː d̪    
+27	-6,45045045045028	24,9549549549559	s a̱ w    	o s ɐ m    	dʑ i k    	w n ɐ o m    	s ə m dʑ u m    	k o j m    	s r u u    	w ə m    	r a̱ m    	dʑ j ə k    
+28	-5,54954954954938	25,4054054054063	i s w    	o cçʲ œ d̪    	f i k    	w f o œ p    	s ə m f u d̪    	k ʈʰ o d̪    	s u r u    	w ə d̪    	i r p    	ʈʰ f ə k    
+29	2,10810810810828	23,1531531531541	i ɗ t    	e˞ ɗ au pʲ    	ɤ̱ i cː    	t ui n au m    	ɗ ɛ̃ m ɤ̱ u pʲ    	cː ɗ ui pʲ    	ɗ u r u    	t a pʲ    	i r m    	ɗ ɛ̃ ɤ̱ cː    
+30	3,90990990991008	27,2072072072081	aːi n ɔ    	eː f    ɛ ʈ    	ɧ ʉː    	ɛ s k kʰʲ    	ɸ aːi ɔ    	ɸ r uɔ    	v ɸ oː    	ɔ b a̹    	f ɛ m    	f yː r a̹    
+31	-5,99999999999983	29,0090090090099	s i w    	s o e d̪    	f i s    	w ŏ n e m    	s ɔˑ m f u d̪    	s ts ŏ d̪    	s b̥ u u    	ɔˑ w d̪    	b̥ i m    	f ts ɔˑ ʈʰ    
+32	-3,74774774774758	27,2072072072081	i s ɟ    	s ɛ̃ o r    	i f k    	ɟ ɛ̃ tɕ o m    	s a m f ɔ̃ː r    	k j ɛ̃ r    	r s ɔ̃ː ɔ̃ː    	ɟ a r    	r i m    	f j a k    
+33	-3,29729729729713	26,3063063063072	ŋ i ʁˤ    	eɪ m e pʲ    	i f cː    	ʁˤ n eɪ e m    	ŋ a m u f pʲ    	ŋ cː eɪ pʲ    	u ŋ r u    	a ʁˤ pʲ    	i r m    	ŋ f a cː    
+34	3,45945945945963	26,3063063063072	n aːi ɔ    	eː w̃    	ɧ ʉː    	ɛ ɾ k sː    	t aːi ɔ    	t r uɔ    	t v oː    	ɔ ʑ a    	ɛ f ɓ    	f yː r a    
+35	-10,0540540540539	21,8018018018027	oːu jˀ w    	o ɔ̃ jˀ r    	oːu f k    	w o n ɔ̃ ɬ    	jˀ ʉ ɬ f u r    	k k o r    	jˀ u r u    	w ʉ r    	r oːu ɬ    	k f ʉ k    
+36	-9,15315315315298	23,1531531531541	s au fʲ    	s e e r    	f au cː    	fʲ e e n m    	s m a f u r    	cː t̪ e r    	s u r u    	fʲ a r    	r au m    	f a t̪ cː    
+37	-5,54954954954938	26,3063063063072	i s w    	ɜː s ɛ̃ d̪    	i f ʃʰ    	w ø n ɛ̃ m    	s ă m f u d̪    	v ʃʰ ø d̪    	s b̥ u u    	w ă d̪    	i b̥ m    	f v ă ʃʰ    
+38	-4,64864864864848	29,4594594594604	āː s w    	s o e ɗ    	āː f k    	w ʃː e o m    	a s m f ẽ ɗ    	o k j ɗ    	s ɔ̃ː ɗ ɔ̃ː    	w a ɗ    	āː ɗ m    	a f j k    
+39	-2,84684684684668	25,4054054054063	dː i t    	dː o ə r    	i ŋ̩ k    	t n o ə bː    	ä dː m ŋ̩ ɔ̃ː r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	t ä r    	i r m    	ŋ̩ j ä k    
+40	-3,74774774774758	29,0090090090099	õ ɸʷ tsː    	u ɸʷ u r    	f õ cː    	tsː u u n m    	ɸʷ ə m f o r    	t̪ cː o r    	ɸʷ r u u    	ə tsː r    	õ r m    	f t̪ ə cː    
+41	-7,35135135135118	26,7567567567577	s i kʼ    	o tsʰ e β    	i s cː    	o d̪ʰ kʼ e lː    	s ʌ s m aːi β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i lː    	s ʌ s cː    
+42	-2,84684684684668	26,7567567567577	s i t    	o s ə dː    	i f ⁿd    	t o n ə m    	s a f m ɔ̃ː dː    	ⁿd o j r    	s r ɔ̃ː ɔ̃ː    	t a dː    	r i m    	f ɒ j ⁿd    
+43	-3,29729729729713	24,9549549549559	s i g    	o s e pʲ    	i kʲ cː    	g o n e m    	s ɨˤ m kʲ u pʲ    	cː s o pʲ    	s u r u    	ãi g pʲ    	r i m    	s kʲ ɨˤ cː    
+44	-9,60360360360343	21,8018018018027	i s ˀb    	o œ s d̪    	i dʑ k    	ˀb o n œ ȵ    	s ɔˑ ȵ dʑ u d̪    	k j o d̪    	s r u u    	ɔˑ ˀb d̪    	r a̱ ȵ    	dʑ j ɔˑ k    
+45	3,90990990991008	27,6576576576586	aːi n ɔ    	eː ʀ    ɛ ʈ    	ɧ ã̤ː    	ɛ s k h    	t aːi ɔ    	t tʰ uɔ    	t v ʏ    	tː ɔ a    	f ɨi m̩    	f yː tʰ a    
+46	-5,99999999999983	27,6576576576586	s i w    	s o e d̪    	i f s    	w ə n æː m    	s ɔˑ m f ia d̪    	s j ə d̪    	s ia b̥ ia    	ɔˑ w d̪    	b̥ i m    	f j ɔˑ tsˀ    
+47	-5,09909909909893	24,9549549549559	s i w    	œ iə s ŋ    	i β k    	w iə œ β ʡ    	s m ə β ɑ̃ ŋ    	k j iə ŋ    	s r ɑ̃ ɑ̃    	w ə ŋ    	r i ʡ    	j β ə k    
+48	2,55855855855873	22,7027027027036	iː s w    	o s au pʲ    	f iː cː    	w o au ħ ʂ    	s a ʂ f u pʲ    	cː s o pʲ    	s ʒ u u    	a w pʲ    	e˞ ʒ ʂ    	s f a cː    
+49	-2,84684684684668	25,8558558558568	s iɛ w    	eɪ e s pʲ    	i f jˀ    	w eɪ n e vː    	s a dʲ f u pʲ    	s cː eɪ pʲ    	s u r u    	a w pʲ    	r iɛ vː    	f s a jˀ    
+50	2,10810810810828	27,6576576576586	n aːi ä    	s̪ uɔ    ʈ ī    	ˀw ʉː    	ī k s sː    	aːi t ä    	t r ou    	ʁ t oː    	dʲ ä a    	f ɨ m    	f yː r a    
+51	-6,90090090090073	25,4054054054063	i lʲ m    	lʲ ɐ o r    	f i cː    	w ɐ o n m    	lʲ m a f ɪ r    	cː t̪ o r    	lʲ r ũ ũ    	w a r    	i r m    	f t̪ a cː    
+52	-6,90090090090073	24,9549549549559	s i w    	s o ɛ̃ ʃʰ    	f i k    	w ə ɬ ɛ̃ m    	s ɔˑ m f u ʃʰ    	k ə kp ʃʰ    	c s u u    	ɔˑ w ʃʰ    	c i m    	kp f ɔˑ k    
+53	-2,39639639639623	27,6576576576586	i s w    	o s ø sʲ    	f i cː    	w o j ø m    	s a m f u sʲ    	cː s o sʲ    	s r u u    	w a c    	r i m    	s f a cː    
+54	-3,74774774774758	29,4594594594604	s i w    	s u e r    	kʼ i ʡ    	w u e n m    	s ə m kʼ ɔ̃u r    	t̪ ɔ̃u ʡ r    	s r u u    	ə w r    	i r m    w u e n m    	kʼ t̪ ə ʡ    
+55	-6,90090090090073	26,3063063063072	s aˀ kʼ    	o bʰ e r    	aˀ f cː    	kʼ o n e m    	s ʌ m f u r    	cː s o r    	s r u u    	kʼ a r    	r aˀ m    	f s ʌ cː    
+56	-8,25225225225208	24,054054054055	i s w    	s o e r    	f i k    	w o e n m    	s a m f u r    	k t̪ o r    	s r u u    	w a r    	r i m    	f t̪ a k    
+57	-7,35135135135118	27,6576576576586	s i ts    	s o e d̪    	i f s    	ts ə n e ŋ    	s ɔˑ ŋ f u d̪    	s j ə d̪    	s u b̥ u    	ɔˑ ts d̪    	i b̥ ŋ    	f j ɔˑ s    
+58	-4,64864864864848	26,3063063063072	s ʊ jˀ    	s ɛ̃ ə r    	f ʊ β    	jˀ ɛ̃ tɕ o m    	s a m f oˑ r    	β ɛ̃ j r    	s r oˑ oˑ    	a jˀ r    	ʊ r m    	f j a β    
+59	2,55855855855873	25,4054054054063	aːi ȵ ʌ    	ʈ ɛ    	ɧ ʉː    	ɛ s k sː    	t aːi ʌ    	t r uɔ    	v t oː    	ʌ ɕʰ a    	ɑi f dʲ    	yː f r a    
+60	-10,5045045045043	21,3513513513523	s i rʲ    	ʌ ɑˑ s r    	i f k    	ʌ rʲ ɑˑ n nʲ    	s nʲ ɨ̠ f ɨ̠ r    	k k ʌ r    	s ɨ̠ r ɨ̠    	ɨ̠ rʲ r    	r i nʲ    	f k ɨ̠ k    
+61	-9,60360360360343	22,7027027027036	s i w    	ɔʊ e s r    	i f cː    	w ɔʊ e n m    	s m a f ʌː r    	cː t̪ ɔʊ r    	s r u u    	w a r    	r i m    	f t̪ a cː    
+62	-3,74774774774758	24,5045045045054	i s t    	s o ə r    	i ŋ̩ k    	t o n ə m    	ɔʊ s m ŋ̩ ɛu r    	k o j r    	r s ɛu ɛu    	ɔʊ t r    	i r m    	ŋ̩ j ɔʊ k    
+64	-4,64864864864848	27,2072072072081	s i w    	o s e ɗ    	i f k    	w ʃː o e m    	a s m f ẽ ɗ    	k o j ɗ    	ɔ̃ː s ɗ ɔ̃ː    	w a ɗ    	ɗ i m    	f j a k    
+65	-2,39639639639623	24,9549549549559	i h t    	o h o l    	i ŋ̩ k    	t o n o m    	h m ũ ŋ̩ ɔ̃ː l    	k o j l    	h l ɔ̃ː ɔ̃ː    	ũ t l    	i l m    	j ŋ̩ ũ k    
+67	-3,74774774774758	26,7567567567577	i s t    	s ə o dʷ    	i f tʼ    	t n o ə tʰ    	a s tʰ f ɔ̃ː dʷ    	o tʼ j dʷ    	s dʷ ɔ̃ː ɔ̃ː    	a t dʷ    	au dʷ tʰ    	f j a sʲ    
+68	-7,80180180180163	26,3063063063072	i s w    	o s ɛ̃ d̪    	i f k    	w ø n ɛ̃ m    	s ă m f u d̪    	k gʱ ø d̪    	s b̥ u u    	w ă d̪    	i b̥ m    	f gʱ ă k    
+69	-5,09909909909893	29,4594594594604	āː s w    	s uɔ e ɗ    	āː f k    	w ʃː uɔ e m    	s a m f ẽ ɗ    	k uɔ j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	w a ɗ    	āː ɗ m    	f a j k    
+195	3,00900900900918	26,7567567567577	ɨ n ə    	eː g̊    	n̊ ʉː    	ɛ s k sː    	ɨ t ə    	t r uɔ    	ⁿd t oː    	tː aˑ a    	ɨ f m    	f yː r a    
+71	-5,99999999999983	26,7567567567577	s i t    	o ʈ ə r    	i f b    	o t n ə m    	a s f m ɔ̃ː r    	b o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+72	-3,74774774774758	24,9549549549559	s i χʷ    	aːu e s ɭ    	i mʲ ç    	χʷ aːu n e m    	s ɨˤ m mʲ u ɭ    	ç s aːu ɭ    	s u r u    	a χʷ ɭ    	i r m    	s ɨˤ mʲ ç    
+73	2,10810810810828	25,4054054054063	n e̞ ɔ    	ɛ ʈ    	ɧ ʉː    	ɛ s k sː    	t e̞ ɔ    	t r uɔ    	t f oː    	ɔ d a    	f eu n̩    	f yː r a    
+74	-6,45045045045028	26,7567567567577	i s w    	əu s e r    	ŋː i cː    	w əu e n m    	s ə m ŋː əu r    	t̪ əu cː r    	s r əu əu    	ə w r    	r i m    	ŋː ə t̪ cː    
+75	-5,54954954954938	27,6576576576586	s œ kʼ    	o tsʰ e r    	ʒ œ cː    	o kʼ n e m    	s ɛu m ʒ u r    	cː s o r    	s u r u    	kʼ ə̆ r    	r œ m    	ʒ ɛu s cː    
+76	-7,80180180180163	24,5045045045054	s i ɹ    	s o e r    	i f ɕː    	w o ŋ e ɹ    	s a ɹ f u r    	cː o tʲ r    	s r u u    	w a r    	i r ɹ    	f tʲ a ɕː    
+77	-4,19819819819803	27,6576576576586	s i w    	s o ɛ̃ ʃʰ    	i f k    	w ĩː n ɛ̃ m    	s ɔˑ m f u ʃʰ    	ĩː k k ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	b̥ i m    	f k ɔˑ k    
+78	3,90990990991008	26,3063063063072	n aːi ɔ    	ɓ ɛ    	k ʉː    	ɛ s j ð    	aːi t ɔ    	t r uɔ    	v t ʏ    	β ɔ a    	ɨi f m    	f yː r ɤ    
+79	2,10810810810828	20,4504504504514	s i t    	s o ə r    	i f k    	t n o i m    	a m s f ɑ r    	k o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+80	-3,74774774774758	29,9099099099108	ʀ yː w    	ʀ ə˞ e r    	f yː cː    	ə˞ w e n m    	ʀ ə m f ɔ̃ r    	t̪ ɔ̃ cː r    	r ʀ ə˞ ə˞    	ə w r    	yː r m    	f t̪ ə cː    
+81	-11,4054054054052	24,054054054055	s ɑ w    	ɑˑ o s r    	f ɑ v    	w o n ɑˑ m    	s u f m u r    	v v o r    	s u m u    	u w r    	r ɑ m    	v f u v    
+82	-10,0540540540539	22,2522522522532	s i mˀ    	s o a̤ː r    	f i cː    	mˀ o a̤ː n m    	s a m f u r    	cː o t̪ r    	s u r u    	a mˀ r    	r i m    	f t̪ a cː    
+83	3,00900900900918	19,5495495495505	ɸ i w    	o e ɸ n    	f i d̪    	o w n e ʕ    	ɸ e̠ f m u n    	d̪ ɸ o n    	ɸ u pʰ u    	e̠ w n    	r i ʕ    	ɸ f e̠ d̪    
+84	3,00900900900918	22,2522522522532	s i t    	o s au pʲ    	w i cː    	t o n au m    	s ɛ̃ m w u pʲ    	cː s o pʲ    	s r u u    	a t pʲ    	i r m    	s w ɛ̃ cː    i r m    
+85	3,90990990991008	28,108108108109	aːi n ɔ    	ʀ eː    ɛ ʈ    	ɧ ʉː    	s ɛ k tɕ    	x aːi ɔ    	x l̪ˠ ɤ    	v x oː    	ɔ tː a    	ɛ f ɮ    	f l̪ˠ yː a    
+86	-2,39639639639623	25,4054054054063	i s w    	l eɪ e pʲ    	f i ʂ    	w ɑ̱ n e l    	s a l u f pʲ    	s ʂ ɑ̱ pʲ    	s u r u    	a w pʲ    	i r l    	s f a ʂ    
+87	-7,35135135135118	30,3603603603613	s i t͈    	aː tsʰ e β    	i s cː    	aː t͈ n e m    	s ʌ m s u β    	cː s aː β    	β s u u    	t͈ a β    	i β m    	s ʌ s cː    
+88	-5,99999999999983	28,5585585585595	s i w    	s o e d̪    	i f s    	w ə n e m    	s ɔˑ m f ia d̪    	s j ə d̪    	s ia tɕ ia    	w ɔˑ d̪    	i tɕ m    	f j ɔˑ s    
+89	2,10810810810828	29,9099099099108	dː aːi ɔ    	g̊ eː    ɛ r̃    	n̊ ʉː    	ɛ ʃː k sː    	aːi t ɔ    	t r uɔ    	v t oː    	dʲ ɔ a    	p ɨ m    	p yː r a    
+90	-6,90090090090073	27,2072072072081	s i w    	s o ɛ̃ ʃʰ    	i f j    	ə w n ɛ̃ m    	s ɔˑ m f u ʃʰ    	j ə kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	kp f ɔˑ j    
+91	-2,39639639639623	29,0090090090099	s i w    	o s au kʷ    	f i cː    	w o j au m    	s a f m u kʷ    	cː s o kʷ    	s r u u    	a w tʲ    	r i m    	s f a cː    
+92	-6,90090090090073	26,7567567567577	s i kʼ    	o e tsʰ r    	f i cː    	kʼ o n e m    	s ɤ m f u r    	cː s o r    	s r u u    	a kʼ r    	r i m    	f s ɤ cː    
+93	-8,25225225225208	24,5045045045054	i s w    	s o e r    	tˤ i cː    	w o e n m    	s a m tˤ au r    	cː t̪ o r    	r s au au    	a w r    	r i m    	tˤ t̪ a cː    
+94	-10,5045045045043	21,8018018018027	s i rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ m    	s f ɔˑ m u r    	k k o r    	s u r u    	ɔˑ rʲ r    	r i m    	f k ɔˑ k    
+95	-9,60360360360343	24,5045045045054	i θ w    	o θ e r    	f i cː    	w e o n m    	θ m a f u r    	cː t̪ o r    	θ r u u    	a w r    	r i m    	f t̪ a cː    
+96	-3,74774774774758	25,8558558558568	i s t    	s o ə g    	i tsʰ k    	t o n ə m    	s ə̆ m tsʰ ɔ̃ː g    	k o j r    	r s ɔ̃ː ɔ̃ː    	ə̆ t r    	r i m    	tsʰ j ə̆ k    
+97	-4,64864864864848	30,3603603603613	s i w    	o s e ɗ    	i f k    	w ʃː o e m    	æ̃ s m f aːi ɗ    	k o j ɗ    	s ɗ ẽ ẽ    	æ̃ w ɗ    	ɗ i m    	f j æ̃ k    
+98	-7,80180180180163	26,7567567567577	s i w    	o s ɛ̃ ʝ    	i f χ    	w uˑ n ɛ̃ m    	s ă f m ʌ ʝ    	χ q uˑ ʝ    	s b̥ u u    	ă w ʝ    	b̥ i m    	f q ă χ    
+99	-4,64864864864848	29,0090090090099	i s w    	o s e ɗ    	i x k    	w ʃː o e m    	æ̃ s m x uɔ ɗ    	o k j ɗ    	s ɗ aːu aːu    	æ̃ w ɗ    	i ɗ m    	x j æ̃ k    
+100	-2,39639639639623	26,3063063063072	i s t    	s œː ə r    	i f b    	t œː n ə m    	a s f m o r    	b œː j r    	r s ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+101	-7,80180180180163	27,2072072072081	i s kʼ    	o tsʰ e r    	f i cː    	o kʼ n e m    	s ʌ m f u r    	cː o s r    	s r u u    	ɛ̠ kʼ r    	r i m    	f s ʌ cː    
+102	-5,09909909909893	25,8558558558568	i s t    	s ɛ̃ o r    	i tɕʰ k    	t ɛ̃ tɕ o m    	s õ m tɕʰ ɔ̃ː r    	k j ɛ̃ r    	r s ɔ̃ː ɔ̃ː    	a t r    	i r m    	tɕʰ j õ k    
+103	3,00900900900918	25,8558558558568	aːi n ɔ    	g̊ eː    ʈ ɛ    	ʉː dʷ    	ɛ k s sː    	aːi t ɔ    	t r uɔ    	v t oː    	ɔ ʒ a    	bʲ ɯi ɓ    	bʲ yː r a    
+104	-10,9549549549548	21,3513513513523	s au t    	s o aː r    	f au dʒ    	t o aː n m    	s m a f u r    	dʒ t̪ o r    	s r u u    	t a r    	au r m    	f a t̪ dʒ    
+105	-5,99999999999983	29,4594594594604	s āː w    	s o e ɗ    	āː f n̪    	w ʃː e o m    	a s m f ẽ ɗ    	n̪ o j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	a w ɗ    	āː ɗ m    	f j a n̪    
+106	-4,64864864864848	23,6036036036045	i dː n    	dː a̘ o̞ː b    	i ŋ̩ k    	n a̘ n o̞ː m    	ʊː m dː ŋ̩ ɔ̃ː b    	k a̘ j b    	b dː ɔ̃ː ɔ̃ː    	ʊː n b    	i b m    	ŋ̩ j ɔʊ ˀl    
+107	-8,25225225225208	26,7567567567577	i s t    	s o ə rʷ    	i z ⁿd    	t o n ə m    	a s z m ɔ̃ː rʷ    	ⁿd o j rʷ    	rʷ s ɔ̃ː ɔ̃ː    	t a rʷ    	rʷ i m    	z ɒ j ⁿd    
+108	3,45945945945963	27,2072072072081	aːi n ɔ    	eː ʀ    e ʈ    	ɧ ʉː    	k e k sː    	aːi t ɔ    	t ʃʰ uɔ    	v t ʏ    	ɔ tː eˀ    	f ɨi mʷ    	f yː ʃʰ eˀ    
+109	-11,4054054054052	18,6486486486496	ɲ i w    	ʌ o ɲ d̪    	i f k    	w o f ʌ ʡ    	ɲ ə kʰ f u d̪    	k j o d̪    	ɲ r u u    	ə w d̪    	r i ʡ    	j f ə k    
+110	-6,90090090090073	21,8018018018027	s i ʐ    	eɪ s e pʲ    	f i cː    	ʐ eɪ n e dʲ    	s a dʲ f u pʲ    	s cː eɪ pʲ    	s u ʐ u    	ʐ a pʲ    	ʐ i dʲ    	s f a cː    
+111	-5,99999999999983	27,2072072072081	zʲ i w    	u zʲ e r    	f i cː    	w u e n m    	zʲ ə m ɔ f r    	t̪ cː ɔ r    	zʲ r u u    	ə w r    	i r m    	f t̪ ə cː    
+113	-1,94594594594578	25,4054054054063	ȵ aːi ɔ    	eː g̊    	ʉː qχː    	ɛ s k sː    	aːi t ɔ    	t h uɔ    	t v oː    	tː ɔ a    	f ɑi ɓ    	f yː h a    
+114	-6,45045045045028	20,9009009009018	i s t    	s o eˑ l    	i ɖ k    	t o eˑ n m    	i s m ɖ ɔ̃ː l    	k o j l    	s l ɔ̃ː ɔ̃ː    	i t l    	i l m    	j ɖ i k    
+115	-15,0090090090088	16,3963963963973	i s w    	o s u̘ d̪    	i dʑ k    	w o n u̘ m    	s ɔ̃ː m dʑ u d̪    	j k o d̪    	u s r u    	ɔ̃ː w d̪    	r i m    	dʑ j ɔ̃ː k    
+116	2,10810810810828	26,3063063063072	n aːi ɔ    	eː ɽ    	ʉː ɧ    	ɛ s k tɕ    	ɸ aːi ɔ    	ɸ r uɔ    	v ɸ œː    	ɔ tː a    	ɛ f m    	f r yː a    
+117	4,81081081081098	24,9549549549559	n aːi aˑ    	ɛ ʈ    	ʉː n̊    	s ɛ k sː    	z aːi aˑ    	r t uɔ    	v t oː    	aˑ tː a    	ɨ f m    	f yː r a    
+118	-2,39639639639623	26,7567567567577	ʉ s t    	s œː ə ɦ    	ʉ f b    	œː t n ə m    	a s f m ɔ̃ː ɦ    	b œː j ɦ    	ɔ̃ː s ɦ ɔ̃ː    	a t ɦ    	ɦ ʉ m    	f j oi b    
+119	-5,99999999999983	28,108108108109	s ɑː kʼ    	e o tsʰ r    	ʒ ɑː cː    	o kʼ n e m    	s a m ʒ u r    	cː s o r    	s r u u    	a kʼ r    	r ɑː m    	ʒ a s cː    
+120	-3,74774774774758	28,108108108109	i s w    	o s ɑ̠ h    	i f k    	w ə n ɑ̠ m    	s ɔˑ m f ɐː h    	k ə kp ʃʰ    	s b̥ u u    	w ɔˑ h    	i b̥ m    	f kp ɔˑ k    
+121	-6,45045045045028	29,9099099099108	s i w    	o ɬ œ d̪    	i f k    		s ə m f y d̪    	k ʔ o d̪    	s u r u    	ə w d̪    	i r m    	ʔ f ə k    
+122	-1,94594594594578	27,2072072072081	r̃ i w    	o au r̃ kʷ    	i f cː    	w o j au m    	r̃ a m f u kʷ    	cː r̃ o kʷ    	r u r̃ u    	a w ts    	r i m    	r̃ f a cː    
+123	2,55855855855873	20,0000000000009	s i t    	s ɐ o r    	i f k    	t o ⁿt i m    	a s m iɛ f r    	k o j r    	s r ẽ ẽ    	a t r    	r i m    	f j a k    
+124	-3,74774774774758	30,8108108108117	ʀ i w    	u ʀ e r    	f i ŋ    	w u e ʁ ʮ    	ʀ ə ʮ f ɔ̃ r    	t̪ ɔ̃ ŋ r    	ʀ r u u    	w ə r    	i r ʮ    	f t̪ ə ŋ    
+125	3,45945945945963	21,8018018018027	ɗ ɔ t    	o ɗ au pʲ    	f ɔ cː    	t ui n au m    	ɗ ɛ̃ m f u pʲ    	cː ɗ ui pʲ    	ɗ r u u    	t a pʲ    	ɔ r m    	ɛ̃ ɗ f cː    
+126	-10,9549549549548	20,9009009009018	s oːu w    	o ɑˑ s r    	oːu f k    	w o n ɑˑ m    	s ɔˑ m f u r    	k k o r    	s u r u    	ɔˑ w r    	r oːu m    	k f ɔˑ k    
+127	-11,4054054054052	20,9009009009018	s ã fʲ    	s o ă r    	ã f cː    	fʲ o ă n θ    	s θ a u f r    	cː t̪ o r    	u s r u    	fʲ a r    	ã r θ    	f t̪ a cː    
+128	-7,35135135135118	27,2072072072081	s i kʼ    	o ʔ e β    	s i cː    	o d̪ʰ kʼ e m    	s ʌ s m aːi β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i m    	s ʌ s cː    
+129	2,10810810810828	22,7027027027036	s ɛi w    	o s au pʲ    	f ɛi cː    	w o au n ʂ    	s a ʂ f u pʲ    	cː s o pʲ    	s u d u    	a w pʲ    	r ɐ̃ ʂ    	s f a cː    
+130	-6,90090090090073	25,8558558558568	lʲ i ŋ̩    	o lʲ e r    	f i cː    	w o e n ŋ̩    	lʲ a ŋ̩ f ɪ r    	cː t̪ o r    	lʲ r u u    	a w r    	i r ŋ̩    	f t̪ a cː    
+131	-2,39639639639623	30,8108108108117	s i w    	s ɘ au sʲ    	f i sː    	w ɘ j au m    	s a m f u sʲ    	sː ɘ s sʲ    	s r u u    	w a c    	i r m    	s f a sː    
+132	-8,25225225225208	24,9549549549559	ø̠ s w    	o s e r    	f ø̠ ɕ    	w o e n m    	s a m f u r    	ɕ t̪ o r    	s r u u    	a w r    	r ø̠ m    	f t̪ a ɕ    
+133	-10,5045045045043	22,2522522522532	s i rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ nʲ    	s ɔˑ nʲ f u r    	k k o r    	s u r u    	ɔˑ rʲ r    	r i nʲ    	f ɔˑ k k    
+134	-4,64864864864848	28,108108108109	i s w    	o s e ɗ    	i f k    	w o ʃː e m    	s æ̃ m f ẽ ɗ    	k o p ɗ    	s ɗ i̟ i̟    	w æ̃ ɗ    	ɗ i m    	f p æ̃ k    
+135	-3,74774774774758	27,6576576576586	s i t    	s o æ dʷ    	i f tʼ    	t n o æ bʰ    	a s f bʰ ɔ̃ː dʷ    	o tʼ j dʷ    	s dʷ ɔ̃ː ɔ̃ː    	a t dʷ    	au dʷ bʰ    	f j a tʼ    
+136	-5,09909909909893	29,9099099099108	ɑː s w    	s o e ɗ    	ɑː f k    	w ʃː o e tɕ    	a s tɕ f ẽ ɗ    	k o j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	w a ɗ    	ɑː ɗ tɕ    	f j a k    
+137	-5,99999999999983	29,9099099099108	s i t    	ʈ o ə r    	i pʲ b    	t o n ə m    	a s pʲ m œː r    	b o j r    	r s uo uo    	a t r    	r i m    	pʲ j ɒ b    
+138	2,10810810810828	25,8558558558568	n aːi ɔ    	ɛ ʈ    	ɧ ʉː    	ɛ k s sː    	aːi t ɔ    	r t uɔ    	v t oː    	ɔ d ɑˑ    	m̩ ɨ n̩    	m̩ yː r ɑˑ    
+139	-6,45045045045028	30,3603603603613	s i w    	əu s e r    	i ɟ cː    	w əu e n m    	ə s ɟ m əu r    	t̪ cː əu r    	s r əu əu    	ə w r    	i r m    	ɟ ə t̪ cː    
+140	-5,54954954954938	29,9099099099108	s i kʼ    	o e tsʰ r    	ʒ i cː    	kʼ o qʰ e m    	s ɑ˞ m ʒ e̞ r    	cː s o r    	s r e̞ e̞    	ɑ˞ kʼ r    	r i m    	ʒ ɑ˞ s cː    
+141	-4,19819819819803	29,4594594594604	s i w    	s o ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m    		ə k kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	f kp ɔˑ k    
+142	2,10810810810828	21,3513513513523	s aɪ t    	s o ə r    	f aɪ k    	n t o aɪ m    	a s f m ɔ̃ː r    	k aː j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r aɪ m    	f j a k    
+143	-11,4054054054052	25,4054054054063	s i w    	ɔ o s r    	f i k    	o w n ɔ m    	s u m f u kʰ    	k k o kʰ    	s u m u    	u w r    	r i m    	f k u k    
+144	3,00900900900918	22,7027027027036	s i t    	o s au pʲ    	r i cː    	o t n au m    	s ɐ m r u pʲ    	cː o s pʲ    	s r u u    	a t pʲ    	i r m    	s r ɐ cː    
+145	2,10810810810828	30,3603603603613	aːi n a̠    	eː g̊    	n̊ ʉː    	s ɛ k ˀb    	aːi t a̠    	t r uɔ    	v t oː    	a̠ dʲ a    	f ɨ m    	f r yː a    
+146	-6,90090090090073	30,3603603603613	i s w    	s o ɛ̃ ʃʰ    	i g̊ k    	w ə n ɛ̃ m    	s ɔˑ m g̊ u ʃʰ    	k ə kp ʃʰ    	s b̥ u u    	ɔˑ w ʃʰ    	i b̥ m    	kp g̊ ɔˑ k    
+147	-8,25225225225208	25,8558558558568	i s w    	s o e tsʲ    	f i cː    	w o e n m    	s a m f u tsʲ    	cː t̪ ai tsʲ    	tsʲ s u u    	w a tsʲ    	tsʲ i m    	f t̪ a cː    
+194	-8,25225225225208	28,5585585585595	s əu w    	āː s e ȶ    	əu ŋː bʱ    	āː w e n m    	s ə m ŋː āː ȶ    	t̪ bʱ āː ȶ    	s ȶ āː āː    	w ə ȶ    	ȶ əu m    	ŋː ə t̪ bʱ    
+149	-10,9549549549548	25,8558558558568	ʔ i w    	ʔ o e d̪    	f i ʔ    	w ə n e m    	ʔ ɔˑ m f u d̪    	ʔ j ə d̪    	ʔ u b̥ u    	ɔˑ w d̪    	b̥ i m    	f ɔˑ j ʔ    
+150	-4,19819819819803	25,8558558558568	i s w    	ɑˑ s o r    	i χ k    	o w ɑˑ n m    	s ɐ̆ m χ oː r    	k k o r    	s ɐ̆ r oː    	ɐ̆ w r    	r i m    	χ k ɐ̆ k    
+151	-8,70270270270253	23,6036036036045	k i pʰ    	k e o ŋ    	f i kʲ    	wʲ o e n pʰ    	k a pʰ f u ŋ    	kʲ o tʲ ŋ    	k ŋ u u    	wʲ a ŋ    	i ŋ pʰ    	f tʲ a kʲ    
+152	-3,29729729729713	25,4054054054063	i ⁿdʑ t    	ⁿdʑ œː ə r    	i f b    	t œː n ə m    	a f ⁿdʑ m o r    	b j œː r    	ⁿdʑ r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+153	3,90990990991008	31,7117117117126	aːi n ɔ    	eː ʀ    ɓ ɛ    	ɧ ʉː    	ɛ s j sː    	aːi t ɔ    	t r ɔ    	s t ʏ    	tː ɔ a    	f ɨi m    	f yː r a    
+154	-11,4054054054052	21,3513513513523	d̪ i w    	ʉ ɑˑ d̪ r    	f i k    	w ʉ n ɑˑ m    	d̪ u m f u ɸ    	k k ʉ ɸ    	d̪ u m u    	u w ɸ    	r i m    	f k u k    
+155	-11,8558558558557	20,4504504504514	i s tː    	s o e r    	f i cː    	tː o e n m    	s iu m f u r    	cː t̪ o r    	s u r u    	iu tː r    	r i m    	t̪ f iu cː    
+156	3,45945945945963	19,0990990991	i ɸ ɓ    	o ɸ e pʲ    	i f d̪    	ɓ o n e m    	ɸ e̠ m f u pʲ    	d̪ ɸ o pʲ    	u ɸ pʰ u    	e̠ ɓ pʲ    	ŋ i m    	ɸ f e̠ d̪    
+157	-5,54954954954938	27,2072072072081	i s w    	o s œ d̪    	i x ɮʲ    	o w x œ p    	s ə m x u d̪    	ɮʲ j o d̪    	s u ɖː u    	ə w d̪    	i r p    	j x ə ɮʲ    
+158	-1,94594594594578	24,9549549549559	s i β    	eɪ m e pʲ    	f i cː    	β eɪ r̩ e m    	s a m u f pʲ    	s cː eɪ pʲ    	u s r u    	a β pʲ    	r i m    	s f a cː    
+159	-2,84684684684668	20,0000000000009	n ɤ ɔ    	eː w̃    	ʉː ɧ    	ɛ s k sː    	ɤ t ɔ    	t r ə    	v t oː    	ɔ tː a    	f ɛ ɓ    	f yː r a    
+160	-6,45045045045028	29,4594594594604	āː s w    	s o e ʃ    	āː f k    	w z̩ e o m    	a m s f ẽ ʃ    	k o j ʃ    	s ʃ ɔ̃ː ɔ̃ː    	w a ʃ    	āː ʃ m    	f j a k    
+161	-6,90090090090073	21,3513513513523	dː u t    	dː o ə r    	u ŋ̩ k    	t o ŋː ə bː    	ĩ dː m ɔ̃ː ŋ̩ r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	t ĩ r    	u r m    	ŋ̩ j ĩ k    
+162	-4,19819819819803	26,7567567567577	s ie t    	s o ə dː    	ie f tɕʰ    	t o n ə m    	a s f m ɔ̃ː dː    	tɕʰ o j r    	r s ɔ̃ː ɔ̃ː    	a t dː    	r ie m    	f j ɒ tɕʰ    
+163	-4,19819819819803	24,9549549549559	s i w    	o s e pʲ    	kʲ i cː    	w o n e m    	s m ɨˤ kʲ ə pʲ    	cː s o pʲ    	s ə r ə    	ãi w pʲ    	r i m    	s kʲ ɨˤ cː    
+164	-8,25225225225208	21,8018018018027	i s w    	œ s iə d̪    	i β k    	w iə β œ ʡ    	s ə m β ɔ̃ː d̪    	k j iə d̪    	s r u u    	w ə d̪    	r i ʡ    	j β ə k    
+165	2,10810810810828	29,4594594594604	n aːi ä    	g̊ eː    ʈ ī    	n̊ ʉː    	ī k s sː    	t aːi ä    	t r ou    	v t oː    	dʲ ä a    	ɨ f m    	f yː r a    
+166	-6,90090090090073	27,6576576576586	s i ˀn    	s o ɛ̃ ʃʰ    	i f ŋ    	ˀn ə ɬ ɛ̃ m    	s ɔˑ m f u ʃʰ    	ŋ ə kp ʃʰ    	s c u u    	ɔˑ ˀn ʃʰ    	c i m    	kp ɔˑ f ŋ    
+167	-7,35135135135118	25,8558558558568	s i w    	u s ə r    	f i cː    	w u ə n m    	s m ə f ɔ̃u r    	t̪ ɔ̃u cː r    	s r u u    	ə w r    	i r m    w u ə n m    	f t̪ ə cː    
+168	-6,90090090090073	28,108108108109	s i kʼ    	o tsʰ e r    	f i cː    	o kʼ n e m    	s ɛ̠ m f u r    	cː s o r    	s r u u    	a kʼ r    	r i m    	f s ɛ̠ cː    
+169	-9,60360360360343	25,4054054054063	s i ts    	s o e d̪    	i f s    	ts ə n e t    	ɔˑ s t f u d̪    	s j ə d̪    	u s b̥ ai    	ɔˑ ts d̪    	i b̥ t    	f j ɔˑ s    
+170	-3,74774774774758	25,4054054054063	i s jˀ    	ɛ̃ s ə r    	f i k    	jˀ ɛ̃ tɕ ə m    	s a m f oˑ r    	k ɟ ɛ̃ r    	s r oˑ oˑ    	a jˀ r    	i r m    	f ɟ a k    
+171	-10,5045045045043	26,7567567567577	s i rʲ    	ɑˑ o s r    	i f c    	rʲ o n ɑˑ nʲ    	s nʲ a f a r    	c c o r    	s a r a    	a rʲ r    	r i nʲ    	c f a c    
+172	-12,3063063063061	19,0990990991	s i w    	o s ə d̪    	dʑ i ɖʐ    	w o n ə m    	s ɔˑ m dʑ u d̪    	ɖʐ j o d̪    	s χ u u    	ɔˑ w d̪    	i χ m    	dʑ j ɔˑ ɖʐ    
+173	-7,80180180180163	28,108108108109	s i w    	o s ɛ̃ d̪    	i f k    	w ø n ɛ̃ m    	ă s m f u d̪    	k kp ø d̪    	s b̥ u u    	ă w d̪    	i b̥ m    	f kp ă k    
+174	-7,35135135135118	24,054054054055	i s w̃    	s o e tsʲ    	f i ɕː    	w o e n w̃    	s a w̃ f u tsʲ    	cː o tʲ tsʲ    	s tsʲ u u    	w a tsʲ    	i tsʲ w̃    	f tʲ a ɕː    
+175	4,81081081081098	25,4054054054063	n aːi ɔ    	ɛ ɓ    	ɧ ɯ̆    	ɛ s j sː    	t aːi ɔ    	r t uɔ    	t v ʏ    	β ɔ a    	ɨi f m    	f yː r ɤ    
+176	-1,04504504504488	27,2072072072081	ʀ i w    	u ʀ e ⁿg    	f i cː    	u w e qˀ m    	ʀ ə m f ɔ̃ ⁿg    	t̪ ɔ̃ cː ⁿg    	ⁿg ʀ u u    	ə w ⁿg    	i ⁿg m    	f t̪ ə cː    
+177	3,90990990991008	18,6486486486496	ɸ i w    	o ɸ a̱i pʲ    	i f ɾ    	o w n a̱i ʕ    	ɸ e̠ f u m pʲ    	ɾ o ɸ pʲ    	ɸ u pʰ u    	e̠ w pʲ    	r i ʕ    	ɸ e̠ f ɾ    
+178	-6,90090090090073	29,9099099099108	s i kʼ    	aː tsʰ e β    	i s cː    	aː kʼ n e ŋ    	s ʌ m s u β    	cː s ɐ β    	β s u u    	a kʼ β    	β i ŋ    	s ʌ s cː    
+179	-7,80180180180163	19,0990990991	s i rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ m    	s ɔˑ m f u c    	k k o c    	s u t u    	rʲ ɔˑ c    	i r m    	f k ɔˑ k    
+180	-9,15315315315298	24,054054054055	i s w    	o s e r    	i f cː    	w e o n m    	s m aːu f u r    	cː t̪ o r    	s r u u    	aːu w r    	r i m    	f t̪ aːu cː    
+181	-5,54954954954938	24,5045045045054	s i w    	ũ s ɛ̃ ʝ    	i f k    	w ø n ɛ̃ m    	s ă m f u ʝ    	k kp ø ʝ    	s b̥ u u    	w ă ʝ    	i b̥ m    	f kp ă k    
+182	-4,19819819819803	28,5585585585595	s i w    	o s e ɗ    	i f k    	w ʃː o e m    	æ̃ s m f uɔ ɗ    	o k j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	w æ̃ ɗ    	ɗ i m    	f j æ̃ k    
+183	2,10810810810828	21,8018018018027	i s t    	s ə œː r    	f i b    	œː t n ə m    	a s f m o r    	b œː j r    s r ɔ̃ː ɔ̃ː    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+184	1,65765765765783	19,0990990991	i s t    	s ɛ̃ o r    	i v k    	ɛ̃ t tɕ o m    v j a k    	s a m v ɔ̃ː r    	k j ɛ̃ r    	r ɔ̃ː s ɔ̃ː    	a t r    		v j a k    
+185	3,45945945945963	25,4054054054063	n aːi ɔ    	eː g̊    ʈ ɛ    	ɧ ʉː    	ɛ k s sː    	t aːi ɔ    	r t uɔ    	v t oː    	ɔ tː a    	bʲ ɯi ɓ    	bʲ ə r a    
+186	3,90990990991008	26,7567567567577	e̞ n ɔ    	ʀ eː    ɛ nʲ    	ɧ ʉː    	ɛ s k sː    	t e̞ ɔ    	t ʃʰ uɔ    	v t ʏ    	tː ɔ a    	f ɨi mʷ    	f yː ʃʰ a    
+187	-8,25225225225208	15,4954954954964	s i w    	o œ s d̪    	i f k    	w o f œ ʡ    	s ə m f u d̪    	k d o d̪    	s r u u    	w ə d̪    	i r ʡ    	d f ə k    
+188	-1,49549549549533	24,9549549549559	ȵ e ɔ    	g̊ ɨˑ    ɛ ʑ    	ɧ œː    	ɛ k s sː    	e t ɔ    	t r uɔ    	t v oː    	ɔ tː a    	f ɑi ɓ    	f yː r a    
+189	4,81081081081098	23,6036036036045	n aːi ɔ    	eː ɽ    ɛ ʈ    	ɧ ʉː    	ɛ k s tɕ    	ɸ aːi ɔ    	ɸ r uɔ    	v ɸ oː    	ɔ dz a    	ɛ f m    	f yː r a    
+190	-3,29729729729713	27,6576576576586	s i w    	s o ɛ̃ g    	i f hː    	w ə n ɛ̃ m    	s ɔˑ m f ɐː g    	hː kp ə g    	s b̥ u u    	w ɔˑ g    	i b̥ m    	f kp ɔˑ hː    
+191	-2,39639639639623	25,8558558558568	s i w    	o ɬ œ d̪    	i f k    		s m ə f y d̪    	k k o d̪    	s r u u    	ə w d̪    	i r m    	f k ə k    
+192	4,36036036036053	20,9009009009018	r̃ i w    	au o r̃ kʷ    	i f cː    	o w j au m    	r̃ ɐː m f u kʷ    	cː r̃ o kʷ    	r̃ r u u    	ɐː w ts    	r i m    	r̃ f ɐː cː    
+193	-5,54954954954938	29,4594594594604	s i t    	o ʈ ə r    	i f b    	t o n ə m    	s a f m ɔ̃ː r    	b o qʷ r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f qʷ ɒ b    
+198	-4,64864864864848	31,2612612612622	tsʰ ĩ w    	o tsʰ e ɗ    	ĩ x ɕʲ    	w ʃː o e m    	æ̃ tsʰ m x uɔ ɗ    	o ɕʲ j ɗ    	tsʰ ɗ ɔ̃ː ɔ̃ː    	w æ̃ ɗ    	ɗ ĩ m    	x j æ̃ ɕʲ    
+199	-6,45045045045028	27,2072072072081	s i w    	o ɬ œ d̪    	i f k    	kʼ o n e m    	s ɥ ə f y d̪    	k j o d̪    	s r u u    	ə w d̪    	i r ɥ    	f j ə k    
+200	-5,54954954954938	25,8558558558568	s i w    	s o e d̪    	i f s    	w ə n e m    	s ɔˑ f m ia d̪    	s b ə d̪    	s ia b̥ ia    	ɔˑ w d̪    	b̥ i m    	f b ɔˑ ʈː    
+201	-1,49549549549533	24,054054054055	s i t    	s o ə r    	i f k    	t o n i m    	a s m ɔ̃ː f r    	k o j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f a j k    
+202	-2,84684684684668	24,9549549549559	s a̱ w    	o s œ m    	i dʑ k    	w n o œ m    	s ə m dʑ u m    	k ɤː j m    	r s u u    	w ə m    	r a̱ m    	dʑ j ə k    
+203	-9,15315315315298	21,8018018018027	i s t    	s ɛ̃ o r    	f i k    	t ɛ̃ dʒ o m    	s a m f ɔ̃ː r    	j k ɛ̃ r    	r s ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+204	-7,35135135135118	28,108108108109	s i kʼ    	o tsʰ e β    	s i cː    	o kʼ d̪ʰ e lː    	s ʌ s m aːi β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i lː    	s ʌ s cː    
+205	-7,80180180180163	21,8018018018027	s ɑ ˀb    	o s œ d̪    	i gː k    	ˀb o n œ m    	s ɔˑ m gː u d̪    	k j o d̪    	s r u u    	ɔˑ ˀb d̪    	r ɑ m    	gː j ɔˑ k    
+206	1,20720720720738	24,9549549549559	ɔ̃u n ɔ    	eː ʀ    tɕ ɛ    	ã̤ː ɧ    	ɛ s k sː    	t ɔ̃u ɔ    	t r uɔ    	t v ʏ    	tː ɔ a    	f ɨi m̩    	f yː r a    
+207	-8,25225225225208	29,0090090090099	i s qː    	s ʊ e r    	i f k    	qː ʊ n e m    	s y m f u r    	k t̪ ʊ r    	s r u u    	qː y r    	r i m    	f t̪ y k    
+208	3,45945945945963	24,9549549549559	s i χʷ    		i mʲ cː    	χʷ o n e m    	s ɨˤ m mʲ o pʲ    	cː s o pʲ    	s o r u    	χʷ a pʲ    	i r m    	s ɨˤ mʲ cː    
+209	-6,45045045045028	28,5585585585595	i r w    	əu r ɒ r    	i ŋː cː    	w əu n e m    	r ə m ŋː əu r    	t̪ əu cː r    	r r əu əu    	ə w r    	i r m    	ŋː t̪ ə cː    
+210	-9,60360360360343	22,2522522522532	s ʌː mˀ    	s o a̤ː r    	f ʌː cː    	o mˀ a̤ː n m    	s a m f u r    	cː t̪ o r    	s u r u    	a mˀ r    	r ʌː m    	f t̪ a cː    
+211	2,10810810810828	30,8108108108117	n aːi ɔ    	eː g̊    ɛ ʈ    	n̊ ʉː    	ɛ k ʃː sː    	t aːi ɔ    	t r uɔ    	v t oː    	dʲ ɔ ẽ    	p ɨ m    	p yː r ẽ    
+212	-8,25225225225208	25,4054054054063	i s bʲ    	s o e r    	f i cː    	bʲ o e n m    	s iː m f u r    	t̪ cː o r    	r s u u    	bʲ iː r    	r i m    	f t̪ iː cː    
+213	1,65765765765783	25,8558558558568	i s t    	s o ə ⁿt    	i tsʰ k    	o t n ə m    	ɔʊ s m tsʰ ɔ̃ː ⁿt    	k o j r    	r s ɔ̃ː ɔ̃ː    	ɔʊ t r    	i r m    	tsʰ j ɔʊ k    
+214	-3,29729729729713	27,2072072072081	s i kʼ    	o tsʰ e r    	f i cː    	o kʼ n e m    	s ʌ m f u r    	cː o s r    	s r u u    	kʼ ɛ̠ r    	i r m    	f s ʌ cː    
+215	-8,25225225225208	21,3513513513523	s au gː    	s aː o r    	f au cː    	gː o aː n m    	s m a f u r    	cː t̪ o r    	s r u u    	gː a r    	r au m    	f a t̪ cː    
+216	-2,84684684684668	29,4594594594604	āː s w    	o s æː ɗ    	āː f k    	w ʃː æː o m    	a s m f ẽ ɗ    	k o j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	a w ɗ    	āː ɗ m    	f j a k    
+217	-4,19819819819803	23,6036036036045	dː eː t    	dː o o̞ː r    	eː ŋ̩ k    	t o rʲ o̞ː m    	ʊː dː m ŋ̩ ɔ̃ː r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	ʊː t r    	eː r m    	ŋ̩ j ʊː ˀl    
+218	-5,54954954954938	21,8018018018027	s i w    	eɪ s e pʲ    	f i cː    	w eɪ n e dʲ    	s a f dʲ u pʲ    	s cː eɪ pʲ    	s u w u    	w a pʲ    	w i dʲ    	s f a cː    
+219	-2,39639639639623	27,2072072072081	s i w    	u s u r    	f i cː    	w u e n m    	s ə m f ɔ̃u r    	dʲ ɔ̃u cː r    	s r u u    	ə w r    	i r m    	f dʲ ə cː    
+220	-5,99999999999983	20,9009009009018	i s t    	s o ə l    	i tɕʰ k    	t o ə n m    	ʊː s m tɕʰ ɔ̃ː l    	k o j l    	l s ɔ̃ː ɔ̃ː    	ʊː t l    	i l m    	j tɕʰ ʊː k    
+221	-19,9639639639638	16,3963963963973	i s w    	o o̞ ɗː d̪    	i dʑ k    	w o n o̞ m    	s ɔˑ m dʑ u d̪    	k j o d̪    	s u r u    	ɔˑ w d̪    	r i m    	dʑ j ɔˑ k    
+222	-3,29729729729713	26,7567567567577	i s t    	s ia ə r    	f i b    	t ia n ə m    	a s f m ɔ̃ː r    	b ia j r    	ɔ̃ː s r ɔ̃ː    	a t r    	r i m    	f j oi b    
+223	2,55855855855873	21,8018018018027	ɗ i t    	o ɗ au pʲ    	f i cː    	t au bv au m    	ɗ ɛ̃ m f u pʲ    	cː ɗ au pʲ    	ɗ r u u    	t a pʲ    	r i m    	ɗ ɛ̃ f cː    
+224	-11,8558558558557	20,9009009009018	s oːu w    	o ɑˑ s r    	oːu f k    	w o n ɑˑ cçʲ    	s ɔˑ cçʲ f u r    	k o k r    	s u r u    	ɔˑ w r    	r oːu cçʲ    	f k ɔˑ k    
+225	-9,15315315315298	25,8558558558568	lʲ i ȶ    	lʲ o e r    	f i cː    	w o e n ȶ    	lʲ a ȶ f e̱ r    	cː t̪ o r    	lʲ r u u    	w a r    	i r ȶ    	f a t̪ cː    i r ȶ    
+226	-8,70270270270253	27,6576576576586	i s t    	s o ə dʷ    	i f tʼ    	t n o ə tʰ    	a s f tʰ ɔ̃ː dʷ    	o ɲ tʼ dʷ    	s dʷ ɔ̃ː ɔ̃ː    		au dʷ tʰ    	f ɲ āː tʼ    
+227	-7,35135135135118	29,9099099099108	s ɑː w    	s o e ɗ    	ɑː f l̥    	w ʃː o e m    	a s m f ẽ ɗ    	l̥ o j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	w a ɗ    	ɑː ɗ m    	f j a l̥    
+228	1,20720720720738	25,8558558558568	n aːi ɔ    	ɛ ʈ    	ʉː ɧ    	ɛ k s sː    	aːi t ɔ    	t r uɔ    	t v oː    	ɔ d a    	ɨ m̩ n̩    	m̩ yː r a    
+229	-3,74774774774758	22,7027027027036	i s t    	o s au pʲ    	f i cː    	t o n au m    	s ɛ̃ m f u pʲ    	cː o s pʲ    	s r u u    	a t pʲ    	i r m    	s f ɛ̃ cː    
+230	1,20720720720738	30,3603603603613	n aːi ɔ    	eː g̊    ɛ ʈ    	n̊ ʉː    	ɛ s k sː    	aːi t ɔ    	t r uɔ    	v t oː    	ɔ dʲ a    	f aɯ m    	f yː r a    
+231	-8,70270270270253	25,8558558558568	i s w    	s e o j    	f i cː    	w o e n̪ m    	s a m f u j    	cː t̪ o j    	j s u u    	w a j    	j i m    	f t̪ a cː    
+232	3,45945945945963	31,7117117117126	n aːi ɔ    	oː ˀl    ɓ ɛ    	ɧ ʉː    	ɛ s j sː    	t aːi ɔ    	r t ɔ    	v t ʏ    	tː ɔ a    	f ɨi m    	f yː r a    
+233	-12,7567567567566	20,4504504504514	i s tː    	s o e r    	i f cː    	tː o e n m    	s a m f ə̆ r    	cː t̪ o r    	s ə̆ r ə̆    	a tː r    	r i m    	t̪ f a cː    
+234	2,55855855855873	19,0990990991	ɸ i w    	o ɟ e pʲ    	i f d̪    	w n ãː e m    	ɸ e̠ m f u pʲ    	d̪ ɸ ãː pʲ    	ɸ u pʰ u    	e̠ w pʲ    	ŋ i m    	ɸ f e̠ d̪    
+235	-4,64864864864848	24,9549549549559	mʲ i w    	o mʲ e pʲ    	i kʲ cː    	w o n e m    	mʲ ɨˤ m kʲ u pʲ    	cː mʲ o pʲ    	mʲ v u u    	w ɔ pʲ    	r i m    	mʲ kʲ ɨˤ cː    
+236	-9,60360360360343	15,4954954954964	s i w    	œ o s d̪    	i f k    	w o f œ ʡ    	s ə m f õ d̪    	k j o d̪    	s ɭ õ õ    	ə w d̪    	ɭ i ʡ    	j f ə k    
+237	-4,19819819819803	24,5045045045054	d̥ i t    	d̥ œː ə ɣʷ    	i f b    	t œː t ə m    	a d̥ m f o ɣʷ    	b œː j ɣʷ    	d̥ ɣʷ ɔ̃ː ɔ̃ː    	a t ɣʷ    	ɣʷ i m    	f j ɒ b    
+238	-1,94594594594578	28,5585585585595	i ŋː w    	o e ŋː pʲ    	i ɓ cː    	w o θ e m    	ŋː ɨˤ m ɓ u pʲ    	ŋː cː o pʲ    	ŋː u lʱ u    	a w pʲ    	lʱ i m    	ŋː ɓ ɨˤ cː    
+239	-1,49549549549533	26,7567567567577	r̃ ŏ w    	o a r̃ ɣ    	f ŏ ŋ    	w o j a z    	r̃ a z f u ɣ    	ŋ r̃ o ɣ    	r r̃ u u    	a w ts    	r ŏ z    	r̃ f a ŋ    
+240	-5,99999999999983	20,4504504504514	i s w    	s əɯ ə̥ ɦ    	i dʑ k    	w ɛ̠ n ə̥ m    	s ɔˑ m dʑ u ɦ    	k j ɛ̠ ɦ    	s r u u    	ɔˑ w ɦ    	r i m    	dʑ j ɔˑ k    
+241	-3,74774774774758	32,1621621621631	ʀ i w    	õ ʀ e r    	f i ŋ    	w õ e ʁ m    	ə ʀ m f ɛu r    	ɔ̃ t̪ ŋ r    	ʀ r õ õ    	ə w r    	i r m    	f t̪ ə ŋ    
+242	4,81081081081098	20,4504504504514	i ɗ t    	o ɗ au pʲ    	f i cː    	t ui n au m    	ɗ ɛ̃ m f u pʲ    	cː ɗ ui pʲ    	ɗ r u u    	t a pʲ    	i r m    	ɗ ɛ̃ f cː    
+243	-5,99999999999983	23,1531531531541	s i w    	s o e t̪    	i f s    	w ŏ n e m    	s ɔˑ m f u t̪    	s j ŏ t̪    	s b̥ u u    	ɔˑ w t̪    	b̥ i m    	f j ɔˑ ʈʰ    
+244	2,55855855855873	20,4504504504514	s i β    	eɪ m e pʲ    	f i cː    	β n eɪ e m    	s a m u f pʲ    	s cː eɪ pʲ    	u s r u    	a β pʲ    	i r m    	s f a cː    
+245	2,10810810810828	24,9549549549559	n aːi ɔ    	w̃ eː    	ɧ ʉː    	ɛ ɾ k sː    	t aːi ɔ    	t r əː    	v t oː    	ɔ tː a    	ɛ f ɓ    	f yː r a    
+246	-11,8558558558557	20,0000000000009	jˀ oːu w    	o ɔ̃ jˀ r    	oːu f k    	w o tʼ ɔ̃ m    	jˀ ɔˑ m f u r    	k k o r    	jˀ u r u    	w ɔˑ r    	oːu r m    	f k ɔˑ k    
+247	-12,3063063063061	20,0000000000009	s au fʲ    	s e e r    	f au cː    	fʲ e e n m    	s m a u f r    	cː t̪ e r    	s u r u    	fʲ a r    	au r m    	f t̪ a cː    
+248	-5,54954954954938	24,054054054055	s i w    	ɜː s ɛ̃ d̪    	f i ʃʰ    	w ø n ɛ̃ m    	s ă m f u d̪    	tʲ ʃʰ ø d̪    	s b̥ u u    	w ă d̪    	i b̥ m    	f tʲ ă ʃʰ    
+249	-5,54954954954938	22,7027027027036	x i t    	x o ə r    	i ŋ̩ k    	t o n ə bː    	ĩ x m ŋ̩ ɔ̃ː r    	k o j r    	r ɔ̃ː x ɔ̃ː    	t ĩ r    	i r m    	ŋ̩ j ĩ k    
+250	-8,70270270270253	26,7567567567577	s i t    	o s ə dː    	i kʷ ⁿd    	t o n ə m    	a s kʷ m ɔ̃ː dː    	ⁿd o j r    	r s ɔ̃ː ɔ̃ː    	t a dː    	r i m    	kʷ j ɒ ⁿd    
+251	-5,99999999999983	22,2522522522532	s i w    	s o e d̪    	i f s    	w ə n æː m    	s ɔˑ m f ia d̪    	s j ə d̪    	s ia ʋ ia    	ɔˑ w d̪    	ʋ i m    	f j ɔˑ s    
+252	-4,19819819819803	22,7027027027036	dʲ iː w    	o dʲ au pʲ    	iː f cː    	w au o n ʂ    	dʲ a ʂ f u pʲ    	cː dʲ o pʲ    	dʲ r u u    	w a pʲ    	e˞ r ʂ    	dʲ f a cː    
+253	-6,90090090090073	29,4594594594604	lʲ i m    	lʲ ɐ o r    	f i cː    	w o ɐ n m    	lʲ a m f ɪ r    	cː t̪ o r    	lʲ r u u    	w a r    	i r m    	f t̪ a cː    
+254	-6,90090090090073	28,5585585585595	s i ⁿd    	s o ɛ̃ ʃʰ    	i f k    	ⁿd ə ɬ ɛ̃ m    	s ɔˑ m f u ʃʰ    	k ə kp ʃʰ    	s c u u    	ɔˑ ⁿd ʃʰ    	i c m    	kp f ɔˑ k    
+255	-2,39639639639623	28,5585585585595	s i w    	ʌ s iɔ sʲ    	f i cː    	w ʌ j iɔ m    	s a m f u sʲ    	cː s ʌ sʲ    	s r u u    	w a c    	r i m    	s f a cː    
+256	-6,90090090090073	30,8108108108117	s i kʼ    	o cçʰ e r    	f i cː    	kʼ o n e m    	ʌ s m f u r    	cː s o r    	s r u u    	kʼ a r    	r i m    	f s ʌ cː    
+257	1,65765765765783	25,4054054054063	ȵ aːi ʌ    	ɛ ʈ    	ɧ ʉː    	ɛ s s̪ sː    	t aːi ʌ    	t r uɔ    	v t oː    	ʌ tː a    	f ɑi dʲ    	yː f r a    
+258	-9,60360360360343	20,9009009009018	s i w    	ɔʊ s e r    		w ɔʊ e n m    	s m a f u r    	cː t̪ ɔʊ r    	s r u u    	w a r    	r i m    	f t̪ a cː    
+259	-4,64864864864848	29,9099099099108	i s w    	o s e ɗ    	i f k    	w ʃː o e m    	a s m f ẽ ɗ    	k o j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	w a ɗ    	ɗ i m    	f j a k    
+260	-5,54954954954938	28,108108108109	i s kʼ    	o tsʰ e r    	ʒ i cː    	o kʼ n e cçʲ    	s ə̆ cçʲ ʒ u r    	cː s o r    	s u r u    	ə̆ kʼ r    	i r cçʲ    	ʒ s ə̆ cː    
+261	-4,19819819819803	28,108108108109	i s w    	s o ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m    	s ɔˑ f m aːi ʃʰ    	ə k k ʃʰ    	s b̥ aːi aːi    	w ɔˑ ʃʰ    	i b̥ m    	f k ɔˑ k    
+262	2,10810810810828	22,2522522522532	s i t    	s o ə r    	i f k    	t n o i m    	a s f m ɔ̃ː r    	k o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+263	-11,4054054054052	24,5045045045054	s ɑ w    	ɑˑ o s r    	ɑ f k    	w o n ɑˑ m    	s u m f u r    	k k o r    	s u m u    	u w r    	r ɑ m    	f k u k    
+264	4,36036036036053	18,1981981981991	ɸ i w    	o e ɸ pʲ    	f i d̪    	o w n e ʕ    	ɸ e̠ f m u pʲ    	d̪ ɸ o pʲ    	ɸ u pʰ u    	e̠ w pʲ    	r i ʕ    	f ɸ e̠ d̪    
+265	3,00900900900918	23,1531531531541	s i t    	o s au pʲ    	f i cː    	t o n au m    	s ɛ̃ m f u pʲ    	cː s o pʲ    	s r u u    	a t pʲ    	i r m    	s f ɛ̃ cː    
+266	-5,99999999999983	24,054054054055	s i w    	s o e d̪    	i f s    	w ə n e m    	s ɔˑ f m ia d̪    	s j ə d̪    	s ia b̥ ia    	ɔˑ w d̪    	b̥ i m    	f j ɔˑ s    
+267	-5,09909909909893	16,3963963963973	i s rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ m    	s f ʊː m u r    	k k o r    	s u r u    	rʲ ʊː r    	r i m    	f k ʊː k    
+268	-8,25225225225208	23,1531531531541	i θ w    	o θ ɞ r    	ɕʲ i cː    	w e o n m    	θ m a ɕʲ u r    	cː t̪ o r    	θ r u u    	w a r    	r i m    	ɕʲ t̪ a cː    
+269	-1,94594594594578	26,3063063063072	i s w    	o s e ɗ    	i vʲ k    	w ʃː o e m    	æ̃ s m vʲ uɔ ɗ    	o k j ɗ    	s ɗ aːu aːu    	æ̃ w ɗ    	ɗ i m    	vʲ j æ̃ k    
+270	3,45945945945963	20,4504504504514	i tɕʰ t    	tɕʰ œː ə r    	i f b    	t n œː ə m    	a tɕʰ f m o r    	b œː j r    	r tɕʰ ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+271	-4,64864864864848	25,4054054054063	i s t    	s ɛ̃ o r    	i tɕʰ dʑ    	t ɛ̃ tɕ o m    	s ɛ̃ m tɕʰ ɔ̃ː r    	dʑ j ɛ̃ r    	r s ɔ̃ː ɔ̃ː    	t a r    	i r m    	tɕʰ j ɛ̃ dʑ    
+272	4,36036036036053	24,5045045045054	n aːi ɔ    	ø g̊    ʈ ɛ    	ʉː dʷ    	ɛ k s sː    	aːi t ɔ    	t r uɔ    	v t oː    	ɔ tː a    	bʲ ɯi ɓ    	yː bʲ r a    
+273	-8,25225225225208	23,6036036036045	i s t    	o s ɐu rʷ    	i z ⁿd    	t o n ɐu m    	a s z m ɔ̃ː rʷ    	ⁿd o sː rʷ    	s rʷ ɔ̃ː ɔ̃ː    	t a rʷ    	rʷ i m    	z ɒ sː ⁿd    
+274	-10,0540540540539	17,2972972972982	ɲ i w    	ʌ o ɲ d̪    	i f k    	w o f ʌ ʡ    	ɲ ə m f u d̪    	k β o d̪    	ɲ r u u    	ə w d̪    	r i ʡ    	β f ə k    
+275	2,55855855855873	20,9009009009018	ȵ aːi ɔ    	g̊ eː    ɛ ʑ    	ɧ ʉː    	ɛ s k sː    	aːi t ɔ    	t r uɔ    	t v oː    	tː ɔ a    	ɑi f ɓ    	f yː r a    
+276	3,00900900900918	25,4054054054063	n aːi ɔ    	ɽ eː    	ɧ ʉː    	ɛ s k tɕ    	ɸ aːi ɔ    	ɸ r uɔ    	v ɸ œː    	ɔ tː a    	f ɛ m    	f r yː a    
+277	-5,99999999999983	23,6036036036045	s ɑː kʼ    	o æ̃ tsʰ r    	ʒ ɑː cː    	kʼ iː n æ̃ m    	s a m ʒ u r    	cː s iː r    	s r u u    	a kʼ r    	r ɑː m    	ʒ a s cː    
+278	-1,49549549549533	25,8558558558568	i s w    	s o ɑ̠ ʃʰ    	i ɭ k    	w ə n ɑ̠ m    	s ɔˑ m ɭ ɐː ʃʰ    	k ə kp ʃʰ    	s u b̥ u    	w ɔˑ ʃʰ    	i b̥ m    	ɭ kp ɔˑ k    
+279	2,55855855855873	18,1981981981991	s i t    	s o ɐ r    	i f k    	t o gʱ i m    	a s m ɔ̃ː f r    	k o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+280	-3,74774774774758	30,3603603603613	ʀ i w    	u ʀ e r    	f i ŋ    	w u e w̃ m    	ʀ ə m f ɔ̃ r    	t̪ ɔ̃ ŋ r    	ʀ r u u    	w ə r    	i r m    	f t̪ ə ŋ    
+281	-11,4054054054052	20,0000000000009	s au fʲ    	s o ă r    	f au cː    	fʲ o ă n m    	s m a u f r    	cː t̪ o r    	u s r u    	fʲ a r    	au r m    	f t̪ a cː    
+282	-12,3063063063061	32,1621621621631	s i kʼ    	o tsʰ e β    	s i cː    	o d̪ʰ kʼ e m    	s ʌ s m aːi β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i m    	s ʌ s cː    
+283	1,65765765765783	23,1531531531541	s ɛi sʰ    	o s au pʲ    	f ɛi cː    	sʰ o au n ʂ    	s a ʂ f u pʲ    	cː s o pʲ    	s u r u    	a sʰ pʲ    	e˞ r ʂ    	s f a cː    
+284	-4,64864864864848	33,063063063064	s i w    	s ɘ au sʲ    	f i sː    	w ɘ j au m    	s ɜ m f u sʲ    	s sː ɘ sʲ    	s r u u    	w ɜ c    	i r m    	s f ɜ sː    
+285	-8,70270270270253	25,4054054054063	ə s w    	s o e r    	ə f cː    	w o e n m    	s a m f u r    	cː t̪ o r    	s r u u    	a w r    	r ə m    	f t̪ a cː    
+286	-11,4054054054052	23,1531531531541	qχ i rʲ    	o ɑˑ qχ r    	i f k    	rʲ n o ɑˑ nʲ    	qχ ɔˑ nʲ f u r    	k o k r    	qχ u r u    	ɔˑ rʲ r    	r i nʲ    	f k ɔˑ k    
+287	-5,09909909909893	28,5585585585595	s i w    	o s e ɗ    	i f k    	w ʃː o e m    	s æ̃ m f ẽ ɗ    	k o tʷ ɗ    	s ɗ i̟ i̟    	w æ̃ ɗ    	ɗ i m    	f tʷ æ̃ k    
+288	-9,15315315315298	33,5135135135144	ʉ s kʼ    	o tsʰ e r    	ʒ ʉ cː    	o kʼ qʰ e m    	s a m ʒ e̞ r    	cː s o r    	s r e̞ e̞    	a kʼ r    	r ʉ m    	ʒ a s cː    
+289	-8,70270270270253	33,9639639639649	s i w    	s o ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m̩    	s ɔˑ m̩ f u ʃʰ    	ə k kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m̩    	f kp ɔˑ k    
+290	-11,8558558558557	25,8558558558568	s i w    	ɔ o s r    	f i k    	w o n ɔ m    	s ɔu m ɔu f r    	k k o r    	s m ɔu ɔu    	ɔu w r    	r i m    	f k ɔu k    
+291	-9,60360360360343	33,063063063064	aɪ s w    	s o ɛ̃ ʃʰ    	aɪ f k    	w ə n ɛ̃ m    	s ɔˑ m f u ʃʰ    	k ə kp ʃʰ    	s b̥ u u    	ɔˑ w ʃʰ    	b̥ aɪ m    	kp f ɔˑ k    
+292	-10,0540540540539	24,9549549549559	k i pʰ    	k o e r    	f i t̪    	wʲ o e n pʰ    	k a pʰ f u r    	t̪ o sʰ r    	k r u u    	wʲ a r    	i r pʰ    	f sʰ a t̪    
+293	-12,3063063063061	22,2522522522532	d̪ i w    	o ɑˑ d̪ r    	f i k    	w o n ɑˑ m    	d̪ ā m f u ɸ    	k o k ɸ    	d̪ ā m u    	w ā ɸ    	r i m    	f k ā k    
+294	-8,70270270270253	30,3603603603613	i s w    	o s œ d̪    	i x k    	o w x œ p    	s ə m x ɤː d̪    	k j o d̪    	s ɤː r u    	w ə d̪    	r i p    	x j ə k    
+295	-9,60360360360343	23,1531531531541	s i w    	œ iə s θ    	i β k    	w iə β œ ʡ    	s ə m β u θ    	k j iə θ    	s r u u    	w ə θ    	r i ʡ    	j ə β k    
+296	1,65765765765783	29,9099099099108	n aːi ä    	eː g̊    	k ʉː    	ã k s sː    	aːi t ä    	t r ou    	v t oː    	dʲ ä a    	f ɨ m    	f yː r a    
+297	-11,4054054054052	29,9099099099108	s i w    	u s ə r    	f i cː    	w u n ə m    	s m ə f ɔ̃u r    	t̪ ɔ̃u cː r    	s r u u    	ə w r    	i r m    w u n ə m    	f t̪ ə cː    
+298	-6,45045045045028	28,108108108109	i s jˀ    	s ɛ̃ ə r    	f i k    	jˀ ɛ̃ g ə m    	s a m f oˑ r    	k ɛ̃ j r    	s r oˑ oˑ    	a jˀ r    	i r m    	f j a k    
+299	-9,60360360360343	26,3063063063072	s i ɹ    	s o e r    	f i ɕː    	w o e n ɹ    	s a ɹ f u r    	cː o tʲ r    	s r u u    	w a r    	i r ɹ    	f tʲ a ɕː    
+300	3,45945945945963	26,7567567567577	n aːi ɔ    	ɓ ɛ    	aˑ ɧ    	ɛ s j sː    	t aːi ɔ    	t r uɔ    	t v ʏ    	β ɔ a    	ɨi f m    	f yː r ɤ    
+301	-7,80180180180163	30,8108108108117	s i kʼ    	aː tsʰ e β    	s i cː    	aː kʼ n e m    	s ʌ m s u β    	cː s aː β    	β s u u    	a kʼ β    	β i m    	s ʌ s cː    
+302	-8,25225225225208	19,5495495495505	i s ʈ    	o ɑˑ s r    	i f k    	ʈ o n ɑˑ m    	s ɔˑ f m u r    	k k o r    	s u r u    	ʈ ɔˑ r    	r i m    	f k ɔˑ k    
+303	-10,5045045045043	29,4594594594604	s i w    	o s ɛ̃ ʝ    	i f k    	w ø n ɛ̃ m    	s ă m f a ʝ    	k kp ø ʝ    	s b̥ u u    	w ă ʝ    	i b̥ m    	f kp ă k    
+304	1,20720720720738	29,4594594594604	n aːi ɔ    	ʀ eː    ɛ ʈ    	ɳ ʉː    	ɛ s k sː    	t aːi ɔ    	t ʃʰ uɔ    	v t ʏ    	tː ɔ a    	f ɨi mʷ    	f yː ʃʰ a    
+305	-7,35135135135118	30,8108108108117	s i w    	o ɬ œ d̪    	i f k    		s tɬ ə f y d̪    	k j o d̪    	s ŋ u u    	ə w d̪    	i ŋ tɬ    	f j ə k    
+306	1,65765765765783	23,6036036036045	r̃ i w    	o au r̃ kʷ    	i f ɹ    	w o ʈʂʰ au m    	r̃ a m f u kʷ    	ɹ r̃ o kʷ    	r̃ r u u    	a w ts    	r i m    	r̃ f a ɹ    
+307	-7,80180180180163	31,7117117117126	s u t    	o ʈ ə r    	u f b    	t o n ə m    	a s f m ɔ̃ː r    	b o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r u m    	f j ɞ b    
+308	-1,94594594594578	24,5045045045054	s i t    	s o ə r    	i f k    	t o z̩ i m    	a s m ɔ̃ː f r    	k o j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f j i k    
+309	-10,5045045045043	23,1531531531541	i s mˀ    	s o a̤ː r    	i f cː    	mˀ o a̤ː n m    	s a m f u r    	cː t̪ o r    	s u r u    	a mˀ r    	r i m    	f t̪ a cː    
+310	-4,64864864864848	28,5585585585595	s o̞ kʼ    	o tsʰ e r    	f o̞ cː    	o kʼ e n m    	s ʌ m f u r    	cː o s r    	s r u u    	ɛ̠ kʼ r    	r o̞ m    	f ʌ s cː    
+311	-8,70270270270253	21,8018018018027	s au gː    	s o aː r    	f au cː    	o gː aː n m    	s m a f o r    	cː t̪ o r    	s r o o    	gː a r    	au r m    	f a t̪ cː    
+312	-6,45045045045028	22,7027027027036	i s w    	eɪ s e pʲ    	f i cː    	w eɪ n e dʲ    	s ɑ dʲ f u pʲ    	s cː eɪ pʲ    	s u w u    	w ɑ pʲ    	w i dʲ    	s f ɑ cː    
+313	-12,3063063063061	21,3513513513523	s oːu w    	o ɑˑ s r    	oːu f k    	w o n ɑˑ m    	s ɔˑ m f u r    	k k o r    	s u r u    	ɔˑ w r    	r oːu m    	f k ɔˑ k    
+314	-13,207207207207	29,9099099099108	lʲ i m    	lʲ o e r    	f i cː    	w o e n m    	lʲ a m f ɪ r    	cː t̪ o r    	lʲ ɔ r ɔ    	w a r    	i r m    	f t̪ a cː    
+315	-7,80180180180163	30,3603603603613	ɑː s w    	s o e ɗ    	ɑː f k    	w ʃː o e m    	a s m f ẽ ɗ    	k o j ɗ    	ɗ s ɔ̃ː ɔ̃ː    	w a ɗ    	ɑː ɗ m    	f j a k    
+316	-8,70270270270253	29,0090090090099	s ʉ w    	āː s e r    	ʉ ŋː f    	āː w e n m    	s ə m ŋː āː r    	t̪ f āː r    	s r āː āː    	ə w r    	r ʉ m    	ŋː ə t̪ f    
+317	4,36036036036053	25,4054054054063	n aːi aˑ    	eː g̊    ɛ ʈ    	n̊ ʉː    	ɛ s k sː    	aːi t aˑ    	t r uɔ    	v t oː    	aˑ tː a    	ɨ f m    	f yː r a    
+318	-0,144144144143975	31,7117117117126	s i w    	o s ɛ̃ ʃʰ    	i f k    	w ə mː ɛ̃ m    	s ɔˑ m f ɐː ʃʰ    	k ə kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	b̥ i m    	f kp ɔˑ k    
+319	3,90990990991008	28,5585585585595	n aːi i    	ʀ eː    ɛ ɓ    	ɧ ʉː    	ɛ s j sː    	t aːi i    	t r i    	v t ʏ    	tː i a    	f ɨi m    	f yː r a    
+320	-4,64864864864848	25,8558558558568	h i w    	h o e d̪    	i f h    	w ə n e m    	h õ f m ia d̪    	h ə b d̪    	h ia b̥ ia    	ɔˑ w d̪    	b̥ i m    	f b õ ʈː    
+321	-1,04504504504488	23,6036036036045	i s t    	s au ə r    	i f k    	t au n i m    	a m s ɔ̃ː f r    	k au j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f j a k    
+322	-1,49549549549533	29,4594594594604	s ɐ̆ w    	u s e pʲ    	f ɐ̆ cː    	w u n e m    	s aɯ m f ĩː pʲ    	cː s u pʲ    	s r ĩː ĩː    	aɯ w pʲ    	r ɐ̆ m    	s f aɯ cː    
+323	-13,207207207207	19,0990990991	i s tː    	s o e r    	f i cː    	tː o e n m    	s a m ɑ̠ f r    	cː t̪ o r    	s ɑ̠ r u    	a tː r    	r i m    	t̪ a f cː    
+324	-6,45045045045028	24,5045045045054	i s t    	s ɛ̃ o r    	i f k    	t ɛ̃ tɕ o m    	s a m f ɔ̃ː r    	k j ɛ̃ r    	r s ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+325	-7,35135135135118	29,4594594594604	s i kʼ    	o tsʰ e β    	i s cː    	o d̪ʰ kʼ e lː    	s ʌ s m aːi β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i lː    	s ʌ s cː    
+326	-5,99999999999983	24,9549549549559	s i g    	o s u pʲ    	kʲ i cː    	g o n u m    	s ɨˤ m kʲ u pʲ    	cː s o pʲ    	s u r u    	ãi g pʲ    	r i m    	s kʲ ɨˤ cː    
+327	2,10810810810828	29,0090090090099	n aːi ä    	g̊ eː    ʈ ī    	ˀw ʉː    	ī k s sː    	aːi t ä    	t r ou    	ʁ t oː    	dʲ ä a    	f ɨ ɲ̥    	f yː r a    
+328	-7,80180180180163	25,4054054054063	s i w    	s u e r    	kʼ i cː    	w u e n m    	s ə m kʼ ɔ̃u r    	t̪ ɔ̃u cː r    	s r u u    	ə w r    	i r m    w u e n m    	kʼ t̪ ə cː    
+329	-8,25225225225208	26,3063063063072	i s w    	s o e r    	f i k    	w o e n m    	s a m u f r    	k t̪ o r    	s r u u    	w a r    	r i m    	f t̪ a k    
+330	-10,5045045045043	22,7027027027036	s i rʲ    	o ɑˑ s r    	f i k    	o rʲ n ɑˑ nʲ    	s nʲ ɨ̠ f ɨ̠ r    	k k ɑ̃ r    	s ɨ̠ r ɨ̠    	ɨ̠ rʲ r    	r i nʲ    	f k ɨ̠ k    
+331	-7,80180180180163	28,5585585585595	i s w    	o s ɛ̃ d̪    	i f k    	w ø n ɛ̃ m    	s uɔ m f u d̪    	k kp ø d̪    	s b̥ u u    	w uɔ d̪    	i b̥ m    	f kp uɔ k    
+332	4,36036036036053	28,108108108109	aːi n aˑ    	eː g̊    ɛ ʈ    	p ʉː    	ɛ s k sː    	aːi t aˑ    	t r uɔ    	ⁿd t oː    	aˑ tː a    	ɨ f m    	f yː r a    
+333	-6,45045045045028	31,7117117117126	i s w    	əu s e r    	ŋː i cː    	w əu e n m    	s ə m ŋː əu r    	t̪ əu cː r    	s r əu əu    	ə w r    	r i m    	ŋː ə t̪ cː    
+334	-3,29729729729713	29,4594594594604	ʀ yː w    	ʀ u e r    	f yː cː    	u w e n m    	ʀ ə m f ɔ̃ r    	t̪ ɔ̃ cː r    	r ʀ u u    	ə w r    	yː r m    	f t̪ ə cː    
+335	2,55855855855873	30,3603603603613	s i w    	l eɪ e pʲ    	f i ʂ    	w ɑ̱ n e l    	s a l u f pʲ    	s ʂ ɑ̱ pʲ    	s u ʋ u    	a w pʲ    	i ʋ l    	s f a ʂ    
+336	-1,04504504504488	30,3603603603613	s i w    	o s au kʷ    	f i cː    	w o j au m    	s a f m u kʷ    	cː s o kʷ    	s zʲ u u    	a w tʲ    	zʲ i m    	s f a cː    
+337	2,55855855855873	25,8558558558568	i s t    	s o ə g    	i tsʰ k    	t o n ə m    	s ə̆ m tsʰ ɔ̃ː g    	k o j r    	r s ɔ̃ː ɔ̃ː    	ə̆ t r    	i r m    	tsʰ j ə̆ k    
+338	-4,19819819819803	23,1531531531541	s i w    	o s ɛ̃ ʝ    	i f χ    	w ø tʰ ɛ̃ m    	s ă f m ʌ ʝ    	χ kp ø ʝ    	s b̥ u u    	ă w ʝ    	b̥ i m    	f kp ă χ    
+339	-3,74774774774758	23,6036036036045	dː i n    	dː o o̞ː r    	i ŋ̩ k    	n o n o̞ː m    	ʊː m dː ŋ̩ ɔ̃ː r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	ʊː n r    	i r m    	j ŋ̩ ɔʊ ˀl    
+340	-2,84684684684668	27,2072072072081	zʲ i w    	u zʲ e r    	f i cː    	w u e n m    	zʲ ə m f ɔ r    	t̪ cː ɔ r    	zʲ u r u    	ə w r    	i r m    	f t̪ ə cː    
+341	-4,64864864864848	20,9009009009018	s i t    	s o eˑ l    	i tɕʰ k    	t o eˑ n m    	ʊː s m tɕʰ ɔ̃ː l    	k o j l    	s l ɔ̃ː ɔ̃ː    	ʊː t l    	i l m    	j tɕʰ ʊː k    
+342	-2,84684684684668	26,3063063063072	s i w    	o ɬ œ d̪    	i f k    		s ə m f y d̪    	k ʔ o d̪    	s u r u    	ə w d̪    	i r m    	f ʔ ə k    
+343	0,756756756756926	24,5045045045054	r̃ i w    	o au r̃ kʷ    	i f cː    	w o j au m    	r̃ a m f u kʷ    	cː r̃ o kʷ    	r r̃ u u    	a w k    	r i m    	r̃ f a cː    
+344	-5,09909909909893	27,6576576576586	s i t    	s o ə dʷ    	i f tʼ    	t n o ə bʰ    	a s f bʰ ɔ̃ː dʷ    	o tʼ j dʷ    	s dʷ ɔ̃ː ɔ̃ː    	a t dʷ    	au dʷ bʰ    	f j a tʼ    
+345	-5,09909909909893	29,0090090090099	s i t    	o ʈ ə r    	i f b    	t o n ə m    	a s f m œː r    	b o j r    	r uo s uo    	a t r    	r i m    	f j ɒ b    
+346	0,756756756756926	25,8558558558568	n aːi ɔ    	ø̠ ʈ    	ɧ ʉː    	ø̠ k s sː    	aːi t ɔ    	t r uɔ    	v t oː    	d ɔ a    	m̩ ɨ n̩    	m̩ yː r a    
+347	4,81081081081098	24,054054054055	s ɑ˞ t    	s o ə r    	f ɑ˞ k    	n t o ɑ˞ m    	a s m f ɔ̃ː r    	k aː j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r ɑ˞ m    	f j a k    
+348	1,65765765765783	30,3603603603613	aːi n ɔ    	eː g̊    ʈ ɛ    	n̊ ʉː    	ɛ s k sː    	aːi t ɔ    	t r uɔ    	v t oː    	ɔ dʲ a    	f ɨ m    	f yː r a    
+349	-13,207207207207	33,5135135135144	s əu w    	s āː e ȶ    	əu ŋː cː    	āː w e n m    	s ə m ŋː āː ȶ    	t̪ cː āː ȶ    	s ȶ āː āː    	ə w ȶ    	ȶ əu m    	ŋː ə t̪ cː    
+350	3,00900900900918	31,7117117117126	aːi n ɔ    	eː ʀ    ɓ ɛ    	ɧ ʉː    	ɛ s j sː    	aːi t ɔ    	t r ɔ    	s t ʏ    	tː ɔ a    	f ɨi m    	f yː l̪ a    
+351	-15,0090090090088	20,4504504504514	i s tː    	s o e r    	f i cː    	tː o e n m    	s iu m f u r    	cː t̪ o r    	s u r u    	iu tː r    	r i m    	t̪ f iu cː    
+352	3,00900900900918	19,0990990991	i ɸ w    	o ɸ e pʲ    	i f d̪    	w o n e m    	ɸ e̠ m f u pʲ    	d̪ ɸ o pʲ    	ɸ u hː u    	e̠ w pʲ    	ŋ i m    	ɸ f e̠ d̪    
+353	-8,25225225225208	31,2612612612622	āː s w    	s o e ʃ    	āː f k    	w ʃː e o m    	a m s f ũ ʃ    	k o j ʃ    	s ʃ ɔ̃ː ɔ̃ː    	w a ʃ    	āː ʃ m    	f a j k    
+354	-7,35135135135118	21,8018018018027	i dː t    	dː o ə r    	i ŋ̩ k    	t o ɬ ə bː    	ĩ dː m ɔ̃ː ŋ̩ r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	t ĩ r    	i r m    	ŋ̩ j ĩ k    
+355	-6,45045045045028	29,0090090090099	s ie t    	o s ə dː    	ie f ⁿd    	t o χː ə m    	s a f m ɔ̃ː dː    	ⁿd o j r    	r s ɔ̃ː ɔ̃ː    	t a dː    	r ie m    	f j ɒ ⁿd    
+356	-9,60360360360343	24,9549549549559	s i w    	o s u pʲ    	i kʲ cː    	w o n u m    	s ɨˤ m kʲ ə pʲ    	cː s o pʲ    	s ə r ə    	w ãi pʲ    	r i m    	s kʲ ɨˤ cː    
+357	-11,8558558558557	28,108108108109	s u̥ rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ nʲ    	nʲ s a f a r    	k k o r    	s a r a    	a rʲ r    	r u̥ nʲ    	f k a k    
+358	-1,49549549549533	27,6576576576586	ʀ i w    	u ʀ e r    	f i cː    	u w qˀ e m    	ʀ ə m f ɔ̃ r    	t̪ ɔ̃ cː r    	r ʀ u u    	ə w r    	i r m    	f t̪ ə cː    
+359	-10,5045045045043	25,4054054054063	i s w    	o s e r    	i f cː    	w e o n m    	s m aːu f u r    	cː t̪ o r    	s r u u    	w aːu r    	r i m    	f t̪ aːu cː    
+360	-1,49549549549533	25,4054054054063	i s t    	s œː ə r    	f i b    	œː t n ə m    	a s f m o r    	b œː j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	j f ɒ b    
+361	2,55855855855873	26,3063063063072	n aːi ɔ    	eː g̊    ʈ ɛ    	ɧ ʉː    	ɛ k s sː    	aːi t ɔ    	r t uɔ    	t v oː    	ɔ tː a    	bʲ ɯi ɓ    	bʲ ə r a    
+362	-5,09909909909893	31,7117117117126	s ĩ w    	o s e ɗ    	ĩ x ɕʲ    	w ʃː o e m    	æ̃ s m x uɔ ɗ    	o ɕʲ j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	w æ̃ ɗ    	ɗ ĩ m    	x j æ̃ ɕʲ    
+363	-11,8558558558557	32,6126126126135	s i w    	o ɬ œ d̪    	i f k    		s m ə f y d̪    	k j o d̪    	s r u u    	ə w d̪    	i r m    	f j ə k    
+364	-14,1081081081079	26,7567567567577	i s t    	ɛ̃ s o t͈    	i f k    	t ɛ̃ dʒ o m    	s a m f ɔ̃ː t͈    	k j ɛ̃ t͈    	t͈ s ɔ̃ː ɔ̃ː    	a t t͈    	t͈ i m    	f j a k    
+365	-10,0540540540539	30,8108108108117	s i kʼ    	o tsʰ e β    	s i cː    	o d̪ʰ kʼ e lː    	s ʌ s m aːi β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i lː    	s ʌ s cː    
+366	-7,80180180180163	29,9099099099108	i r w    	əu r e r    	i ŋː cː    	w əu e n m    	r ə m əu ŋː r    	t̪ əu cː r    	r r əu əu    	ə w r    	i r m    	ŋː t̪ ə cː    
+367	1,65765765765783	31,2612612612622	aːi n ɔ    	eː g̊    ɛ ʈ    	n̊ ʉː    	ɛ ʃː k sː    	t aːi ɔ    	t r uɔ    	v t oː    	dʲ ɔ a    	p ɨ m    	p yː r a    
+368	-11,8558558558557	29,0090090090099	i s w    	s o e r    	f i cː    	w o e n m    	s a m f ʊ r    	cː t̪ o r    	r s u u    	w a r    	r i m    	f t̪ a cː    
+369	-3,29729729729713	29,9099099099108	āː s w    	s o æː ɗ    	āː f k    	w ʃː æː o m    	a s m f ẽ ɗ    	k ɔˑ j ɗ    	s ɗ ɔ̃ː ɔ̃ː    	a w ɗ    	āː ɗ m    	f j a k    
+370	-3,29729729729713	28,108108108109	s ɔ̃ w    	u s e r    	ɔ̃ f cː    	w u e n m    	s ə m f ɔ̃u r    	ts ɔ̃u cː r    	s r u u    	ə w r    	i r m    	f ts ə cː    
+371	-6,45045045045028	21,3513513513523	i s t    	s o ə l    	i tɕʰ k    	t o ə n m    	ʊː s m tɕʰ ɔ̃ː l    	k o j l    	s l ɔ̃ː ɔ̃ː    	ʊː t l    	i l m    	j tɕʰ ʊː k    
+372	-21,7657657657656	18,1981981981991	i s w    	o ɗː e d̪    	dʑ i k    	w o n e m    	s ɔˑ m dʑ u d̪    	k j o d̪    	s u r u    	ɔˑ w d̪    	r i m    	dʑ j ɔˑ k    
+374	-12,7567567567566	32,6126126126135	s i kʼ    	tsʰ o e β    	s i cː    	o d̪ʰ kʼ e m    	s ʌ s m ɨ̠ β    	cː s o β    	s β aːi aːi    	a kʼ β    	β i m    	s ʌ s cː    
+375	-9,60360360360343	33,9639639639649	s i kʼ    	o tsʰ õ r    	ʒ i cː    	o kʼ qʰ õ m    	s a m ʒ e̞ r    	cː s o r    	s r e̞ e̞    	a kʼ r    	i r m    	ʒ a s cː    
+376	-8,70270270270253	30,8108108108117	ɐu dʲː ɯ̱    	o tsʰ e r    	ʒ ɐu cː    	o ɯ̱ n e m    	dʲː a m ʒ u r    	cː dʲː o r    	dʲː r u u    	a ɯ̱ r    	r ɐu m    	ʒ a dʲː cː    
+377	-1,49549549549533	29,0090090090099	i ˀd w    	o e ˀd pʲ    	i ɓ cː    	w o θ e ʋ    	yː ˀd ʋ ɓ u pʲ    	ˀd cː o pʲ    	u ˀd r u    	a w pʲ    	i r ʋ    	ˀd ɓ yː cː    
+378	-6,45045045045028	27,6576576576586	s i w    	ɬ o œ d̪    	i f k    		s m f ə æ̃ d̪    	k o j d̪    	s r u u    	ə w d̪    	i r m    	f j ə k    
+379	-5,99999999999983	24,5045045045054	s i w    	s o e d̪    	i f s    	w ŏ n e m    	s ɔˑ m f u d̪    	s ts ŏ d̪    	s b̥ u u    	ɔˑ w d̪    	b̥ i m    	f ts ɔˑ ʈʰ    
+380	3,00900900900918	20,0000000000009	s i ʁˤ    	eɪ m e pʲ    	i f cː    	ʁˤ n eɪ e m    	s a m u f pʲ    	s cː eɪ pʲ    	u s r u    	a ʁˤ pʲ    	i r m    	s f a cː    
+381	-15,9099099099097	15,9459459459469	oːu jˀ w    	o ɔ̃ jˀ r    	oːu f k    	w o n ɔ̃ ɬ    	jˀ ʉ ɬ f u r    	k k o r    	jˀ u r u    	w ʉ r    	r oːu ɬ    	f k ʉ k    
+382	-12,7567567567566	19,5495495495505	s au fʲ    	s e e r    	f au cː    	fʲ e e n m    	s m a f u r    	cː t̪ e r    	s u r u    	fʲ a r    	r au m    	f t̪ a cː    
+383	-3,74774774774758	31,7117117117126	õ s tsː    	u s u r    	f õ cː    	tsː u u n m    	s ə m f o r    	t̪ cː o r    	s r u u    	ə tsː r    	õ r m    	f t̪ ə cː    
+384	-5,09909909909893	21,8018018018027	i s ˀb    	o œ s d̪    	i dʑ k    	ˀb o n œ ȵ    	s ɔˑ ȵ dʑ u d̪    	k j o d̪    	s r u u    	ɔˑ ˀb d̪    	r a̱ ȵ    	dʑ j ɔˑ k    
+385	-2,84684684684668	24,054054054055	s iɛ w    	eɪ e s pʲ    	i f jˀ    	w eɪ n e dʲ    	s a dʲ f u pʲ    	s cː eɪ pʲ    	s u r u    	a w pʲ    	r iɛ dʲ    	f s a jˀ    
+386	1,20720720720738	25,4054054054063	aːi ȵ ʌ    	ɛ ʈ    	ɧ ʉː    	ɛ s k sː    	t aːi ʌ    	t r uɔ    	v t oː    	ʌ tː a    	ɑi f dʲ    	yː f r a    
+387	-4,64864864864848	27,6576576576586	i s w    	o s e ɗ    	i f k    	w ʃː o e m    	a s m f ẽ ɗ    	k o j ɗ    	ɔ̃ː s ɗ ɔ̃ː    	w a ɗ    	ɗ i m    	f j a k    
+388	-2,39639639639623	19,5495495495505	i h t    	o h o l    	i ŋ̩ k    	t o n o m    	h m ũ ŋ̩ ɔ̃ː l    	k o j l    	h l ɔ̃ː ɔ̃ː    	ũ t l    	i l m    	j ŋ̩ ũ k    
+389	2,10810810810828	26,7567567567577	s i t    	s o ə r    	i f k    	t n o i m    	a m s f ɑ r    	k o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+390	-5,99999999999983	22,7027027027036	s i w    	s o e d̪    	i f s    	w ə n e m    	s ɔˑ m f ia d̪    	s j ə d̪    	s ia b̥ ia    	w ɔˑ d̪    	i b̥ m    	f j ɔˑ s    
+391	2,10810810810828	31,2612612612622	dː aːi ɔ    	eː g̊    ɛ ðː    	n̊ ʉː    	ɛ ʃː k sː    	aːi t ɔ    	t r uɔ    	v t oː    	dʲ ɔ a    	p ɨ m    	p yː r a    
+392	-6,90090090090073	22,2522522522532	s i kʼ    	o e tsʰ r    	f i cː    	kʼ o n e m    	s ʌ m f u r    	cː s o r    	s r u u    	a kʼ r    	r i m    	f s ʌ cː    
+393	-1,04504504504488	25,4054054054063	i s w    	o s e ɗ    	i x k    	w ʃː o e m    	æ̃ s m x uɔ ɗ    	o k j ɗ    	s ɗ aːu aːu    	æ̃ w ɗ    	i ɗ m    	x j æ̃ k    
+394	3,90990990991008	20,0000000000009	i s t    	s œː ə r    	i f b    	t œː n ə m    	a s f m o r    	b œː j r    	r s ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+395	-8,25225225225208	22,7027027027036	i s t    	s o ə rʷ    	i z ⁿd    	t o n ə m    	a s z m ɔ̃ː rʷ    	ⁿd o j rʷ    	s rʷ ɔ̃ː ɔ̃ː    	t a rʷ    	rʷ i m    	z ɒ j ⁿd    
+396	4,36036036036053	24,054054054055	n aːi ɔ    	eː ɽ    	ʉː ɧ    	ɛ s k tɕ    	ɸ aːi ɔ    	ɸ r uɔ    	v ɸ œː    	ɔ tː a    	ɛ f m    	f r yː a    
+397	-5,99999999999983	21,8018018018027	s ɑː kʼ    	e o tsʰ r    	ʒ ɑː cː    	o kʼ n e m    	s a m ʒ u r    	cː s o r    	s r u u    	a kʼ r    	r ɑː m    	ʒ a s cː    
+398	1,65765765765783	22,7027027027036	i s w    	o s ɑ̠ ʃʰ    	i f k    	w ə n ɑ̠ m    	s ɔˑ m f ɐː ʃʰ    	k ə kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	f kp ɔˑ k    
+399	2,55855855855873	19,5495495495505	s i t    	s ɐ o r    	i f k    	t o ⁿt i m    	a s m iɛ f r    	k o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+400	3,00900900900918	21,8018018018027	ɗ ɔ t    	o ɗ au pʲ    	f ɔ cː    	t ui n au m    	ɗ ɛ̃ m f u pʲ    	cː ɗ ui pʲ    	ɗ r u u    	t a pʲ    	ɔ r m    	ɛ̃ ɗ f cː    
+401	-10,5045045045043	25,8558558558568	lʲ i m    	o lʲ e r    	f i cː    	w o e n m    	lʲ a m f ɪ r    	cː t̪ o r    	lʲ r u u    	a w r    	i r m    	f t̪ a cː    
+402	-8,25225225225208	31,7117117117126	i s w    	o s e ɗ    	i f k    	w ʃː o e m    	s æ̃ m f ẽ ɗ    	k o j ɗ    	s ɗ i̟ i̟    	w æ̃ ɗ    	ɗ i m    	f j æ̃ k    
+403	-1,94594594594578	25,8558558558568	s i t    	ʈ o ə r    	i f b    	t o n ə m    	a s f m œː r    	b o j r    	r s uo uo    	a t r    	r i m    	f j ɒ b    
+404	-7,80180180180163	33,063063063064	s i w    	s o ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m    	s ɔˑ m f u ʃʰ    	ə k kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	f kp ɔˑ k    
+405	-12,7567567567566	26,7567567567577	s i w    	ɔ o s r    	f i k    	w o n ɔ m    	s u m f u r    	k k o r    	s u m u    	u w r    	r i m    	f k u k    
+406	-9,60360360360343	25,8558558558568	i s w    	s o e tsʲ    	f i cː    	w o e n m    	s a m f u tsʲ    	cː t̪ ai tsʲ    	tsʲ s u u    	w a tsʲ    	tsʲ i m    	f t̪ a cː    
+407	-11,4054054054052	26,3063063063072	k i pʰ    	k e o r    	f i kʲ    	wʲ o e n pʰ    	k a pʰ f u r    	kʲ o tʲ r    	k r u u    	wʲ a r    	i r pʰ    	f tʲ a kʲ    
+408	-3,29729729729713	24,5045045045054	i ⁿdʑ t    	ⁿdʑ œː ə r    	i f b    	t œː n ə m    	a ⁿdʑ f m o r    	b j œː r    	ⁿdʑ r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j ɒ b    
+409	-6,90090090090073	23,1531531531541	s i ˀn    	s o ɛ̃ ʃʰ    	i f ŋ    	ˀn ə ɬ ɛ̃ m    	s ɔˑ m f u ʃʰ    	ŋ ə kp ʃʰ    	s c u u    	ɔˑ ˀn ʃʰ    	c i m    	kp ɔˑ f ŋ    
+410	-8,70270270270253	27,2072072072081	s i w    	u s ə r    	f i cː    	w u ə n m    	s m ə f ɔ̃u r    	t̪ ɔ̃u cː r    	s r u u    	ə w r    	i r m    w u ə n m    	f t̪ ə cː    
+411	-7,35135135135118	29,0090090090099	i s jˀ    	ɛ̃ s ə r    	f i k    	jˀ ɛ̃ tɕ ə m    	s a m f oˑ r    	k j ɛ̃ r    	s r oˑ oˑ    	a jˀ r    	i r m    	f j a k    
+412	-12,7567567567566	19,0990990991	s i w    	o s ə d̪    	dʑ i ɖʐ    	w o n ə m    	s ɔˑ m dʑ u d̪    	ɖʐ j o d̪    	s r u u    	ɔˑ w d̪    	i r m    	dʑ j ɔˑ ɖʐ    
+413	-10,0540540540539	26,7567567567577	s i w̃    	s o e tsʲ    	f i ɕː    	w o e n w̃    	s a w̃ f u tsʲ    	cː o tʲ tsʲ    	s tsʲ u u    	w a tsʲ    	i tsʲ w̃    	f tʲ a ɕː    
+414	0,756756756756926	29,4594594594604	n aːi ɔ    	ɛ ɓ    	ɧ ɯ̆    	ɛ s j sː    	t aːi ɔ    	r t uɔ    	t v ʏ    	β ɔ a    	ɨi f m    	f yː r ɤ    
+415	-10,0540540540539	21,3513513513523	s i rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ m    	s ɔˑ m f u r    	k k o r    	s u t u    	rʲ ɔˑ r    	i r m    	f k ɔˑ k    
+416	-8,70270270270253	15,4954954954964	s i w    	o œ s d̪    	i f k    	w o f œ ʡ    	s ə m f u d̪    	k d o d̪    	s r u u    	w ə d̪    	i r ʡ    	d f ə k    
+417	-7,80180180180163	24,9549549549559	ȵ e ɔ    	g̊ ɨˑ    ɛ ʑ    	ɧ ʉː    	ɛ k s sː    	e t ɔ    	t r uɔ    	v t oː    	ɔ tː a    	f ɑi ɓ    	f yː r a    
+418	-7,80180180180163	27,6576576576586	s i w    	o s ɛ̃ ʃʰ    	i f hː    	w ə n ɛ̃ m    	s ɔˑ m f ɐː ʃʰ    	hː kp ə ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	f kp ɔˑ hː    
+419	-5,54954954954938	29,0090090090099	s i w    	o ɬ œ d̪    	i f k    		s m ə f y d̪    	k h o d̪    	s r u u    	ə w d̪    	i r m    	f h ə k    
+420	2,55855855855873	24,9549549549559	s i χʷ    		i mʲ cː    	χʷ o n e m    	s ɨˤ m mʲ o pʲ    	cː s o pʲ    	s o r u    	a χʷ pʲ    	i r m    	s ɨˤ mʲ cː    
+421	-9,15315315315298	22,2522522522532	s au gː    	s aː o r    	f au cː    	gː o aː n m    	s m a f u r    	cː t̪ o r    	s r u u    	gː a r    	r au m    	f a t̪ cː    
+422	-7,35135135135118	23,6036036036045	dː i t    	dː o o̞ː r    	i ŋ̩ k    	t o rʲ o̞ː m    	ʊː dː m ŋ̩ ɔ̃ː r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	ʊː t r    	i r m    	ŋ̩ j ʊː ˀl    
+423	-7,80180180180163	24,054054054055	s i w    	eɪ s e pʲ    	f i cː    	w eɪ n e dʲ    	s a f dʲ u pʲ    	s cː eɪ pʲ    	s u w u    	w a pʲ    	w i dʲ    	s f a cː    
+424	3,00900900900918	20,4504504504514	i s t    	s ia ə r    	f i b    	t ia n ə m    	a s f m ɔ̃ː r    	b ia j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f j oi b    
+425	-11,4054054054052	28,108108108109	lʲ i ȶ    	lʲ o e r    	f i cː    	w o e n ȶ    	lʲ a ȶ f e̱ r    	cː t̪ o r    	lʲ r u u    	w a r    	i r ȶ    	i r ȶ    f t̪ a cː    
+426	-9,15315315315298	27,6576576576586	i s t    	s o ə dʷ    	i f tʼ    	t n o ə tʰ    	a s f tʰ ɔ̃ː dʷ    	o ɲ tʼ dʷ    	s dʷ ɔ̃ː ɔ̃ː    		au dʷ tʰ    	f ɲ a tʼ    
+427	-6,90090090090073	22,7027027027036	i s t    	o s au pʲ    	f i cː    	t o n au m    	s ɛ̃ m f u pʲ    	cː o s pʲ    	s r u u    	a t pʲ    	i r m    	s f ɛ̃ cː    
+428	-10,0540540540539	25,8558558558568	i s w    	s o e j    	f i cː    	w o e n m    	s a m f u j    	cː t̪ o j    	j s u u    	w a j    	j i m    	f t̪ a cː    
+429	2,55855855855873	31,7117117117126	n aːi ɔ    	oː ˀl    ɓ ɛ    	ɧ ʉː    	ɛ s j sː    	t aːi ɔ    	r t ɔ    	v t ʏ    	tː ɔ a    	f ɨi m    	f yː r a    
+430	2,10810810810828	19,0990990991	ɸ i w    	o ɟ e pʲ    	i f d̪    	w o n e m    	ɸ e̠ m f u pʲ    	d̪ ɸ o pʲ    	ɸ u pʰ u    	e̠ w pʲ    	ŋ i m    	ɸ f e̠ d̪    
+431	-2,84684684684668	28,5585585585595	i ˀd w    	o e ˀd pʲ    	i ɓ cː    	w o θ e m    	ˀd ɨˤ m ɓ u pʲ    	ˀd cː o pʲ    	ˀd u lʱ u    	a w pʲ    	lʱ i m    	ˀd ɓ ɨˤ cː    
+432	-6,90090090090073	20,4504504504514	i s w    	s əɯ ə̥ ɦ    	i dʑ k    	w əɯ n ə̥ m    	s ɔˑ m dʑ u ɦ    	k j əɯ ɦ    	s r u u    	ɔˑ w ɦ    	r i m    	dʑ j ɔˑ k    
+433	-4,19819819819803	32,1621621621631	ʀ i w    	õ ʀ e r    	f i ŋ    	w õ e ʁ m    	ʀ ə m f ɔ̃ r    	ɔ̃ t̪ ŋ r    	ʀ r õ õ    	ə w r    	i r m    	f t̪ ə ŋ    
+434	4,36036036036053	20,4504504504514	i ɗ t    	o ɗ au pʲ    	f i cː    	t ui n au m    	ɗ ɛ̃ m f u pʲ    	cː ɗ ui pʲ    	ɗ r u u    	t a pʲ    	i r m    	ɗ ɛ̃ f cː    
+435	-6,45045045045028	23,1531531531541	s i w    	s o e t̪    	i f s    	w ŏ n e m    	s ɔˑ m f u t̪    	s j ŏ t̪    	s b̥ u u    	ɔˑ w t̪    	b̥ i m    	f j ɔˑ ʈʰ    
+436	-9,60360360360343	24,054054054055	s i w    	ɜː s ɛ̃ d̪    	f i ʃʰ    	w ø n ɛ̃ m    	s ă m f u d̪    	v ʃʰ ø d̪    	s b̥ u u    	w ă d̪    	i b̥ m    	f v ă ʃʰ    
+437	-11,8558558558557	22,7027027027036	dː i t    	dː o ə r    	i ŋ̩ k    	t o n ə bː    	ĩ dː m ŋ̩ ɔ̃ː r    	k o j r    	r dː ɔ̃ː ɔ̃ː    	t ĩ r    	i r m    	ŋ̩ j ĩ k    
+438	-4,64864864864848	22,7027027027036	dʲ iː w    	o dʲ au pʲ    	f iː cː    	w au o n ʂ    	dʲ a ʂ f u pʲ    	cː dʲ o pʲ    	dʲ r u u    	w a pʲ    	e˞ r ʂ    	dʲ f a cː    
+439	-5,54954954954938	28,5585585585595	s i w    	o s iɔ sʲ    	f i cː    	w o j iɔ m    	s a m f u sʲ    	cː s o sʲ    	s r u u    	w a c    	r i m    	s f a cː    
+440	-4,19819819819803	25,4054054054063	ȵ aːi ʌ    	ɛ ʈ    	ɧ ʉː    	ɛ s k sː    	t aːi ʌ    	t r uɔ    	v t oː    	ʌ tː a    	f ɑi dʲ    	yː f r a    
+441	-5,09909909909893	28,108108108109	i s w    	s o ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m    	s ɔˑ m f aːi ʃʰ    	ə k k ʃʰ    	s b̥ aːi aːi    	w ɔˑ ʃʰ    	i b̥ m    	f k ɔˑ k    
+442	-3,74774774774758	22,2522522522532	s i t    	s o ə r    	i f k    	t n o i m    	a s f m ɔ̃ː r    	k o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r i m    	f j a k    
+443	3,90990990991008	18,1981981981991	ɸ i w    	o e ɸ pʲ    	f i d̪    	o w n e ʕ    	ɸ e̠ f m u pʲ    	d̪ ɸ o pʲ    	ɸ u pʰ u    	e̠ w pʲ    	r i ʕ    	ɸ f e̠ d̪    
+444	2,55855855855873	23,1531531531541	s i t    	o s au pʲ    	f i cː    	t o n au m    	s ɛ̃ m f u pʲ    	cː s o pʲ    	s r u u    	a t pʲ    	i r m    	s f ɛ̃ cː    
+445	-6,45045045045028	24,054054054055	s i w    	s o e d̪    	i f s    	w ə n e m    	s ɔˑ f m ia d̪    	s j ə d̪    	s ia b̥ ia    	ɔˑ w d̪    	b̥ i m    	f j ɔˑ s    
+446	-9,60360360360343	16,3963963963973	i s rʲ    	o ɑˑ s r    	i f k    	rʲ o n ɑˑ m    	s f ɔˑ m u r    	k k o r    	s u r u    	rʲ ɔˑ r    	r i m    	f k ɔˑ k    
+447	-8,70270270270253	23,1531531531541	i θ w    	o θ e r    	ɕʲ i cː    	w e o n m    	θ m a ɕʲ u r    	cː t̪ o r    	θ r u u    	w a r    	r i m    	ɕʲ t̪ a cː    
+448	3,45945945945963	24,5045045045054	n aːi ɔ    	eː g̊    ʈ ɛ    	ʉː dʷ    	ɛ k s sː    	aːi t ɔ    	t r uɔ    	v t oː    	ɔ tː a    	bʲ ɯi ɓ    	bʲ yː r a    
+449	-9,15315315315298	23,6036036036045	i s t    	o s ə rʷ    	i z ⁿd    	t o n ə m    	a s z m ɔ̃ː rʷ    	ⁿd o sː rʷ    	s rʷ ɔ̃ː ɔ̃ː    	t a rʷ    	rʷ i m    	z ɒ sː ⁿd    
+450	0,756756756756926	25,4054054054063	n aːi ɔ    	ɽ eː    	ɧ ʉː    	ɛ s k tɕ    	ɸ aːi ɔ    	ɸ r uɔ    	v ɸ œː    	ɔ tː a    	f ɛ m    	f r yː a    
+451	-6,45045045045028	23,6036036036045	s ɑː kʼ    	o æ̃ tsʰ r    	ʒ ɑː cː    	kʼ o n æ̃ m    	s a m ʒ u r    	cː s o r    	s r u u    	a kʼ r    	r ɑː m    	ʒ a s cː    
+452	-4,64864864864848	23,1531531531541	s ɛi w    	o s au pʲ    	f ɛi cː    	w o au n ʂ    	s a ʂ f u pʲ    	cː s o pʲ    	s u r u    	a w pʲ    	e˞ r ʂ    	s f a cː    
+453	-5,09909909909893	33,063063063064	s i w    	s ɘ au sʲ    	f i sː    	w ɘ j au m    	s ɜ m f u sʲ    	sː s ɘ sʲ    	s r u u    	w ɜ c    	i r m    	s f ɜ sː    
+454	-9,15315315315298	25,4054054054063	ə s w    	s o e r    	ə f cː    	w o e n m    	s a m f u r    	cː t̪ o r    	s r u u    	a w r    	r ə m    	f t̪ a cː    
+455	-14,1081081081079	23,1531531531541	qχ i rʲ    	o ɑˑ qχ r    	i f k    	rʲ n o ɑˑ nʲ    	qχ ɔˑ nʲ f u r    	k k o r    	qχ u r u    	ɔˑ rʲ r    	r i nʲ    	f k ɔˑ k    
+456	-10,5045045045043	33,9639639639649	s i w    	s o ɛ̃ ʃʰ    	i f k    	w ə n ɛ̃ m    	s ɔˑ m f u ʃʰ    	ə k kp ʃʰ    	s b̥ u u    	w ɔˑ ʃʰ    	i b̥ m    	f kp ɔˑ k    
+457	-14,5585585585584	25,8558558558568	s i w    	ɔ o s r    	f i k    	w o n ɔ m    	s u m f u r    	k k o r    	s m u u    	u w r    	r i m    	f k u k    
+458	-10,5045045045043	24,9549549549559	k i pʰ    	k o e r    	f i cː    	wʲ o e n pʰ    	k a pʰ f u r    	cː o sʰ r    	k r u u    	wʲ a r    	i r pʰ    	f a sʰ cː    
+459	-13,207207207207	22,2522522522532	d̪ i w    	o ɑˑ d̪ r    	f i k    	w o n ɑˑ m    	d̪ u m f u ɸ    	k k o ɸ    	d̪ u m u    	w u ɸ    	r i m    	f k u k    
+460	-10,0540540540539	23,1531531531541	s i w    	œ iə s θ    	i β k    	w iə β œ ʡ    	s ə m β u θ    	k j iə θ    	s r u u    	w ə θ    	r i ʡ    	j ə β k    
+461	-11,8558558558557	29,9099099099108	s i w    	u s ə r    	f i cː    	w u ə n m    	s m ə f ɔ̃u r    	t̪ ɔ̃u cː r    	s r u u    	ə w r    	i r m    w u ə n m    	f t̪ ə cː    
+462	1,65765765765783	26,7567567567577	n aːi ɔ    	ɓ ɛ    	ɧ aˑ    	ɛ s j sː    	t aːi ɔ    	t r uɔ    	t v ʏ    	β ɔ a    	ɨi f m    	f yː r ɤ    
+463	-8,25225225225208	30,8108108108117	s i kʼ    	aː tsʰ e β    	s i cː    	aː kʼ n e m    	s ʌ m s u β    	cː s aː β    	β s u u    	a kʼ β    	β i m    	s ʌ s cː    
+464	1,20720720720738	23,6036036036045	r̃ i w    	o au r̃ kʷ    	i f ɹ    	w o j au m    	r̃ a m f u kʷ    	ɹ r̃ o kʷ    	r̃ r u u    	a w ts    	r i m    	r̃ f a ɹ    
+465	-9,15315315315298	31,7117117117126	s u t    	o ʈ ə r    	u f b    	t o n ə m    	a s f m ɔ̃ː r    	b o j r    	s r ɔ̃ː ɔ̃ː    	a t r    	r u m    	f j ɒ b    
+466	-2,39639639639623	24,5045045045054	i s t    	s o ə r    	i f k    	t o z̩ i m    	a s m ɔ̃ː f r    	k o j r    	s ɔ̃ː r ɔ̃ː    	a t r    	r i m    	f j a k    
+467	-10,9549549549548	23,1531531531541	i s mˀ    	s o a̤ː r    	i f cː    	mˀ o a̤ː n m    	s a m f u r    	cː t̪ o r    	s u r u    	a mˀ r    	r i m    	f t̪ a cː    
+468	3,45945945945963	28,5585585585595	n aːi i    	ʀ eː    ɓ ɛ    	ɧ ʉː    	ɛ s j sː    	t aːi i    	t r i    	v t ʏ    	tː i a    	f ɨi m    	f yː r a    
+469	-10,0540540540539	25,4054054054063	s i w    	s u e r    	kʼ i cː    	w u e n m    	s ə m kʼ ɔ̃u r    	t̪ ɔ̃u cː r    	s r u u    	ə w r    	i r m    w u e n m    	kʼ t̪ ə cː    
+470	-5,54954954954938	23,1531531531541	s i w    	o s ɛ̃ ʝ    	i f χ    	w ø n ɛ̃ m    	s ă f m ʌ ʝ    	χ kp ø ʝ    	s b̥ u u    	ă w ʝ    	b̥ i m    	f kp ă χ    
+471	-13,6576576576575	33,5135135135144	s əu w    	āː s e ȶ    	əu ŋː cː    	āː w e n m    	s ə m ŋː āː ȶ    	t̪ cː āː ȶ    	s ȶ āː āː    	ə w ȶ    	ȶ əu m    	ŋː ə t̪ cː    
+472	-6,90090090090073	29,0090090090099	s ie t    	o s ə dː    	ie f ⁿd    	t o n ə m    	a s f m ɔ̃ː dː    	ⁿd o j r    	r s ɔ̃ː ɔ̃ː    	t a dː    	r ie m    	f j ɒ ⁿd    

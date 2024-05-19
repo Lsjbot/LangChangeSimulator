@@ -1,0 +1,4641 @@
+4	NINE	bhw1	ˀk ɨ w 
+5	ONE	bhw1	āː ˀk e r 
+6	SEVEN	bhw1	ɨ ŋː f 
+7	SIX	bhw1	āː w e n m 
+8	TEN	bhw1	ˀk ə m ŋː āː r 
+9	THREE	bhw1	t̪ f āː r 
+10	TWO	bhw1	ˀk r āː āː 
+1	EIGHT	bhw1	ə w r 
+2	FIVE	bhw1	r ɨ m 
+3	FOUR	bhw1	ŋː ə t̪ f 
+30	NINE	swe3	ʰt aːi aˑ 
+21	ONE	swe3	eː ɗː 
+22	ONE	swe3	ɛ ʈ 
+28	SEVEN	swe3	n̊ ʉː 
+27	SIX	swe3	ɛ s k sː 
+31	TEN	swe3	aːi t aˑ 
+24	THREE	swe3	t r uɔ 
+23	TWO	swe3	v t oː 
+29	EIGHT	swe3	aˑ tː a 
+26	FIVE	swe3	ɨ f m 
+25	FOUR	swe3	yː f r a 
+46	NINE	bhw5	i s t 
+47	ONE	bhw5	s œː ə r 
+48	SEVEN	bhw5	i f ṽ 
+49	SIX	bhw5	t n œː ə m 
+50	TEN	bhw5	a s f m ɔ̃ː r 
+51	THREE	bhw5	ṽ œː j r 
+52	TWO	bhw5	s ɔ̃ː r ɔ̃ː 
+43	EIGHT	bhw5	a t r 
+44	FIVE	bhw5	r i m 
+45	FOUR	bhw5	f j oi ṽ 
+56	NINE	bhw6	ɐu dʲː ɯ̱ 
+57	ONE	bhw6	o tsʰ e r 
+58	SEVEN	bhw6	ʒ ɐu cː 
+59	SIX	bhw6	o ɯ̱ n e m 
+60	TEN	bhw6	dʲː a m ʒ u r 
+61	THREE	bhw6	cː dʲː o r 
+62	TWO	bhw6	dʲː r u u 
+53	EIGHT	bhw6	a ɯ̱ r 
+54	FIVE	bhw6	r ɐu m 
+55	FOUR	bhw6	a ʒ dʲː cː 
+66	NINE	bhw7	i s w 
+67	ONE	bhw7	ɑˑ s o r 
+68	SEVEN	bhw7	i χ k 
+69	SIX	bhw7	o w ɑˑ kˀ m 
+70	TEN	bhw7	s ãː m χ ɑ̠ r 
+71	THREE	bhw7	k k o r 
+72	TWO	bhw7	s ɑ̠ r ɑ̠ 
+63	EIGHT	bhw7	w ãː r 
+64	FIVE	bhw7	r i m 
+65	FOUR	bhw7	χ k ãː k 
+86	NINE	bhw9	i ˀd w 
+87	ONE	bhw9	o e ˀd pʲ 
+88	SEVEN	bhw9	i ɓ cː 
+89	SIX	bhw9	w o θ e ʋ 
+90	TEN	bhw9	yː ˀd ʋ ɓ u g 
+91	THREE	bhw9	ˀd cː o g 
+92	TWO	bhw9	ˀd u r u 
+83	EIGHT	bhw9	a w pʲ 
+84	FIVE	bhw9	i r ʋ 
+85	FOUR	bhw9	ˀd ɓ yː cː 
+96	NINE	bhw10	s i w 
+97	ONE	bhw10	o s ɛ̃ ʃʰ 
+98	SEVEN	bhw10	i f k 
+99	SIX	bhw10	w ə n ɛ̃ m 
+100	TEN	bhw10	s ɔˑ m f ɐː ʃʰ 
+101	THREE	bhw10	k ə kp ʃʰ 
+102	TWO	bhw10	s b̥ u u 
+93	EIGHT	bhw10	w ɔˑ ʃʰ 
+94	FIVE	bhw10	i b̥ m 
+95	FOUR	bhw10	f kp ɔˑ h 
+106	NINE	bhw11	s ĩ w 
+107	ONE	bhw11	o s e ɗ 
+108	SEVEN	bhw11	ĩ j ɕʲ 
+109	SIX	bhw11	w ʃː o e m 
+110	TEN	bhw11	á s m j uɔ ɗ 
+111	THREE	bhw11	o ɕʲ j ɗ 
+112	TWO	bhw11	s ɔ̃ː ɗ ɔ̃ː 
+103	EIGHT	bhw11	w á ɗ 
+104	FIVE	bhw11	ɗ ĩ m 
+105	FOUR	bhw11	j j á ɕʲ 
+116	NINE	bhw12	s i w 
+117	ONE	bhw12	ɬ o œ d̪ 
+118	SEVEN	bhw12	f i k 
+120	TEN	bhw12	s m f ə æ̃ d̪ 
+121	THREE	bhw12	k o j d̪ 
+122	TWO	bhw12	s r u u 
+113	EIGHT	bhw12	ə w d̪ 
+114	FIVE	bhw12	i r m 
+115	FOUR	bhw12	f j ə k 
+632	NINE	bhw63	d̥ ɒː t 
+633	ONE	bhw63	d̥ œː ə ɣʷ 
+634	SEVEN	bhw63	i f b 
+635	SIX	bhw63	t œː n ə m 
+636	TEN	bhw63	a d̥ f m o ɣʷ 
+637	THREE	bhw63	b œː j ɣʷ 
+638	TWO	bhw63	d̥ ɣʷ ɔ̃ː ɔ̃ː 
+629	EIGHT	bhw63	t a ɣʷ 
+630	FIVE	bhw63	ɣʷ ɒː m 
+631	FOUR	bhw63	f j ɒ b 
+1989	NINE	bhw197	ˀd i w 
+1991	SEVEN	bhw197	i ɓ cː 
+1992	SIX	bhw197	w o θ e m 
+1993	TEN	bhw197	ˀd ɨˤ m ɓ ɑː pʲ 
+1994	THREE	bhw197	ˀd cː o pʲ 
+1995	TWO	bhw197	ˀd ɑː r ɑː 
+1986	EIGHT	bhw197	a w pʲ 
+1987	FIVE	bhw197	r i m 
+1988	FOUR	bhw197	ˀd ɓ ɨˤ l̪ 
+146	NINE	bhw15	r̃ ŏ w 
+147	ONE	bhw15	o au r̃ ɣ 
+148	SEVEN	bhw15	f ŏ cː 
+149	SIX	bhw15	w o j au z 
+150	TEN	bhw15	r̃ a z f u ɣ 
+151	THREE	bhw15	cː r̃ o ɣ 
+152	TWO	bhw15	r u r̃ u 
+143	EIGHT	bhw15	a w ts 
+144	FIVE	bhw15	r ŏ z 
+145	FOUR	bhw15	r̃ f a cː 
+156	NINE	bhw16	s i w 
+157	ONE	bhw16	s əɯ œ ɦ 
+158	SEVEN	bhw16	i dʑ k 
+159	SIX	bhw16	w əɯ n œ m 
+160	TEN	bhw16	s ɔˑ m dʑ u ɦ 
+161	THREE	bhw16	k j əɯ ɦ 
+162	TWO	bhw16	s r u u 
+153	EIGHT	bhw16	ɔˑ w ɦ 
+154	FIVE	bhw16	r i m 
+155	FOUR	bhw16	dʑ j ɔˑ k 
+172	NINE	swe17	n aːi i 
+163	ONE	swe17	ʀ iɛ 
+164	ONE	swe17	ɓ ɛ 
+170	SEVEN	swe17	ɧ ʉː 
+169	SIX	swe17	ɛ s j sː 
+173	TEN	swe17	t aːi i 
+166	THREE	swe17	r t i 
+165	TWO	swe17	v t ʏ 
+171	EIGHT	swe17	tː i a 
+168	FIVE	swe17	f ɨi m 
+167	FOUR	swe17	yː f r a 
+177	NINE	bhw18	h i w 
+178	ONE	bhw18	h o e d̪ 
+179	SEVEN	bhw18	i f h 
+180	SIX	bhw18	w ə n e m 
+181	TEN	bhw18	h ɔˑ f m ia d̪ 
+182	THREE	bhw18	h ə b d̪ 
+183	TWO	bhw18	h ia b̥ īː 
+174	EIGHT	bhw18	ɔˑ w d̪ 
+175	FIVE	bhw18	b̥ i m 
+176	FOUR	bhw18	f b ɔˑ ʈː 
+187	NINE	bhw19	i s t 
+188	ONE	bhw19	s au ə r 
+189	SEVEN	bhw19	i f k 
+190	SIX	bhw19	t au n i m 
+191	TEN	bhw19	a m s ɔ̃ː f r 
+192	THREE	bhw19	k au j r 
+193	TWO	bhw19	s ɔ̃ː r ɔ̃ː 
+184	EIGHT	bhw19	a t r 
+185	FIVE	bhw19	r i m 
+186	FOUR	bhw19	f j a ŋ 
+197	NINE	bhw20	s i w 
+198	ONE	bhw20	u s e pʲ 
+199	SEVEN	bhw20	f i cː 
+200	SIX	bhw20	w u n e m 
+201	TEN	bhw20	s aɯ m f ĩː pʲ 
+202	THREE	bhw20	cː s u pʲ 
+203	TWO	bhw20	s r ĩː ĩː 
+194	EIGHT	bhw20	aɯ w pʲ 
+195	FIVE	bhw20	r i m 
+196	FOUR	bhw20	s f aɯ cː 
+207	NINE	bhw21	ʀ i w 
+208	ONE	bhw21	õ ʀ e r 
+209	SEVEN	bhw21	f i ŋ 
+210	SIX	bhw21	w õ e ʁ m 
+211	TEN	bhw21	ʀ ə m f ɔ̃ r 
+212	THREE	bhw21	ɔ̃ t̪ ŋ r 
+213	TWO	bhw21	ʀ r õ õ 
+204	EIGHT	bhw21	w ə r 
+205	FIVE	bhw21	i r m 
+206	FOUR	bhw21	f t̪ ə ŋ 
+1979	NINE	bhw196	ɑː dʲː kʼ 
+1980	ONE	bhw196	o ɭ e r 
+1981	SEVEN	bhw196	ɑː ʒ cː 
+1982	SIX	bhw196	o kʼ n e m 
+1983	TEN	bhw196	dʲː a m ʒ u r 
+1984	THREE	bhw196	cː dʲː o r 
+1985	TWO	bhw196	dʲː r u u 
+1976	EIGHT	bhw196	a kʼ r 
+1977	FIVE	bhw196	r ɑː m 
+1978	FOUR	bhw196	ʒ a dʲː cː 
+227	NINE	bhw23	s i kʼ 
+228	ONE	bhw23	o p ɵ r 
+229	SEVEN	bhw23	ts i cː 
+230	SIX	bhw23	o n kʼ ɵ ˀj 
+231	TEN	bhw23	s ʌ ˀj ts u r 
+232	THREE	bhw23	o cː s r 
+233	TWO	bhw23	s u r u 
+224	EIGHT	bhw23	ŭ kʼ r 
+225	FIVE	bhw23	r i ˀj 
+226	FOUR	bhw23	ts s ʌ cː 
+237	NINE	bhw24	l̪ i w 
+238	ONE	bhw24	ɑˑ o l̪ r 
+239	SEVEN	bhw24	f i k 
+240	SIX	bhw24	w o ˀd ɑˑ m 
+241	TEN	bhw24	l̪ u m f u ɸ 
+242	THREE	bhw24	k k o ɸ 
+243	TWO	bhw24	l̪ u m u 
+234	EIGHT	bhw24	w u ɸ 
+235	FIVE	bhw24	r i m 
+236	FOUR	bhw24	f k u k 
+247	NINE	bhw25	i s tː 
+248	ONE	bhw25	s o e r 
+249	SEVEN	bhw25	ɭː i cː 
+250	SIX	bhw25	tː o e n m 
+251	TEN	bhw25	s a m u ɭː r 
+252	THREE	bhw25	cː t̪ o r 
+253	TWO	bhw25	s u r u 
+244	EIGHT	bhw25	a tː r 
+245	FIVE	bhw25	r i m 
+246	FOUR	bhw25	t̪ a ɭː cː 
+257	NINE	bhw26	ɸ i w 
+258	ONE	bhw26	ɸ o e pʲ 
+259	SEVEN	bhw26	i f d̪ 
+260	SIX	bhw26	w o n e m 
+261	TEN	bhw26	ɸ œː m f aː pʲ 
+262	THREE	bhw26	d̪ ɸ o pʲ 
+263	TWO	bhw26	ɸ aː pʰ aː 
+254	EIGHT	bhw26	œː w pʲ 
+255	FIVE	bhw26	ŋ i m 
+256	FOUR	bhw26	ɸ f œː d̪ 
+267	NINE	bhw27	s a̱ w 
+268	ONE	bhw27	o s ɐ m 
+269	SEVEN	bhw27	dʑ i k 
+270	SIX	bhw27	w n ɐ o m 
+271	TEN	bhw27	s ə m dʑ u m 
+272	THREE	bhw27	k o j m 
+273	TWO	bhw27	s r u u 
+264	EIGHT	bhw27	w ə m 
+265	FIVE	bhw27	r a̱ m 
+266	FOUR	bhw27	dʑ j ə k 
+277	NINE	bhw28	i s w 
+278	ONE	bhw28	o cçʲ œ d̪ 
+279	SEVEN	bhw28	f i k 
+280	SIX	bhw28	w f o œ p 
+281	TEN	bhw28	s ə m f u d̪ 
+282	THREE	bhw28	k ʈʰ o d̪ 
+283	TWO	bhw28	s u r u 
+274	EIGHT	bhw28	w ə d̪ 
+275	FIVE	bhw28	i r p 
+276	FOUR	bhw28	ʈʰ f ə k 
+287	NINE	bhw29	i ɗ t 
+288	ONE	bhw29	e˞ ɗ au pʲ 
+289	SEVEN	bhw29	ɤ̱ i cː 
+290	SIX	bhw29	t ui n au m 
+291	TEN	bhw29	ɗ ɛ̃ m ɤ̱ u pʲ 
+292	THREE	bhw29	cː ɗ ui pʲ 
+293	TWO	bhw29	ɗ u r u 
+284	EIGHT	bhw29	t a pʲ 
+285	FIVE	bhw29	i r m 
+286	FOUR	bhw29	ɗ ɛ̃ ɤ̱ cː 
+303	NINE	swe30	aːi n ɔ 
+294	ONE	swe30	eː f 
+295	ONE	swe30	ɛ ʈ 
+301	SEVEN	swe30	ɧ ʉː 
+300	SIX	swe30	ɛ s k kʰʲ 
+304	TEN	swe30	ɸ aːi ɔ 
+297	THREE	swe30	ɸ r uɔ 
+296	TWO	swe30	v ɸ oː 
+302	EIGHT	swe30	ɔ b a̹ 
+299	FIVE	swe30	f ɛ m 
+298	FOUR	swe30	f yː r a̹ 
+308	NINE	bhw31	s i w 
+309	ONE	bhw31	s o e d̪ 
+310	SEVEN	bhw31	f i s 
+311	SIX	bhw31	w ŏ n e m 
+312	TEN	bhw31	s ɔˑ m f u d̪ 
+313	THREE	bhw31	s ts ŏ d̪ 
+314	TWO	bhw31	s b̥ u u 
+305	EIGHT	bhw31	ɔˑ w d̪ 
+306	FIVE	bhw31	b̥ i m 
+307	FOUR	bhw31	f ts ɔˑ ʈʰ 
+318	NINE	bhw32	i s ɟ 
+319	ONE	bhw32	s ɛ̃ o r 
+320	SEVEN	bhw32	i f k 
+321	SIX	bhw32	ɟ ɛ̃ tɕ o m 
+322	TEN	bhw32	s a m f ɔ̃ː r 
+323	THREE	bhw32	k j ɛ̃ r 
+324	TWO	bhw32	r s ɔ̃ː ɔ̃ː 
+315	EIGHT	bhw32	ɟ a r 
+316	FIVE	bhw32	r i m 
+317	FOUR	bhw32	f j a k 
+328	NINE	bhw33	ŋ i ʁˤ 
+329	ONE	bhw33	eɪ m e pʲ 
+330	SEVEN	bhw33	i f cː 
+331	SIX	bhw33	ʁˤ n eɪ e m 
+332	TEN	bhw33	ŋ a m u f pʲ 
+333	THREE	bhw33	ŋ cː eɪ pʲ 
+334	TWO	bhw33	u ŋ r u 
+325	EIGHT	bhw33	a ʁˤ pʲ 
+326	FIVE	bhw33	i r m 
+327	FOUR	bhw33	ŋ f a cː 
+344	NINE	swe34	n aːi ɔ 
+335	ONE	swe34	eː w̃ 
+342	SEVEN	swe34	ɧ ʉː 
+341	SIX	swe34	ɛ ɾ k sː 
+345	TEN	swe34	t aːi ɔ 
+338	THREE	swe34	t r uɔ 
+337	TWO	swe34	t v oː 
+343	EIGHT	swe34	ɔ ʑ a 
+340	FIVE	swe34	ɛ f ɓ 
+339	FOUR	swe34	f yː r a 
+349	NINE	bhw35	oːu jˀ w 
+350	ONE	bhw35	o ɔ̃ jˀ r 
+351	SEVEN	bhw35	oːu f k 
+352	SIX	bhw35	w o n ɔ̃ ɬ 
+353	TEN	bhw35	jˀ ʉ ɬ f u r 
+354	THREE	bhw35	k k o r 
+355	TWO	bhw35	jˀ u r u 
+346	EIGHT	bhw35	w ʉ r 
+347	FIVE	bhw35	r oːu ɬ 
+348	FOUR	bhw35	k f ʉ k 
+359	NINE	bhw36	s au fʲ 
+360	ONE	bhw36	s e e r 
+361	SEVEN	bhw36	f au cː 
+362	SIX	bhw36	fʲ e e n m 
+363	TEN	bhw36	s m a f u r 
+364	THREE	bhw36	cː t̪ e r 
+365	TWO	bhw36	s u r u 
+356	EIGHT	bhw36	fʲ a r 
+357	FIVE	bhw36	r au m 
+358	FOUR	bhw36	f a t̪ cː 
+369	NINE	bhw37	i s w 
+370	ONE	bhw37	ɜː s ɛ̃ d̪ 
+371	SEVEN	bhw37	i f ʃʰ 
+372	SIX	bhw37	w ø n ɛ̃ m 
+373	TEN	bhw37	s ă m f u d̪ 
+374	THREE	bhw37	v ʃʰ ø d̪ 
+375	TWO	bhw37	s b̥ u u 
+366	EIGHT	bhw37	w ă d̪ 
+367	FIVE	bhw37	i b̥ m 
+368	FOUR	bhw37	f v ă ʃʰ 
+379	NINE	bhw38	āː s w 
+380	ONE	bhw38	s o e ɗ 
+381	SEVEN	bhw38	āː f k 
+382	SIX	bhw38	w ʃː e o m 
+383	TEN	bhw38	a s m f ẽ ɗ 
+384	THREE	bhw38	o k j ɗ 
+385	TWO	bhw38	s ɔ̃ː ɗ ɔ̃ː 
+376	EIGHT	bhw38	w a ɗ 
+377	FIVE	bhw38	āː ɗ m 
+378	FOUR	bhw38	a f j k 
+389	NINE	bhw39	dː i t 
+390	ONE	bhw39	dː o ə r 
+391	SEVEN	bhw39	i ŋ̩ k 
+392	SIX	bhw39	t n o ə bː 
+393	TEN	bhw39	ä dː m ŋ̩ ɔ̃ː r 
+394	THREE	bhw39	k o j r 
+395	TWO	bhw39	r dː ɔ̃ː ɔ̃ː 
+386	EIGHT	bhw39	t ä r 
+387	FIVE	bhw39	i r m 
+388	FOUR	bhw39	ŋ̩ j ä k 
+399	NINE	bhw40	õ ɸʷ tsː 
+400	ONE	bhw40	u ɸʷ u r 
+401	SEVEN	bhw40	f õ cː 
+402	SIX	bhw40	tsː u u n m 
+403	TEN	bhw40	ɸʷ ə m f o r 
+404	THREE	bhw40	t̪ cː o r 
+405	TWO	bhw40	ɸʷ r u u 
+396	EIGHT	bhw40	ə tsː r 
+397	FIVE	bhw40	õ r m 
+398	FOUR	bhw40	f t̪ ə cː 
+409	NINE	bhw41	s i kʼ 
+410	ONE	bhw41	o tsʰ e β 
+411	SEVEN	bhw41	i s cː 
+412	SIX	bhw41	o d̪ʰ kʼ e lː 
+413	TEN	bhw41	s ʌ s m aːi β 
+414	THREE	bhw41	cː s o β 
+415	TWO	bhw41	s β aːi aːi 
+406	EIGHT	bhw41	a kʼ β 
+407	FIVE	bhw41	β i lː 
+408	FOUR	bhw41	s ʌ s cː 
+419	NINE	bhw42	s i t 
+420	ONE	bhw42	o s ə dː 
+421	SEVEN	bhw42	i f ⁿd 
+422	SIX	bhw42	t o n ə m 
+423	TEN	bhw42	s a f m ɔ̃ː dː 
+424	THREE	bhw42	ⁿd o j r 
+425	TWO	bhw42	s r ɔ̃ː ɔ̃ː 
+416	EIGHT	bhw42	t a dː 
+417	FIVE	bhw42	r i m 
+418	FOUR	bhw42	f ɒ j ⁿd 
+429	NINE	bhw43	s i g 
+430	ONE	bhw43	o s e pʲ 
+431	SEVEN	bhw43	i kʲ cː 
+432	SIX	bhw43	g o n e m 
+433	TEN	bhw43	s ɨˤ m kʲ u pʲ 
+434	THREE	bhw43	cː s o pʲ 
+435	TWO	bhw43	s u r u 
+426	EIGHT	bhw43	ãi g pʲ 
+427	FIVE	bhw43	r i m 
+428	FOUR	bhw43	s kʲ ɨˤ cː 
+439	NINE	bhw44	i s ˀb 
+440	ONE	bhw44	o œ s d̪ 
+441	SEVEN	bhw44	i dʑ k 
+442	SIX	bhw44	ˀb o n œ ȵ 
+443	TEN	bhw44	s ɔˑ ȵ dʑ u d̪ 
+444	THREE	bhw44	k j o d̪ 
+445	TWO	bhw44	s r u u 
+436	EIGHT	bhw44	ɔˑ ˀb d̪ 
+437	FIVE	bhw44	r a̱ ȵ 
+438	FOUR	bhw44	dʑ j ɔˑ k 
+455	NINE	swe45	aːi n ɔ 
+446	ONE	swe45	eː ʀ 
+447	ONE	swe45	ɛ ʈ 
+453	SEVEN	swe45	ɧ ã̤ː 
+452	SIX	swe45	ɛ s k h 
+456	TEN	swe45	t aːi ɔ 
+449	THREE	swe45	t tʰ uɔ 
+448	TWO	swe45	t v ʏ 
+454	EIGHT	swe45	tː ɔ a 
+451	FIVE	swe45	f ɨi m̩ 
+450	FOUR	swe45	f yː tʰ a 
+460	NINE	bhw46	s i w 
+461	ONE	bhw46	s o e d̪ 
+462	SEVEN	bhw46	i f s 
+463	SIX	bhw46	w ə n æː m 
+464	TEN	bhw46	s ɔˑ m f ia d̪ 
+465	THREE	bhw46	s j ə d̪ 
+466	TWO	bhw46	s ia b̥ ia 
+457	EIGHT	bhw46	ɔˑ w d̪ 
+458	FIVE	bhw46	b̥ i m 
+459	FOUR	bhw46	f j ɔˑ tsˀ 
+470	NINE	bhw47	s i w 
+471	ONE	bhw47	œ iə s ŋ 
+472	SEVEN	bhw47	i β k 
+473	SIX	bhw47	w iə œ β ʡ 
+474	TEN	bhw47	s m ə β ɑ̃ ŋ 
+475	THREE	bhw47	k j iə ŋ 
+476	TWO	bhw47	s r ɑ̃ ɑ̃ 
+467	EIGHT	bhw47	w ə ŋ 
+468	FIVE	bhw47	r i ʡ 
+469	FOUR	bhw47	j β ə k 
+480	NINE	bhw48	iː s w 
+481	ONE	bhw48	o s au pʲ 
+482	SEVEN	bhw48	f iː cː 
+483	SIX	bhw48	w o au ħ ʂ 
+484	TEN	bhw48	s a ʂ f u pʲ 
+485	THREE	bhw48	cː s o pʲ 
+486	TWO	bhw48	s ʒ u u 
+477	EIGHT	bhw48	a w pʲ 
+478	FIVE	bhw48	e˞ ʒ ʂ 
+479	FOUR	bhw48	s f a cː 
+490	NINE	bhw49	s iɛ w 
+491	ONE	bhw49	eɪ e s pʲ 
+492	SEVEN	bhw49	i f jˀ 
+493	SIX	bhw49	w eɪ n e vː 
+494	TEN	bhw49	s a dʲ f u pʲ 
+495	THREE	bhw49	s cː eɪ pʲ 
+496	TWO	bhw49	s u r u 
+487	EIGHT	bhw49	a w pʲ 
+488	FIVE	bhw49	r iɛ vː 
+489	FOUR	bhw49	f s a jˀ 
+506	NINE	swe50	n aːi ä 
+497	ONE	swe50	s̪ uɔ 
+498	ONE	swe50	ʈ ī 
+504	SEVEN	swe50	ˀw ʉː 
+503	SIX	swe50	ī k s sː 
+507	TEN	swe50	aːi t ä 
+500	THREE	swe50	t r ou 
+499	TWO	swe50	ʁ t oː 
+505	EIGHT	swe50	dʲ ä a 
+502	FIVE	swe50	f ɨ m 
+501	FOUR	swe50	f yː r a 
+511	NINE	bhw51	i lʲ m 
+512	ONE	bhw51	lʲ ɐ o r 
+513	SEVEN	bhw51	f i cː 
+514	SIX	bhw51	w ɐ o n m 
+515	TEN	bhw51	lʲ m a f ɪ r 
+516	THREE	bhw51	cː t̪ o r 
+517	TWO	bhw51	lʲ r ũ ũ 
+508	EIGHT	bhw51	w a r 
+509	FIVE	bhw51	i r m 
+510	FOUR	bhw51	f t̪ a cː 
+521	NINE	bhw52	s i w 
+522	ONE	bhw52	s o ɛ̃ ʃʰ 
+523	SEVEN	bhw52	f i k 
+524	SIX	bhw52	w ə ɬ ɛ̃ m 
+525	TEN	bhw52	s ɔˑ m f u ʃʰ 
+526	THREE	bhw52	k ə kp ʃʰ 
+527	TWO	bhw52	c s u u 
+518	EIGHT	bhw52	ɔˑ w ʃʰ 
+519	FIVE	bhw52	c i m 
+520	FOUR	bhw52	kp f ɔˑ k 
+531	NINE	bhw53	i s w 
+532	ONE	bhw53	o s ø sʲ 
+533	SEVEN	bhw53	f i cː 
+534	SIX	bhw53	w o j ø m 
+535	TEN	bhw53	s a m f u sʲ 
+536	THREE	bhw53	cː s o sʲ 
+537	TWO	bhw53	s r u u 
+528	EIGHT	bhw53	w a c 
+529	FIVE	bhw53	r i m 
+530	FOUR	bhw53	s f a cː 
+541	NINE	bhw54	s i w 
+542	ONE	bhw54	s u e r 
+543	SEVEN	bhw54	kʼ i ʡ 
+544	SIX	bhw54	w u e n m 
+545	TEN	bhw54	s ə m kʼ ɔ̃u r 
+546	THREE	bhw54	t̪ ɔ̃u ʡ r 
+547	TWO	bhw54	s r u u 
+538	EIGHT	bhw54	ə w r 
+539	FIVE	bhw54	i r m 
+544	FIVE	bhw54	w u e n m 
+540	FOUR	bhw54	kʼ t̪ ə ʡ 
+551	NINE	bhw55	s aˀ kʼ 
+552	ONE	bhw55	o bʰ e r 
+553	SEVEN	bhw55	aˀ f cː 
+554	SIX	bhw55	kʼ o n e m 
+555	TEN	bhw55	s ʌ m f u r 
+556	THREE	bhw55	cː s o r 
+557	TWO	bhw55	s r u u 
+548	EIGHT	bhw55	kʼ a r 
+549	FIVE	bhw55	r aˀ m 
+550	FOUR	bhw55	f s ʌ cː 
+561	NINE	bhw56	i s w 
+562	ONE	bhw56	s o e r 
+563	SEVEN	bhw56	f i k 
+564	SIX	bhw56	w o e n m 
+565	TEN	bhw56	s a m f u r 
+566	THREE	bhw56	k t̪ o r 
+567	TWO	bhw56	s r u u 
+558	EIGHT	bhw56	w a r 
+559	FIVE	bhw56	r i m 
+560	FOUR	bhw56	f t̪ a k 
+571	NINE	bhw57	s i ts 
+572	ONE	bhw57	s o e d̪ 
+573	SEVEN	bhw57	i f s 
+574	SIX	bhw57	ts ə n e ŋ 
+575	TEN	bhw57	s ɔˑ ŋ f u d̪ 
+576	THREE	bhw57	s j ə d̪ 
+577	TWO	bhw57	s u b̥ u 
+568	EIGHT	bhw57	ɔˑ ts d̪ 
+569	FIVE	bhw57	i b̥ ŋ 
+570	FOUR	bhw57	f j ɔˑ s 
+581	NINE	bhw58	s ʊ jˀ 
+582	ONE	bhw58	s ɛ̃ ə r 
+583	SEVEN	bhw58	f ʊ β 
+584	SIX	bhw58	jˀ ɛ̃ tɕ o m 
+585	TEN	bhw58	s a m f oˑ r 
+586	THREE	bhw58	β ɛ̃ j r 
+587	TWO	bhw58	s r oˑ oˑ 
+578	EIGHT	bhw58	a jˀ r 
+579	FIVE	bhw58	ʊ r m 
+580	FOUR	bhw58	f j a β 
+597	NINE	swe59	aːi ȵ ʌ 
+589	ONE	swe59	ʈ ɛ 
+595	SEVEN	swe59	ɧ ʉː 
+594	SIX	swe59	ɛ s k sː 
+598	TEN	swe59	t aːi ʌ 
+591	THREE	swe59	t r uɔ 
+590	TWO	swe59	v t oː 
+596	EIGHT	swe59	ʌ ɕʰ a 
+593	FIVE	swe59	ɑi f dʲ 
+592	FOUR	swe59	yː f r a 
+602	NINE	bhw60	s i rʲ 
+603	ONE	bhw60	ʌ ɑˑ s r 
+604	SEVEN	bhw60	i f k 
+605	SIX	bhw60	ʌ rʲ ɑˑ n nʲ 
+606	TEN	bhw60	s nʲ ɨ̠ f ɨ̠ r 
+607	THREE	bhw60	k k ʌ r 
+608	TWO	bhw60	s ɨ̠ r ɨ̠ 
+599	EIGHT	bhw60	ɨ̠ rʲ r 
+600	FIVE	bhw60	r i nʲ 
+601	FOUR	bhw60	f k ɨ̠ k 
+612	NINE	bhw61	s i w 
+613	ONE	bhw61	ɔʊ e s r 
+614	SEVEN	bhw61	i f cː 
+615	SIX	bhw61	w ɔʊ e n m 
+616	TEN	bhw61	s m a f ʌː r 
+617	THREE	bhw61	cː t̪ ɔʊ r 
+618	TWO	bhw61	s r u u 
+609	EIGHT	bhw61	w a r 
+610	FIVE	bhw61	r i m 
+611	FOUR	bhw61	f t̪ a cː 
+622	NINE	bhw62	i s t 
+623	ONE	bhw62	s o ə r 
+624	SEVEN	bhw62	i ŋ̩ k 
+625	SIX	bhw62	t o n ə m 
+626	TEN	bhw62	ɔʊ s m ŋ̩ ɛu r 
+627	THREE	bhw62	k o j r 
+628	TWO	bhw62	r s ɛu ɛu 
+619	EIGHT	bhw62	ɔʊ t r 
+620	FIVE	bhw62	i r m 
+621	FOUR	bhw62	ŋ̩ j ɔʊ k 
+642	NINE	bhw64	s i w 
+643	ONE	bhw64	o s e ɗ 
+644	SEVEN	bhw64	i f k 
+645	SIX	bhw64	w ʃː o e m 
+646	TEN	bhw64	a s m f ẽ ɗ 
+647	THREE	bhw64	k o j ɗ 
+648	TWO	bhw64	ɔ̃ː s ɗ ɔ̃ː 
+639	EIGHT	bhw64	w a ɗ 
+640	FIVE	bhw64	ɗ i m 
+641	FOUR	bhw64	f j a k 
+652	NINE	bhw65	i h t 
+653	ONE	bhw65	o h o l 
+654	SEVEN	bhw65	i ŋ̩ k 
+655	SIX	bhw65	t o n o m 
+656	TEN	bhw65	h m ũ ŋ̩ ɔ̃ː l 
+657	THREE	bhw65	k o j l 
+658	TWO	bhw65	h l ɔ̃ː ɔ̃ː 
+649	EIGHT	bhw65	ũ t l 
+650	FIVE	bhw65	i l m 
+651	FOUR	bhw65	j ŋ̩ ũ k 
+672	NINE	bhw67	i s t 
+673	ONE	bhw67	s ə o dʷ 
+674	SEVEN	bhw67	i f tʼ 
+675	SIX	bhw67	t n o ə tʰ 
+676	TEN	bhw67	a s tʰ f ɔ̃ː dʷ 
+677	THREE	bhw67	o tʼ j dʷ 
+678	TWO	bhw67	s dʷ ɔ̃ː ɔ̃ː 
+669	EIGHT	bhw67	a t dʷ 
+670	FIVE	bhw67	au dʷ tʰ 
+671	FOUR	bhw67	f j a sʲ 
+682	NINE	bhw68	i s w 
+683	ONE	bhw68	o s ɛ̃ d̪ 
+684	SEVEN	bhw68	i f k 
+685	SIX	bhw68	w ø n ɛ̃ m 
+686	TEN	bhw68	s ă m f u d̪ 
+687	THREE	bhw68	k gʱ ø d̪ 
+688	TWO	bhw68	s b̥ u u 
+679	EIGHT	bhw68	w ă d̪ 
+680	FIVE	bhw68	i b̥ m 
+681	FOUR	bhw68	f gʱ ă k 
+692	NINE	bhw69	āː s w 
+693	ONE	bhw69	s uɔ e ɗ 
+694	SEVEN	bhw69	āː f k 
+695	SIX	bhw69	w ʃː uɔ e m 
+696	TEN	bhw69	s a m f ẽ ɗ 
+697	THREE	bhw69	k uɔ j ɗ 
+698	TWO	bhw69	s ɗ ɔ̃ː ɔ̃ː 
+689	EIGHT	bhw69	w a ɗ 
+690	FIVE	bhw69	āː ɗ m 
+691	FOUR	bhw69	f a j k 
+1974	NINE	swe195	ɨ n ə 
+1965	ONE	swe195	eː g̊ 
+1972	SEVEN	swe195	n̊ ʉː 
+1971	SIX	swe195	ɛ s k sː 
+1975	TEN	swe195	ɨ t ə 
+1968	THREE	swe195	t r uɔ 
+1967	TWO	swe195	ⁿd t oː 
+1973	EIGHT	swe195	tː aˑ a 
+1970	FIVE	swe195	ɨ f m 
+1969	FOUR	swe195	f yː r a 
+712	NINE	bhw71	s i t 
+713	ONE	bhw71	o ʈ ə r 
+714	SEVEN	bhw71	i f b 
+715	SIX	bhw71	o t n ə m 
+716	TEN	bhw71	a s f m ɔ̃ː r 
+717	THREE	bhw71	b o j r 
+718	TWO	bhw71	s r ɔ̃ː ɔ̃ː 
+709	EIGHT	bhw71	a t r 
+710	FIVE	bhw71	r i m 
+711	FOUR	bhw71	f j ɒ b 
+722	NINE	bhw72	s i χʷ 
+723	ONE	bhw72	aːu e s ɭ 
+724	SEVEN	bhw72	i mʲ ç 
+725	SIX	bhw72	χʷ aːu n e m 
+726	TEN	bhw72	s ɨˤ m mʲ u ɭ 
+727	THREE	bhw72	ç s aːu ɭ 
+728	TWO	bhw72	s u r u 
+719	EIGHT	bhw72	a χʷ ɭ 
+720	FIVE	bhw72	i r m 
+721	FOUR	bhw72	s ɨˤ mʲ ç 
+738	NINE	swe73	n e̞ ɔ 
+730	ONE	swe73	ɛ ʈ 
+736	SEVEN	swe73	ɧ ʉː 
+735	SIX	swe73	ɛ s k sː 
+739	TEN	swe73	t e̞ ɔ 
+732	THREE	swe73	t r uɔ 
+731	TWO	swe73	t f oː 
+737	EIGHT	swe73	ɔ d a 
+734	FIVE	swe73	f eu n̩ 
+733	FOUR	swe73	f yː r a 
+743	NINE	bhw74	i s w 
+744	ONE	bhw74	əu s e r 
+745	SEVEN	bhw74	ŋː i cː 
+746	SIX	bhw74	w əu e n m 
+747	TEN	bhw74	s ə m ŋː əu r 
+748	THREE	bhw74	t̪ əu cː r 
+749	TWO	bhw74	s r əu əu 
+740	EIGHT	bhw74	ə w r 
+741	FIVE	bhw74	r i m 
+742	FOUR	bhw74	ŋː ə t̪ cː 
+753	NINE	bhw75	s œ kʼ 
+754	ONE	bhw75	o tsʰ e r 
+755	SEVEN	bhw75	ʒ œ cː 
+756	SIX	bhw75	o kʼ n e m 
+757	TEN	bhw75	s ɛu m ʒ u r 
+758	THREE	bhw75	cː s o r 
+759	TWO	bhw75	s u r u 
+750	EIGHT	bhw75	kʼ ə̆ r 
+751	FIVE	bhw75	r œ m 
+752	FOUR	bhw75	ʒ ɛu s cː 
+763	NINE	bhw76	s i ɹ 
+764	ONE	bhw76	s o e r 
+765	SEVEN	bhw76	i f ɕː 
+766	SIX	bhw76	w o ŋ e ɹ 
+767	TEN	bhw76	s a ɹ f u r 
+768	THREE	bhw76	cː o tʲ r 
+769	TWO	bhw76	s r u u 
+760	EIGHT	bhw76	w a r 
+761	FIVE	bhw76	i r ɹ 
+762	FOUR	bhw76	f tʲ a ɕː 
+773	NINE	bhw77	s i w 
+774	ONE	bhw77	s o ɛ̃ ʃʰ 
+775	SEVEN	bhw77	i f k 
+776	SIX	bhw77	w ĩː n ɛ̃ m 
+777	TEN	bhw77	s ɔˑ m f u ʃʰ 
+778	THREE	bhw77	ĩː k k ʃʰ 
+779	TWO	bhw77	s b̥ u u 
+770	EIGHT	bhw77	w ɔˑ ʃʰ 
+771	FIVE	bhw77	b̥ i m 
+772	FOUR	bhw77	f k ɔˑ k 
+789	NINE	swe78	n aːi ɔ 
+781	ONE	swe78	ɓ ɛ 
+787	SEVEN	swe78	k ʉː 
+786	SIX	swe78	ɛ s j ð 
+790	TEN	swe78	aːi t ɔ 
+783	THREE	swe78	t r uɔ 
+782	TWO	swe78	v t ʏ 
+788	EIGHT	swe78	β ɔ a 
+785	FIVE	swe78	ɨi f m 
+784	FOUR	swe78	f yː r ɤ 
+794	NINE	bhw79	s i t 
+795	ONE	bhw79	s o ə r 
+796	SEVEN	bhw79	i f k 
+797	SIX	bhw79	t n o i m 
+798	TEN	bhw79	a m s f ɑ r 
+799	THREE	bhw79	k o j r 
+800	TWO	bhw79	s r ɔ̃ː ɔ̃ː 
+791	EIGHT	bhw79	a t r 
+792	FIVE	bhw79	r i m 
+793	FOUR	bhw79	f j a k 
+804	NINE	bhw80	ʀ yː w 
+805	ONE	bhw80	ʀ ə˞ e r 
+806	SEVEN	bhw80	f yː cː 
+807	SIX	bhw80	ə˞ w e n m 
+808	TEN	bhw80	ʀ ə m f ɔ̃ r 
+809	THREE	bhw80	t̪ ɔ̃ cː r 
+810	TWO	bhw80	r ʀ ə˞ ə˞ 
+801	EIGHT	bhw80	ə w r 
+802	FIVE	bhw80	yː r m 
+803	FOUR	bhw80	f t̪ ə cː 
+814	NINE	bhw81	s ɑ w 
+815	ONE	bhw81	ɑˑ o s r 
+816	SEVEN	bhw81	f ɑ v 
+817	SIX	bhw81	w o n ɑˑ m 
+818	TEN	bhw81	s u f m u r 
+819	THREE	bhw81	v v o r 
+820	TWO	bhw81	s u m u 
+811	EIGHT	bhw81	u w r 
+812	FIVE	bhw81	r ɑ m 
+813	FOUR	bhw81	v f u v 
+824	NINE	bhw82	s i mˀ 
+825	ONE	bhw82	s o a̤ː r 
+826	SEVEN	bhw82	f i cː 
+827	SIX	bhw82	mˀ o a̤ː n m 
+828	TEN	bhw82	s a m f u r 
+829	THREE	bhw82	cː o t̪ r 
+830	TWO	bhw82	s u r u 
+821	EIGHT	bhw82	a mˀ r 
+822	FIVE	bhw82	r i m 
+823	FOUR	bhw82	f t̪ a cː 
+834	NINE	bhw83	ɸ i w 
+835	ONE	bhw83	o e ɸ n 
+836	SEVEN	bhw83	f i d̪ 
+837	SIX	bhw83	o w n e ʕ 
+838	TEN	bhw83	ɸ e̠ f m u n 
+839	THREE	bhw83	d̪ ɸ o n 
+840	TWO	bhw83	ɸ u pʰ u 
+831	EIGHT	bhw83	e̠ w n 
+832	FIVE	bhw83	r i ʕ 
+833	FOUR	bhw83	ɸ f e̠ d̪ 
+844	NINE	bhw84	s i t 
+845	ONE	bhw84	o s au pʲ 
+846	SEVEN	bhw84	w i cː 
+847	SIX	bhw84	t o n au m 
+848	TEN	bhw84	s ɛ̃ m w u pʲ 
+849	THREE	bhw84	cː s o pʲ 
+850	TWO	bhw84	s r u u 
+841	EIGHT	bhw84	a t pʲ 
+842	FIVE	bhw84	i r m 
+843	FOUR	bhw84	s w ɛ̃ cː 
+842	FOUR	bhw84	i r m 
+860	NINE	swe85	aːi n ɔ 
+851	ONE	swe85	ʀ eː 
+852	ONE	swe85	ɛ ʈ 
+858	SEVEN	swe85	ɧ ʉː 
+857	SIX	swe85	s ɛ k tɕ 
+861	TEN	swe85	x aːi ɔ 
+854	THREE	swe85	x l̪ˠ ɤ 
+853	TWO	swe85	v x oː 
+859	EIGHT	swe85	ɔ tː a 
+856	FIVE	swe85	ɛ f ɮ 
+855	FOUR	swe85	f l̪ˠ yː a 
+865	NINE	bhw86	i s w 
+866	ONE	bhw86	l eɪ e pʲ 
+867	SEVEN	bhw86	f i ʂ 
+868	SIX	bhw86	w ɑ̱ n e l 
+869	TEN	bhw86	s a l u f pʲ 
+870	THREE	bhw86	s ʂ ɑ̱ pʲ 
+871	TWO	bhw86	s u r u 
+862	EIGHT	bhw86	a w pʲ 
+863	FIVE	bhw86	i r l 
+864	FOUR	bhw86	s f a ʂ 
+875	NINE	bhw87	s i t͈ 
+876	ONE	bhw87	aː tsʰ e β 
+877	SEVEN	bhw87	i s cː 
+878	SIX	bhw87	aː t͈ n e m 
+879	TEN	bhw87	s ʌ m s u β 
+880	THREE	bhw87	cː s aː β 
+881	TWO	bhw87	β s u u 
+872	EIGHT	bhw87	t͈ a β 
+873	FIVE	bhw87	i β m 
+874	FOUR	bhw87	s ʌ s cː 
+885	NINE	bhw88	s i w 
+886	ONE	bhw88	s o e d̪ 
+887	SEVEN	bhw88	i f s 
+888	SIX	bhw88	w ə n e m 
+889	TEN	bhw88	s ɔˑ m f ia d̪ 
+890	THREE	bhw88	s j ə d̪ 
+891	TWO	bhw88	s ia tɕ ia 
+882	EIGHT	bhw88	w ɔˑ d̪ 
+883	FIVE	bhw88	i tɕ m 
+884	FOUR	bhw88	f j ɔˑ s 
+901	NINE	swe89	dː aːi ɔ 
+892	ONE	swe89	g̊ eː 
+893	ONE	swe89	ɛ r̃ 
+899	SEVEN	swe89	n̊ ʉː 
+898	SIX	swe89	ɛ ʃː k sː 
+902	TEN	swe89	aːi t ɔ 
+895	THREE	swe89	t r uɔ 
+894	TWO	swe89	v t oː 
+900	EIGHT	swe89	dʲ ɔ a 
+897	FIVE	swe89	p ɨ m 
+896	FOUR	swe89	p yː r a 
+906	NINE	bhw90	s i w 
+907	ONE	bhw90	s o ɛ̃ ʃʰ 
+908	SEVEN	bhw90	i f j 
+909	SIX	bhw90	ə w n ɛ̃ m 
+910	TEN	bhw90	s ɔˑ m f u ʃʰ 
+911	THREE	bhw90	j ə kp ʃʰ 
+912	TWO	bhw90	s b̥ u u 
+903	EIGHT	bhw90	w ɔˑ ʃʰ 
+904	FIVE	bhw90	i b̥ m 
+905	FOUR	bhw90	kp f ɔˑ j 
+916	NINE	bhw91	s i w 
+917	ONE	bhw91	o s au kʷ 
+918	SEVEN	bhw91	f i cː 
+919	SIX	bhw91	w o j au m 
+920	TEN	bhw91	s a f m u kʷ 
+921	THREE	bhw91	cː s o kʷ 
+922	TWO	bhw91	s r u u 
+913	EIGHT	bhw91	a w tʲ 
+914	FIVE	bhw91	r i m 
+915	FOUR	bhw91	s f a cː 
+926	NINE	bhw92	s i kʼ 
+927	ONE	bhw92	o e tsʰ r 
+928	SEVEN	bhw92	f i cː 
+929	SIX	bhw92	kʼ o n e m 
+930	TEN	bhw92	s ɤ m f u r 
+931	THREE	bhw92	cː s o r 
+932	TWO	bhw92	s r u u 
+923	EIGHT	bhw92	a kʼ r 
+924	FIVE	bhw92	r i m 
+925	FOUR	bhw92	f s ɤ cː 
+936	NINE	bhw93	i s w 
+937	ONE	bhw93	s o e r 
+938	SEVEN	bhw93	tˤ i cː 
+939	SIX	bhw93	w o e n m 
+940	TEN	bhw93	s a m tˤ au r 
+941	THREE	bhw93	cː t̪ o r 
+942	TWO	bhw93	r s au au 
+933	EIGHT	bhw93	a w r 
+934	FIVE	bhw93	r i m 
+935	FOUR	bhw93	tˤ t̪ a cː 
+946	NINE	bhw94	s i rʲ 
+947	ONE	bhw94	o ɑˑ s r 
+948	SEVEN	bhw94	i f k 
+949	SIX	bhw94	rʲ o n ɑˑ m 
+950	TEN	bhw94	s f ɔˑ m u r 
+951	THREE	bhw94	k k o r 
+952	TWO	bhw94	s u r u 
+943	EIGHT	bhw94	ɔˑ rʲ r 
+944	FIVE	bhw94	r i m 
+945	FOUR	bhw94	f k ɔˑ k 
+956	NINE	bhw95	i θ w 
+957	ONE	bhw95	o θ e r 
+958	SEVEN	bhw95	f i cː 
+959	SIX	bhw95	w e o n m 
+960	TEN	bhw95	θ m a f u r 
+961	THREE	bhw95	cː t̪ o r 
+962	TWO	bhw95	θ r u u 
+953	EIGHT	bhw95	a w r 
+954	FIVE	bhw95	r i m 
+955	FOUR	bhw95	f t̪ a cː 
+966	NINE	bhw96	i s t 
+967	ONE	bhw96	s o ə g 
+968	SEVEN	bhw96	i tsʰ k 
+969	SIX	bhw96	t o n ə m 
+970	TEN	bhw96	s ə̆ m tsʰ ɔ̃ː g 
+971	THREE	bhw96	k o j r 
+972	TWO	bhw96	r s ɔ̃ː ɔ̃ː 
+963	EIGHT	bhw96	ə̆ t r 
+964	FIVE	bhw96	r i m 
+965	FOUR	bhw96	tsʰ j ə̆ k 
+976	NINE	bhw97	s i w 
+977	ONE	bhw97	o s e ɗ 
+978	SEVEN	bhw97	i f k 
+979	SIX	bhw97	w ʃː o e m 
+980	TEN	bhw97	æ̃ s m f aːi ɗ 
+981	THREE	bhw97	k o j ɗ 
+982	TWO	bhw97	s ɗ ẽ ẽ 
+973	EIGHT	bhw97	æ̃ w ɗ 
+974	FIVE	bhw97	ɗ i m 
+975	FOUR	bhw97	f j æ̃ k 
+986	NINE	bhw98	s i w 
+987	ONE	bhw98	o s ɛ̃ ʝ 
+988	SEVEN	bhw98	i f χ 
+989	SIX	bhw98	w uˑ n ɛ̃ m 
+990	TEN	bhw98	s ă f m ʌ ʝ 
+991	THREE	bhw98	χ q uˑ ʝ 
+992	TWO	bhw98	s b̥ u u 
+983	EIGHT	bhw98	ă w ʝ 
+984	FIVE	bhw98	b̥ i m 
+985	FOUR	bhw98	f q ă χ 
+996	NINE	bhw99	i s w 
+997	ONE	bhw99	o s e ɗ 
+998	SEVEN	bhw99	i x k 
+999	SIX	bhw99	w ʃː o e m 
+1000	TEN	bhw99	æ̃ s m x uɔ ɗ 
+1001	THREE	bhw99	o k j ɗ 
+1002	TWO	bhw99	s ɗ aːu aːu 
+993	EIGHT	bhw99	æ̃ w ɗ 
+994	FIVE	bhw99	i ɗ m 
+995	FOUR	bhw99	x j æ̃ k 
+1006	NINE	bhw100	i s t 
+1007	ONE	bhw100	s œː ə r 
+1008	SEVEN	bhw100	i f b 
+1009	SIX	bhw100	t œː n ə m 
+1010	TEN	bhw100	a s f m o r 
+1011	THREE	bhw100	b œː j r 
+1012	TWO	bhw100	r s ɔ̃ː ɔ̃ː 
+1003	EIGHT	bhw100	a t r 
+1004	FIVE	bhw100	r i m 
+1005	FOUR	bhw100	f j ɒ b 
+1016	NINE	bhw101	i s kʼ 
+1017	ONE	bhw101	o tsʰ e r 
+1018	SEVEN	bhw101	f i cː 
+1019	SIX	bhw101	o kʼ n e m 
+1020	TEN	bhw101	s ʌ m f u r 
+1021	THREE	bhw101	cː o s r 
+1022	TWO	bhw101	s r u u 
+1013	EIGHT	bhw101	ɛ̠ kʼ r 
+1014	FIVE	bhw101	r i m 
+1015	FOUR	bhw101	f s ʌ cː 
+1026	NINE	bhw102	i s t 
+1027	ONE	bhw102	s ɛ̃ o r 
+1028	SEVEN	bhw102	i tɕʰ k 
+1029	SIX	bhw102	t ɛ̃ tɕ o m 
+1030	TEN	bhw102	s õ m tɕʰ ɔ̃ː r 
+1031	THREE	bhw102	k j ɛ̃ r 
+1032	TWO	bhw102	r s ɔ̃ː ɔ̃ː 
+1023	EIGHT	bhw102	a t r 
+1024	FIVE	bhw102	i r m 
+1025	FOUR	bhw102	tɕʰ j õ k 
+1042	NINE	swe103	aːi n ɔ 
+1033	ONE	swe103	g̊ eː 
+1034	ONE	swe103	ʈ ɛ 
+1040	SEVEN	swe103	ʉː dʷ 
+1039	SIX	swe103	ɛ k s sː 
+1043	TEN	swe103	aːi t ɔ 
+1036	THREE	swe103	t r uɔ 
+1035	TWO	swe103	v t oː 
+1041	EIGHT	swe103	ɔ ʒ a 
+1038	FIVE	swe103	bʲ ɯi ɓ 
+1037	FOUR	swe103	bʲ yː r a 
+1047	NINE	bhw104	s au t 
+1048	ONE	bhw104	s o aː r 
+1049	SEVEN	bhw104	f au dʒ 
+1050	SIX	bhw104	t o aː n m 
+1051	TEN	bhw104	s m a f u r 
+1052	THREE	bhw104	dʒ t̪ o r 
+1053	TWO	bhw104	s r u u 
+1044	EIGHT	bhw104	t a r 
+1045	FIVE	bhw104	au r m 
+1046	FOUR	bhw104	f a t̪ dʒ 
+1057	NINE	bhw105	s āː w 
+1058	ONE	bhw105	s o e ɗ 
+1059	SEVEN	bhw105	āː f n̪ 
+1060	SIX	bhw105	w ʃː e o m 
+1061	TEN	bhw105	a s m f ẽ ɗ 
+1062	THREE	bhw105	n̪ o j ɗ 
+1063	TWO	bhw105	s ɗ ɔ̃ː ɔ̃ː 
+1054	EIGHT	bhw105	a w ɗ 
+1055	FIVE	bhw105	āː ɗ m 
+1056	FOUR	bhw105	f j a n̪ 
+1067	NINE	bhw106	i dː n 
+1068	ONE	bhw106	dː a̘ o̞ː b 
+1069	SEVEN	bhw106	i ŋ̩ k 
+1070	SIX	bhw106	n a̘ n o̞ː m 
+1071	TEN	bhw106	ʊː m dː ŋ̩ ɔ̃ː b 
+1072	THREE	bhw106	k a̘ j b 
+1073	TWO	bhw106	b dː ɔ̃ː ɔ̃ː 
+1064	EIGHT	bhw106	ʊː n b 
+1065	FIVE	bhw106	i b m 
+1066	FOUR	bhw106	ŋ̩ j ɔʊ ˀl 
+1077	NINE	bhw107	i s t 
+1078	ONE	bhw107	s o ə rʷ 
+1079	SEVEN	bhw107	i z ⁿd 
+1080	SIX	bhw107	t o n ə m 
+1081	TEN	bhw107	a s z m ɔ̃ː rʷ 
+1082	THREE	bhw107	ⁿd o j rʷ 
+1083	TWO	bhw107	rʷ s ɔ̃ː ɔ̃ː 
+1074	EIGHT	bhw107	t a rʷ 
+1075	FIVE	bhw107	rʷ i m 
+1076	FOUR	bhw107	z ɒ j ⁿd 
+1093	NINE	swe108	aːi n ɔ 
+1084	ONE	swe108	eː ʀ 
+1085	ONE	swe108	e ʈ 
+1091	SEVEN	swe108	ɧ ʉː 
+1090	SIX	swe108	k e k sː 
+1094	TEN	swe108	aːi t ɔ 
+1087	THREE	swe108	t ʃʰ uɔ 
+1086	TWO	swe108	v t ʏ 
+1092	EIGHT	swe108	ɔ tː eˀ 
+1089	FIVE	swe108	f ɨi mʷ 
+1088	FOUR	swe108	f yː ʃʰ eˀ 
+1098	NINE	bhw109	ɲ i w 
+1099	ONE	bhw109	ʌ o ɲ d̪ 
+1100	SEVEN	bhw109	i f k 
+1101	SIX	bhw109	w o f ʌ ʡ 
+1102	TEN	bhw109	ɲ ə kʰ f u d̪ 
+1103	THREE	bhw109	k j o d̪ 
+1104	TWO	bhw109	ɲ r u u 
+1095	EIGHT	bhw109	ə w d̪ 
+1096	FIVE	bhw109	r i ʡ 
+1097	FOUR	bhw109	j f ə k 
+1108	NINE	bhw110	s i ʐ 
+1109	ONE	bhw110	eɪ s e pʲ 
+1110	SEVEN	bhw110	f i cː 
+1111	SIX	bhw110	ʐ eɪ n e dʲ 
+1112	TEN	bhw110	s a dʲ f u pʲ 
+1113	THREE	bhw110	s cː eɪ pʲ 
+1114	TWO	bhw110	s u ʐ u 
+1105	EIGHT	bhw110	ʐ a pʲ 
+1106	FIVE	bhw110	ʐ i dʲ 
+1107	FOUR	bhw110	s f a cː 
+1118	NINE	bhw111	zʲ i w 
+1119	ONE	bhw111	u zʲ e r 
+1120	SEVEN	bhw111	f i cː 
+1121	SIX	bhw111	w u e n m 
+1122	TEN	bhw111	zʲ ə m ɔ f r 
+1123	THREE	bhw111	t̪ cː ɔ r 
+1124	TWO	bhw111	zʲ r u u 
+1115	EIGHT	bhw111	ə w r 
+1116	FIVE	bhw111	i r m 
+1117	FOUR	bhw111	f t̪ ə cː 
+1144	NINE	swe113	ȵ aːi ɔ 
+1135	ONE	swe113	eː g̊ 
+1142	SEVEN	swe113	ʉː qχː 
+1141	SIX	swe113	ɛ s k sː 
+1145	TEN	swe113	aːi t ɔ 
+1138	THREE	swe113	t h uɔ 
+1137	TWO	swe113	t v oː 
+1143	EIGHT	swe113	tː ɔ a 
+1140	FIVE	swe113	f ɑi ɓ 
+1139	FOUR	swe113	f yː h a 
+1149	NINE	bhw114	i s t 
+1150	ONE	bhw114	s o eˑ l 
+1151	SEVEN	bhw114	i ɖ k 
+1152	SIX	bhw114	t o eˑ n m 
+1153	TEN	bhw114	i s m ɖ ɔ̃ː l 
+1154	THREE	bhw114	k o j l 
+1155	TWO	bhw114	s l ɔ̃ː ɔ̃ː 
+1146	EIGHT	bhw114	i t l 
+1147	FIVE	bhw114	i l m 
+1148	FOUR	bhw114	j ɖ i k 
+1159	NINE	bhw115	i s w 
+1160	ONE	bhw115	o s u̘ d̪ 
+1161	SEVEN	bhw115	i dʑ k 
+1162	SIX	bhw115	w o n u̘ m 
+1163	TEN	bhw115	s ɔ̃ː m dʑ u d̪ 
+1164	THREE	bhw115	j k o d̪ 
+1165	TWO	bhw115	u s r u 
+1156	EIGHT	bhw115	ɔ̃ː w d̪ 
+1157	FIVE	bhw115	r i m 
+1158	FOUR	bhw115	dʑ j ɔ̃ː k 
+1175	NINE	swe116	n aːi ɔ 
+1166	ONE	swe116	eː ɽ 
+1173	SEVEN	swe116	ʉː ɧ 
+1172	SIX	swe116	ɛ s k tɕ 
+1176	TEN	swe116	ɸ aːi ɔ 
+1169	THREE	swe116	ɸ r uɔ 
+1168	TWO	swe116	v ɸ œː 
+1174	EIGHT	swe116	ɔ tː a 
+1171	FIVE	swe116	ɛ f m 
+1170	FOUR	swe116	f r yː a 
+1186	NINE	swe117	n aːi aˑ 
+1178	ONE	swe117	ɛ ʈ 
+1184	SEVEN	swe117	ʉː n̊ 
+1183	SIX	swe117	s ɛ k sː 
+1187	TEN	swe117	z aːi aˑ 
+1180	THREE	swe117	r t uɔ 
+1179	TWO	swe117	v t oː 
+1185	EIGHT	swe117	aˑ tː a 
+1182	FIVE	swe117	ɨ f m 
+1181	FOUR	swe117	f yː r a 
+1191	NINE	bhw118	ʉ s t 
+1192	ONE	bhw118	s œː ə ɦ 
+1193	SEVEN	bhw118	ʉ f b 
+1194	SIX	bhw118	œː t n ə m 
+1195	TEN	bhw118	a s f m ɔ̃ː ɦ 
+1196	THREE	bhw118	b œː j ɦ 
+1197	TWO	bhw118	ɔ̃ː s ɦ ɔ̃ː 
+1188	EIGHT	bhw118	a t ɦ 
+1189	FIVE	bhw118	ɦ ʉ m 
+1190	FOUR	bhw118	f j oi b 
+1201	NINE	bhw119	s ɑː kʼ 
+1202	ONE	bhw119	e o tsʰ r 
+1203	SEVEN	bhw119	ʒ ɑː cː 
+1204	SIX	bhw119	o kʼ n e m 
+1205	TEN	bhw119	s a m ʒ u r 
+1206	THREE	bhw119	cː s o r 
+1207	TWO	bhw119	s r u u 
+1198	EIGHT	bhw119	a kʼ r 
+1199	FIVE	bhw119	r ɑː m 
+1200	FOUR	bhw119	ʒ a s cː 
+1211	NINE	bhw120	i s w 
+1212	ONE	bhw120	o s ɑ̠ h 
+1213	SEVEN	bhw120	i f k 
+1214	SIX	bhw120	w ə n ɑ̠ m 
+1215	TEN	bhw120	s ɔˑ m f ɐː h 
+1216	THREE	bhw120	k ə kp ʃʰ 
+1217	TWO	bhw120	s b̥ u u 
+1208	EIGHT	bhw120	w ɔˑ h 
+1209	FIVE	bhw120	i b̥ m 
+1210	FOUR	bhw120	f kp ɔˑ k 
+1221	NINE	bhw121	s i w 
+1222	ONE	bhw121	o ɬ œ d̪ 
+1223	SEVEN	bhw121	i f k 
+1225	TEN	bhw121	s ə m f y d̪ 
+1226	THREE	bhw121	k ʔ o d̪ 
+1227	TWO	bhw121	s u r u 
+1218	EIGHT	bhw121	ə w d̪ 
+1219	FIVE	bhw121	i r m 
+1220	FOUR	bhw121	ʔ f ə k 
+1231	NINE	bhw122	r̃ i w 
+1232	ONE	bhw122	o au r̃ kʷ 
+1233	SEVEN	bhw122	i f cː 
+1234	SIX	bhw122	w o j au m 
+1235	TEN	bhw122	r̃ a m f u kʷ 
+1236	THREE	bhw122	cː r̃ o kʷ 
+1237	TWO	bhw122	r u r̃ u 
+1228	EIGHT	bhw122	a w ts 
+1229	FIVE	bhw122	r i m 
+1230	FOUR	bhw122	r̃ f a cː 
+1241	NINE	bhw123	s i t 
+1242	ONE	bhw123	s ɐ o r 
+1243	SEVEN	bhw123	i f k 
+1244	SIX	bhw123	t o ⁿt i m 
+1245	TEN	bhw123	a s m iɛ f r 
+1246	THREE	bhw123	k o j r 
+1247	TWO	bhw123	s r ẽ ẽ 
+1238	EIGHT	bhw123	a t r 
+1239	FIVE	bhw123	r i m 
+1240	FOUR	bhw123	f j a k 
+1251	NINE	bhw124	ʀ i w 
+1252	ONE	bhw124	u ʀ e r 
+1253	SEVEN	bhw124	f i ŋ 
+1254	SIX	bhw124	w u e ʁ ʮ 
+1255	TEN	bhw124	ʀ ə ʮ f ɔ̃ r 
+1256	THREE	bhw124	t̪ ɔ̃ ŋ r 
+1257	TWO	bhw124	ʀ r u u 
+1248	EIGHT	bhw124	w ə r 
+1249	FIVE	bhw124	i r ʮ 
+1250	FOUR	bhw124	f t̪ ə ŋ 
+1261	NINE	bhw125	ɗ ɔ t 
+1262	ONE	bhw125	o ɗ au pʲ 
+1263	SEVEN	bhw125	f ɔ cː 
+1264	SIX	bhw125	t ui n au m 
+1265	TEN	bhw125	ɗ ɛ̃ m f u pʲ 
+1266	THREE	bhw125	cː ɗ ui pʲ 
+1267	TWO	bhw125	ɗ r u u 
+1258	EIGHT	bhw125	t a pʲ 
+1259	FIVE	bhw125	ɔ r m 
+1260	FOUR	bhw125	ɛ̃ ɗ f cː 
+1271	NINE	bhw126	s oːu w 
+1272	ONE	bhw126	o ɑˑ s r 
+1273	SEVEN	bhw126	oːu f k 
+1274	SIX	bhw126	w o n ɑˑ m 
+1275	TEN	bhw126	s ɔˑ m f u r 
+1276	THREE	bhw126	k k o r 
+1277	TWO	bhw126	s u r u 
+1268	EIGHT	bhw126	ɔˑ w r 
+1269	FIVE	bhw126	r oːu m 
+1270	FOUR	bhw126	k f ɔˑ k 
+1281	NINE	bhw127	s ã fʲ 
+1282	ONE	bhw127	s o ă r 
+1283	SEVEN	bhw127	ã f cː 
+1284	SIX	bhw127	fʲ o ă n θ 
+1285	TEN	bhw127	s θ a u f r 
+1286	THREE	bhw127	cː t̪ o r 
+1287	TWO	bhw127	u s r u 
+1278	EIGHT	bhw127	fʲ a r 
+1279	FIVE	bhw127	ã r θ 
+1280	FOUR	bhw127	f t̪ a cː 
+1291	NINE	bhw128	s i kʼ 
+1292	ONE	bhw128	o ʔ e β 
+1293	SEVEN	bhw128	s i cː 
+1294	SIX	bhw128	o d̪ʰ kʼ e m 
+1295	TEN	bhw128	s ʌ s m aːi β 
+1296	THREE	bhw128	cː s o β 
+1297	TWO	bhw128	s β aːi aːi 
+1288	EIGHT	bhw128	a kʼ β 
+1289	FIVE	bhw128	β i m 
+1290	FOUR	bhw128	s ʌ s cː 
+1301	NINE	bhw129	s ɛi w 
+1302	ONE	bhw129	o s au pʲ 
+1303	SEVEN	bhw129	f ɛi cː 
+1304	SIX	bhw129	w o au n ʂ 
+1305	TEN	bhw129	s a ʂ f u pʲ 
+1306	THREE	bhw129	cː s o pʲ 
+1307	TWO	bhw129	s u d u 
+1298	EIGHT	bhw129	a w pʲ 
+1299	FIVE	bhw129	r ɐ̃ ʂ 
+1300	FOUR	bhw129	s f a cː 
+1311	NINE	bhw130	lʲ i ŋ̩ 
+1312	ONE	bhw130	o lʲ e r 
+1313	SEVEN	bhw130	f i cː 
+1314	SIX	bhw130	w o e n ŋ̩ 
+1315	TEN	bhw130	lʲ a ŋ̩ f ɪ r 
+1316	THREE	bhw130	cː t̪ o r 
+1317	TWO	bhw130	lʲ r u u 
+1308	EIGHT	bhw130	a w r 
+1309	FIVE	bhw130	i r ŋ̩ 
+1310	FOUR	bhw130	f t̪ a cː 
+1321	NINE	bhw131	s i w 
+1322	ONE	bhw131	s ɘ au sʲ 
+1323	SEVEN	bhw131	f i sː 
+1324	SIX	bhw131	w ɘ j au m 
+1325	TEN	bhw131	s a m f u sʲ 
+1326	THREE	bhw131	sː ɘ s sʲ 
+1327	TWO	bhw131	s r u u 
+1318	EIGHT	bhw131	w a c 
+1319	FIVE	bhw131	i r m 
+1320	FOUR	bhw131	s f a sː 
+1331	NINE	bhw132	ø̠ s w 
+1332	ONE	bhw132	o s e r 
+1333	SEVEN	bhw132	f ø̠ ɕ 
+1334	SIX	bhw132	w o e n m 
+1335	TEN	bhw132	s a m f u r 
+1336	THREE	bhw132	ɕ t̪ o r 
+1337	TWO	bhw132	s r u u 
+1328	EIGHT	bhw132	a w r 
+1329	FIVE	bhw132	r ø̠ m 
+1330	FOUR	bhw132	f t̪ a ɕ 
+1341	NINE	bhw133	s i rʲ 
+1342	ONE	bhw133	o ɑˑ s r 
+1343	SEVEN	bhw133	i f k 
+1344	SIX	bhw133	rʲ o n ɑˑ nʲ 
+1345	TEN	bhw133	s ɔˑ nʲ f u r 
+1346	THREE	bhw133	k k o r 
+1347	TWO	bhw133	s u r u 
+1338	EIGHT	bhw133	ɔˑ rʲ r 
+1339	FIVE	bhw133	r i nʲ 
+1340	FOUR	bhw133	f ɔˑ k k 
+1351	NINE	bhw134	i s w 
+1352	ONE	bhw134	o s e ɗ 
+1353	SEVEN	bhw134	i f k 
+1354	SIX	bhw134	w o ʃː e m 
+1355	TEN	bhw134	s æ̃ m f ẽ ɗ 
+1356	THREE	bhw134	k o p ɗ 
+1357	TWO	bhw134	s ɗ i̟ i̟ 
+1348	EIGHT	bhw134	w æ̃ ɗ 
+1349	FIVE	bhw134	ɗ i m 
+1350	FOUR	bhw134	f p æ̃ k 
+1361	NINE	bhw135	s i t 
+1362	ONE	bhw135	s o æ dʷ 
+1363	SEVEN	bhw135	i f tʼ 
+1364	SIX	bhw135	t n o æ bʰ 
+1365	TEN	bhw135	a s f bʰ ɔ̃ː dʷ 
+1366	THREE	bhw135	o tʼ j dʷ 
+1367	TWO	bhw135	s dʷ ɔ̃ː ɔ̃ː 
+1358	EIGHT	bhw135	a t dʷ 
+1359	FIVE	bhw135	au dʷ bʰ 
+1360	FOUR	bhw135	f j a tʼ 
+1371	NINE	bhw136	ɑː s w 
+1372	ONE	bhw136	s o e ɗ 
+1373	SEVEN	bhw136	ɑː f k 
+1374	SIX	bhw136	w ʃː o e tɕ 
+1375	TEN	bhw136	a s tɕ f ẽ ɗ 
+1376	THREE	bhw136	k o j ɗ 
+1377	TWO	bhw136	s ɗ ɔ̃ː ɔ̃ː 
+1368	EIGHT	bhw136	w a ɗ 
+1369	FIVE	bhw136	ɑː ɗ tɕ 
+1370	FOUR	bhw136	f j a k 
+1381	NINE	bhw137	s i t 
+1382	ONE	bhw137	ʈ o ə r 
+1383	SEVEN	bhw137	i pʲ b 
+1384	SIX	bhw137	t o n ə m 
+1385	TEN	bhw137	a s pʲ m œː r 
+1386	THREE	bhw137	b o j r 
+1387	TWO	bhw137	r s uo uo 
+1378	EIGHT	bhw137	a t r 
+1379	FIVE	bhw137	r i m 
+1380	FOUR	bhw137	pʲ j ɒ b 
+1396	NINE	swe138	n aːi ɔ 
+1388	ONE	swe138	ɛ ʈ 
+1394	SEVEN	swe138	ɧ ʉː 
+1393	SIX	swe138	ɛ k s sː 
+1397	TEN	swe138	aːi t ɔ 
+1390	THREE	swe138	r t uɔ 
+1389	TWO	swe138	v t oː 
+1395	EIGHT	swe138	ɔ d ɑˑ 
+1392	FIVE	swe138	m̩ ɨ n̩ 
+1391	FOUR	swe138	m̩ yː r ɑˑ 
+1401	NINE	bhw139	s i w 
+1402	ONE	bhw139	əu s e r 
+1403	SEVEN	bhw139	i ɟ cː 
+1404	SIX	bhw139	w əu e n m 
+1405	TEN	bhw139	ə s ɟ m əu r 
+1406	THREE	bhw139	t̪ cː əu r 
+1407	TWO	bhw139	s r əu əu 
+1398	EIGHT	bhw139	ə w r 
+1399	FIVE	bhw139	i r m 
+1400	FOUR	bhw139	ɟ ə t̪ cː 
+1411	NINE	bhw140	s i kʼ 
+1412	ONE	bhw140	o e tsʰ r 
+1413	SEVEN	bhw140	ʒ i cː 
+1414	SIX	bhw140	kʼ o qʰ e m 
+1415	TEN	bhw140	s ɑ˞ m ʒ e̞ r 
+1416	THREE	bhw140	cː s o r 
+1417	TWO	bhw140	s r e̞ e̞ 
+1408	EIGHT	bhw140	ɑ˞ kʼ r 
+1409	FIVE	bhw140	r i m 
+1410	FOUR	bhw140	ʒ ɑ˞ s cː 
+1421	NINE	bhw141	s i w 
+1422	ONE	bhw141	s o ɛ̃ ʃʰ 
+1423	SEVEN	bhw141	i f k 
+1424	SIX	bhw141	w ə n ɛ̃ m 
+1426	THREE	bhw141	ə k kp ʃʰ 
+1427	TWO	bhw141	s b̥ u u 
+1418	EIGHT	bhw141	w ɔˑ ʃʰ 
+1419	FIVE	bhw141	i b̥ m 
+1420	FOUR	bhw141	f kp ɔˑ k 
+1431	NINE	bhw142	s aɪ t 
+1432	ONE	bhw142	s o ə r 
+1433	SEVEN	bhw142	f aɪ k 
+1434	SIX	bhw142	n t o aɪ m 
+1435	TEN	bhw142	a s f m ɔ̃ː r 
+1436	THREE	bhw142	k aː j r 
+1437	TWO	bhw142	s r ɔ̃ː ɔ̃ː 
+1428	EIGHT	bhw142	a t r 
+1429	FIVE	bhw142	r aɪ m 
+1430	FOUR	bhw142	f j a k 
+1441	NINE	bhw143	s i w 
+1442	ONE	bhw143	ɔ o s r 
+1443	SEVEN	bhw143	f i k 
+1444	SIX	bhw143	o w n ɔ m 
+1445	TEN	bhw143	s u m f u kʰ 
+1446	THREE	bhw143	k k o kʰ 
+1447	TWO	bhw143	s u m u 
+1438	EIGHT	bhw143	u w r 
+1439	FIVE	bhw143	r i m 
+1440	FOUR	bhw143	f k u k 
+1451	NINE	bhw144	s i t 
+1452	ONE	bhw144	o s au pʲ 
+1453	SEVEN	bhw144	r i cː 
+1454	SIX	bhw144	o t n au m 
+1455	TEN	bhw144	s ɐ m r u pʲ 
+1456	THREE	bhw144	cː o s pʲ 
+1457	TWO	bhw144	s r u u 
+1448	EIGHT	bhw144	a t pʲ 
+1449	FIVE	bhw144	i r m 
+1450	FOUR	bhw144	s r ɐ cː 
+1467	NINE	swe145	aːi n a̠ 
+1458	ONE	swe145	eː g̊ 
+1465	SEVEN	swe145	n̊ ʉː 
+1464	SIX	swe145	s ɛ k ˀb 
+1468	TEN	swe145	aːi t a̠ 
+1461	THREE	swe145	t r uɔ 
+1460	TWO	swe145	v t oː 
+1466	EIGHT	swe145	a̠ dʲ a 
+1463	FIVE	swe145	f ɨ m 
+1462	FOUR	swe145	f r yː a 
+1472	NINE	bhw146	i s w 
+1473	ONE	bhw146	s o ɛ̃ ʃʰ 
+1474	SEVEN	bhw146	i g̊ k 
+1475	SIX	bhw146	w ə n ɛ̃ m 
+1476	TEN	bhw146	s ɔˑ m g̊ u ʃʰ 
+1477	THREE	bhw146	k ə kp ʃʰ 
+1478	TWO	bhw146	s b̥ u u 
+1469	EIGHT	bhw146	ɔˑ w ʃʰ 
+1470	FIVE	bhw146	i b̥ m 
+1471	FOUR	bhw146	kp g̊ ɔˑ k 
+1482	NINE	bhw147	i s w 
+1483	ONE	bhw147	s o e tsʲ 
+1484	SEVEN	bhw147	f i cː 
+1485	SIX	bhw147	w o e n m 
+1486	TEN	bhw147	s a m f u tsʲ 
+1487	THREE	bhw147	cː t̪ ai tsʲ 
+1488	TWO	bhw147	tsʲ s u u 
+1479	EIGHT	bhw147	w a tsʲ 
+1480	FIVE	bhw147	tsʲ i m 
+1481	FOUR	bhw147	f t̪ a cː 
+1958	NINE	bhw194	s əu w 
+1959	ONE	bhw194	āː s e ȶ 
+1960	SEVEN	bhw194	əu ŋː bʱ 
+1961	SIX	bhw194	āː w e n m 
+1962	TEN	bhw194	s ə m ŋː āː ȶ 
+1963	THREE	bhw194	t̪ bʱ āː ȶ 
+1964	TWO	bhw194	s ȶ āː āː 
+1955	EIGHT	bhw194	w ə ȶ 
+1956	FIVE	bhw194	ȶ əu m 
+1957	FOUR	bhw194	ŋː ə t̪ bʱ 
+1502	NINE	bhw149	ʔ i w 
+1503	ONE	bhw149	ʔ o e d̪ 
+1504	SEVEN	bhw149	f i ʔ 
+1505	SIX	bhw149	w ə n e m 
+1506	TEN	bhw149	ʔ ɔˑ m f u d̪ 
+1507	THREE	bhw149	ʔ j ə d̪ 
+1508	TWO	bhw149	ʔ u b̥ u 
+1499	EIGHT	bhw149	ɔˑ w d̪ 
+1500	FIVE	bhw149	b̥ i m 
+1501	FOUR	bhw149	f ɔˑ j ʔ 
+1512	NINE	bhw150	i s w 
+1513	ONE	bhw150	ɑˑ s o r 
+1514	SEVEN	bhw150	i χ k 
+1515	SIX	bhw150	o w ɑˑ n m 
+1516	TEN	bhw150	s ɐ̆ m χ oː r 
+1517	THREE	bhw150	k k o r 
+1518	TWO	bhw150	s ɐ̆ r oː 
+1509	EIGHT	bhw150	ɐ̆ w r 
+1510	FIVE	bhw150	r i m 
+1511	FOUR	bhw150	χ k ɐ̆ k 
+1522	NINE	bhw151	k i pʰ 
+1523	ONE	bhw151	k e o ŋ 
+1524	SEVEN	bhw151	f i kʲ 
+1525	SIX	bhw151	wʲ o e n pʰ 
+1526	TEN	bhw151	k a pʰ f u ŋ 
+1527	THREE	bhw151	kʲ o tʲ ŋ 
+1528	TWO	bhw151	k ŋ u u 
+1519	EIGHT	bhw151	wʲ a ŋ 
+1520	FIVE	bhw151	i ŋ pʰ 
+1521	FOUR	bhw151	f tʲ a kʲ 
+1532	NINE	bhw152	i ⁿdʑ t 
+1533	ONE	bhw152	ⁿdʑ œː ə r 
+1534	SEVEN	bhw152	i f b 
+1535	SIX	bhw152	t œː n ə m 
+1536	TEN	bhw152	a f ⁿdʑ m o r 
+1537	THREE	bhw152	b j œː r 
+1538	TWO	bhw152	ⁿdʑ r ɔ̃ː ɔ̃ː 
+1529	EIGHT	bhw152	a t r 
+1530	FIVE	bhw152	r i m 
+1531	FOUR	bhw152	f j ɒ b 
+1548	NINE	swe153	aːi n ɔ 
+1539	ONE	swe153	eː ʀ 
+1540	ONE	swe153	ɓ ɛ 
+1546	SEVEN	swe153	ɧ ʉː 
+1545	SIX	swe153	ɛ s j sː 
+1549	TEN	swe153	aːi t ɔ 
+1542	THREE	swe153	t r ɔ 
+1541	TWO	swe153	s t ʏ 
+1547	EIGHT	swe153	tː ɔ a 
+1544	FIVE	swe153	f ɨi m 
+1543	FOUR	swe153	f yː r a 
+1553	NINE	bhw154	d̪ i w 
+1554	ONE	bhw154	ʉ ɑˑ d̪ r 
+1555	SEVEN	bhw154	f i k 
+1556	SIX	bhw154	w ʉ n ɑˑ m 
+1557	TEN	bhw154	d̪ u m f u ɸ 
+1558	THREE	bhw154	k k ʉ ɸ 
+1559	TWO	bhw154	d̪ u m u 
+1550	EIGHT	bhw154	u w ɸ 
+1551	FIVE	bhw154	r i m 
+1552	FOUR	bhw154	f k u k 
+1563	NINE	bhw155	i s tː 
+1564	ONE	bhw155	s o e r 
+1565	SEVEN	bhw155	f i cː 
+1566	SIX	bhw155	tː o e n m 
+1567	TEN	bhw155	s iu m f u r 
+1568	THREE	bhw155	cː t̪ o r 
+1569	TWO	bhw155	s u r u 
+1560	EIGHT	bhw155	iu tː r 
+1561	FIVE	bhw155	r i m 
+1562	FOUR	bhw155	t̪ f iu cː 
+1573	NINE	bhw156	i ɸ ɓ 
+1574	ONE	bhw156	o ɸ e pʲ 
+1575	SEVEN	bhw156	i f d̪ 
+1576	SIX	bhw156	ɓ o n e m 
+1577	TEN	bhw156	ɸ e̠ m f u pʲ 
+1578	THREE	bhw156	d̪ ɸ o pʲ 
+1579	TWO	bhw156	u ɸ pʰ u 
+1570	EIGHT	bhw156	e̠ ɓ pʲ 
+1571	FIVE	bhw156	ŋ i m 
+1572	FOUR	bhw156	ɸ f e̠ d̪ 
+1583	NINE	bhw157	i s w 
+1584	ONE	bhw157	o s œ d̪ 
+1585	SEVEN	bhw157	i x ɮʲ 
+1586	SIX	bhw157	o w x œ p 
+1587	TEN	bhw157	s ə m x u d̪ 
+1588	THREE	bhw157	ɮʲ j o d̪ 
+1589	TWO	bhw157	s u ɖː u 
+1580	EIGHT	bhw157	ə w d̪ 
+1581	FIVE	bhw157	i r p 
+1582	FOUR	bhw157	j x ə ɮʲ 
+1593	NINE	bhw158	s i β 
+1594	ONE	bhw158	eɪ m e pʲ 
+1595	SEVEN	bhw158	f i cː 
+1596	SIX	bhw158	β eɪ r̩ e m 
+1597	TEN	bhw158	s a m u f pʲ 
+1598	THREE	bhw158	s cː eɪ pʲ 
+1599	TWO	bhw158	u s r u 
+1590	EIGHT	bhw158	a β pʲ 
+1591	FIVE	bhw158	r i m 
+1592	FOUR	bhw158	s f a cː 
+1608	NINE	swe159	n ɤ ɔ 
+1600	ONE	swe159	eː w̃ 
+1606	SEVEN	swe159	ʉː ɧ 
+1605	SIX	swe159	ɛ s k sː 
+1609	TEN	swe159	ɤ t ɔ 
+1602	THREE	swe159	t r ə 
+1601	TWO	swe159	v t oː 
+1607	EIGHT	swe159	ɔ tː a 
+1604	FIVE	swe159	f ɛ ɓ 
+1603	FOUR	swe159	f yː r a 
+1613	NINE	bhw160	āː s w 
+1614	ONE	bhw160	s o e ʃ 
+1615	SEVEN	bhw160	āː f k 
+1616	SIX	bhw160	w z̩ e o m 
+1617	TEN	bhw160	a m s f ẽ ʃ 
+1618	THREE	bhw160	k o j ʃ 
+1619	TWO	bhw160	s ʃ ɔ̃ː ɔ̃ː 
+1610	EIGHT	bhw160	w a ʃ 
+1611	FIVE	bhw160	āː ʃ m 
+1612	FOUR	bhw160	f j a k 
+1623	NINE	bhw161	dː u t 
+1624	ONE	bhw161	dː o ə r 
+1625	SEVEN	bhw161	u ŋ̩ k 
+1626	SIX	bhw161	t o ŋː ə bː 
+1627	TEN	bhw161	ĩ dː m ɔ̃ː ŋ̩ r 
+1628	THREE	bhw161	k o j r 
+1629	TWO	bhw161	r dː ɔ̃ː ɔ̃ː 
+1620	EIGHT	bhw161	t ĩ r 
+1621	FIVE	bhw161	u r m 
+1622	FOUR	bhw161	ŋ̩ j ĩ k 
+1633	NINE	bhw162	s ie t 
+1634	ONE	bhw162	s o ə dː 
+1635	SEVEN	bhw162	ie f tɕʰ 
+1636	SIX	bhw162	t o n ə m 
+1637	TEN	bhw162	a s f m ɔ̃ː dː 
+1638	THREE	bhw162	tɕʰ o j r 
+1639	TWO	bhw162	r s ɔ̃ː ɔ̃ː 
+1630	EIGHT	bhw162	a t dː 
+1631	FIVE	bhw162	r ie m 
+1632	FOUR	bhw162	f j ɒ tɕʰ 
+1643	NINE	bhw163	s i w 
+1644	ONE	bhw163	o s e pʲ 
+1645	SEVEN	bhw163	kʲ i cː 
+1646	SIX	bhw163	w o n e m 
+1647	TEN	bhw163	s m ɨˤ kʲ ə pʲ 
+1648	THREE	bhw163	cː s o pʲ 
+1649	TWO	bhw163	s ə r ə 
+1640	EIGHT	bhw163	ãi w pʲ 
+1641	FIVE	bhw163	r i m 
+1642	FOUR	bhw163	s kʲ ɨˤ cː 
+1653	NINE	bhw164	i s w 
+1654	ONE	bhw164	œ s iə d̪ 
+1655	SEVEN	bhw164	i β k 
+1656	SIX	bhw164	w iə β œ ʡ 
+1657	TEN	bhw164	s ə m β ɔ̃ː d̪ 
+1658	THREE	bhw164	k j iə d̪ 
+1659	TWO	bhw164	s r u u 
+1650	EIGHT	bhw164	w ə d̪ 
+1651	FIVE	bhw164	r i ʡ 
+1652	FOUR	bhw164	j β ə k 
+1669	NINE	swe165	n aːi ä 
+1660	ONE	swe165	g̊ eː 
+1661	ONE	swe165	ʈ ī 
+1667	SEVEN	swe165	n̊ ʉː 
+1666	SIX	swe165	ī k s sː 
+1670	TEN	swe165	t aːi ä 
+1663	THREE	swe165	t r ou 
+1662	TWO	swe165	v t oː 
+1668	EIGHT	swe165	dʲ ä a 
+1665	FIVE	swe165	ɨ f m 
+1664	FOUR	swe165	f yː r a 
+1674	NINE	bhw166	s i ˀn 
+1675	ONE	bhw166	s o ɛ̃ ʃʰ 
+1676	SEVEN	bhw166	i f ŋ 
+1677	SIX	bhw166	ˀn ə ɬ ɛ̃ m 
+1678	TEN	bhw166	s ɔˑ m f u ʃʰ 
+1679	THREE	bhw166	ŋ ə kp ʃʰ 
+1680	TWO	bhw166	s c u u 
+1671	EIGHT	bhw166	ɔˑ ˀn ʃʰ 
+1672	FIVE	bhw166	c i m 
+1673	FOUR	bhw166	kp ɔˑ f ŋ 
+1684	NINE	bhw167	s i w 
+1685	ONE	bhw167	u s ə r 
+1686	SEVEN	bhw167	f i cː 
+1687	SIX	bhw167	w u ə n m 
+1688	TEN	bhw167	s m ə f ɔ̃u r 
+1689	THREE	bhw167	t̪ ɔ̃u cː r 
+1690	TWO	bhw167	s r u u 
+1681	EIGHT	bhw167	ə w r 
+1682	FIVE	bhw167	i r m 
+1687	FIVE	bhw167	w u ə n m 
+1683	FOUR	bhw167	f t̪ ə cː 
+1694	NINE	bhw168	s i kʼ 
+1695	ONE	bhw168	o tsʰ e r 
+1696	SEVEN	bhw168	f i cː 
+1697	SIX	bhw168	o kʼ n e m 
+1698	TEN	bhw168	s ɛ̠ m f u r 
+1699	THREE	bhw168	cː s o r 
+1700	TWO	bhw168	s r u u 
+1691	EIGHT	bhw168	a kʼ r 
+1692	FIVE	bhw168	r i m 
+1693	FOUR	bhw168	f s ɛ̠ cː 
+1704	NINE	bhw169	s i ts 
+1705	ONE	bhw169	s o e d̪ 
+1706	SEVEN	bhw169	i f s 
+1707	SIX	bhw169	ts ə n e t 
+1708	TEN	bhw169	ɔˑ s t f u d̪ 
+1709	THREE	bhw169	s j ə d̪ 
+1710	TWO	bhw169	u s b̥ ai 
+1701	EIGHT	bhw169	ɔˑ ts d̪ 
+1702	FIVE	bhw169	i b̥ t 
+1703	FOUR	bhw169	f j ɔˑ s 
+1714	NINE	bhw170	i s jˀ 
+1715	ONE	bhw170	ɛ̃ s ə r 
+1716	SEVEN	bhw170	f i k 
+1717	SIX	bhw170	jˀ ɛ̃ tɕ ə m 
+1718	TEN	bhw170	s a m f oˑ r 
+1719	THREE	bhw170	k ɟ ɛ̃ r 
+1720	TWO	bhw170	s r oˑ oˑ 
+1711	EIGHT	bhw170	a jˀ r 
+1712	FIVE	bhw170	i r m 
+1713	FOUR	bhw170	f ɟ a k 
+1724	NINE	bhw171	s i rʲ 
+1725	ONE	bhw171	ɑˑ o s r 
+1726	SEVEN	bhw171	i f c 
+1727	SIX	bhw171	rʲ o n ɑˑ nʲ 
+1728	TEN	bhw171	s nʲ a f a r 
+1729	THREE	bhw171	c c o r 
+1730	TWO	bhw171	s a r a 
+1721	EIGHT	bhw171	a rʲ r 
+1722	FIVE	bhw171	r i nʲ 
+1723	FOUR	bhw171	c f a c 
+1734	NINE	bhw172	s i w 
+1735	ONE	bhw172	o s ə d̪ 
+1736	SEVEN	bhw172	dʑ i ɖʐ 
+1737	SIX	bhw172	w o n ə m 
+1738	TEN	bhw172	s ɔˑ m dʑ u d̪ 
+1739	THREE	bhw172	ɖʐ j o d̪ 
+1740	TWO	bhw172	s χ u u 
+1731	EIGHT	bhw172	ɔˑ w d̪ 
+1732	FIVE	bhw172	i χ m 
+1733	FOUR	bhw172	dʑ j ɔˑ ɖʐ 
+1744	NINE	bhw173	s i w 
+1745	ONE	bhw173	o s ɛ̃ d̪ 
+1746	SEVEN	bhw173	i f k 
+1747	SIX	bhw173	w ø n ɛ̃ m 
+1748	TEN	bhw173	ă s m f u d̪ 
+1749	THREE	bhw173	k kp ø d̪ 
+1750	TWO	bhw173	s b̥ u u 
+1741	EIGHT	bhw173	ă w d̪ 
+1742	FIVE	bhw173	i b̥ m 
+1743	FOUR	bhw173	f kp ă k 
+1754	NINE	bhw174	i s w̃ 
+1755	ONE	bhw174	s o e tsʲ 
+1756	SEVEN	bhw174	f i ɕː 
+1757	SIX	bhw174	w o e n w̃ 
+1758	TEN	bhw174	s a w̃ f u tsʲ 
+1759	THREE	bhw174	cː o tʲ tsʲ 
+1760	TWO	bhw174	s tsʲ u u 
+1751	EIGHT	bhw174	w a tsʲ 
+1752	FIVE	bhw174	i tsʲ w̃ 
+1753	FOUR	bhw174	f tʲ a ɕː 
+1769	NINE	swe175	n aːi ɔ 
+1761	ONE	swe175	ɛ ɓ 
+1767	SEVEN	swe175	ɧ ɯ̆ 
+1766	SIX	swe175	ɛ s j sː 
+1770	TEN	swe175	t aːi ɔ 
+1763	THREE	swe175	r t uɔ 
+1762	TWO	swe175	t v ʏ 
+1768	EIGHT	swe175	β ɔ a 
+1765	FIVE	swe175	ɨi f m 
+1764	FOUR	swe175	f yː r ɤ 
+1774	NINE	bhw176	ʀ i w 
+1775	ONE	bhw176	u ʀ e ⁿg 
+1776	SEVEN	bhw176	f i cː 
+1777	SIX	bhw176	u w e qˀ m 
+1778	TEN	bhw176	ʀ ə m f ɔ̃ ⁿg 
+1779	THREE	bhw176	t̪ ɔ̃ cː ⁿg 
+1780	TWO	bhw176	ⁿg ʀ u u 
+1771	EIGHT	bhw176	ə w ⁿg 
+1772	FIVE	bhw176	i ⁿg m 
+1773	FOUR	bhw176	f t̪ ə cː 
+1784	NINE	bhw177	ɸ i w 
+1785	ONE	bhw177	o ɸ a̱i pʲ 
+1786	SEVEN	bhw177	i f ɾ 
+1787	SIX	bhw177	o w n a̱i ʕ 
+1788	TEN	bhw177	ɸ e̠ f u m pʲ 
+1789	THREE	bhw177	ɾ o ɸ pʲ 
+1790	TWO	bhw177	ɸ u pʰ u 
+1781	EIGHT	bhw177	e̠ w pʲ 
+1782	FIVE	bhw177	r i ʕ 
+1783	FOUR	bhw177	ɸ e̠ f ɾ 
+1794	NINE	bhw178	s i kʼ 
+1795	ONE	bhw178	aː tsʰ e β 
+1796	SEVEN	bhw178	i s cː 
+1797	SIX	bhw178	aː kʼ n e ŋ 
+1798	TEN	bhw178	s ʌ m s u β 
+1799	THREE	bhw178	cː s ɐ β 
+1800	TWO	bhw178	β s u u 
+1791	EIGHT	bhw178	a kʼ β 
+1792	FIVE	bhw178	β i ŋ 
+1793	FOUR	bhw178	s ʌ s cː 
+1804	NINE	bhw179	s i rʲ 
+1805	ONE	bhw179	o ɑˑ s r 
+1806	SEVEN	bhw179	i f k 
+1807	SIX	bhw179	rʲ o n ɑˑ m 
+1808	TEN	bhw179	s ɔˑ m f u c 
+1809	THREE	bhw179	k k o c 
+1810	TWO	bhw179	s u t u 
+1801	EIGHT	bhw179	rʲ ɔˑ c 
+1802	FIVE	bhw179	i r m 
+1803	FOUR	bhw179	f k ɔˑ k 
+1814	NINE	bhw180	i s w 
+1815	ONE	bhw180	o s e r 
+1816	SEVEN	bhw180	i f cː 
+1817	SIX	bhw180	w e o n m 
+1818	TEN	bhw180	s m aːu f u r 
+1819	THREE	bhw180	cː t̪ o r 
+1820	TWO	bhw180	s r u u 
+1811	EIGHT	bhw180	aːu w r 
+1812	FIVE	bhw180	r i m 
+1813	FOUR	bhw180	f t̪ aːu cː 
+1824	NINE	bhw181	s i w 
+1825	ONE	bhw181	ũ s ɛ̃ ʝ 
+1826	SEVEN	bhw181	i f k 
+1827	SIX	bhw181	w ø n ɛ̃ m 
+1828	TEN	bhw181	s ă m f u ʝ 
+1829	THREE	bhw181	k kp ø ʝ 
+1830	TWO	bhw181	s b̥ u u 
+1821	EIGHT	bhw181	w ă ʝ 
+1822	FIVE	bhw181	i b̥ m 
+1823	FOUR	bhw181	f kp ă k 
+1834	NINE	bhw182	s i w 
+1835	ONE	bhw182	o s e ɗ 
+1836	SEVEN	bhw182	i f k 
+1837	SIX	bhw182	w ʃː o e m 
+1838	TEN	bhw182	æ̃ s m f uɔ ɗ 
+1839	THREE	bhw182	o k j ɗ 
+1840	TWO	bhw182	s ɗ ɔ̃ː ɔ̃ː 
+1831	EIGHT	bhw182	w æ̃ ɗ 
+1832	FIVE	bhw182	ɗ i m 
+1833	FOUR	bhw182	f j æ̃ k 
+1844	NINE	bhw183	i s t 
+1845	ONE	bhw183	s ə œː r 
+1846	SEVEN	bhw183	f i b 
+1847	SIX	bhw183	œː t n ə m 
+1848	TEN	bhw183	a s f m o r 
+1849	THREE	bhw183	b œː j r 
+1850	THREE	bhw183	s r ɔ̃ː ɔ̃ː 
+1850	TWO	bhw183	s r ɔ̃ː ɔ̃ː 
+1841	EIGHT	bhw183	a t r 
+1842	FIVE	bhw183	r i m 
+1843	FOUR	bhw183	f j ɒ b 
+1854	NINE	bhw184	i s t 
+1855	ONE	bhw184	s ɛ̃ o r 
+1856	SEVEN	bhw184	i v k 
+1857	SIX	bhw184	ɛ̃ t tɕ o m 
+1853	SIX	bhw184	v j a k 
+1858	TEN	bhw184	s a m v ɔ̃ː r 
+1859	THREE	bhw184	k j ɛ̃ r 
+1860	TWO	bhw184	r ɔ̃ː s ɔ̃ː 
+1851	EIGHT	bhw184	a t r 
+1853	FOUR	bhw184	v j a k 
+1870	NINE	swe185	n aːi ɔ 
+1861	ONE	swe185	eː g̊ 
+1862	ONE	swe185	ʈ ɛ 
+1868	SEVEN	swe185	ɧ ʉː 
+1867	SIX	swe185	ɛ k s sː 
+1871	TEN	swe185	t aːi ɔ 
+1864	THREE	swe185	r t uɔ 
+1863	TWO	swe185	v t oː 
+1869	EIGHT	swe185	ɔ tː a 
+1866	FIVE	swe185	bʲ ɯi ɓ 
+1865	FOUR	swe185	bʲ ə r a 
+1881	NINE	swe186	e̞ n ɔ 
+1872	ONE	swe186	ʀ eː 
+1873	ONE	swe186	ɛ nʲ 
+1879	SEVEN	swe186	ɧ ʉː 
+1878	SIX	swe186	ɛ s k sː 
+1882	TEN	swe186	t e̞ ɔ 
+1875	THREE	swe186	t ʃʰ uɔ 
+1874	TWO	swe186	v t ʏ 
+1880	EIGHT	swe186	tː ɔ a 
+1877	FIVE	swe186	f ɨi mʷ 
+1876	FOUR	swe186	f yː ʃʰ a 
+1886	NINE	bhw187	s i w 
+1887	ONE	bhw187	o œ s d̪ 
+1888	SEVEN	bhw187	i f k 
+1889	SIX	bhw187	w o f œ ʡ 
+1890	TEN	bhw187	s ə m f u d̪ 
+1891	THREE	bhw187	k d o d̪ 
+1892	TWO	bhw187	s r u u 
+1883	EIGHT	bhw187	w ə d̪ 
+1884	FIVE	bhw187	i r ʡ 
+1885	FOUR	bhw187	d f ə k 
+1902	NINE	swe188	ȵ e ɔ 
+1893	ONE	swe188	g̊ ɨˑ 
+1894	ONE	swe188	ɛ ʑ 
+1900	SEVEN	swe188	ɧ œː 
+1899	SIX	swe188	ɛ k s sː 
+1903	TEN	swe188	e t ɔ 
+1896	THREE	swe188	t r uɔ 
+1895	TWO	swe188	t v oː 
+1901	EIGHT	swe188	ɔ tː a 
+1898	FIVE	swe188	f ɑi ɓ 
+1897	FOUR	swe188	f yː r a 
+1913	NINE	swe189	n aːi ɔ 
+1904	ONE	swe189	eː ɽ 
+1905	ONE	swe189	ɛ ʈ 
+1911	SEVEN	swe189	ɧ ʉː 
+1910	SIX	swe189	ɛ k s tɕ 
+1914	TEN	swe189	ɸ aːi ɔ 
+1907	THREE	swe189	ɸ r uɔ 
+1906	TWO	swe189	v ɸ oː 
+1912	EIGHT	swe189	ɔ dz a 
+1909	FIVE	swe189	ɛ f m 
+1908	FOUR	swe189	f yː r a 
+1918	NINE	bhw190	s i w 
+1919	ONE	bhw190	s o ɛ̃ g 
+1920	SEVEN	bhw190	i f hː 
+1921	SIX	bhw190	w ə n ɛ̃ m 
+1922	TEN	bhw190	s ɔˑ m f ɐː g 
+1923	THREE	bhw190	hː kp ə g 
+1924	TWO	bhw190	s b̥ u u 
+1915	EIGHT	bhw190	w ɔˑ g 
+1916	FIVE	bhw190	i b̥ m 
+1917	FOUR	bhw190	f kp ɔˑ hː 
+1928	NINE	bhw191	s i w 
+1929	ONE	bhw191	o ɬ œ d̪ 
+1930	SEVEN	bhw191	i f k 
+1932	TEN	bhw191	s m ə f y d̪ 
+1933	THREE	bhw191	k k o d̪ 
+1934	TWO	bhw191	s r u u 
+1925	EIGHT	bhw191	ə w d̪ 
+1926	FIVE	bhw191	i r m 
+1927	FOUR	bhw191	f k ə k 
+1938	NINE	bhw192	r̃ i w 
+1939	ONE	bhw192	au o r̃ kʷ 
+1940	SEVEN	bhw192	i f cː 
+1941	SIX	bhw192	o w j au m 
+1942	TEN	bhw192	r̃ ɐː m f u kʷ 
+1943	THREE	bhw192	cː r̃ o kʷ 
+1944	TWO	bhw192	r̃ r u u 
+1935	EIGHT	bhw192	ɐː w ts 
+1936	FIVE	bhw192	r i m 
+1937	FOUR	bhw192	r̃ f ɐː cː 
+1948	NINE	bhw193	s i t 
+1949	ONE	bhw193	o ʈ ə r 
+1950	SEVEN	bhw193	i f b 
+1951	SIX	bhw193	t o n ə m 
+1952	TEN	bhw193	s a f m ɔ̃ː r 
+1953	THREE	bhw193	b o qʷ r 
+1954	TWO	bhw193	s r ɔ̃ː ɔ̃ː 
+1945	EIGHT	bhw193	a t r 
+1946	FIVE	bhw193	r i m 
+1947	FOUR	bhw193	f qʷ ɒ b 
+1999	NINE	bhw198	tsʰ ĩ w 
+2000	ONE	bhw198	o tsʰ e ɗ 
+2001	SEVEN	bhw198	ĩ x ɕʲ 
+2002	SIX	bhw198	w ʃː o e m 
+2003	TEN	bhw198	æ̃ tsʰ m x uɔ ɗ 
+2004	THREE	bhw198	o ɕʲ j ɗ 
+2005	TWO	bhw198	tsʰ ɗ ɔ̃ː ɔ̃ː 
+1996	EIGHT	bhw198	w æ̃ ɗ 
+1997	FIVE	bhw198	ɗ ĩ m 
+1998	FOUR	bhw198	x j æ̃ ɕʲ 
+2009	NINE	bhw199	s i w 
+2010	ONE	bhw199	o ɬ œ d̪ 
+2011	SEVEN	bhw199	i f k 
+4767	SIX	bhw199	kʼ o n e m 
+2013	TEN	bhw199	s ɥ ə f y d̪ 
+2014	THREE	bhw199	k j o d̪ 
+2015	TWO	bhw199	s r u u 
+2006	EIGHT	bhw199	ə w d̪ 
+2007	FIVE	bhw199	i r ɥ 
+2008	FOUR	bhw199	f j ə k 
+2019	NINE	bhw200	s i w 
+2020	ONE	bhw200	s o e d̪ 
+2021	SEVEN	bhw200	i f s 
+2022	SIX	bhw200	w ə n e m 
+2023	TEN	bhw200	s ɔˑ f m ia d̪ 
+2024	THREE	bhw200	s b ə d̪ 
+2025	TWO	bhw200	s ia b̥ ia 
+2016	EIGHT	bhw200	ɔˑ w d̪ 
+2017	FIVE	bhw200	b̥ i m 
+2018	FOUR	bhw200	f b ɔˑ ʈː 
+2029	NINE	bhw201	s i t 
+2030	ONE	bhw201	s o ə r 
+2031	SEVEN	bhw201	i f k 
+2032	SIX	bhw201	t o n i m 
+2033	TEN	bhw201	a s m ɔ̃ː f r 
+2034	THREE	bhw201	k o j r 
+2035	TWO	bhw201	s ɔ̃ː r ɔ̃ː 
+2026	EIGHT	bhw201	a t r 
+2027	FIVE	bhw201	r i m 
+2028	FOUR	bhw201	f a j k 
+2039	NINE	bhw202	s a̱ w 
+2040	ONE	bhw202	o s œ m 
+2041	SEVEN	bhw202	i dʑ k 
+2042	SIX	bhw202	w n o œ m 
+2043	TEN	bhw202	s ə m dʑ u m 
+2044	THREE	bhw202	k ɤː j m 
+2045	TWO	bhw202	r s u u 
+2036	EIGHT	bhw202	w ə m 
+2037	FIVE	bhw202	r a̱ m 
+2038	FOUR	bhw202	dʑ j ə k 
+2049	NINE	bhw203	i s t 
+2050	ONE	bhw203	s ɛ̃ o r 
+2051	SEVEN	bhw203	f i k 
+2052	SIX	bhw203	t ɛ̃ dʒ o m 
+2053	TEN	bhw203	s a m f ɔ̃ː r 
+2054	THREE	bhw203	j k ɛ̃ r 
+2055	TWO	bhw203	r s ɔ̃ː ɔ̃ː 
+2046	EIGHT	bhw203	a t r 
+2047	FIVE	bhw203	r i m 
+2048	FOUR	bhw203	f j a k 
+2059	NINE	bhw204	s i kʼ 
+2060	ONE	bhw204	o tsʰ e β 
+2061	SEVEN	bhw204	s i cː 
+2062	SIX	bhw204	o kʼ d̪ʰ e lː 
+2063	TEN	bhw204	s ʌ s m aːi β 
+2064	THREE	bhw204	cː s o β 
+2065	TWO	bhw204	s β aːi aːi 
+2056	EIGHT	bhw204	a kʼ β 
+2057	FIVE	bhw204	β i lː 
+2058	FOUR	bhw204	s ʌ s cː 
+2069	NINE	bhw205	s ɑ ˀb 
+2070	ONE	bhw205	o s œ d̪ 
+2071	SEVEN	bhw205	i gː k 
+2072	SIX	bhw205	ˀb o n œ m 
+2073	TEN	bhw205	s ɔˑ m gː u d̪ 
+2074	THREE	bhw205	k j o d̪ 
+2075	TWO	bhw205	s r u u 
+2066	EIGHT	bhw205	ɔˑ ˀb d̪ 
+2067	FIVE	bhw205	r ɑ m 
+2068	FOUR	bhw205	gː j ɔˑ k 
+2085	NINE	swe206	ɔ̃u n ɔ 
+2076	ONE	swe206	eː ʀ 
+2077	ONE	swe206	tɕ ɛ 
+2083	SEVEN	swe206	ã̤ː ɧ 
+2082	SIX	swe206	ɛ s k sː 
+2086	TEN	swe206	t ɔ̃u ɔ 
+2079	THREE	swe206	t r uɔ 
+2078	TWO	swe206	t v ʏ 
+2084	EIGHT	swe206	tː ɔ a 
+2081	FIVE	swe206	f ɨi m̩ 
+2080	FOUR	swe206	f yː r a 
+2090	NINE	bhw207	i s qː 
+2091	ONE	bhw207	s ʊ e r 
+2092	SEVEN	bhw207	i f k 
+2093	SIX	bhw207	qː ʊ n e m 
+2094	TEN	bhw207	s y m f u r 
+2095	THREE	bhw207	k t̪ ʊ r 
+2096	TWO	bhw207	s r u u 
+2087	EIGHT	bhw207	qː y r 
+2088	FIVE	bhw207	r i m 
+2089	FOUR	bhw207	f t̪ y k 
+2100	NINE	bhw208	s i χʷ 
+2102	SEVEN	bhw208	i mʲ cː 
+2103	SIX	bhw208	χʷ o n e m 
+2104	TEN	bhw208	s ɨˤ m mʲ o pʲ 
+2105	THREE	bhw208	cː s o pʲ 
+2106	TWO	bhw208	s o r u 
+2097	EIGHT	bhw208	χʷ a pʲ 
+2098	FIVE	bhw208	i r m 
+2099	FOUR	bhw208	s ɨˤ mʲ cː 
+2110	NINE	bhw209	i r w 
+2111	ONE	bhw209	əu r ɒ r 
+2112	SEVEN	bhw209	i ŋː cː 
+2113	SIX	bhw209	w əu n e m 
+2114	TEN	bhw209	r ə m ŋː əu r 
+2115	THREE	bhw209	t̪ əu cː r 
+2116	TWO	bhw209	r r əu əu 
+2107	EIGHT	bhw209	ə w r 
+2108	FIVE	bhw209	i r m 
+2109	FOUR	bhw209	ŋː t̪ ə cː 
+2120	NINE	bhw210	s ʌː mˀ 
+2121	ONE	bhw210	s o a̤ː r 
+2122	SEVEN	bhw210	f ʌː cː 
+2123	SIX	bhw210	o mˀ a̤ː n m 
+2124	TEN	bhw210	s a m f u r 
+2125	THREE	bhw210	cː t̪ o r 
+2126	TWO	bhw210	s u r u 
+2117	EIGHT	bhw210	a mˀ r 
+2118	FIVE	bhw210	r ʌː m 
+2119	FOUR	bhw210	f t̪ a cː 
+2136	NINE	swe211	n aːi ɔ 
+2127	ONE	swe211	eː g̊ 
+2128	ONE	swe211	ɛ ʈ 
+2134	SEVEN	swe211	n̊ ʉː 
+2133	SIX	swe211	ɛ k ʃː sː 
+2137	TEN	swe211	t aːi ɔ 
+2130	THREE	swe211	t r uɔ 
+2129	TWO	swe211	v t oː 
+2135	EIGHT	swe211	dʲ ɔ ẽ 
+2132	FIVE	swe211	p ɨ m 
+2131	FOUR	swe211	p yː r ẽ 
+2141	NINE	bhw212	i s bʲ 
+2142	ONE	bhw212	s o e r 
+2143	SEVEN	bhw212	f i cː 
+2144	SIX	bhw212	bʲ o e n m 
+2145	TEN	bhw212	s iː m f u r 
+2146	THREE	bhw212	t̪ cː o r 
+2147	TWO	bhw212	r s u u 
+2138	EIGHT	bhw212	bʲ iː r 
+2139	FIVE	bhw212	r i m 
+2140	FOUR	bhw212	f t̪ iː cː 
+2151	NINE	bhw213	i s t 
+2152	ONE	bhw213	s o ə ⁿt 
+2153	SEVEN	bhw213	i tsʰ k 
+2154	SIX	bhw213	o t n ə m 
+2155	TEN	bhw213	ɔʊ s m tsʰ ɔ̃ː ⁿt 
+2156	THREE	bhw213	k o j r 
+2157	TWO	bhw213	r s ɔ̃ː ɔ̃ː 
+2148	EIGHT	bhw213	ɔʊ t r 
+2149	FIVE	bhw213	i r m 
+2150	FOUR	bhw213	tsʰ j ɔʊ k 
+2161	NINE	bhw214	s i kʼ 
+2162	ONE	bhw214	o tsʰ e r 
+2163	SEVEN	bhw214	f i cː 
+2164	SIX	bhw214	o kʼ n e m 
+2165	TEN	bhw214	s ʌ m f u r 
+2166	THREE	bhw214	cː o s r 
+2167	TWO	bhw214	s r u u 
+2158	EIGHT	bhw214	kʼ ɛ̠ r 
+2159	FIVE	bhw214	i r m 
+2160	FOUR	bhw214	f s ʌ cː 
+2171	NINE	bhw215	s au gː 
+2172	ONE	bhw215	s aː o r 
+2173	SEVEN	bhw215	f au cː 
+2174	SIX	bhw215	gː o aː n m 
+2175	TEN	bhw215	s m a f u r 
+2176	THREE	bhw215	cː t̪ o r 
+2177	TWO	bhw215	s r u u 
+2168	EIGHT	bhw215	gː a r 
+2169	FIVE	bhw215	r au m 
+2170	FOUR	bhw215	f a t̪ cː 
+2181	NINE	bhw216	āː s w 
+2182	ONE	bhw216	o s æː ɗ 
+2183	SEVEN	bhw216	āː f k 
+2184	SIX	bhw216	w ʃː æː o m 
+2185	TEN	bhw216	a s m f ẽ ɗ 
+2186	THREE	bhw216	k o j ɗ 
+2187	TWO	bhw216	s ɗ ɔ̃ː ɔ̃ː 
+2178	EIGHT	bhw216	a w ɗ 
+2179	FIVE	bhw216	āː ɗ m 
+2180	FOUR	bhw216	f j a k 
+2191	NINE	bhw217	dː eː t 
+2192	ONE	bhw217	dː o o̞ː r 
+2193	SEVEN	bhw217	eː ŋ̩ k 
+2194	SIX	bhw217	t o rʲ o̞ː m 
+2195	TEN	bhw217	ʊː dː m ŋ̩ ɔ̃ː r 
+2196	THREE	bhw217	k o j r 
+2197	TWO	bhw217	r dː ɔ̃ː ɔ̃ː 
+2188	EIGHT	bhw217	ʊː t r 
+2189	FIVE	bhw217	eː r m 
+2190	FOUR	bhw217	ŋ̩ j ʊː ˀl 
+2201	NINE	bhw218	s i w 
+2202	ONE	bhw218	eɪ s e pʲ 
+2203	SEVEN	bhw218	f i cː 
+2204	SIX	bhw218	w eɪ n e dʲ 
+2205	TEN	bhw218	s a f dʲ u pʲ 
+2206	THREE	bhw218	s cː eɪ pʲ 
+2207	TWO	bhw218	s u w u 
+2198	EIGHT	bhw218	w a pʲ 
+2199	FIVE	bhw218	w i dʲ 
+2200	FOUR	bhw218	s f a cː 
+2211	NINE	bhw219	s i w 
+2212	ONE	bhw219	u s u r 
+2213	SEVEN	bhw219	f i cː 
+2214	SIX	bhw219	w u e n m 
+2215	TEN	bhw219	s ə m f ɔ̃u r 
+2216	THREE	bhw219	dʲ ɔ̃u cː r 
+2217	TWO	bhw219	s r u u 
+2208	EIGHT	bhw219	ə w r 
+2209	FIVE	bhw219	i r m 
+2210	FOUR	bhw219	f dʲ ə cː 
+2221	NINE	bhw220	i s t 
+2222	ONE	bhw220	s o ə l 
+2223	SEVEN	bhw220	i tɕʰ k 
+2224	SIX	bhw220	t o ə n m 
+2225	TEN	bhw220	ʊː s m tɕʰ ɔ̃ː l 
+2226	THREE	bhw220	k o j l 
+2227	TWO	bhw220	l s ɔ̃ː ɔ̃ː 
+2218	EIGHT	bhw220	ʊː t l 
+2219	FIVE	bhw220	i l m 
+2220	FOUR	bhw220	j tɕʰ ʊː k 
+2231	NINE	bhw221	i s w 
+2232	ONE	bhw221	o o̞ ɗː d̪ 
+2233	SEVEN	bhw221	i dʑ k 
+2234	SIX	bhw221	w o n o̞ m 
+2235	TEN	bhw221	s ɔˑ m dʑ u d̪ 
+2236	THREE	bhw221	k j o d̪ 
+2237	TWO	bhw221	s u r u 
+2228	EIGHT	bhw221	ɔˑ w d̪ 
+2229	FIVE	bhw221	r i m 
+2230	FOUR	bhw221	dʑ j ɔˑ k 
+2241	NINE	bhw222	i s t 
+2242	ONE	bhw222	s ia ə r 
+2243	SEVEN	bhw222	f i b 
+2244	SIX	bhw222	t ia n ə m 
+2245	TEN	bhw222	a s f m ɔ̃ː r 
+2246	THREE	bhw222	b ia j r 
+2247	TWO	bhw222	ɔ̃ː s r ɔ̃ː 
+2238	EIGHT	bhw222	a t r 
+2239	FIVE	bhw222	r i m 
+2240	FOUR	bhw222	f j oi b 
+2251	NINE	bhw223	ɗ i t 
+2252	ONE	bhw223	o ɗ au pʲ 
+2253	SEVEN	bhw223	f i cː 
+2254	SIX	bhw223	t au bv au m 
+2255	TEN	bhw223	ɗ ɛ̃ m f u pʲ 
+2256	THREE	bhw223	cː ɗ au pʲ 
+2257	TWO	bhw223	ɗ r u u 
+2248	EIGHT	bhw223	t a pʲ 
+2249	FIVE	bhw223	r i m 
+2250	FOUR	bhw223	ɗ ɛ̃ f cː 
+2261	NINE	bhw224	s oːu w 
+2262	ONE	bhw224	o ɑˑ s r 
+2263	SEVEN	bhw224	oːu f k 
+2264	SIX	bhw224	w o n ɑˑ cçʲ 
+2265	TEN	bhw224	s ɔˑ cçʲ f u r 
+2266	THREE	bhw224	k o k r 
+2267	TWO	bhw224	s u r u 
+2258	EIGHT	bhw224	ɔˑ w r 
+2259	FIVE	bhw224	r oːu cçʲ 
+2260	FOUR	bhw224	f k ɔˑ k 
+2271	NINE	bhw225	lʲ i ȶ 
+2272	ONE	bhw225	lʲ o e r 
+2273	SEVEN	bhw225	f i cː 
+2274	SIX	bhw225	w o e n ȶ 
+2275	TEN	bhw225	lʲ a ȶ f e̱ r 
+2276	THREE	bhw225	cː t̪ o r 
+2277	TWO	bhw225	lʲ r u u 
+2268	EIGHT	bhw225	w a r 
+2269	FIVE	bhw225	i r ȶ 
+2270	FOUR	bhw225	f a t̪ cː 
+2269	FOUR	bhw225	i r ȶ 
+2281	NINE	bhw226	i s t 
+2282	ONE	bhw226	s o ə dʷ 
+2283	SEVEN	bhw226	i f tʼ 
+2284	SIX	bhw226	t n o ə tʰ 
+2285	TEN	bhw226	a s f tʰ ɔ̃ː dʷ 
+2286	THREE	bhw226	o ɲ tʼ dʷ 
+2287	TWO	bhw226	s dʷ ɔ̃ː ɔ̃ː 
+2279	FIVE	bhw226	au dʷ tʰ 
+2280	FOUR	bhw226	f ɲ āː tʼ 
+2291	NINE	bhw227	s ɑː w 
+2292	ONE	bhw227	s o e ɗ 
+2293	SEVEN	bhw227	ɑː f l̥ 
+2294	SIX	bhw227	w ʃː o e m 
+2295	TEN	bhw227	a s m f ẽ ɗ 
+2296	THREE	bhw227	l̥ o j ɗ 
+2297	TWO	bhw227	s ɗ ɔ̃ː ɔ̃ː 
+2288	EIGHT	bhw227	w a ɗ 
+2289	FIVE	bhw227	ɑː ɗ m 
+2290	FOUR	bhw227	f j a l̥ 
+2306	NINE	swe228	n aːi ɔ 
+2298	ONE	swe228	ɛ ʈ 
+2304	SEVEN	swe228	ʉː ɧ 
+2303	SIX	swe228	ɛ k s sː 
+2307	TEN	swe228	aːi t ɔ 
+2300	THREE	swe228	t r uɔ 
+2299	TWO	swe228	t v oː 
+2305	EIGHT	swe228	ɔ d a 
+2302	FIVE	swe228	ɨ m̩ n̩ 
+2301	FOUR	swe228	m̩ yː r a 
+2311	NINE	bhw229	i s t 
+2312	ONE	bhw229	o s au pʲ 
+2313	SEVEN	bhw229	f i cː 
+2314	SIX	bhw229	t o n au m 
+2315	TEN	bhw229	s ɛ̃ m f u pʲ 
+2316	THREE	bhw229	cː o s pʲ 
+2317	TWO	bhw229	s r u u 
+2308	EIGHT	bhw229	a t pʲ 
+2309	FIVE	bhw229	i r m 
+2310	FOUR	bhw229	s f ɛ̃ cː 
+2327	NINE	swe230	n aːi ɔ 
+2318	ONE	swe230	eː g̊ 
+2319	ONE	swe230	ɛ ʈ 
+2325	SEVEN	swe230	n̊ ʉː 
+2324	SIX	swe230	ɛ s k sː 
+2328	TEN	swe230	aːi t ɔ 
+2321	THREE	swe230	t r uɔ 
+2320	TWO	swe230	v t oː 
+2326	EIGHT	swe230	ɔ dʲ a 
+2323	FIVE	swe230	f aɯ m 
+2322	FOUR	swe230	f yː r a 
+2332	NINE	bhw231	i s w 
+2333	ONE	bhw231	s e o j 
+2334	SEVEN	bhw231	f i cː 
+2335	SIX	bhw231	w o e n̪ m 
+2336	TEN	bhw231	s a m f u j 
+2337	THREE	bhw231	cː t̪ o j 
+2338	TWO	bhw231	j s u u 
+2329	EIGHT	bhw231	w a j 
+2330	FIVE	bhw231	j i m 
+2331	FOUR	bhw231	f t̪ a cː 
+2348	NINE	swe232	n aːi ɔ 
+2339	ONE	swe232	oː ˀl 
+2340	ONE	swe232	ɓ ɛ 
+2346	SEVEN	swe232	ɧ ʉː 
+2345	SIX	swe232	ɛ s j sː 
+2349	TEN	swe232	t aːi ɔ 
+2342	THREE	swe232	r t ɔ 
+2341	TWO	swe232	v t ʏ 
+2347	EIGHT	swe232	tː ɔ a 
+2344	FIVE	swe232	f ɨi m 
+2343	FOUR	swe232	f yː r a 
+2353	NINE	bhw233	i s tː 
+2354	ONE	bhw233	s o e r 
+2355	SEVEN	bhw233	i f cː 
+2356	SIX	bhw233	tː o e n m 
+2357	TEN	bhw233	s a m f ə̆ r 
+2358	THREE	bhw233	cː t̪ o r 
+2359	TWO	bhw233	s ə̆ r ə̆ 
+2350	EIGHT	bhw233	a tː r 
+2351	FIVE	bhw233	r i m 
+2352	FOUR	bhw233	t̪ f a cː 
+2363	NINE	bhw234	ɸ i w 
+2364	ONE	bhw234	o ɟ e pʲ 
+2365	SEVEN	bhw234	i f d̪ 
+2366	SIX	bhw234	w n ãː e m 
+2367	TEN	bhw234	ɸ e̠ m f u pʲ 
+2368	THREE	bhw234	d̪ ɸ ãː pʲ 
+2369	TWO	bhw234	ɸ u pʰ u 
+2360	EIGHT	bhw234	e̠ w pʲ 
+2361	FIVE	bhw234	ŋ i m 
+2362	FOUR	bhw234	ɸ f e̠ d̪ 
+2373	NINE	bhw235	mʲ i w 
+2374	ONE	bhw235	o mʲ e pʲ 
+2375	SEVEN	bhw235	i kʲ cː 
+2376	SIX	bhw235	w o n e m 
+2377	TEN	bhw235	mʲ ɨˤ m kʲ u pʲ 
+2378	THREE	bhw235	cː mʲ o pʲ 
+2379	TWO	bhw235	mʲ v u u 
+2370	EIGHT	bhw235	w ɔ pʲ 
+2371	FIVE	bhw235	r i m 
+2372	FOUR	bhw235	mʲ kʲ ɨˤ cː 
+2383	NINE	bhw236	s i w 
+2384	ONE	bhw236	œ o s d̪ 
+2385	SEVEN	bhw236	i f k 
+2386	SIX	bhw236	w o f œ ʡ 
+2387	TEN	bhw236	s ə m f õ d̪ 
+2388	THREE	bhw236	k j o d̪ 
+2389	TWO	bhw236	s ɭ õ õ 
+2380	EIGHT	bhw236	ə w d̪ 
+2381	FIVE	bhw236	ɭ i ʡ 
+2382	FOUR	bhw236	j f ə k 
+2393	NINE	bhw237	d̥ i t 
+2394	ONE	bhw237	d̥ œː ə ɣʷ 
+2395	SEVEN	bhw237	i f b 
+2396	SIX	bhw237	t œː t ə m 
+2397	TEN	bhw237	a d̥ m f o ɣʷ 
+2398	THREE	bhw237	b œː j ɣʷ 
+2399	TWO	bhw237	d̥ ɣʷ ɔ̃ː ɔ̃ː 
+2390	EIGHT	bhw237	a t ɣʷ 
+2391	FIVE	bhw237	ɣʷ i m 
+2392	FOUR	bhw237	f j ɒ b 
+2403	NINE	bhw238	i ŋː w 
+2404	ONE	bhw238	o e ŋː pʲ 
+2405	SEVEN	bhw238	i ɓ cː 
+2406	SIX	bhw238	w o θ e m 
+2407	TEN	bhw238	ŋː ɨˤ m ɓ u pʲ 
+2408	THREE	bhw238	ŋː cː o pʲ 
+2409	TWO	bhw238	ŋː u lʱ u 
+2400	EIGHT	bhw238	a w pʲ 
+2401	FIVE	bhw238	lʱ i m 
+2402	FOUR	bhw238	ŋː ɓ ɨˤ cː 
+2413	NINE	bhw239	r̃ ŏ w 
+2414	ONE	bhw239	o a r̃ ɣ 
+2415	SEVEN	bhw239	f ŏ ŋ 
+2416	SIX	bhw239	w o j a z 
+2417	TEN	bhw239	r̃ a z f u ɣ 
+2418	THREE	bhw239	ŋ r̃ o ɣ 
+2419	TWO	bhw239	r r̃ u u 
+2410	EIGHT	bhw239	a w ts 
+2411	FIVE	bhw239	r ŏ z 
+2412	FOUR	bhw239	r̃ f a ŋ 
+2423	NINE	bhw240	i s w 
+2424	ONE	bhw240	s əɯ ə̥ ɦ 
+2425	SEVEN	bhw240	i dʑ k 
+2426	SIX	bhw240	w ɛ̠ n ə̥ m 
+2427	TEN	bhw240	s ɔˑ m dʑ u ɦ 
+2428	THREE	bhw240	k j ɛ̠ ɦ 
+2429	TWO	bhw240	s r u u 
+2420	EIGHT	bhw240	ɔˑ w ɦ 
+2421	FIVE	bhw240	r i m 
+2422	FOUR	bhw240	dʑ j ɔˑ k 
+2433	NINE	bhw241	ʀ i w 
+2434	ONE	bhw241	õ ʀ e r 
+2435	SEVEN	bhw241	f i ŋ 
+2436	SIX	bhw241	w õ e ʁ m 
+2437	TEN	bhw241	ə ʀ m f ɛu r 
+2438	THREE	bhw241	ɔ̃ t̪ ŋ r 
+2439	TWO	bhw241	ʀ r õ õ 
+2430	EIGHT	bhw241	ə w r 
+2431	FIVE	bhw241	i r m 
+2432	FOUR	bhw241	f t̪ ə ŋ 
+2443	NINE	bhw242	i ɗ t 
+2444	ONE	bhw242	o ɗ au pʲ 
+2445	SEVEN	bhw242	f i cː 
+2446	SIX	bhw242	t ui n au m 
+2447	TEN	bhw242	ɗ ɛ̃ m f u pʲ 
+2448	THREE	bhw242	cː ɗ ui pʲ 
+2449	TWO	bhw242	ɗ r u u 
+2440	EIGHT	bhw242	t a pʲ 
+2441	FIVE	bhw242	i r m 
+2442	FOUR	bhw242	ɗ ɛ̃ f cː 
+2453	NINE	bhw243	s i w 
+2454	ONE	bhw243	s o e t̪ 
+2455	SEVEN	bhw243	i f s 
+2456	SIX	bhw243	w ŏ n e m 
+2457	TEN	bhw243	s ɔˑ m f u t̪ 
+2458	THREE	bhw243	s j ŏ t̪ 
+2459	TWO	bhw243	s b̥ u u 
+2450	EIGHT	bhw243	ɔˑ w t̪ 
+2451	FIVE	bhw243	b̥ i m 
+2452	FOUR	bhw243	f j ɔˑ ʈʰ 
+2463	NINE	bhw244	s i β 
+2464	ONE	bhw244	eɪ m e pʲ 
+2465	SEVEN	bhw244	f i cː 
+2466	SIX	bhw244	β n eɪ e m 
+2467	TEN	bhw244	s a m u f pʲ 
+2468	THREE	bhw244	s cː eɪ pʲ 
+2469	TWO	bhw244	u s r u 
+2460	EIGHT	bhw244	a β pʲ 
+2461	FIVE	bhw244	i r m 
+2462	FOUR	bhw244	s f a cː 
+2478	NINE	swe245	n aːi ɔ 
+2470	ONE	swe245	w̃ eː 
+2476	SEVEN	swe245	ɧ ʉː 
+2475	SIX	swe245	ɛ ɾ k sː 
+2479	TEN	swe245	t aːi ɔ 
+2472	THREE	swe245	t r əː 
+2471	TWO	swe245	v t oː 
+2477	EIGHT	swe245	ɔ tː a 
+2474	FIVE	swe245	ɛ f ɓ 
+2473	FOUR	swe245	f yː r a 
+2483	NINE	bhw246	jˀ oːu w 
+2484	ONE	bhw246	o ɔ̃ jˀ r 
+2485	SEVEN	bhw246	oːu f k 
+2486	SIX	bhw246	w o tʼ ɔ̃ m 
+2487	TEN	bhw246	jˀ ɔˑ m f u r 
+2488	THREE	bhw246	k k o r 
+2489	TWO	bhw246	jˀ u r u 
+2480	EIGHT	bhw246	w ɔˑ r 
+2481	FIVE	bhw246	oːu r m 
+2482	FOUR	bhw246	f k ɔˑ k 
+2493	NINE	bhw247	s au fʲ 
+2494	ONE	bhw247	s e e r 
+2495	SEVEN	bhw247	f au cː 
+2496	SIX	bhw247	fʲ e e n m 
+2497	TEN	bhw247	s m a u f r 
+2498	THREE	bhw247	cː t̪ e r 
+2499	TWO	bhw247	s u r u 
+2490	EIGHT	bhw247	fʲ a r 
+2491	FIVE	bhw247	au r m 
+2492	FOUR	bhw247	f t̪ a cː 
+2503	NINE	bhw248	s i w 
+2504	ONE	bhw248	ɜː s ɛ̃ d̪ 
+2505	SEVEN	bhw248	f i ʃʰ 
+2506	SIX	bhw248	w ø n ɛ̃ m 
+2507	TEN	bhw248	s ă m f u d̪ 
+2508	THREE	bhw248	tʲ ʃʰ ø d̪ 
+2509	TWO	bhw248	s b̥ u u 
+2500	EIGHT	bhw248	w ă d̪ 
+2501	FIVE	bhw248	i b̥ m 
+2502	FOUR	bhw248	f tʲ ă ʃʰ 
+2513	NINE	bhw249	x i t 
+2514	ONE	bhw249	x o ə r 
+2515	SEVEN	bhw249	i ŋ̩ k 
+2516	SIX	bhw249	t o n ə bː 
+2517	TEN	bhw249	ĩ x m ŋ̩ ɔ̃ː r 
+2518	THREE	bhw249	k o j r 
+2519	TWO	bhw249	r ɔ̃ː x ɔ̃ː 
+2510	EIGHT	bhw249	t ĩ r 
+2511	FIVE	bhw249	i r m 
+2512	FOUR	bhw249	ŋ̩ j ĩ k 
+2523	NINE	bhw250	s i t 
+2524	ONE	bhw250	o s ə dː 
+2525	SEVEN	bhw250	i kʷ ⁿd 
+2526	SIX	bhw250	t o n ə m 
+2527	TEN	bhw250	a s kʷ m ɔ̃ː dː 
+2528	THREE	bhw250	ⁿd o j r 
+2529	TWO	bhw250	r s ɔ̃ː ɔ̃ː 
+2520	EIGHT	bhw250	t a dː 
+2521	FIVE	bhw250	r i m 
+2522	FOUR	bhw250	kʷ j ɒ ⁿd 
+2533	NINE	bhw251	s i w 
+2534	ONE	bhw251	s o e d̪ 
+2535	SEVEN	bhw251	i f s 
+2536	SIX	bhw251	w ə n æː m 
+2537	TEN	bhw251	s ɔˑ m f ia d̪ 
+2538	THREE	bhw251	s j ə d̪ 
+2539	TWO	bhw251	s ia ʋ ia 
+2530	EIGHT	bhw251	ɔˑ w d̪ 
+2531	FIVE	bhw251	ʋ i m 
+2532	FOUR	bhw251	f j ɔˑ s 
+2543	NINE	bhw252	dʲ iː w 
+2544	ONE	bhw252	o dʲ au pʲ 
+2545	SEVEN	bhw252	iː f cː 
+2546	SIX	bhw252	w au o n ʂ 
+2547	TEN	bhw252	dʲ a ʂ f u pʲ 
+2548	THREE	bhw252	cː dʲ o pʲ 
+2549	TWO	bhw252	dʲ r u u 
+2540	EIGHT	bhw252	w a pʲ 
+2541	FIVE	bhw252	e˞ r ʂ 
+2542	FOUR	bhw252	dʲ f a cː 
+2553	NINE	bhw253	lʲ i m 
+2554	ONE	bhw253	lʲ ɐ o r 
+2555	SEVEN	bhw253	f i cː 
+2556	SIX	bhw253	w o ɐ n m 
+2557	TEN	bhw253	lʲ a m f ɪ r 
+2558	THREE	bhw253	cː t̪ o r 
+2559	TWO	bhw253	lʲ r u u 
+2550	EIGHT	bhw253	w a r 
+2551	FIVE	bhw253	i r m 
+2552	FOUR	bhw253	f t̪ a cː 
+2563	NINE	bhw254	s i ⁿd 
+2564	ONE	bhw254	s o ɛ̃ ʃʰ 
+2565	SEVEN	bhw254	i f k 
+2566	SIX	bhw254	ⁿd ə ɬ ɛ̃ m 
+2567	TEN	bhw254	s ɔˑ m f u ʃʰ 
+2568	THREE	bhw254	k ə kp ʃʰ 
+2569	TWO	bhw254	s c u u 
+2560	EIGHT	bhw254	ɔˑ ⁿd ʃʰ 
+2561	FIVE	bhw254	i c m 
+2562	FOUR	bhw254	kp f ɔˑ k 
+2573	NINE	bhw255	s i w 
+2574	ONE	bhw255	ʌ s iɔ sʲ 
+2575	SEVEN	bhw255	f i cː 
+2576	SIX	bhw255	w ʌ j iɔ m 
+2577	TEN	bhw255	s a m f u sʲ 
+2578	THREE	bhw255	cː s ʌ sʲ 
+2579	TWO	bhw255	s r u u 
+2570	EIGHT	bhw255	w a c 
+2571	FIVE	bhw255	r i m 
+2572	FOUR	bhw255	s f a cː 
+2583	NINE	bhw256	s i kʼ 
+2584	ONE	bhw256	o cçʰ e r 
+2585	SEVEN	bhw256	f i cː 
+2586	SIX	bhw256	kʼ o n e m 
+2587	TEN	bhw256	ʌ s m f u r 
+2588	THREE	bhw256	cː s o r 
+2589	TWO	bhw256	s r u u 
+2580	EIGHT	bhw256	kʼ a r 
+2581	FIVE	bhw256	r i m 
+2582	FOUR	bhw256	f s ʌ cː 
+2598	NINE	swe257	ȵ aːi ʌ 
+2590	ONE	swe257	ɛ ʈ 
+2596	SEVEN	swe257	ɧ ʉː 
+2595	SIX	swe257	ɛ s s̪ sː 
+2599	TEN	swe257	t aːi ʌ 
+2592	THREE	swe257	t r uɔ 
+2591	TWO	swe257	v t oː 
+2597	EIGHT	swe257	ʌ tː a 
+2594	FIVE	swe257	f ɑi dʲ 
+2593	FOUR	swe257	yː f r a 
+2603	NINE	bhw258	s i w 
+2604	ONE	bhw258	ɔʊ s e r 
+2606	SIX	bhw258	w ɔʊ e n m 
+2607	TEN	bhw258	s m a f u r 
+2608	THREE	bhw258	cː t̪ ɔʊ r 
+2609	TWO	bhw258	s r u u 
+2600	EIGHT	bhw258	w a r 
+2601	FIVE	bhw258	r i m 
+2602	FOUR	bhw258	f t̪ a cː 
+2613	NINE	bhw259	i s w 
+2614	ONE	bhw259	o s e ɗ 
+2615	SEVEN	bhw259	i f k 
+2616	SIX	bhw259	w ʃː o e m 
+2617	TEN	bhw259	a s m f ẽ ɗ 
+2618	THREE	bhw259	k o j ɗ 
+2619	TWO	bhw259	s ɗ ɔ̃ː ɔ̃ː 
+2610	EIGHT	bhw259	w a ɗ 
+2611	FIVE	bhw259	ɗ i m 
+2612	FOUR	bhw259	f j a k 
+2623	NINE	bhw260	i s kʼ 
+2624	ONE	bhw260	o tsʰ e r 
+2625	SEVEN	bhw260	ʒ i cː 
+2626	SIX	bhw260	o kʼ n e cçʲ 
+2627	TEN	bhw260	s ə̆ cçʲ ʒ u r 
+2628	THREE	bhw260	cː s o r 
+2629	TWO	bhw260	s u r u 
+2620	EIGHT	bhw260	ə̆ kʼ r 
+2621	FIVE	bhw260	i r cçʲ 
+2622	FOUR	bhw260	ʒ s ə̆ cː 
+2633	NINE	bhw261	i s w 
+2634	ONE	bhw261	s o ɛ̃ ʃʰ 
+2635	SEVEN	bhw261	i f k 
+2636	SIX	bhw261	w ə n ɛ̃ m 
+2637	TEN	bhw261	s ɔˑ f m aːi ʃʰ 
+2638	THREE	bhw261	ə k k ʃʰ 
+2639	TWO	bhw261	s b̥ aːi aːi 
+2630	EIGHT	bhw261	w ɔˑ ʃʰ 
+2631	FIVE	bhw261	i b̥ m 
+2632	FOUR	bhw261	f k ɔˑ k 
+2643	NINE	bhw262	s i t 
+2644	ONE	bhw262	s o ə r 
+2645	SEVEN	bhw262	i f k 
+2646	SIX	bhw262	t n o i m 
+2647	TEN	bhw262	a s f m ɔ̃ː r 
+2648	THREE	bhw262	k o j r 
+2649	TWO	bhw262	s r ɔ̃ː ɔ̃ː 
+2640	EIGHT	bhw262	a t r 
+2641	FIVE	bhw262	r i m 
+2642	FOUR	bhw262	f j a k 
+2653	NINE	bhw263	s ɑ w 
+2654	ONE	bhw263	ɑˑ o s r 
+2655	SEVEN	bhw263	ɑ f k 
+2656	SIX	bhw263	w o n ɑˑ m 
+2657	TEN	bhw263	s u m f u r 
+2658	THREE	bhw263	k k o r 
+2659	TWO	bhw263	s u m u 
+2650	EIGHT	bhw263	u w r 
+2651	FIVE	bhw263	r ɑ m 
+2652	FOUR	bhw263	f k u k 
+2663	NINE	bhw264	ɸ i w 
+2664	ONE	bhw264	o e ɸ pʲ 
+2665	SEVEN	bhw264	f i d̪ 
+2666	SIX	bhw264	o w n e ʕ 
+2667	TEN	bhw264	ɸ e̠ f m u pʲ 
+2668	THREE	bhw264	d̪ ɸ o pʲ 
+2669	TWO	bhw264	ɸ u pʰ u 
+2660	EIGHT	bhw264	e̠ w pʲ 
+2661	FIVE	bhw264	r i ʕ 
+2662	FOUR	bhw264	f ɸ e̠ d̪ 
+2673	NINE	bhw265	s i t 
+2674	ONE	bhw265	o s au pʲ 
+2675	SEVEN	bhw265	f i cː 
+2676	SIX	bhw265	t o n au m 
+2677	TEN	bhw265	s ɛ̃ m f u pʲ 
+2678	THREE	bhw265	cː s o pʲ 
+2679	TWO	bhw265	s r u u 
+2670	EIGHT	bhw265	a t pʲ 
+2671	FIVE	bhw265	i r m 
+2672	FOUR	bhw265	s f ɛ̃ cː 
+2683	NINE	bhw266	s i w 
+2684	ONE	bhw266	s o e d̪ 
+2685	SEVEN	bhw266	i f s 
+2686	SIX	bhw266	w ə n e m 
+2687	TEN	bhw266	s ɔˑ f m ia d̪ 
+2688	THREE	bhw266	s j ə d̪ 
+2689	TWO	bhw266	s ia b̥ ia 
+2680	EIGHT	bhw266	ɔˑ w d̪ 
+2681	FIVE	bhw266	b̥ i m 
+2682	FOUR	bhw266	f j ɔˑ s 
+2693	NINE	bhw267	i s rʲ 
+2694	ONE	bhw267	o ɑˑ s r 
+2695	SEVEN	bhw267	i f k 
+2696	SIX	bhw267	rʲ o n ɑˑ m 
+2697	TEN	bhw267	s f ʊː m u r 
+2698	THREE	bhw267	k k o r 
+2699	TWO	bhw267	s u r u 
+2690	EIGHT	bhw267	rʲ ʊː r 
+2691	FIVE	bhw267	r i m 
+2692	FOUR	bhw267	f k ʊː k 
+2703	NINE	bhw268	i θ w 
+2704	ONE	bhw268	o θ ɞ r 
+2705	SEVEN	bhw268	ɕʲ i cː 
+2706	SIX	bhw268	w e o n m 
+2707	TEN	bhw268	θ m a ɕʲ u r 
+2708	THREE	bhw268	cː t̪ o r 
+2709	TWO	bhw268	θ r u u 
+2700	EIGHT	bhw268	w a r 
+2701	FIVE	bhw268	r i m 
+2702	FOUR	bhw268	ɕʲ t̪ a cː 
+2713	NINE	bhw269	i s w 
+2714	ONE	bhw269	o s e ɗ 
+2715	SEVEN	bhw269	i vʲ k 
+2716	SIX	bhw269	w ʃː o e m 
+2717	TEN	bhw269	æ̃ s m vʲ uɔ ɗ 
+2718	THREE	bhw269	o k j ɗ 
+2719	TWO	bhw269	s ɗ aːu aːu 
+2710	EIGHT	bhw269	æ̃ w ɗ 
+2711	FIVE	bhw269	ɗ i m 
+2712	FOUR	bhw269	vʲ j æ̃ k 
+2723	NINE	bhw270	i tɕʰ t 
+2724	ONE	bhw270	tɕʰ œː ə r 
+2725	SEVEN	bhw270	i f b 
+2726	SIX	bhw270	t n œː ə m 
+2727	TEN	bhw270	a tɕʰ f m o r 
+2728	THREE	bhw270	b œː j r 
+2729	TWO	bhw270	r tɕʰ ɔ̃ː ɔ̃ː 
+2720	EIGHT	bhw270	a t r 
+2721	FIVE	bhw270	r i m 
+2722	FOUR	bhw270	f j ɒ b 
+2733	NINE	bhw271	i s t 
+2734	ONE	bhw271	s ɛ̃ o r 
+2735	SEVEN	bhw271	i tɕʰ dʑ 
+2736	SIX	bhw271	t ɛ̃ tɕ o m 
+2737	TEN	bhw271	s ɛ̃ m tɕʰ ɔ̃ː r 
+2738	THREE	bhw271	dʑ j ɛ̃ r 
+2739	TWO	bhw271	r s ɔ̃ː ɔ̃ː 
+2730	EIGHT	bhw271	t a r 
+2731	FIVE	bhw271	i r m 
+2732	FOUR	bhw271	tɕʰ j ɛ̃ dʑ 
+2749	NINE	swe272	n aːi ɔ 
+2740	ONE	swe272	ø g̊ 
+2741	ONE	swe272	ʈ ɛ 
+2747	SEVEN	swe272	ʉː dʷ 
+2746	SIX	swe272	ɛ k s sː 
+2750	TEN	swe272	aːi t ɔ 
+2743	THREE	swe272	t r uɔ 
+2742	TWO	swe272	v t oː 
+2748	EIGHT	swe272	ɔ tː a 
+2745	FIVE	swe272	bʲ ɯi ɓ 
+2744	FOUR	swe272	yː bʲ r a 
+2754	NINE	bhw273	i s t 
+2755	ONE	bhw273	o s ɐu rʷ 
+2756	SEVEN	bhw273	i z ⁿd 
+2757	SIX	bhw273	t o n ɐu m 
+2758	TEN	bhw273	a s z m ɔ̃ː rʷ 
+2759	THREE	bhw273	ⁿd o sː rʷ 
+2760	TWO	bhw273	s rʷ ɔ̃ː ɔ̃ː 
+2751	EIGHT	bhw273	t a rʷ 
+2752	FIVE	bhw273	rʷ i m 
+2753	FOUR	bhw273	z ɒ sː ⁿd 
+2764	NINE	bhw274	ɲ i w 
+2765	ONE	bhw274	ʌ o ɲ d̪ 
+2766	SEVEN	bhw274	i f k 
+2767	SIX	bhw274	w o f ʌ ʡ 
+2768	TEN	bhw274	ɲ ə m f u d̪ 
+2769	THREE	bhw274	k β o d̪ 
+2770	TWO	bhw274	ɲ r u u 
+2761	EIGHT	bhw274	ə w d̪ 
+2762	FIVE	bhw274	r i ʡ 
+2763	FOUR	bhw274	β f ə k 
+2780	NINE	swe275	ȵ aːi ɔ 
+2771	ONE	swe275	g̊ eː 
+2772	ONE	swe275	ɛ ʑ 
+2778	SEVEN	swe275	ɧ ʉː 
+2777	SIX	swe275	ɛ s k sː 
+2781	TEN	swe275	aːi t ɔ 
+2774	THREE	swe275	t r uɔ 
+2773	TWO	swe275	t v oː 
+2779	EIGHT	swe275	tː ɔ a 
+2776	FIVE	swe275	ɑi f ɓ 
+2775	FOUR	swe275	f yː r a 
+2790	NINE	swe276	n aːi ɔ 
+2782	ONE	swe276	ɽ eː 
+2788	SEVEN	swe276	ɧ ʉː 
+2787	SIX	swe276	ɛ s k tɕ 
+2791	TEN	swe276	ɸ aːi ɔ 
+2784	THREE	swe276	ɸ r uɔ 
+2783	TWO	swe276	v ɸ œː 
+2789	EIGHT	swe276	ɔ tː a 
+2786	FIVE	swe276	f ɛ m 
+2785	FOUR	swe276	f r yː a 
+2795	NINE	bhw277	s ɑː kʼ 
+2796	ONE	bhw277	o æ̃ tsʰ r 
+2797	SEVEN	bhw277	ʒ ɑː cː 
+2798	SIX	bhw277	kʼ iː n æ̃ m 
+2799	TEN	bhw277	s a m ʒ u r 
+2800	THREE	bhw277	cː s iː r 
+2801	TWO	bhw277	s r u u 
+2792	EIGHT	bhw277	a kʼ r 
+2793	FIVE	bhw277	r ɑː m 
+2794	FOUR	bhw277	ʒ a s cː 
+2805	NINE	bhw278	i s w 
+2806	ONE	bhw278	s o ɑ̠ ʃʰ 
+2807	SEVEN	bhw278	i ɭ k 
+2808	SIX	bhw278	w ə n ɑ̠ m 
+2809	TEN	bhw278	s ɔˑ m ɭ ɐː ʃʰ 
+2810	THREE	bhw278	k ə kp ʃʰ 
+2811	TWO	bhw278	s u b̥ u 
+2802	EIGHT	bhw278	w ɔˑ ʃʰ 
+2803	FIVE	bhw278	i b̥ m 
+2804	FOUR	bhw278	ɭ kp ɔˑ k 
+2815	NINE	bhw279	s i t 
+2816	ONE	bhw279	s o ɐ r 
+2817	SEVEN	bhw279	i f k 
+2818	SIX	bhw279	t o gʱ i m 
+2819	TEN	bhw279	a s m ɔ̃ː f r 
+2820	THREE	bhw279	k o j r 
+2821	TWO	bhw279	s r ɔ̃ː ɔ̃ː 
+2812	EIGHT	bhw279	a t r 
+2813	FIVE	bhw279	r i m 
+2814	FOUR	bhw279	f j a k 
+2825	NINE	bhw280	ʀ i w 
+2826	ONE	bhw280	u ʀ e r 
+2827	SEVEN	bhw280	f i ŋ 
+2828	SIX	bhw280	w u e w̃ m 
+2829	TEN	bhw280	ʀ ə m f ɔ̃ r 
+2830	THREE	bhw280	t̪ ɔ̃ ŋ r 
+2831	TWO	bhw280	ʀ r u u 
+2822	EIGHT	bhw280	w ə r 
+2823	FIVE	bhw280	i r m 
+2824	FOUR	bhw280	f t̪ ə ŋ 
+2835	NINE	bhw281	s au fʲ 
+2836	ONE	bhw281	s o ă r 
+2837	SEVEN	bhw281	f au cː 
+2838	SIX	bhw281	fʲ o ă n m 
+2839	TEN	bhw281	s m a u f r 
+2840	THREE	bhw281	cː t̪ o r 
+2841	TWO	bhw281	u s r u 
+2832	EIGHT	bhw281	fʲ a r 
+2833	FIVE	bhw281	au r m 
+2834	FOUR	bhw281	f t̪ a cː 
+2845	NINE	bhw282	s i kʼ 
+2846	ONE	bhw282	o tsʰ e β 
+2847	SEVEN	bhw282	s i cː 
+2848	SIX	bhw282	o d̪ʰ kʼ e m 
+2849	TEN	bhw282	s ʌ s m aːi β 
+2850	THREE	bhw282	cː s o β 
+2851	TWO	bhw282	s β aːi aːi 
+2842	EIGHT	bhw282	a kʼ β 
+2843	FIVE	bhw282	β i m 
+2844	FOUR	bhw282	s ʌ s cː 
+2855	NINE	bhw283	s ɛi sʰ 
+2856	ONE	bhw283	o s au pʲ 
+2857	SEVEN	bhw283	f ɛi cː 
+2858	SIX	bhw283	sʰ o au n ʂ 
+2859	TEN	bhw283	s a ʂ f u pʲ 
+2860	THREE	bhw283	cː s o pʲ 
+2861	TWO	bhw283	s u r u 
+2852	EIGHT	bhw283	a sʰ pʲ 
+2853	FIVE	bhw283	e˞ r ʂ 
+2854	FOUR	bhw283	s f a cː 
+2865	NINE	bhw284	s i w 
+2866	ONE	bhw284	s ɘ au sʲ 
+2867	SEVEN	bhw284	f i sː 
+2868	SIX	bhw284	w ɘ j au m 
+2869	TEN	bhw284	s ɜ m f u sʲ 
+2870	THREE	bhw284	s sː ɘ sʲ 
+2871	TWO	bhw284	s r u u 
+2862	EIGHT	bhw284	w ɜ c 
+2863	FIVE	bhw284	i r m 
+2864	FOUR	bhw284	s f ɜ sː 
+2875	NINE	bhw285	ə s w 
+2876	ONE	bhw285	s o e r 
+2877	SEVEN	bhw285	ə f cː 
+2878	SIX	bhw285	w o e n m 
+2879	TEN	bhw285	s a m f u r 
+2880	THREE	bhw285	cː t̪ o r 
+2881	TWO	bhw285	s r u u 
+2872	EIGHT	bhw285	a w r 
+2873	FIVE	bhw285	r ə m 
+2874	FOUR	bhw285	f t̪ a cː 
+2885	NINE	bhw286	qχ i rʲ 
+2886	ONE	bhw286	o ɑˑ qχ r 
+2887	SEVEN	bhw286	i f k 
+2888	SIX	bhw286	rʲ n o ɑˑ nʲ 
+2889	TEN	bhw286	qχ ɔˑ nʲ f u r 
+2890	THREE	bhw286	k o k r 
+2891	TWO	bhw286	qχ u r u 
+2882	EIGHT	bhw286	ɔˑ rʲ r 
+2883	FIVE	bhw286	r i nʲ 
+2884	FOUR	bhw286	f k ɔˑ k 
+2895	NINE	bhw287	s i w 
+2896	ONE	bhw287	o s e ɗ 
+2897	SEVEN	bhw287	i f k 
+2898	SIX	bhw287	w ʃː o e m 
+2899	TEN	bhw287	s æ̃ m f ẽ ɗ 
+2900	THREE	bhw287	k o tʷ ɗ 
+2901	TWO	bhw287	s ɗ i̟ i̟ 
+2892	EIGHT	bhw287	w æ̃ ɗ 
+2893	FIVE	bhw287	ɗ i m 
+2894	FOUR	bhw287	f tʷ æ̃ k 
+2905	NINE	bhw288	ʉ s kʼ 
+2906	ONE	bhw288	o tsʰ e r 
+2907	SEVEN	bhw288	ʒ ʉ cː 
+2908	SIX	bhw288	o kʼ qʰ e m 
+2909	TEN	bhw288	s a m ʒ e̞ r 
+2910	THREE	bhw288	cː s o r 
+2911	TWO	bhw288	s r e̞ e̞ 
+2902	EIGHT	bhw288	a kʼ r 
+2903	FIVE	bhw288	r ʉ m 
+2904	FOUR	bhw288	ʒ a s cː 
+2915	NINE	bhw289	s i w 
+2916	ONE	bhw289	s o ɛ̃ ʃʰ 
+2917	SEVEN	bhw289	i f k 
+2918	SIX	bhw289	w ə n ɛ̃ m̩ 
+2919	TEN	bhw289	s ɔˑ m̩ f u ʃʰ 
+2920	THREE	bhw289	ə k kp ʃʰ 
+2921	TWO	bhw289	s b̥ u u 
+2912	EIGHT	bhw289	w ɔˑ ʃʰ 
+2913	FIVE	bhw289	i b̥ m̩ 
+2914	FOUR	bhw289	f kp ɔˑ k 
+2925	NINE	bhw290	s i w 
+2926	ONE	bhw290	ɔ o s r 
+2927	SEVEN	bhw290	f i k 
+2928	SIX	bhw290	w o n ɔ m 
+2929	TEN	bhw290	s ɔu m ɔu f r 
+2930	THREE	bhw290	k k o r 
+2931	TWO	bhw290	s m ɔu ɔu 
+2922	EIGHT	bhw290	ɔu w r 
+2923	FIVE	bhw290	r i m 
+2924	FOUR	bhw290	f k ɔu k 
+2935	NINE	bhw291	aɪ s w 
+2936	ONE	bhw291	s o ɛ̃ ʃʰ 
+2937	SEVEN	bhw291	aɪ f k 
+2938	SIX	bhw291	w ə n ɛ̃ m 
+2939	TEN	bhw291	s ɔˑ m f u ʃʰ 
+2940	THREE	bhw291	k ə kp ʃʰ 
+2941	TWO	bhw291	s b̥ u u 
+2932	EIGHT	bhw291	ɔˑ w ʃʰ 
+2933	FIVE	bhw291	b̥ aɪ m 
+2934	FOUR	bhw291	kp f ɔˑ k 
+2945	NINE	bhw292	k i pʰ 
+2946	ONE	bhw292	k o e r 
+2947	SEVEN	bhw292	f i t̪ 
+2948	SIX	bhw292	wʲ o e n pʰ 
+2949	TEN	bhw292	k a pʰ f u r 
+2950	THREE	bhw292	t̪ o sʰ r 
+2951	TWO	bhw292	k r u u 
+2942	EIGHT	bhw292	wʲ a r 
+2943	FIVE	bhw292	i r pʰ 
+2944	FOUR	bhw292	f sʰ a t̪ 
+2955	NINE	bhw293	d̪ i w 
+2956	ONE	bhw293	o ɑˑ d̪ r 
+2957	SEVEN	bhw293	f i k 
+2958	SIX	bhw293	w o n ɑˑ m 
+2959	TEN	bhw293	d̪ ā m f u ɸ 
+2960	THREE	bhw293	k o k ɸ 
+2961	TWO	bhw293	d̪ ā m u 
+2952	EIGHT	bhw293	w ā ɸ 
+2953	FIVE	bhw293	r i m 
+2954	FOUR	bhw293	f k ā k 
+2965	NINE	bhw294	i s w 
+2966	ONE	bhw294	o s œ d̪ 
+2967	SEVEN	bhw294	i x k 
+2968	SIX	bhw294	o w x œ p 
+2969	TEN	bhw294	s ə m x ɤː d̪ 
+2970	THREE	bhw294	k j o d̪ 
+2971	TWO	bhw294	s ɤː r u 
+2962	EIGHT	bhw294	w ə d̪ 
+2963	FIVE	bhw294	r i p 
+2964	FOUR	bhw294	x j ə k 
+2975	NINE	bhw295	s i w 
+2976	ONE	bhw295	œ iə s θ 
+2977	SEVEN	bhw295	i β k 
+2978	SIX	bhw295	w iə β œ ʡ 
+2979	TEN	bhw295	s ə m β u θ 
+2980	THREE	bhw295	k j iə θ 
+2981	TWO	bhw295	s r u u 
+2972	EIGHT	bhw295	w ə θ 
+2973	FIVE	bhw295	r i ʡ 
+2974	FOUR	bhw295	j ə β k 
+2991	NINE	swe296	n aːi ä 
+2982	ONE	swe296	eː g̊ 
+2989	SEVEN	swe296	k ʉː 
+2988	SIX	swe296	ã k s sː 
+2992	TEN	swe296	aːi t ä 
+2985	THREE	swe296	t r ou 
+2984	TWO	swe296	v t oː 
+2990	EIGHT	swe296	dʲ ä a 
+2987	FIVE	swe296	f ɨ m 
+2986	FOUR	swe296	f yː r a 
+2996	NINE	bhw297	s i w 
+2997	ONE	bhw297	u s ə r 
+2998	SEVEN	bhw297	f i cː 
+2999	SIX	bhw297	w u n ə m 
+3000	TEN	bhw297	s m ə f ɔ̃u r 
+3001	THREE	bhw297	t̪ ɔ̃u cː r 
+3002	TWO	bhw297	s r u u 
+2993	EIGHT	bhw297	ə w r 
+2994	FIVE	bhw297	i r m 
+2999	FIVE	bhw297	w u n ə m 
+2995	FOUR	bhw297	f t̪ ə cː 
+3006	NINE	bhw298	i s jˀ 
+3007	ONE	bhw298	s ɛ̃ ə r 
+3008	SEVEN	bhw298	f i k 
+3009	SIX	bhw298	jˀ ɛ̃ g ə m 
+3010	TEN	bhw298	s a m f oˑ r 
+3011	THREE	bhw298	k ɛ̃ j r 
+3012	TWO	bhw298	s r oˑ oˑ 
+3003	EIGHT	bhw298	a jˀ r 
+3004	FIVE	bhw298	i r m 
+3005	FOUR	bhw298	f j a k 
+3016	NINE	bhw299	s i ɹ 
+3017	ONE	bhw299	s o e r 
+3018	SEVEN	bhw299	f i ɕː 
+3019	SIX	bhw299	w o e n ɹ 
+3020	TEN	bhw299	s a ɹ f u r 
+3021	THREE	bhw299	cː o tʲ r 
+3022	TWO	bhw299	s r u u 
+3013	EIGHT	bhw299	w a r 
+3014	FIVE	bhw299	i r ɹ 
+3015	FOUR	bhw299	f tʲ a ɕː 
+3031	NINE	swe300	n aːi ɔ 
+3023	ONE	swe300	ɓ ɛ 
+3029	SEVEN	swe300	aˑ ɧ 
+3028	SIX	swe300	ɛ s j sː 
+3032	TEN	swe300	t aːi ɔ 
+3025	THREE	swe300	t r uɔ 
+3024	TWO	swe300	t v ʏ 
+3030	EIGHT	swe300	β ɔ a 
+3027	FIVE	swe300	ɨi f m 
+3026	FOUR	swe300	f yː r ɤ 
+3036	NINE	bhw301	s i kʼ 
+3037	ONE	bhw301	aː tsʰ e β 
+3038	SEVEN	bhw301	s i cː 
+3039	SIX	bhw301	aː kʼ n e m 
+3040	TEN	bhw301	s ʌ m s u β 
+3041	THREE	bhw301	cː s aː β 
+3042	TWO	bhw301	β s u u 
+3033	EIGHT	bhw301	a kʼ β 
+3034	FIVE	bhw301	β i m 
+3035	FOUR	bhw301	s ʌ s cː 
+3046	NINE	bhw302	i s ʈ 
+3047	ONE	bhw302	o ɑˑ s r 
+3048	SEVEN	bhw302	i f k 
+3049	SIX	bhw302	ʈ o n ɑˑ m 
+3050	TEN	bhw302	s ɔˑ f m u r 
+3051	THREE	bhw302	k k o r 
+3052	TWO	bhw302	s u r u 
+3043	EIGHT	bhw302	ʈ ɔˑ r 
+3044	FIVE	bhw302	r i m 
+3045	FOUR	bhw302	f k ɔˑ k 
+3056	NINE	bhw303	s i w 
+3057	ONE	bhw303	o s ɛ̃ ʝ 
+3058	SEVEN	bhw303	i f k 
+3059	SIX	bhw303	w ø n ɛ̃ m 
+3060	TEN	bhw303	s ă m f a ʝ 
+3061	THREE	bhw303	k kp ø ʝ 
+3062	TWO	bhw303	s b̥ u u 
+3053	EIGHT	bhw303	w ă ʝ 
+3054	FIVE	bhw303	i b̥ m 
+3055	FOUR	bhw303	f kp ă k 
+3072	NINE	swe304	n aːi ɔ 
+3063	ONE	swe304	ʀ eː 
+3064	ONE	swe304	ɛ ʈ 
+3070	SEVEN	swe304	ɳ ʉː 
+3069	SIX	swe304	ɛ s k sː 
+3073	TEN	swe304	t aːi ɔ 
+3066	THREE	swe304	t ʃʰ uɔ 
+3065	TWO	swe304	v t ʏ 
+3071	EIGHT	swe304	tː ɔ a 
+3068	FIVE	swe304	f ɨi mʷ 
+3067	FOUR	swe304	f yː ʃʰ a 
+3077	NINE	bhw305	s i w 
+3078	ONE	bhw305	o ɬ œ d̪ 
+3079	SEVEN	bhw305	i f k 
+3081	TEN	bhw305	s tɬ ə f y d̪ 
+3082	THREE	bhw305	k j o d̪ 
+3083	TWO	bhw305	s ŋ u u 
+3074	EIGHT	bhw305	ə w d̪ 
+3075	FIVE	bhw305	i ŋ tɬ 
+3076	FOUR	bhw305	f j ə k 
+3087	NINE	bhw306	r̃ i w 
+3088	ONE	bhw306	o au r̃ kʷ 
+3089	SEVEN	bhw306	i f ɹ 
+3090	SIX	bhw306	w o ʈʂʰ au m 
+3091	TEN	bhw306	r̃ a m f u kʷ 
+3092	THREE	bhw306	ɹ r̃ o kʷ 
+3093	TWO	bhw306	r̃ r u u 
+3084	EIGHT	bhw306	a w ts 
+3085	FIVE	bhw306	r i m 
+3086	FOUR	bhw306	r̃ f a ɹ 
+3097	NINE	bhw307	s u t 
+3098	ONE	bhw307	o ʈ ə r 
+3099	SEVEN	bhw307	u f b 
+3100	SIX	bhw307	t o n ə m 
+3101	TEN	bhw307	a s f m ɔ̃ː r 
+3102	THREE	bhw307	b o j r 
+3103	TWO	bhw307	s r ɔ̃ː ɔ̃ː 
+3094	EIGHT	bhw307	a t r 
+3095	FIVE	bhw307	r u m 
+3096	FOUR	bhw307	f j ɞ b 
+3107	NINE	bhw308	s i t 
+3108	ONE	bhw308	s o ə r 
+3109	SEVEN	bhw308	i f k 
+3110	SIX	bhw308	t o z̩ i m 
+3111	TEN	bhw308	a s m ɔ̃ː f r 
+3112	THREE	bhw308	k o j r 
+3113	TWO	bhw308	s ɔ̃ː r ɔ̃ː 
+3104	EIGHT	bhw308	a t r 
+3105	FIVE	bhw308	r i m 
+3106	FOUR	bhw308	f j i k 
+3117	NINE	bhw309	i s mˀ 
+3118	ONE	bhw309	s o a̤ː r 
+3119	SEVEN	bhw309	i f cː 
+3120	SIX	bhw309	mˀ o a̤ː n m 
+3121	TEN	bhw309	s a m f u r 
+3122	THREE	bhw309	cː t̪ o r 
+3123	TWO	bhw309	s u r u 
+3114	EIGHT	bhw309	a mˀ r 
+3115	FIVE	bhw309	r i m 
+3116	FOUR	bhw309	f t̪ a cː 
+3127	NINE	bhw310	s o̞ kʼ 
+3128	ONE	bhw310	o tsʰ e r 
+3129	SEVEN	bhw310	f o̞ cː 
+3130	SIX	bhw310	o kʼ e n m 
+3131	TEN	bhw310	s ʌ m f u r 
+3132	THREE	bhw310	cː o s r 
+3133	TWO	bhw310	s r u u 
+3124	EIGHT	bhw310	ɛ̠ kʼ r 
+3125	FIVE	bhw310	r o̞ m 
+3126	FOUR	bhw310	f ʌ s cː 
+3137	NINE	bhw311	s au gː 
+3138	ONE	bhw311	s o aː r 
+3139	SEVEN	bhw311	f au cː 
+3140	SIX	bhw311	o gː aː n m 
+3141	TEN	bhw311	s m a f o r 
+3142	THREE	bhw311	cː t̪ o r 
+3143	TWO	bhw311	s r o o 
+3134	EIGHT	bhw311	gː a r 
+3135	FIVE	bhw311	au r m 
+3136	FOUR	bhw311	f a t̪ cː 
+3147	NINE	bhw312	i s w 
+3148	ONE	bhw312	eɪ s e pʲ 
+3149	SEVEN	bhw312	f i cː 
+3150	SIX	bhw312	w eɪ n e dʲ 
+3151	TEN	bhw312	s ɑ dʲ f u pʲ 
+3152	THREE	bhw312	s cː eɪ pʲ 
+3153	TWO	bhw312	s u w u 
+3144	EIGHT	bhw312	w ɑ pʲ 
+3145	FIVE	bhw312	w i dʲ 
+3146	FOUR	bhw312	s f ɑ cː 
+3157	NINE	bhw313	s oːu w 
+3158	ONE	bhw313	o ɑˑ s r 
+3159	SEVEN	bhw313	oːu f k 
+3160	SIX	bhw313	w o n ɑˑ m 
+3161	TEN	bhw313	s ɔˑ m f u r 
+3162	THREE	bhw313	k k o r 
+3163	TWO	bhw313	s u r u 
+3154	EIGHT	bhw313	ɔˑ w r 
+3155	FIVE	bhw313	r oːu m 
+3156	FOUR	bhw313	f k ɔˑ k 
+3167	NINE	bhw314	lʲ i m 
+3168	ONE	bhw314	lʲ o e r 
+3169	SEVEN	bhw314	f i cː 
+3170	SIX	bhw314	w o e n m 
+3171	TEN	bhw314	lʲ a m f ɪ r 
+3172	THREE	bhw314	cː t̪ o r 
+3173	TWO	bhw314	lʲ ɔ r ɔ 
+3164	EIGHT	bhw314	w a r 
+3165	FIVE	bhw314	i r m 
+3166	FOUR	bhw314	f t̪ a cː 
+3177	NINE	bhw315	ɑː s w 
+3178	ONE	bhw315	s o e ɗ 
+3179	SEVEN	bhw315	ɑː f k 
+3180	SIX	bhw315	w ʃː o e m 
+3181	TEN	bhw315	a s m f ẽ ɗ 
+3182	THREE	bhw315	k o j ɗ 
+3183	TWO	bhw315	ɗ s ɔ̃ː ɔ̃ː 
+3174	EIGHT	bhw315	w a ɗ 
+3175	FIVE	bhw315	ɑː ɗ m 
+3176	FOUR	bhw315	f j a k 
+3187	NINE	bhw316	s ʉ w 
+3188	ONE	bhw316	āː s e r 
+3189	SEVEN	bhw316	ʉ ŋː f 
+3190	SIX	bhw316	āː w e n m 
+3191	TEN	bhw316	s ə m ŋː āː r 
+3192	THREE	bhw316	t̪ f āː r 
+3193	TWO	bhw316	s r āː āː 
+3184	EIGHT	bhw316	ə w r 
+3185	FIVE	bhw316	r ʉ m 
+3186	FOUR	bhw316	ŋː ə t̪ f 
+3203	NINE	swe317	n aːi aˑ 
+3194	ONE	swe317	eː g̊ 
+3195	ONE	swe317	ɛ ʈ 
+3201	SEVEN	swe317	n̊ ʉː 
+3200	SIX	swe317	ɛ s k sː 
+3204	TEN	swe317	aːi t aˑ 
+3197	THREE	swe317	t r uɔ 
+3196	TWO	swe317	v t oː 
+3202	EIGHT	swe317	aˑ tː a 
+3199	FIVE	swe317	ɨ f m 
+3198	FOUR	swe317	f yː r a 
+3208	NINE	bhw318	s i w 
+3209	ONE	bhw318	o s ɛ̃ ʃʰ 
+3210	SEVEN	bhw318	i f k 
+3211	SIX	bhw318	w ə mː ɛ̃ m 
+3212	TEN	bhw318	s ɔˑ m f ɐː ʃʰ 
+3213	THREE	bhw318	k ə kp ʃʰ 
+3214	TWO	bhw318	s b̥ u u 
+3205	EIGHT	bhw318	w ɔˑ ʃʰ 
+3206	FIVE	bhw318	b̥ i m 
+3207	FOUR	bhw318	f kp ɔˑ k 
+3224	NINE	swe319	n aːi i 
+3215	ONE	swe319	ʀ eː 
+3216	ONE	swe319	ɛ ɓ 
+3222	SEVEN	swe319	ɧ ʉː 
+3221	SIX	swe319	ɛ s j sː 
+3225	TEN	swe319	t aːi i 
+3218	THREE	swe319	t r i 
+3217	TWO	swe319	v t ʏ 
+3223	EIGHT	swe319	tː i a 
+3220	FIVE	swe319	f ɨi m 
+3219	FOUR	swe319	f yː r a 
+3229	NINE	bhw320	h i w 
+3230	ONE	bhw320	h o e d̪ 
+3231	SEVEN	bhw320	i f h 
+3232	SIX	bhw320	w ə n e m 
+3233	TEN	bhw320	h õ f m ia d̪ 
+3234	THREE	bhw320	h ə b d̪ 
+3235	TWO	bhw320	h ia b̥ ia 
+3226	EIGHT	bhw320	ɔˑ w d̪ 
+3227	FIVE	bhw320	b̥ i m 
+3228	FOUR	bhw320	f b õ ʈː 
+3239	NINE	bhw321	i s t 
+3240	ONE	bhw321	s au ə r 
+3241	SEVEN	bhw321	i f k 
+3242	SIX	bhw321	t au n i m 
+3243	TEN	bhw321	a m s ɔ̃ː f r 
+3244	THREE	bhw321	k au j r 
+3245	TWO	bhw321	s ɔ̃ː r ɔ̃ː 
+3236	EIGHT	bhw321	a t r 
+3237	FIVE	bhw321	r i m 
+3238	FOUR	bhw321	f j a k 
+3249	NINE	bhw322	s ɐ̆ w 
+3250	ONE	bhw322	u s e pʲ 
+3251	SEVEN	bhw322	f ɐ̆ cː 
+3252	SIX	bhw322	w u n e m 
+3253	TEN	bhw322	s aɯ m f ĩː pʲ 
+3254	THREE	bhw322	cː s u pʲ 
+3255	TWO	bhw322	s r ĩː ĩː 
+3246	EIGHT	bhw322	aɯ w pʲ 
+3247	FIVE	bhw322	r ɐ̆ m 
+3248	FOUR	bhw322	s f aɯ cː 
+3259	NINE	bhw323	i s tː 
+3260	ONE	bhw323	s o e r 
+3261	SEVEN	bhw323	f i cː 
+3262	SIX	bhw323	tː o e n m 
+3263	TEN	bhw323	s a m ɑ̠ f r 
+3264	THREE	bhw323	cː t̪ o r 
+3265	TWO	bhw323	s ɑ̠ r u 
+3256	EIGHT	bhw323	a tː r 
+3257	FIVE	bhw323	r i m 
+3258	FOUR	bhw323	t̪ a f cː 
+3269	NINE	bhw324	i s t 
+3270	ONE	bhw324	s ɛ̃ o r 
+3271	SEVEN	bhw324	i f k 
+3272	SIX	bhw324	t ɛ̃ tɕ o m 
+3273	TEN	bhw324	s a m f ɔ̃ː r 
+3274	THREE	bhw324	k j ɛ̃ r 
+3275	TWO	bhw324	r s ɔ̃ː ɔ̃ː 
+3266	EIGHT	bhw324	a t r 
+3267	FIVE	bhw324	r i m 
+3268	FOUR	bhw324	f j a k 
+3279	NINE	bhw325	s i kʼ 
+3280	ONE	bhw325	o tsʰ e β 
+3281	SEVEN	bhw325	i s cː 
+3282	SIX	bhw325	o d̪ʰ kʼ e lː 
+3283	TEN	bhw325	s ʌ s m aːi β 
+3284	THREE	bhw325	cː s o β 
+3285	TWO	bhw325	s β aːi aːi 
+3276	EIGHT	bhw325	a kʼ β 
+3277	FIVE	bhw325	β i lː 
+3278	FOUR	bhw325	s ʌ s cː 
+3289	NINE	bhw326	s i g 
+3290	ONE	bhw326	o s u pʲ 
+3291	SEVEN	bhw326	kʲ i cː 
+3292	SIX	bhw326	g o n u m 
+3293	TEN	bhw326	s ɨˤ m kʲ u pʲ 
+3294	THREE	bhw326	cː s o pʲ 
+3295	TWO	bhw326	s u r u 
+3286	EIGHT	bhw326	ãi g pʲ 
+3287	FIVE	bhw326	r i m 
+3288	FOUR	bhw326	s kʲ ɨˤ cː 
+3305	NINE	swe327	n aːi ä 
+3296	ONE	swe327	g̊ eː 
+3297	ONE	swe327	ʈ ī 
+3303	SEVEN	swe327	ˀw ʉː 
+3302	SIX	swe327	ī k s sː 
+3306	TEN	swe327	aːi t ä 
+3299	THREE	swe327	t r ou 
+3298	TWO	swe327	ʁ t oː 
+3304	EIGHT	swe327	dʲ ä a 
+3301	FIVE	swe327	f ɨ ɲ̥ 
+3300	FOUR	swe327	f yː r a 
+3310	NINE	bhw328	s i w 
+3311	ONE	bhw328	s u e r 
+3312	SEVEN	bhw328	kʼ i cː 
+3313	SIX	bhw328	w u e n m 
+3314	TEN	bhw328	s ə m kʼ ɔ̃u r 
+3315	THREE	bhw328	t̪ ɔ̃u cː r 
+3316	TWO	bhw328	s r u u 
+3307	EIGHT	bhw328	ə w r 
+3308	FIVE	bhw328	i r m 
+3313	FIVE	bhw328	w u e n m 
+3309	FOUR	bhw328	kʼ t̪ ə cː 
+3320	NINE	bhw329	i s w 
+3321	ONE	bhw329	s o e r 
+3322	SEVEN	bhw329	f i k 
+3323	SIX	bhw329	w o e n m 
+3324	TEN	bhw329	s a m u f r 
+3325	THREE	bhw329	k t̪ o r 
+3326	TWO	bhw329	s r u u 
+3317	EIGHT	bhw329	w a r 
+3318	FIVE	bhw329	r i m 
+3319	FOUR	bhw329	f t̪ a k 
+3330	NINE	bhw330	s i rʲ 
+3331	ONE	bhw330	o ɑˑ s r 
+3332	SEVEN	bhw330	f i k 
+3333	SIX	bhw330	o rʲ n ɑˑ nʲ 
+3334	TEN	bhw330	s nʲ ɨ̠ f ɨ̠ r 
+3335	THREE	bhw330	k k ɑ̃ r 
+3336	TWO	bhw330	s ɨ̠ r ɨ̠ 
+3327	EIGHT	bhw330	ɨ̠ rʲ r 
+3328	FIVE	bhw330	r i nʲ 
+3329	FOUR	bhw330	f k ɨ̠ k 
+3340	NINE	bhw331	i s w 
+3341	ONE	bhw331	o s ɛ̃ d̪ 
+3342	SEVEN	bhw331	i f k 
+3343	SIX	bhw331	w ø n ɛ̃ m 
+3344	TEN	bhw331	s uɔ m f u d̪ 
+3345	THREE	bhw331	k kp ø d̪ 
+3346	TWO	bhw331	s b̥ u u 
+3337	EIGHT	bhw331	w uɔ d̪ 
+3338	FIVE	bhw331	i b̥ m 
+3339	FOUR	bhw331	f kp uɔ k 
+3356	NINE	swe332	aːi n aˑ 
+3347	ONE	swe332	eː g̊ 
+3348	ONE	swe332	ɛ ʈ 
+3354	SEVEN	swe332	p ʉː 
+3353	SIX	swe332	ɛ s k sː 
+3357	TEN	swe332	aːi t aˑ 
+3350	THREE	swe332	t r uɔ 
+3349	TWO	swe332	ⁿd t oː 
+3355	EIGHT	swe332	aˑ tː a 
+3352	FIVE	swe332	ɨ f m 
+3351	FOUR	swe332	f yː r a 
+3361	NINE	bhw333	i s w 
+3362	ONE	bhw333	əu s e r 
+3363	SEVEN	bhw333	ŋː i cː 
+3364	SIX	bhw333	w əu e n m 
+3365	TEN	bhw333	s ə m ŋː əu r 
+3366	THREE	bhw333	t̪ əu cː r 
+3367	TWO	bhw333	s r əu əu 
+3358	EIGHT	bhw333	ə w r 
+3359	FIVE	bhw333	r i m 
+3360	FOUR	bhw333	ŋː ə t̪ cː 
+3371	NINE	bhw334	ʀ yː w 
+3372	ONE	bhw334	ʀ u e r 
+3373	SEVEN	bhw334	f yː cː 
+3374	SIX	bhw334	u w e n m 
+3375	TEN	bhw334	ʀ ə m f ɔ̃ r 
+3376	THREE	bhw334	t̪ ɔ̃ cː r 
+3377	TWO	bhw334	r ʀ u u 
+3368	EIGHT	bhw334	ə w r 
+3369	FIVE	bhw334	yː r m 
+3370	FOUR	bhw334	f t̪ ə cː 
+3381	NINE	bhw335	s i w 
+3382	ONE	bhw335	l eɪ e pʲ 
+3383	SEVEN	bhw335	f i ʂ 
+3384	SIX	bhw335	w ɑ̱ n e l 
+3385	TEN	bhw335	s a l u f pʲ 
+3386	THREE	bhw335	s ʂ ɑ̱ pʲ 
+3387	TWO	bhw335	s u ʋ u 
+3378	EIGHT	bhw335	a w pʲ 
+3379	FIVE	bhw335	i ʋ l 
+3380	FOUR	bhw335	s f a ʂ 
+3391	NINE	bhw336	s i w 
+3392	ONE	bhw336	o s au kʷ 
+3393	SEVEN	bhw336	f i cː 
+3394	SIX	bhw336	w o j au m 
+3395	TEN	bhw336	s a f m u kʷ 
+3396	THREE	bhw336	cː s o kʷ 
+3397	TWO	bhw336	s zʲ u u 
+3388	EIGHT	bhw336	a w tʲ 
+3389	FIVE	bhw336	zʲ i m 
+3390	FOUR	bhw336	s f a cː 
+3401	NINE	bhw337	i s t 
+3402	ONE	bhw337	s o ə g 
+3403	SEVEN	bhw337	i tsʰ k 
+3404	SIX	bhw337	t o n ə m 
+3405	TEN	bhw337	s ə̆ m tsʰ ɔ̃ː g 
+3406	THREE	bhw337	k o j r 
+3407	TWO	bhw337	r s ɔ̃ː ɔ̃ː 
+3398	EIGHT	bhw337	ə̆ t r 
+3399	FIVE	bhw337	i r m 
+3400	FOUR	bhw337	tsʰ j ə̆ k 
+3411	NINE	bhw338	s i w 
+3412	ONE	bhw338	o s ɛ̃ ʝ 
+3413	SEVEN	bhw338	i f χ 
+3414	SIX	bhw338	w ø tʰ ɛ̃ m 
+3415	TEN	bhw338	s ă f m ʌ ʝ 
+3416	THREE	bhw338	χ kp ø ʝ 
+3417	TWO	bhw338	s b̥ u u 
+3408	EIGHT	bhw338	ă w ʝ 
+3409	FIVE	bhw338	b̥ i m 
+3410	FOUR	bhw338	f kp ă χ 
+3421	NINE	bhw339	dː i n 
+3422	ONE	bhw339	dː o o̞ː r 
+3423	SEVEN	bhw339	i ŋ̩ k 
+3424	SIX	bhw339	n o n o̞ː m 
+3425	TEN	bhw339	ʊː m dː ŋ̩ ɔ̃ː r 
+3426	THREE	bhw339	k o j r 
+3427	TWO	bhw339	r dː ɔ̃ː ɔ̃ː 
+3418	EIGHT	bhw339	ʊː n r 
+3419	FIVE	bhw339	i r m 
+3420	FOUR	bhw339	j ŋ̩ ɔʊ ˀl 
+3431	NINE	bhw340	zʲ i w 
+3432	ONE	bhw340	u zʲ e r 
+3433	SEVEN	bhw340	f i cː 
+3434	SIX	bhw340	w u e n m 
+3435	TEN	bhw340	zʲ ə m f ɔ r 
+3436	THREE	bhw340	t̪ cː ɔ r 
+3437	TWO	bhw340	zʲ u r u 
+3428	EIGHT	bhw340	ə w r 
+3429	FIVE	bhw340	i r m 
+3430	FOUR	bhw340	f t̪ ə cː 
+3441	NINE	bhw341	s i t 
+3442	ONE	bhw341	s o eˑ l 
+3443	SEVEN	bhw341	i tɕʰ k 
+3444	SIX	bhw341	t o eˑ n m 
+3445	TEN	bhw341	ʊː s m tɕʰ ɔ̃ː l 
+3446	THREE	bhw341	k o j l 
+3447	TWO	bhw341	s l ɔ̃ː ɔ̃ː 
+3438	EIGHT	bhw341	ʊː t l 
+3439	FIVE	bhw341	i l m 
+3440	FOUR	bhw341	j tɕʰ ʊː k 
+3451	NINE	bhw342	s i w 
+3452	ONE	bhw342	o ɬ œ d̪ 
+3453	SEVEN	bhw342	i f k 
+3455	TEN	bhw342	s ə m f y d̪ 
+3456	THREE	bhw342	k ʔ o d̪ 
+3457	TWO	bhw342	s u r u 
+3448	EIGHT	bhw342	ə w d̪ 
+3449	FIVE	bhw342	i r m 
+3450	FOUR	bhw342	f ʔ ə k 
+3461	NINE	bhw343	r̃ i w 
+3462	ONE	bhw343	o au r̃ kʷ 
+3463	SEVEN	bhw343	i f cː 
+3464	SIX	bhw343	w o j au m 
+3465	TEN	bhw343	r̃ a m f u kʷ 
+3466	THREE	bhw343	cː r̃ o kʷ 
+3467	TWO	bhw343	r r̃ u u 
+3458	EIGHT	bhw343	a w k 
+3459	FIVE	bhw343	r i m 
+3460	FOUR	bhw343	r̃ f a cː 
+3471	NINE	bhw344	s i t 
+3472	ONE	bhw344	s o ə dʷ 
+3473	SEVEN	bhw344	i f tʼ 
+3474	SIX	bhw344	t n o ə bʰ 
+3475	TEN	bhw344	a s f bʰ ɔ̃ː dʷ 
+3476	THREE	bhw344	o tʼ j dʷ 
+3477	TWO	bhw344	s dʷ ɔ̃ː ɔ̃ː 
+3468	EIGHT	bhw344	a t dʷ 
+3469	FIVE	bhw344	au dʷ bʰ 
+3470	FOUR	bhw344	f j a tʼ 
+3481	NINE	bhw345	s i t 
+3482	ONE	bhw345	o ʈ ə r 
+3483	SEVEN	bhw345	i f b 
+3484	SIX	bhw345	t o n ə m 
+3485	TEN	bhw345	a s f m œː r 
+3486	THREE	bhw345	b o j r 
+3487	TWO	bhw345	r uo s uo 
+3478	EIGHT	bhw345	a t r 
+3479	FIVE	bhw345	r i m 
+3480	FOUR	bhw345	f j ɒ b 
+3496	NINE	swe346	n aːi ɔ 
+3488	ONE	swe346	ø̠ ʈ 
+3494	SEVEN	swe346	ɧ ʉː 
+3493	SIX	swe346	ø̠ k s sː 
+3497	TEN	swe346	aːi t ɔ 
+3490	THREE	swe346	t r uɔ 
+3489	TWO	swe346	v t oː 
+3495	EIGHT	swe346	d ɔ a 
+3492	FIVE	swe346	m̩ ɨ n̩ 
+3491	FOUR	swe346	m̩ yː r a 
+3501	NINE	bhw347	s ɑ˞ t 
+3502	ONE	bhw347	s o ə r 
+3503	SEVEN	bhw347	f ɑ˞ k 
+3504	SIX	bhw347	n t o ɑ˞ m 
+3505	TEN	bhw347	a s m f ɔ̃ː r 
+3506	THREE	bhw347	k aː j r 
+3507	TWO	bhw347	s r ɔ̃ː ɔ̃ː 
+3498	EIGHT	bhw347	a t r 
+3499	FIVE	bhw347	r ɑ˞ m 
+3500	FOUR	bhw347	f j a k 
+3517	NINE	swe348	aːi n ɔ 
+3508	ONE	swe348	eː g̊ 
+3509	ONE	swe348	ʈ ɛ 
+3515	SEVEN	swe348	n̊ ʉː 
+3514	SIX	swe348	ɛ s k sː 
+3518	TEN	swe348	aːi t ɔ 
+3511	THREE	swe348	t r uɔ 
+3510	TWO	swe348	v t oː 
+3516	EIGHT	swe348	ɔ dʲ a 
+3513	FIVE	swe348	f ɨ m 
+3512	FOUR	swe348	f yː r a 
+3522	NINE	bhw349	s əu w 
+3523	ONE	bhw349	s āː e ȶ 
+3524	SEVEN	bhw349	əu ŋː cː 
+3525	SIX	bhw349	āː w e n m 
+3526	TEN	bhw349	s ə m ŋː āː ȶ 
+3527	THREE	bhw349	t̪ cː āː ȶ 
+3528	TWO	bhw349	s ȶ āː āː 
+3519	EIGHT	bhw349	ə w ȶ 
+3520	FIVE	bhw349	ȶ əu m 
+3521	FOUR	bhw349	ŋː ə t̪ cː 
+3538	NINE	swe350	aːi n ɔ 
+3529	ONE	swe350	eː ʀ 
+3530	ONE	swe350	ɓ ɛ 
+3536	SEVEN	swe350	ɧ ʉː 
+3535	SIX	swe350	ɛ s j sː 
+3539	TEN	swe350	aːi t ɔ 
+3532	THREE	swe350	t r ɔ 
+3531	TWO	swe350	s t ʏ 
+3537	EIGHT	swe350	tː ɔ a 
+3534	FIVE	swe350	f ɨi m 
+3533	FOUR	swe350	f yː l̪ a 
+3543	NINE	bhw351	i s tː 
+3544	ONE	bhw351	s o e r 
+3545	SEVEN	bhw351	f i cː 
+3546	SIX	bhw351	tː o e n m 
+3547	TEN	bhw351	s iu m f u r 
+3548	THREE	bhw351	cː t̪ o r 
+3549	TWO	bhw351	s u r u 
+3540	EIGHT	bhw351	iu tː r 
+3541	FIVE	bhw351	r i m 
+3542	FOUR	bhw351	t̪ f iu cː 
+3553	NINE	bhw352	i ɸ w 
+3554	ONE	bhw352	o ɸ e pʲ 
+3555	SEVEN	bhw352	i f d̪ 
+3556	SIX	bhw352	w o n e m 
+3557	TEN	bhw352	ɸ e̠ m f u pʲ 
+3558	THREE	bhw352	d̪ ɸ o pʲ 
+3559	TWO	bhw352	ɸ u hː u 
+3550	EIGHT	bhw352	e̠ w pʲ 
+3551	FIVE	bhw352	ŋ i m 
+3552	FOUR	bhw352	ɸ f e̠ d̪ 
+3563	NINE	bhw353	āː s w 
+3564	ONE	bhw353	s o e ʃ 
+3565	SEVEN	bhw353	āː f k 
+3566	SIX	bhw353	w ʃː e o m 
+3567	TEN	bhw353	a m s f ũ ʃ 
+3568	THREE	bhw353	k o j ʃ 
+3569	TWO	bhw353	s ʃ ɔ̃ː ɔ̃ː 
+3560	EIGHT	bhw353	w a ʃ 
+3561	FIVE	bhw353	āː ʃ m 
+3562	FOUR	bhw353	f a j k 
+3573	NINE	bhw354	i dː t 
+3574	ONE	bhw354	dː o ə r 
+3575	SEVEN	bhw354	i ŋ̩ k 
+3576	SIX	bhw354	t o ɬ ə bː 
+3577	TEN	bhw354	ĩ dː m ɔ̃ː ŋ̩ r 
+3578	THREE	bhw354	k o j r 
+3579	TWO	bhw354	r dː ɔ̃ː ɔ̃ː 
+3570	EIGHT	bhw354	t ĩ r 
+3571	FIVE	bhw354	i r m 
+3572	FOUR	bhw354	ŋ̩ j ĩ k 
+3583	NINE	bhw355	s ie t 
+3584	ONE	bhw355	o s ə dː 
+3585	SEVEN	bhw355	ie f ⁿd 
+3586	SIX	bhw355	t o χː ə m 
+3587	TEN	bhw355	s a f m ɔ̃ː dː 
+3588	THREE	bhw355	ⁿd o j r 
+3589	TWO	bhw355	r s ɔ̃ː ɔ̃ː 
+3580	EIGHT	bhw355	t a dː 
+3581	FIVE	bhw355	r ie m 
+3582	FOUR	bhw355	f j ɒ ⁿd 
+3593	NINE	bhw356	s i w 
+3594	ONE	bhw356	o s u pʲ 
+3595	SEVEN	bhw356	i kʲ cː 
+3596	SIX	bhw356	w o n u m 
+3597	TEN	bhw356	s ɨˤ m kʲ ə pʲ 
+3598	THREE	bhw356	cː s o pʲ 
+3599	TWO	bhw356	s ə r ə 
+3590	EIGHT	bhw356	w ãi pʲ 
+3591	FIVE	bhw356	r i m 
+3592	FOUR	bhw356	s kʲ ɨˤ cː 
+3603	NINE	bhw357	s u̥ rʲ 
+3604	ONE	bhw357	o ɑˑ s r 
+3605	SEVEN	bhw357	i f k 
+3606	SIX	bhw357	rʲ o n ɑˑ nʲ 
+3607	TEN	bhw357	nʲ s a f a r 
+3608	THREE	bhw357	k k o r 
+3609	TWO	bhw357	s a r a 
+3600	EIGHT	bhw357	a rʲ r 
+3601	FIVE	bhw357	r u̥ nʲ 
+3602	FOUR	bhw357	f k a k 
+3613	NINE	bhw358	ʀ i w 
+3614	ONE	bhw358	u ʀ e r 
+3615	SEVEN	bhw358	f i cː 
+3616	SIX	bhw358	u w qˀ e m 
+3617	TEN	bhw358	ʀ ə m f ɔ̃ r 
+3618	THREE	bhw358	t̪ ɔ̃ cː r 
+3619	TWO	bhw358	r ʀ u u 
+3610	EIGHT	bhw358	ə w r 
+3611	FIVE	bhw358	i r m 
+3612	FOUR	bhw358	f t̪ ə cː 
+3623	NINE	bhw359	i s w 
+3624	ONE	bhw359	o s e r 
+3625	SEVEN	bhw359	i f cː 
+3626	SIX	bhw359	w e o n m 
+3627	TEN	bhw359	s m aːu f u r 
+3628	THREE	bhw359	cː t̪ o r 
+3629	TWO	bhw359	s r u u 
+3620	EIGHT	bhw359	w aːu r 
+3621	FIVE	bhw359	r i m 
+3622	FOUR	bhw359	f t̪ aːu cː 
+3633	NINE	bhw360	i s t 
+3634	ONE	bhw360	s œː ə r 
+3635	SEVEN	bhw360	f i b 
+3636	SIX	bhw360	œː t n ə m 
+3637	TEN	bhw360	a s f m o r 
+3638	THREE	bhw360	b œː j r 
+3639	TWO	bhw360	s r ɔ̃ː ɔ̃ː 
+3630	EIGHT	bhw360	a t r 
+3631	FIVE	bhw360	r i m 
+3632	FOUR	bhw360	j f ɒ b 
+3649	NINE	swe361	n aːi ɔ 
+3640	ONE	swe361	eː g̊ 
+3641	ONE	swe361	ʈ ɛ 
+3647	SEVEN	swe361	ɧ ʉː 
+3646	SIX	swe361	ɛ k s sː 
+3650	TEN	swe361	aːi t ɔ 
+3643	THREE	swe361	r t uɔ 
+3642	TWO	swe361	t v oː 
+3648	EIGHT	swe361	ɔ tː a 
+3645	FIVE	swe361	bʲ ɯi ɓ 
+3644	FOUR	swe361	bʲ ə r a 
+3654	NINE	bhw362	s ĩ w 
+3655	ONE	bhw362	o s e ɗ 
+3656	SEVEN	bhw362	ĩ x ɕʲ 
+3657	SIX	bhw362	w ʃː o e m 
+3658	TEN	bhw362	æ̃ s m x uɔ ɗ 
+3659	THREE	bhw362	o ɕʲ j ɗ 
+3660	TWO	bhw362	s ɗ ɔ̃ː ɔ̃ː 
+3651	EIGHT	bhw362	w æ̃ ɗ 
+3652	FIVE	bhw362	ɗ ĩ m 
+3653	FOUR	bhw362	x j æ̃ ɕʲ 
+3664	NINE	bhw363	s i w 
+3665	ONE	bhw363	o ɬ œ d̪ 
+3666	SEVEN	bhw363	i f k 
+3668	TEN	bhw363	s m ə f y d̪ 
+3669	THREE	bhw363	k j o d̪ 
+3670	TWO	bhw363	s r u u 
+3661	EIGHT	bhw363	ə w d̪ 
+3662	FIVE	bhw363	i r m 
+3663	FOUR	bhw363	f j ə k 
+3674	NINE	bhw364	i s t 
+3675	ONE	bhw364	ɛ̃ s o t͈ 
+3676	SEVEN	bhw364	i f k 
+3677	SIX	bhw364	t ɛ̃ dʒ o m 
+3678	TEN	bhw364	s a m f ɔ̃ː t͈ 
+3679	THREE	bhw364	k j ɛ̃ t͈ 
+3680	TWO	bhw364	t͈ s ɔ̃ː ɔ̃ː 
+3671	EIGHT	bhw364	a t t͈ 
+3672	FIVE	bhw364	t͈ i m 
+3673	FOUR	bhw364	f j a k 
+3684	NINE	bhw365	s i kʼ 
+3685	ONE	bhw365	o tsʰ e β 
+3686	SEVEN	bhw365	s i cː 
+3687	SIX	bhw365	o d̪ʰ kʼ e lː 
+3688	TEN	bhw365	s ʌ s m aːi β 
+3689	THREE	bhw365	cː s o β 
+3690	TWO	bhw365	s β aːi aːi 
+3681	EIGHT	bhw365	a kʼ β 
+3682	FIVE	bhw365	β i lː 
+3683	FOUR	bhw365	s ʌ s cː 
+3694	NINE	bhw366	i r w 
+3695	ONE	bhw366	əu r e r 
+3696	SEVEN	bhw366	i ŋː cː 
+3697	SIX	bhw366	w əu e n m 
+3698	TEN	bhw366	r ə m əu ŋː r 
+3699	THREE	bhw366	t̪ əu cː r 
+3700	TWO	bhw366	r r əu əu 
+3691	EIGHT	bhw366	ə w r 
+3692	FIVE	bhw366	i r m 
+3693	FOUR	bhw366	ŋː t̪ ə cː 
+3710	NINE	swe367	aːi n ɔ 
+3701	ONE	swe367	eː g̊ 
+3702	ONE	swe367	ɛ ʈ 
+3708	SEVEN	swe367	n̊ ʉː 
+3707	SIX	swe367	ɛ ʃː k sː 
+3711	TEN	swe367	t aːi ɔ 
+3704	THREE	swe367	t r uɔ 
+3703	TWO	swe367	v t oː 
+3709	EIGHT	swe367	dʲ ɔ a 
+3706	FIVE	swe367	p ɨ m 
+3705	FOUR	swe367	p yː r a 
+3715	NINE	bhw368	i s w 
+3716	ONE	bhw368	s o e r 
+3717	SEVEN	bhw368	f i cː 
+3718	SIX	bhw368	w o e n m 
+3719	TEN	bhw368	s a m f ʊ r 
+3720	THREE	bhw368	cː t̪ o r 
+3721	TWO	bhw368	r s u u 
+3712	EIGHT	bhw368	w a r 
+3713	FIVE	bhw368	r i m 
+3714	FOUR	bhw368	f t̪ a cː 
+3725	NINE	bhw369	āː s w 
+3726	ONE	bhw369	s o æː ɗ 
+3727	SEVEN	bhw369	āː f k 
+3728	SIX	bhw369	w ʃː æː o m 
+3729	TEN	bhw369	a s m f ẽ ɗ 
+3730	THREE	bhw369	k ɔˑ j ɗ 
+3731	TWO	bhw369	s ɗ ɔ̃ː ɔ̃ː 
+3722	EIGHT	bhw369	a w ɗ 
+3723	FIVE	bhw369	āː ɗ m 
+3724	FOUR	bhw369	f j a k 
+3735	NINE	bhw370	s ɔ̃ w 
+3736	ONE	bhw370	u s e r 
+3737	SEVEN	bhw370	ɔ̃ f cː 
+3738	SIX	bhw370	w u e n m 
+3739	TEN	bhw370	s ə m f ɔ̃u r 
+3740	THREE	bhw370	ts ɔ̃u cː r 
+3741	TWO	bhw370	s r u u 
+3732	EIGHT	bhw370	ə w r 
+3733	FIVE	bhw370	i r m 
+3734	FOUR	bhw370	f ts ə cː 
+3745	NINE	bhw371	i s t 
+3746	ONE	bhw371	s o ə l 
+3747	SEVEN	bhw371	i tɕʰ k 
+3748	SIX	bhw371	t o ə n m 
+3749	TEN	bhw371	ʊː s m tɕʰ ɔ̃ː l 
+3750	THREE	bhw371	k o j l 
+3751	TWO	bhw371	s l ɔ̃ː ɔ̃ː 
+3742	EIGHT	bhw371	ʊː t l 
+3743	FIVE	bhw371	i l m 
+3744	FOUR	bhw371	j tɕʰ ʊː k 
+3755	NINE	bhw372	i s w 
+3756	ONE	bhw372	o ɗː e d̪ 
+3757	SEVEN	bhw372	dʑ i k 
+3758	SIX	bhw372	w o n e m 
+3759	TEN	bhw372	s ɔˑ m dʑ u d̪ 
+3760	THREE	bhw372	k j o d̪ 
+3761	TWO	bhw372	s u r u 
+3752	EIGHT	bhw372	ɔˑ w d̪ 
+3753	FIVE	bhw372	r i m 
+3754	FOUR	bhw372	dʑ j ɔˑ k 
+3775	NINE	bhw374	s i kʼ 
+3776	ONE	bhw374	tsʰ o e β 
+3777	SEVEN	bhw374	s i cː 
+3778	SIX	bhw374	o d̪ʰ kʼ e m 
+3779	TEN	bhw374	s ʌ s m ɨ̠ β 
+3780	THREE	bhw374	cː s o β 
+3781	TWO	bhw374	s β aːi aːi 
+3772	EIGHT	bhw374	a kʼ β 
+3773	FIVE	bhw374	β i m 
+3774	FOUR	bhw374	s ʌ s cː 
+3785	NINE	bhw375	s i kʼ 
+3786	ONE	bhw375	o tsʰ õ r 
+3787	SEVEN	bhw375	ʒ i cː 
+3788	SIX	bhw375	o kʼ qʰ õ m 
+3789	TEN	bhw375	s a m ʒ e̞ r 
+3790	THREE	bhw375	cː s o r 
+3791	TWO	bhw375	s r e̞ e̞ 
+3782	EIGHT	bhw375	a kʼ r 
+3783	FIVE	bhw375	i r m 
+3784	FOUR	bhw375	ʒ a s cː 
+3795	NINE	bhw376	ɐu dʲː ɯ̱ 
+3796	ONE	bhw376	o tsʰ e r 
+3797	SEVEN	bhw376	ʒ ɐu cː 
+3798	SIX	bhw376	o ɯ̱ n e m 
+3799	TEN	bhw376	dʲː a m ʒ u r 
+3800	THREE	bhw376	cː dʲː o r 
+3801	TWO	bhw376	dʲː r u u 
+3792	EIGHT	bhw376	a ɯ̱ r 
+3793	FIVE	bhw376	r ɐu m 
+3794	FOUR	bhw376	ʒ a dʲː cː 
+3805	NINE	bhw377	i ˀd w 
+3806	ONE	bhw377	o e ˀd pʲ 
+3807	SEVEN	bhw377	i ɓ cː 
+3808	SIX	bhw377	w o θ e ʋ 
+3809	TEN	bhw377	yː ˀd ʋ ɓ u pʲ 
+3810	THREE	bhw377	ˀd cː o pʲ 
+3811	TWO	bhw377	u ˀd r u 
+3802	EIGHT	bhw377	a w pʲ 
+3803	FIVE	bhw377	i r ʋ 
+3804	FOUR	bhw377	ˀd ɓ yː cː 
+3815	NINE	bhw378	s i w 
+3816	ONE	bhw378	ɬ o œ d̪ 
+3817	SEVEN	bhw378	i f k 
+3819	TEN	bhw378	s m f ə æ̃ d̪ 
+3820	THREE	bhw378	k o j d̪ 
+3821	TWO	bhw378	s r u u 
+3812	EIGHT	bhw378	ə w d̪ 
+3813	FIVE	bhw378	i r m 
+3814	FOUR	bhw378	f j ə k 
+3825	NINE	bhw379	s i w 
+3826	ONE	bhw379	s o e d̪ 
+3827	SEVEN	bhw379	i f s 
+3828	SIX	bhw379	w ŏ n e m 
+3829	TEN	bhw379	s ɔˑ m f u d̪ 
+3830	THREE	bhw379	s ts ŏ d̪ 
+3831	TWO	bhw379	s b̥ u u 
+3822	EIGHT	bhw379	ɔˑ w d̪ 
+3823	FIVE	bhw379	b̥ i m 
+3824	FOUR	bhw379	f ts ɔˑ ʈʰ 
+3835	NINE	bhw380	s i ʁˤ 
+3836	ONE	bhw380	eɪ m e pʲ 
+3837	SEVEN	bhw380	i f cː 
+3838	SIX	bhw380	ʁˤ n eɪ e m 
+3839	TEN	bhw380	s a m u f pʲ 
+3840	THREE	bhw380	s cː eɪ pʲ 
+3841	TWO	bhw380	u s r u 
+3832	EIGHT	bhw380	a ʁˤ pʲ 
+3833	FIVE	bhw380	i r m 
+3834	FOUR	bhw380	s f a cː 
+3845	NINE	bhw381	oːu jˀ w 
+3846	ONE	bhw381	o ɔ̃ jˀ r 
+3847	SEVEN	bhw381	oːu f k 
+3848	SIX	bhw381	w o n ɔ̃ ɬ 
+3849	TEN	bhw381	jˀ ʉ ɬ f u r 
+3850	THREE	bhw381	k k o r 
+3851	TWO	bhw381	jˀ u r u 
+3842	EIGHT	bhw381	w ʉ r 
+3843	FIVE	bhw381	r oːu ɬ 
+3844	FOUR	bhw381	f k ʉ k 
+3855	NINE	bhw382	s au fʲ 
+3856	ONE	bhw382	s e e r 
+3857	SEVEN	bhw382	f au cː 
+3858	SIX	bhw382	fʲ e e n m 
+3859	TEN	bhw382	s m a f u r 
+3860	THREE	bhw382	cː t̪ e r 
+3861	TWO	bhw382	s u r u 
+3852	EIGHT	bhw382	fʲ a r 
+3853	FIVE	bhw382	r au m 
+3854	FOUR	bhw382	f t̪ a cː 
+3865	NINE	bhw383	õ s tsː 
+3866	ONE	bhw383	u s u r 
+3867	SEVEN	bhw383	f õ cː 
+3868	SIX	bhw383	tsː u u n m 
+3869	TEN	bhw383	s ə m f o r 
+3870	THREE	bhw383	t̪ cː o r 
+3871	TWO	bhw383	s r u u 
+3862	EIGHT	bhw383	ə tsː r 
+3863	FIVE	bhw383	õ r m 
+3864	FOUR	bhw383	f t̪ ə cː 
+3875	NINE	bhw384	i s ˀb 
+3876	ONE	bhw384	o œ s d̪ 
+3877	SEVEN	bhw384	i dʑ k 
+3878	SIX	bhw384	ˀb o n œ ȵ 
+3879	TEN	bhw384	s ɔˑ ȵ dʑ u d̪ 
+3880	THREE	bhw384	k j o d̪ 
+3881	TWO	bhw384	s r u u 
+3872	EIGHT	bhw384	ɔˑ ˀb d̪ 
+3873	FIVE	bhw384	r a̱ ȵ 
+3874	FOUR	bhw384	dʑ j ɔˑ k 
+3885	NINE	bhw385	s iɛ w 
+3886	ONE	bhw385	eɪ e s pʲ 
+3887	SEVEN	bhw385	i f jˀ 
+3888	SIX	bhw385	w eɪ n e dʲ 
+3889	TEN	bhw385	s a dʲ f u pʲ 
+3890	THREE	bhw385	s cː eɪ pʲ 
+3891	TWO	bhw385	s u r u 
+3882	EIGHT	bhw385	a w pʲ 
+3883	FIVE	bhw385	r iɛ dʲ 
+3884	FOUR	bhw385	f s a jˀ 
+3900	NINE	swe386	aːi ȵ ʌ 
+3892	ONE	swe386	ɛ ʈ 
+3898	SEVEN	swe386	ɧ ʉː 
+3897	SIX	swe386	ɛ s k sː 
+3901	TEN	swe386	t aːi ʌ 
+3894	THREE	swe386	t r uɔ 
+3893	TWO	swe386	v t oː 
+3899	EIGHT	swe386	ʌ tː a 
+3896	FIVE	swe386	ɑi f dʲ 
+3895	FOUR	swe386	yː f r a 
+3905	NINE	bhw387	i s w 
+3906	ONE	bhw387	o s e ɗ 
+3907	SEVEN	bhw387	i f k 
+3908	SIX	bhw387	w ʃː o e m 
+3909	TEN	bhw387	a s m f ẽ ɗ 
+3910	THREE	bhw387	k o j ɗ 
+3911	TWO	bhw387	ɔ̃ː s ɗ ɔ̃ː 
+3902	EIGHT	bhw387	w a ɗ 
+3903	FIVE	bhw387	ɗ i m 
+3904	FOUR	bhw387	f j a k 
+3915	NINE	bhw388	i h t 
+3916	ONE	bhw388	o h o l 
+3917	SEVEN	bhw388	i ŋ̩ k 
+3918	SIX	bhw388	t o n o m 
+3919	TEN	bhw388	h m ũ ŋ̩ ɔ̃ː l 
+3920	THREE	bhw388	k o j l 
+3921	TWO	bhw388	h l ɔ̃ː ɔ̃ː 
+3912	EIGHT	bhw388	ũ t l 
+3913	FIVE	bhw388	i l m 
+3914	FOUR	bhw388	j ŋ̩ ũ k 
+3925	NINE	bhw389	s i t 
+3926	ONE	bhw389	s o ə r 
+3927	SEVEN	bhw389	i f k 
+3928	SIX	bhw389	t n o i m 
+3929	TEN	bhw389	a m s f ɑ r 
+3930	THREE	bhw389	k o j r 
+3931	TWO	bhw389	s r ɔ̃ː ɔ̃ː 
+3922	EIGHT	bhw389	a t r 
+3923	FIVE	bhw389	r i m 
+3924	FOUR	bhw389	f j a k 
+3935	NINE	bhw390	s i w 
+3936	ONE	bhw390	s o e d̪ 
+3937	SEVEN	bhw390	i f s 
+3938	SIX	bhw390	w ə n e m 
+3939	TEN	bhw390	s ɔˑ m f ia d̪ 
+3940	THREE	bhw390	s j ə d̪ 
+3941	TWO	bhw390	s ia b̥ ia 
+3932	EIGHT	bhw390	w ɔˑ d̪ 
+3933	FIVE	bhw390	i b̥ m 
+3934	FOUR	bhw390	f j ɔˑ s 
+3951	NINE	swe391	dː aːi ɔ 
+3942	ONE	swe391	eː g̊ 
+3943	ONE	swe391	ɛ ðː 
+3949	SEVEN	swe391	n̊ ʉː 
+3948	SIX	swe391	ɛ ʃː k sː 
+3952	TEN	swe391	aːi t ɔ 
+3945	THREE	swe391	t r uɔ 
+3944	TWO	swe391	v t oː 
+3950	EIGHT	swe391	dʲ ɔ a 
+3947	FIVE	swe391	p ɨ m 
+3946	FOUR	swe391	p yː r a 
+3956	NINE	bhw392	s i kʼ 
+3957	ONE	bhw392	o e tsʰ r 
+3958	SEVEN	bhw392	f i cː 
+3959	SIX	bhw392	kʼ o n e m 
+3960	TEN	bhw392	s ʌ m f u r 
+3961	THREE	bhw392	cː s o r 
+3962	TWO	bhw392	s r u u 
+3953	EIGHT	bhw392	a kʼ r 
+3954	FIVE	bhw392	r i m 
+3955	FOUR	bhw392	f s ʌ cː 
+3966	NINE	bhw393	i s w 
+3967	ONE	bhw393	o s e ɗ 
+3968	SEVEN	bhw393	i x k 
+3969	SIX	bhw393	w ʃː o e m 
+3970	TEN	bhw393	æ̃ s m x uɔ ɗ 
+3971	THREE	bhw393	o k j ɗ 
+3972	TWO	bhw393	s ɗ aːu aːu 
+3963	EIGHT	bhw393	æ̃ w ɗ 
+3964	FIVE	bhw393	i ɗ m 
+3965	FOUR	bhw393	x j æ̃ k 
+3976	NINE	bhw394	i s t 
+3977	ONE	bhw394	s œː ə r 
+3978	SEVEN	bhw394	i f b 
+3979	SIX	bhw394	t œː n ə m 
+3980	TEN	bhw394	a s f m o r 
+3981	THREE	bhw394	b œː j r 
+3982	TWO	bhw394	r s ɔ̃ː ɔ̃ː 
+3973	EIGHT	bhw394	a t r 
+3974	FIVE	bhw394	r i m 
+3975	FOUR	bhw394	f j ɒ b 
+3986	NINE	bhw395	i s t 
+3987	ONE	bhw395	s o ə rʷ 
+3988	SEVEN	bhw395	i z ⁿd 
+3989	SIX	bhw395	t o n ə m 
+3990	TEN	bhw395	a s z m ɔ̃ː rʷ 
+3991	THREE	bhw395	ⁿd o j rʷ 
+3992	TWO	bhw395	s rʷ ɔ̃ː ɔ̃ː 
+3983	EIGHT	bhw395	t a rʷ 
+3984	FIVE	bhw395	rʷ i m 
+3985	FOUR	bhw395	z ɒ j ⁿd 
+4001	NINE	swe396	n aːi ɔ 
+3993	ONE	swe396	eː ɽ 
+3999	SEVEN	swe396	ʉː ɧ 
+3998	SIX	swe396	ɛ s k tɕ 
+4002	TEN	swe396	ɸ aːi ɔ 
+3995	THREE	swe396	ɸ r uɔ 
+3994	TWO	swe396	v ɸ œː 
+4000	EIGHT	swe396	ɔ tː a 
+3997	FIVE	swe396	ɛ f m 
+3996	FOUR	swe396	f r yː a 
+4006	NINE	bhw397	s ɑː kʼ 
+4007	ONE	bhw397	e o tsʰ r 
+4008	SEVEN	bhw397	ʒ ɑː cː 
+4009	SIX	bhw397	o kʼ n e m 
+4010	TEN	bhw397	s a m ʒ u r 
+4011	THREE	bhw397	cː s o r 
+4012	TWO	bhw397	s r u u 
+4003	EIGHT	bhw397	a kʼ r 
+4004	FIVE	bhw397	r ɑː m 
+4005	FOUR	bhw397	ʒ a s cː 
+4016	NINE	bhw398	i s w 
+4017	ONE	bhw398	o s ɑ̠ ʃʰ 
+4018	SEVEN	bhw398	i f k 
+4019	SIX	bhw398	w ə n ɑ̠ m 
+4020	TEN	bhw398	s ɔˑ m f ɐː ʃʰ 
+4021	THREE	bhw398	k ə kp ʃʰ 
+4022	TWO	bhw398	s b̥ u u 
+4013	EIGHT	bhw398	w ɔˑ ʃʰ 
+4014	FIVE	bhw398	i b̥ m 
+4015	FOUR	bhw398	f kp ɔˑ k 
+4026	NINE	bhw399	s i t 
+4027	ONE	bhw399	s ɐ o r 
+4028	SEVEN	bhw399	i f k 
+4029	SIX	bhw399	t o ⁿt i m 
+4030	TEN	bhw399	a s m iɛ f r 
+4031	THREE	bhw399	k o j r 
+4032	TWO	bhw399	s r ɔ̃ː ɔ̃ː 
+4023	EIGHT	bhw399	a t r 
+4024	FIVE	bhw399	r i m 
+4025	FOUR	bhw399	f j a k 
+4036	NINE	bhw400	ɗ ɔ t 
+4037	ONE	bhw400	o ɗ au pʲ 
+4038	SEVEN	bhw400	f ɔ cː 
+4039	SIX	bhw400	t ui n au m 
+4040	TEN	bhw400	ɗ ɛ̃ m f u pʲ 
+4041	THREE	bhw400	cː ɗ ui pʲ 
+4042	TWO	bhw400	ɗ r u u 
+4033	EIGHT	bhw400	t a pʲ 
+4034	FIVE	bhw400	ɔ r m 
+4035	FOUR	bhw400	ɛ̃ ɗ f cː 
+4046	NINE	bhw401	lʲ i m 
+4047	ONE	bhw401	o lʲ e r 
+4048	SEVEN	bhw401	f i cː 
+4049	SIX	bhw401	w o e n m 
+4050	TEN	bhw401	lʲ a m f ɪ r 
+4051	THREE	bhw401	cː t̪ o r 
+4052	TWO	bhw401	lʲ r u u 
+4043	EIGHT	bhw401	a w r 
+4044	FIVE	bhw401	i r m 
+4045	FOUR	bhw401	f t̪ a cː 
+4056	NINE	bhw402	i s w 
+4057	ONE	bhw402	o s e ɗ 
+4058	SEVEN	bhw402	i f k 
+4059	SIX	bhw402	w ʃː o e m 
+4060	TEN	bhw402	s æ̃ m f ẽ ɗ 
+4061	THREE	bhw402	k o j ɗ 
+4062	TWO	bhw402	s ɗ i̟ i̟ 
+4053	EIGHT	bhw402	w æ̃ ɗ 
+4054	FIVE	bhw402	ɗ i m 
+4055	FOUR	bhw402	f j æ̃ k 
+4066	NINE	bhw403	s i t 
+4067	ONE	bhw403	ʈ o ə r 
+4068	SEVEN	bhw403	i f b 
+4069	SIX	bhw403	t o n ə m 
+4070	TEN	bhw403	a s f m œː r 
+4071	THREE	bhw403	b o j r 
+4072	TWO	bhw403	r s uo uo 
+4063	EIGHT	bhw403	a t r 
+4064	FIVE	bhw403	r i m 
+4065	FOUR	bhw403	f j ɒ b 
+4076	NINE	bhw404	s i w 
+4077	ONE	bhw404	s o ɛ̃ ʃʰ 
+4078	SEVEN	bhw404	i f k 
+4079	SIX	bhw404	w ə n ɛ̃ m 
+4080	TEN	bhw404	s ɔˑ m f u ʃʰ 
+4081	THREE	bhw404	ə k kp ʃʰ 
+4082	TWO	bhw404	s b̥ u u 
+4073	EIGHT	bhw404	w ɔˑ ʃʰ 
+4074	FIVE	bhw404	i b̥ m 
+4075	FOUR	bhw404	f kp ɔˑ k 
+4086	NINE	bhw405	s i w 
+4087	ONE	bhw405	ɔ o s r 
+4088	SEVEN	bhw405	f i k 
+4089	SIX	bhw405	w o n ɔ m 
+4090	TEN	bhw405	s u m f u r 
+4091	THREE	bhw405	k k o r 
+4092	TWO	bhw405	s u m u 
+4083	EIGHT	bhw405	u w r 
+4084	FIVE	bhw405	r i m 
+4085	FOUR	bhw405	f k u k 
+4096	NINE	bhw406	i s w 
+4097	ONE	bhw406	s o e tsʲ 
+4098	SEVEN	bhw406	f i cː 
+4099	SIX	bhw406	w o e n m 
+4100	TEN	bhw406	s a m f u tsʲ 
+4101	THREE	bhw406	cː t̪ ai tsʲ 
+4102	TWO	bhw406	tsʲ s u u 
+4093	EIGHT	bhw406	w a tsʲ 
+4094	FIVE	bhw406	tsʲ i m 
+4095	FOUR	bhw406	f t̪ a cː 
+4106	NINE	bhw407	k i pʰ 
+4107	ONE	bhw407	k e o r 
+4108	SEVEN	bhw407	f i kʲ 
+4109	SIX	bhw407	wʲ o e n pʰ 
+4110	TEN	bhw407	k a pʰ f u r 
+4111	THREE	bhw407	kʲ o tʲ r 
+4112	TWO	bhw407	k r u u 
+4103	EIGHT	bhw407	wʲ a r 
+4104	FIVE	bhw407	i r pʰ 
+4105	FOUR	bhw407	f tʲ a kʲ 
+4116	NINE	bhw408	i ⁿdʑ t 
+4117	ONE	bhw408	ⁿdʑ œː ə r 
+4118	SEVEN	bhw408	i f b 
+4119	SIX	bhw408	t œː n ə m 
+4120	TEN	bhw408	a ⁿdʑ f m o r 
+4121	THREE	bhw408	b j œː r 
+4122	TWO	bhw408	ⁿdʑ r ɔ̃ː ɔ̃ː 
+4113	EIGHT	bhw408	a t r 
+4114	FIVE	bhw408	r i m 
+4115	FOUR	bhw408	f j ɒ b 
+4126	NINE	bhw409	s i ˀn 
+4127	ONE	bhw409	s o ɛ̃ ʃʰ 
+4128	SEVEN	bhw409	i f ŋ 
+4129	SIX	bhw409	ˀn ə ɬ ɛ̃ m 
+4130	TEN	bhw409	s ɔˑ m f u ʃʰ 
+4131	THREE	bhw409	ŋ ə kp ʃʰ 
+4132	TWO	bhw409	s c u u 
+4123	EIGHT	bhw409	ɔˑ ˀn ʃʰ 
+4124	FIVE	bhw409	c i m 
+4125	FOUR	bhw409	kp ɔˑ f ŋ 
+4136	NINE	bhw410	s i w 
+4137	ONE	bhw410	u s ə r 
+4138	SEVEN	bhw410	f i cː 
+4139	SIX	bhw410	w u ə n m 
+4140	TEN	bhw410	s m ə f ɔ̃u r 
+4141	THREE	bhw410	t̪ ɔ̃u cː r 
+4142	TWO	bhw410	s r u u 
+4133	EIGHT	bhw410	ə w r 
+4134	FIVE	bhw410	i r m 
+4139	FIVE	bhw410	w u ə n m 
+4135	FOUR	bhw410	f t̪ ə cː 
+4146	NINE	bhw411	i s jˀ 
+4147	ONE	bhw411	ɛ̃ s ə r 
+4148	SEVEN	bhw411	f i k 
+4149	SIX	bhw411	jˀ ɛ̃ tɕ ə m 
+4150	TEN	bhw411	s a m f oˑ r 
+4151	THREE	bhw411	k j ɛ̃ r 
+4152	TWO	bhw411	s r oˑ oˑ 
+4143	EIGHT	bhw411	a jˀ r 
+4144	FIVE	bhw411	i r m 
+4145	FOUR	bhw411	f j a k 
+4156	NINE	bhw412	s i w 
+4157	ONE	bhw412	o s ə d̪ 
+4158	SEVEN	bhw412	dʑ i ɖʐ 
+4159	SIX	bhw412	w o n ə m 
+4160	TEN	bhw412	s ɔˑ m dʑ u d̪ 
+4161	THREE	bhw412	ɖʐ j o d̪ 
+4162	TWO	bhw412	s r u u 
+4153	EIGHT	bhw412	ɔˑ w d̪ 
+4154	FIVE	bhw412	i r m 
+4155	FOUR	bhw412	dʑ j ɔˑ ɖʐ 
+4166	NINE	bhw413	s i w̃ 
+4167	ONE	bhw413	s o e tsʲ 
+4168	SEVEN	bhw413	f i ɕː 
+4169	SIX	bhw413	w o e n w̃ 
+4170	TEN	bhw413	s a w̃ f u tsʲ 
+4171	THREE	bhw413	cː o tʲ tsʲ 
+4172	TWO	bhw413	s tsʲ u u 
+4163	EIGHT	bhw413	w a tsʲ 
+4164	FIVE	bhw413	i tsʲ w̃ 
+4165	FOUR	bhw413	f tʲ a ɕː 
+4181	NINE	swe414	n aːi ɔ 
+4173	ONE	swe414	ɛ ɓ 
+4179	SEVEN	swe414	ɧ ɯ̆ 
+4178	SIX	swe414	ɛ s j sː 
+4182	TEN	swe414	t aːi ɔ 
+4175	THREE	swe414	r t uɔ 
+4174	TWO	swe414	t v ʏ 
+4180	EIGHT	swe414	β ɔ a 
+4177	FIVE	swe414	ɨi f m 
+4176	FOUR	swe414	f yː r ɤ 
+4186	NINE	bhw415	s i rʲ 
+4187	ONE	bhw415	o ɑˑ s r 
+4188	SEVEN	bhw415	i f k 
+4189	SIX	bhw415	rʲ o n ɑˑ m 
+4190	TEN	bhw415	s ɔˑ m f u r 
+4191	THREE	bhw415	k k o r 
+4192	TWO	bhw415	s u t u 
+4183	EIGHT	bhw415	rʲ ɔˑ r 
+4184	FIVE	bhw415	i r m 
+4185	FOUR	bhw415	f k ɔˑ k 
+4196	NINE	bhw416	s i w 
+4197	ONE	bhw416	o œ s d̪ 
+4198	SEVEN	bhw416	i f k 
+4199	SIX	bhw416	w o f œ ʡ 
+4200	TEN	bhw416	s ə m f u d̪ 
+4201	THREE	bhw416	k d o d̪ 
+4202	TWO	bhw416	s r u u 
+4193	EIGHT	bhw416	w ə d̪ 
+4194	FIVE	bhw416	i r ʡ 
+4195	FOUR	bhw416	d f ə k 
+4212	NINE	swe417	ȵ e ɔ 
+4203	ONE	swe417	g̊ ɨˑ 
+4204	ONE	swe417	ɛ ʑ 
+4210	SEVEN	swe417	ɧ ʉː 
+4209	SIX	swe417	ɛ k s sː 
+4213	TEN	swe417	e t ɔ 
+4206	THREE	swe417	t r uɔ 
+4205	TWO	swe417	v t oː 
+4211	EIGHT	swe417	ɔ tː a 
+4208	FIVE	swe417	f ɑi ɓ 
+4207	FOUR	swe417	f yː r a 
+4217	NINE	bhw418	s i w 
+4218	ONE	bhw418	o s ɛ̃ ʃʰ 
+4219	SEVEN	bhw418	i f hː 
+4220	SIX	bhw418	w ə n ɛ̃ m 
+4221	TEN	bhw418	s ɔˑ m f ɐː ʃʰ 
+4222	THREE	bhw418	hː kp ə ʃʰ 
+4223	TWO	bhw418	s b̥ u u 
+4214	EIGHT	bhw418	w ɔˑ ʃʰ 
+4215	FIVE	bhw418	i b̥ m 
+4216	FOUR	bhw418	f kp ɔˑ hː 
+4227	NINE	bhw419	s i w 
+4228	ONE	bhw419	o ɬ œ d̪ 
+4229	SEVEN	bhw419	i f k 
+4231	TEN	bhw419	s m ə f y d̪ 
+4232	THREE	bhw419	k h o d̪ 
+4233	TWO	bhw419	s r u u 
+4224	EIGHT	bhw419	ə w d̪ 
+4225	FIVE	bhw419	i r m 
+4226	FOUR	bhw419	f h ə k 
+4237	NINE	bhw420	s i χʷ 
+4239	SEVEN	bhw420	i mʲ cː 
+4240	SIX	bhw420	χʷ o n e m 
+4241	TEN	bhw420	s ɨˤ m mʲ o pʲ 
+4242	THREE	bhw420	cː s o pʲ 
+4243	TWO	bhw420	s o r u 
+4234	EIGHT	bhw420	a χʷ pʲ 
+4235	FIVE	bhw420	i r m 
+4236	FOUR	bhw420	s ɨˤ mʲ cː 
+4247	NINE	bhw421	s au gː 
+4248	ONE	bhw421	s aː o r 
+4249	SEVEN	bhw421	f au cː 
+4250	SIX	bhw421	gː o aː n m 
+4251	TEN	bhw421	s m a f u r 
+4252	THREE	bhw421	cː t̪ o r 
+4253	TWO	bhw421	s r u u 
+4244	EIGHT	bhw421	gː a r 
+4245	FIVE	bhw421	r au m 
+4246	FOUR	bhw421	f a t̪ cː 
+4257	NINE	bhw422	dː i t 
+4258	ONE	bhw422	dː o o̞ː r 
+4259	SEVEN	bhw422	i ŋ̩ k 
+4260	SIX	bhw422	t o rʲ o̞ː m 
+4261	TEN	bhw422	ʊː dː m ŋ̩ ɔ̃ː r 
+4262	THREE	bhw422	k o j r 
+4263	TWO	bhw422	r dː ɔ̃ː ɔ̃ː 
+4254	EIGHT	bhw422	ʊː t r 
+4255	FIVE	bhw422	i r m 
+4256	FOUR	bhw422	ŋ̩ j ʊː ˀl 
+4267	NINE	bhw423	s i w 
+4268	ONE	bhw423	eɪ s e pʲ 
+4269	SEVEN	bhw423	f i cː 
+4270	SIX	bhw423	w eɪ n e dʲ 
+4271	TEN	bhw423	s a f dʲ u pʲ 
+4272	THREE	bhw423	s cː eɪ pʲ 
+4273	TWO	bhw423	s u w u 
+4264	EIGHT	bhw423	w a pʲ 
+4265	FIVE	bhw423	w i dʲ 
+4266	FOUR	bhw423	s f a cː 
+4277	NINE	bhw424	i s t 
+4278	ONE	bhw424	s ia ə r 
+4279	SEVEN	bhw424	f i b 
+4280	SIX	bhw424	t ia n ə m 
+4281	TEN	bhw424	a s f m ɔ̃ː r 
+4282	THREE	bhw424	b ia j r 
+4283	TWO	bhw424	s ɔ̃ː r ɔ̃ː 
+4274	EIGHT	bhw424	a t r 
+4275	FIVE	bhw424	r i m 
+4276	FOUR	bhw424	f j oi b 
+4287	NINE	bhw425	lʲ i ȶ 
+4288	ONE	bhw425	lʲ o e r 
+4289	SEVEN	bhw425	f i cː 
+4290	SIX	bhw425	w o e n ȶ 
+4291	TEN	bhw425	lʲ a ȶ f e̱ r 
+4292	THREE	bhw425	cː t̪ o r 
+4293	TWO	bhw425	lʲ r u u 
+4284	EIGHT	bhw425	w a r 
+4285	FIVE	bhw425	i r ȶ 
+4285	FOUR	bhw425	i r ȶ 
+4286	FOUR	bhw425	f t̪ a cː 
+4297	NINE	bhw426	i s t 
+4298	ONE	bhw426	s o ə dʷ 
+4299	SEVEN	bhw426	i f tʼ 
+4300	SIX	bhw426	t n o ə tʰ 
+4301	TEN	bhw426	a s f tʰ ɔ̃ː dʷ 
+4302	THREE	bhw426	o ɲ tʼ dʷ 
+4303	TWO	bhw426	s dʷ ɔ̃ː ɔ̃ː 
+4295	FIVE	bhw426	au dʷ tʰ 
+4296	FOUR	bhw426	f ɲ a tʼ 
+4307	NINE	bhw427	i s t 
+4308	ONE	bhw427	o s au pʲ 
+4309	SEVEN	bhw427	f i cː 
+4310	SIX	bhw427	t o n au m 
+4311	TEN	bhw427	s ɛ̃ m f u pʲ 
+4312	THREE	bhw427	cː o s pʲ 
+4313	TWO	bhw427	s r u u 
+4304	EIGHT	bhw427	a t pʲ 
+4305	FIVE	bhw427	i r m 
+4306	FOUR	bhw427	s f ɛ̃ cː 
+4317	NINE	bhw428	i s w 
+4318	ONE	bhw428	s o e j 
+4319	SEVEN	bhw428	f i cː 
+4320	SIX	bhw428	w o e n m 
+4321	TEN	bhw428	s a m f u j 
+4322	THREE	bhw428	cː t̪ o j 
+4323	TWO	bhw428	j s u u 
+4314	EIGHT	bhw428	w a j 
+4315	FIVE	bhw428	j i m 
+4316	FOUR	bhw428	f t̪ a cː 
+4333	NINE	swe429	n aːi ɔ 
+4324	ONE	swe429	oː ˀl 
+4325	ONE	swe429	ɓ ɛ 
+4331	SEVEN	swe429	ɧ ʉː 
+4330	SIX	swe429	ɛ s j sː 
+4334	TEN	swe429	t aːi ɔ 
+4327	THREE	swe429	r t ɔ 
+4326	TWO	swe429	v t ʏ 
+4332	EIGHT	swe429	tː ɔ a 
+4329	FIVE	swe429	f ɨi m 
+4328	FOUR	swe429	f yː r a 
+4338	NINE	bhw430	ɸ i w 
+4339	ONE	bhw430	o ɟ e pʲ 
+4340	SEVEN	bhw430	i f d̪ 
+4341	SIX	bhw430	w o n e m 
+4342	TEN	bhw430	ɸ e̠ m f u pʲ 
+4343	THREE	bhw430	d̪ ɸ o pʲ 
+4344	TWO	bhw430	ɸ u pʰ u 
+4335	EIGHT	bhw430	e̠ w pʲ 
+4336	FIVE	bhw430	ŋ i m 
+4337	FOUR	bhw430	ɸ f e̠ d̪ 
+4348	NINE	bhw431	i ˀd w 
+4349	ONE	bhw431	o e ˀd pʲ 
+4350	SEVEN	bhw431	i ɓ cː 
+4351	SIX	bhw431	w o θ e m 
+4352	TEN	bhw431	ˀd ɨˤ m ɓ u pʲ 
+4353	THREE	bhw431	ˀd cː o pʲ 
+4354	TWO	bhw431	ˀd u lʱ u 
+4345	EIGHT	bhw431	a w pʲ 
+4346	FIVE	bhw431	lʱ i m 
+4347	FOUR	bhw431	ˀd ɓ ɨˤ cː 
+4358	NINE	bhw432	i s w 
+4359	ONE	bhw432	s əɯ ə̥ ɦ 
+4360	SEVEN	bhw432	i dʑ k 
+4361	SIX	bhw432	w əɯ n ə̥ m 
+4362	TEN	bhw432	s ɔˑ m dʑ u ɦ 
+4363	THREE	bhw432	k j əɯ ɦ 
+4364	TWO	bhw432	s r u u 
+4355	EIGHT	bhw432	ɔˑ w ɦ 
+4356	FIVE	bhw432	r i m 
+4357	FOUR	bhw432	dʑ j ɔˑ k 
+4368	NINE	bhw433	ʀ i w 
+4369	ONE	bhw433	õ ʀ e r 
+4370	SEVEN	bhw433	f i ŋ 
+4371	SIX	bhw433	w õ e ʁ m 
+4372	TEN	bhw433	ʀ ə m f ɔ̃ r 
+4373	THREE	bhw433	ɔ̃ t̪ ŋ r 
+4374	TWO	bhw433	ʀ r õ õ 
+4365	EIGHT	bhw433	ə w r 
+4366	FIVE	bhw433	i r m 
+4367	FOUR	bhw433	f t̪ ə ŋ 
+4378	NINE	bhw434	i ɗ t 
+4379	ONE	bhw434	o ɗ au pʲ 
+4380	SEVEN	bhw434	f i cː 
+4381	SIX	bhw434	t ui n au m 
+4382	TEN	bhw434	ɗ ɛ̃ m f u pʲ 
+4383	THREE	bhw434	cː ɗ ui pʲ 
+4384	TWO	bhw434	ɗ r u u 
+4375	EIGHT	bhw434	t a pʲ 
+4376	FIVE	bhw434	i r m 
+4377	FOUR	bhw434	ɗ ɛ̃ f cː 
+4388	NINE	bhw435	s i w 
+4389	ONE	bhw435	s o e t̪ 
+4390	SEVEN	bhw435	i f s 
+4391	SIX	bhw435	w ŏ n e m 
+4392	TEN	bhw435	s ɔˑ m f u t̪ 
+4393	THREE	bhw435	s j ŏ t̪ 
+4394	TWO	bhw435	s b̥ u u 
+4385	EIGHT	bhw435	ɔˑ w t̪ 
+4386	FIVE	bhw435	b̥ i m 
+4387	FOUR	bhw435	f j ɔˑ ʈʰ 
+4398	NINE	bhw436	s i w 
+4399	ONE	bhw436	ɜː s ɛ̃ d̪ 
+4400	SEVEN	bhw436	f i ʃʰ 
+4401	SIX	bhw436	w ø n ɛ̃ m 
+4402	TEN	bhw436	s ă m f u d̪ 
+4403	THREE	bhw436	v ʃʰ ø d̪ 
+4404	TWO	bhw436	s b̥ u u 
+4395	EIGHT	bhw436	w ă d̪ 
+4396	FIVE	bhw436	i b̥ m 
+4397	FOUR	bhw436	f v ă ʃʰ 
+4408	NINE	bhw437	dː i t 
+4409	ONE	bhw437	dː o ə r 
+4410	SEVEN	bhw437	i ŋ̩ k 
+4411	SIX	bhw437	t o n ə bː 
+4412	TEN	bhw437	ĩ dː m ŋ̩ ɔ̃ː r 
+4413	THREE	bhw437	k o j r 
+4414	TWO	bhw437	r dː ɔ̃ː ɔ̃ː 
+4405	EIGHT	bhw437	t ĩ r 
+4406	FIVE	bhw437	i r m 
+4407	FOUR	bhw437	ŋ̩ j ĩ k 
+4418	NINE	bhw438	dʲ iː w 
+4419	ONE	bhw438	o dʲ au pʲ 
+4420	SEVEN	bhw438	f iː cː 
+4421	SIX	bhw438	w au o n ʂ 
+4422	TEN	bhw438	dʲ a ʂ f u pʲ 
+4423	THREE	bhw438	cː dʲ o pʲ 
+4424	TWO	bhw438	dʲ r u u 
+4415	EIGHT	bhw438	w a pʲ 
+4416	FIVE	bhw438	e˞ r ʂ 
+4417	FOUR	bhw438	dʲ f a cː 
+4428	NINE	bhw439	s i w 
+4429	ONE	bhw439	o s iɔ sʲ 
+4430	SEVEN	bhw439	f i cː 
+4431	SIX	bhw439	w o j iɔ m 
+4432	TEN	bhw439	s a m f u sʲ 
+4433	THREE	bhw439	cː s o sʲ 
+4434	TWO	bhw439	s r u u 
+4425	EIGHT	bhw439	w a c 
+4426	FIVE	bhw439	r i m 
+4427	FOUR	bhw439	s f a cː 
+4443	NINE	swe440	ȵ aːi ʌ 
+4435	ONE	swe440	ɛ ʈ 
+4441	SEVEN	swe440	ɧ ʉː 
+4440	SIX	swe440	ɛ s k sː 
+4444	TEN	swe440	t aːi ʌ 
+4437	THREE	swe440	t r uɔ 
+4436	TWO	swe440	v t oː 
+4442	EIGHT	swe440	ʌ tː a 
+4439	FIVE	swe440	f ɑi dʲ 
+4438	FOUR	swe440	yː f r a 
+4448	NINE	bhw441	i s w 
+4449	ONE	bhw441	s o ɛ̃ ʃʰ 
+4450	SEVEN	bhw441	i f k 
+4451	SIX	bhw441	w ə n ɛ̃ m 
+4452	TEN	bhw441	s ɔˑ m f aːi ʃʰ 
+4453	THREE	bhw441	ə k k ʃʰ 
+4454	TWO	bhw441	s b̥ aːi aːi 
+4445	EIGHT	bhw441	w ɔˑ ʃʰ 
+4446	FIVE	bhw441	i b̥ m 
+4447	FOUR	bhw441	f k ɔˑ k 
+4458	NINE	bhw442	s i t 
+4459	ONE	bhw442	s o ə r 
+4460	SEVEN	bhw442	i f k 
+4461	SIX	bhw442	t n o i m 
+4462	TEN	bhw442	a s f m ɔ̃ː r 
+4463	THREE	bhw442	k o j r 
+4464	TWO	bhw442	s r ɔ̃ː ɔ̃ː 
+4455	EIGHT	bhw442	a t r 
+4456	FIVE	bhw442	r i m 
+4457	FOUR	bhw442	f j a k 
+4468	NINE	bhw443	ɸ i w 
+4469	ONE	bhw443	o e ɸ pʲ 
+4470	SEVEN	bhw443	f i d̪ 
+4471	SIX	bhw443	o w n e ʕ 
+4472	TEN	bhw443	ɸ e̠ f m u pʲ 
+4473	THREE	bhw443	d̪ ɸ o pʲ 
+4474	TWO	bhw443	ɸ u pʰ u 
+4465	EIGHT	bhw443	e̠ w pʲ 
+4466	FIVE	bhw443	r i ʕ 
+4467	FOUR	bhw443	ɸ f e̠ d̪ 
+4478	NINE	bhw444	s i t 
+4479	ONE	bhw444	o s au pʲ 
+4480	SEVEN	bhw444	f i cː 
+4481	SIX	bhw444	t o n au m 
+4482	TEN	bhw444	s ɛ̃ m f u pʲ 
+4483	THREE	bhw444	cː s o pʲ 
+4484	TWO	bhw444	s r u u 
+4475	EIGHT	bhw444	a t pʲ 
+4476	FIVE	bhw444	i r m 
+4477	FOUR	bhw444	s f ɛ̃ cː 
+4488	NINE	bhw445	s i w 
+4489	ONE	bhw445	s o e d̪ 
+4490	SEVEN	bhw445	i f s 
+4491	SIX	bhw445	w ə n e m 
+4492	TEN	bhw445	s ɔˑ f m ia d̪ 
+4493	THREE	bhw445	s j ə d̪ 
+4494	TWO	bhw445	s ia b̥ ia 
+4485	EIGHT	bhw445	ɔˑ w d̪ 
+4486	FIVE	bhw445	b̥ i m 
+4487	FOUR	bhw445	f j ɔˑ s 
+4498	NINE	bhw446	i s rʲ 
+4499	ONE	bhw446	o ɑˑ s r 
+4500	SEVEN	bhw446	i f k 
+4501	SIX	bhw446	rʲ o n ɑˑ m 
+4502	TEN	bhw446	s f ɔˑ m u r 
+4503	THREE	bhw446	k k o r 
+4504	TWO	bhw446	s u r u 
+4495	EIGHT	bhw446	rʲ ɔˑ r 
+4496	FIVE	bhw446	r i m 
+4497	FOUR	bhw446	f k ɔˑ k 
+4508	NINE	bhw447	i θ w 
+4509	ONE	bhw447	o θ e r 
+4510	SEVEN	bhw447	ɕʲ i cː 
+4511	SIX	bhw447	w e o n m 
+4512	TEN	bhw447	θ m a ɕʲ u r 
+4513	THREE	bhw447	cː t̪ o r 
+4514	TWO	bhw447	θ r u u 
+4505	EIGHT	bhw447	w a r 
+4506	FIVE	bhw447	r i m 
+4507	FOUR	bhw447	ɕʲ t̪ a cː 
+4524	NINE	swe448	n aːi ɔ 
+4515	ONE	swe448	eː g̊ 
+4516	ONE	swe448	ʈ ɛ 
+4522	SEVEN	swe448	ʉː dʷ 
+4521	SIX	swe448	ɛ k s sː 
+4525	TEN	swe448	aːi t ɔ 
+4518	THREE	swe448	t r uɔ 
+4517	TWO	swe448	v t oː 
+4523	EIGHT	swe448	ɔ tː a 
+4520	FIVE	swe448	bʲ ɯi ɓ 
+4519	FOUR	swe448	bʲ yː r a 
+4529	NINE	bhw449	i s t 
+4530	ONE	bhw449	o s ə rʷ 
+4531	SEVEN	bhw449	i z ⁿd 
+4532	SIX	bhw449	t o n ə m 
+4533	TEN	bhw449	a s z m ɔ̃ː rʷ 
+4534	THREE	bhw449	ⁿd o sː rʷ 
+4535	TWO	bhw449	s rʷ ɔ̃ː ɔ̃ː 
+4526	EIGHT	bhw449	t a rʷ 
+4527	FIVE	bhw449	rʷ i m 
+4528	FOUR	bhw449	z ɒ sː ⁿd 
+4544	NINE	swe450	n aːi ɔ 
+4536	ONE	swe450	ɽ eː 
+4542	SEVEN	swe450	ɧ ʉː 
+4541	SIX	swe450	ɛ s k tɕ 
+4545	TEN	swe450	ɸ aːi ɔ 
+4538	THREE	swe450	ɸ r uɔ 
+4537	TWO	swe450	v ɸ œː 
+4543	EIGHT	swe450	ɔ tː a 
+4540	FIVE	swe450	f ɛ m 
+4539	FOUR	swe450	f r yː a 
+4549	NINE	bhw451	s ɑː kʼ 
+4550	ONE	bhw451	o æ̃ tsʰ r 
+4551	SEVEN	bhw451	ʒ ɑː cː 
+4552	SIX	bhw451	kʼ o n æ̃ m 
+4553	TEN	bhw451	s a m ʒ u r 
+4554	THREE	bhw451	cː s o r 
+4555	TWO	bhw451	s r u u 
+4546	EIGHT	bhw451	a kʼ r 
+4547	FIVE	bhw451	r ɑː m 
+4548	FOUR	bhw451	ʒ a s cː 
+4559	NINE	bhw452	s ɛi w 
+4560	ONE	bhw452	o s au pʲ 
+4561	SEVEN	bhw452	f ɛi cː 
+4562	SIX	bhw452	w o au n ʂ 
+4563	TEN	bhw452	s a ʂ f u pʲ 
+4564	THREE	bhw452	cː s o pʲ 
+4565	TWO	bhw452	s u r u 
+4556	EIGHT	bhw452	a w pʲ 
+4557	FIVE	bhw452	e˞ r ʂ 
+4558	FOUR	bhw452	s f a cː 
+4569	NINE	bhw453	s i w 
+4570	ONE	bhw453	s ɘ au sʲ 
+4571	SEVEN	bhw453	f i sː 
+4572	SIX	bhw453	w ɘ j au m 
+4573	TEN	bhw453	s ɜ m f u sʲ 
+4574	THREE	bhw453	sː s ɘ sʲ 
+4575	TWO	bhw453	s r u u 
+4566	EIGHT	bhw453	w ɜ c 
+4567	FIVE	bhw453	i r m 
+4568	FOUR	bhw453	s f ɜ sː 
+4579	NINE	bhw454	ə s w 
+4580	ONE	bhw454	s o e r 
+4581	SEVEN	bhw454	ə f cː 
+4582	SIX	bhw454	w o e n m 
+4583	TEN	bhw454	s a m f u r 
+4584	THREE	bhw454	cː t̪ o r 
+4585	TWO	bhw454	s r u u 
+4576	EIGHT	bhw454	a w r 
+4577	FIVE	bhw454	r ə m 
+4578	FOUR	bhw454	f t̪ a cː 
+4589	NINE	bhw455	qχ i rʲ 
+4590	ONE	bhw455	o ɑˑ qχ r 
+4591	SEVEN	bhw455	i f k 
+4592	SIX	bhw455	rʲ n o ɑˑ nʲ 
+4593	TEN	bhw455	qχ ɔˑ nʲ f u r 
+4594	THREE	bhw455	k k o r 
+4595	TWO	bhw455	qχ u r u 
+4586	EIGHT	bhw455	ɔˑ rʲ r 
+4587	FIVE	bhw455	r i nʲ 
+4588	FOUR	bhw455	f k ɔˑ k 
+4599	NINE	bhw456	s i w 
+4600	ONE	bhw456	s o ɛ̃ ʃʰ 
+4601	SEVEN	bhw456	i f k 
+4602	SIX	bhw456	w ə n ɛ̃ m 
+4603	TEN	bhw456	s ɔˑ m f u ʃʰ 
+4604	THREE	bhw456	ə k kp ʃʰ 
+4605	TWO	bhw456	s b̥ u u 
+4596	EIGHT	bhw456	w ɔˑ ʃʰ 
+4597	FIVE	bhw456	i b̥ m 
+4598	FOUR	bhw456	f kp ɔˑ k 
+4609	NINE	bhw457	s i w 
+4610	ONE	bhw457	ɔ o s r 
+4611	SEVEN	bhw457	f i k 
+4612	SIX	bhw457	w o n ɔ m 
+4613	TEN	bhw457	s u m f u r 
+4614	THREE	bhw457	k k o r 
+4615	TWO	bhw457	s m u u 
+4606	EIGHT	bhw457	u w r 
+4607	FIVE	bhw457	r i m 
+4608	FOUR	bhw457	f k u k 
+4619	NINE	bhw458	k i pʰ 
+4620	ONE	bhw458	k o e r 
+4621	SEVEN	bhw458	f i cː 
+4622	SIX	bhw458	wʲ o e n pʰ 
+4623	TEN	bhw458	k a pʰ f u r 
+4624	THREE	bhw458	cː o sʰ r 
+4625	TWO	bhw458	k r u u 
+4616	EIGHT	bhw458	wʲ a r 
+4617	FIVE	bhw458	i r pʰ 
+4618	FOUR	bhw458	f a sʰ cː 
+4629	NINE	bhw459	d̪ i w 
+4630	ONE	bhw459	o ɑˑ d̪ r 
+4631	SEVEN	bhw459	f i k 
+4632	SIX	bhw459	w o n ɑˑ m 
+4633	TEN	bhw459	d̪ u m f u ɸ 
+4634	THREE	bhw459	k k o ɸ 
+4635	TWO	bhw459	d̪ u m u 
+4626	EIGHT	bhw459	w u ɸ 
+4627	FIVE	bhw459	r i m 
+4628	FOUR	bhw459	f k u k 
+4639	NINE	bhw460	s i w 
+4640	ONE	bhw460	œ iə s θ 
+4641	SEVEN	bhw460	i β k 
+4642	SIX	bhw460	w iə β œ ʡ 
+4643	TEN	bhw460	s ə m β u θ 
+4644	THREE	bhw460	k j iə θ 
+4645	TWO	bhw460	s r u u 
+4636	EIGHT	bhw460	w ə θ 
+4637	FIVE	bhw460	r i ʡ 
+4638	FOUR	bhw460	j ə β k 
+4649	NINE	bhw461	s i w 
+4650	ONE	bhw461	u s ə r 
+4651	SEVEN	bhw461	f i cː 
+4652	SIX	bhw461	w u ə n m 
+4653	TEN	bhw461	s m ə f ɔ̃u r 
+4654	THREE	bhw461	t̪ ɔ̃u cː r 
+4655	TWO	bhw461	s r u u 
+4646	EIGHT	bhw461	ə w r 
+4647	FIVE	bhw461	i r m 
+4652	FIVE	bhw461	w u ə n m 
+4648	FOUR	bhw461	f t̪ ə cː 
+4664	NINE	swe462	n aːi ɔ 
+4656	ONE	swe462	ɓ ɛ 
+4662	SEVEN	swe462	ɧ aˑ 
+4661	SIX	swe462	ɛ s j sː 
+4665	TEN	swe462	t aːi ɔ 
+4658	THREE	swe462	t r uɔ 
+4657	TWO	swe462	t v ʏ 
+4663	EIGHT	swe462	β ɔ a 
+4660	FIVE	swe462	ɨi f m 
+4659	FOUR	swe462	f yː r ɤ 
+4669	NINE	bhw463	s i kʼ 
+4670	ONE	bhw463	aː tsʰ e β 
+4671	SEVEN	bhw463	s i cː 
+4672	SIX	bhw463	aː kʼ n e m 
+4673	TEN	bhw463	s ʌ m s u β 
+4674	THREE	bhw463	cː s aː β 
+4675	TWO	bhw463	β s u u 
+4666	EIGHT	bhw463	a kʼ β 
+4667	FIVE	bhw463	β i m 
+4668	FOUR	bhw463	s ʌ s cː 
+4679	NINE	bhw464	r̃ i w 
+4680	ONE	bhw464	o au r̃ kʷ 
+4681	SEVEN	bhw464	i f ɹ 
+4682	SIX	bhw464	w o j au m 
+4683	TEN	bhw464	r̃ a m f u kʷ 
+4684	THREE	bhw464	ɹ r̃ o kʷ 
+4685	TWO	bhw464	r̃ r u u 
+4676	EIGHT	bhw464	a w ts 
+4677	FIVE	bhw464	r i m 
+4678	FOUR	bhw464	r̃ f a ɹ 
+4689	NINE	bhw465	s u t 
+4690	ONE	bhw465	o ʈ ə r 
+4691	SEVEN	bhw465	u f b 
+4692	SIX	bhw465	t o n ə m 
+4693	TEN	bhw465	a s f m ɔ̃ː r 
+4694	THREE	bhw465	b o j r 
+4695	TWO	bhw465	s r ɔ̃ː ɔ̃ː 
+4686	EIGHT	bhw465	a t r 
+4687	FIVE	bhw465	r u m 
+4688	FOUR	bhw465	f j ɒ b 
+4699	NINE	bhw466	i s t 
+4700	ONE	bhw466	s o ə r 
+4701	SEVEN	bhw466	i f k 
+4702	SIX	bhw466	t o z̩ i m 
+4703	TEN	bhw466	a s m ɔ̃ː f r 
+4704	THREE	bhw466	k o j r 
+4705	TWO	bhw466	s ɔ̃ː r ɔ̃ː 
+4696	EIGHT	bhw466	a t r 
+4697	FIVE	bhw466	r i m 
+4698	FOUR	bhw466	f j a k 
+4709	NINE	bhw467	i s mˀ 
+4710	ONE	bhw467	s o a̤ː r 
+4711	SEVEN	bhw467	i f cː 
+4712	SIX	bhw467	mˀ o a̤ː n m 
+4713	TEN	bhw467	s a m f u r 
+4714	THREE	bhw467	cː t̪ o r 
+4715	TWO	bhw467	s u r u 
+4706	EIGHT	bhw467	a mˀ r 
+4707	FIVE	bhw467	r i m 
+4708	FOUR	bhw467	f t̪ a cː 
+4725	NINE	swe468	n aːi i 
+4716	ONE	swe468	ʀ eː 
+4717	ONE	swe468	ɓ ɛ 
+4723	SEVEN	swe468	ɧ ʉː 
+4722	SIX	swe468	ɛ s j sː 
+4726	TEN	swe468	t aːi i 
+4719	THREE	swe468	t r i 
+4718	TWO	swe468	v t ʏ 
+4724	EIGHT	swe468	tː i a 
+4721	FIVE	swe468	f ɨi m 
+4720	FOUR	swe468	f yː r a 
+4730	NINE	bhw469	s i w 
+4731	ONE	bhw469	s u e r 
+4732	SEVEN	bhw469	kʼ i cː 
+4733	SIX	bhw469	w u e n m 
+4734	TEN	bhw469	s ə m kʼ ɔ̃u r 
+4735	THREE	bhw469	t̪ ɔ̃u cː r 
+4736	TWO	bhw469	s r u u 
+4727	EIGHT	bhw469	ə w r 
+4728	FIVE	bhw469	i r m 
+4733	FIVE	bhw469	w u e n m 
+4729	FOUR	bhw469	kʼ t̪ ə cː 
+4740	NINE	bhw470	s i w 
+4741	ONE	bhw470	o s ɛ̃ ʝ 
+4742	SEVEN	bhw470	i f χ 
+4743	SIX	bhw470	w ø n ɛ̃ m 
+4744	TEN	bhw470	s ă f m ʌ ʝ 
+4745	THREE	bhw470	χ kp ø ʝ 
+4746	TWO	bhw470	s b̥ u u 
+4737	EIGHT	bhw470	ă w ʝ 
+4738	FIVE	bhw470	b̥ i m 
+4739	FOUR	bhw470	f kp ă χ 
+4750	NINE	bhw471	s əu w 
+4751	ONE	bhw471	āː s e ȶ 
+4752	SEVEN	bhw471	əu ŋː cː 
+4753	SIX	bhw471	āː w e n m 
+4754	TEN	bhw471	s ə m ŋː āː ȶ 
+4755	THREE	bhw471	t̪ cː āː ȶ 
+4756	TWO	bhw471	s ȶ āː āː 
+4747	EIGHT	bhw471	ə w ȶ 
+4748	FIVE	bhw471	ȶ əu m 
+4749	FOUR	bhw471	ŋː ə t̪ cː 
+4760	NINE	bhw472	s ie t 
+4761	ONE	bhw472	o s ə dː 
+4762	SEVEN	bhw472	ie f ⁿd 
+4763	SIX	bhw472	t o n ə m 
+4764	TEN	bhw472	a s f m ɔ̃ː dː 
+4765	THREE	bhw472	ⁿd o j r 
+4766	TWO	bhw472	r s ɔ̃ː ɔ̃ː 
+4757	EIGHT	bhw472	t a dː 
+4758	FIVE	bhw472	r ie m 
+4759	FOUR	bhw472	f j ɒ ⁿd 

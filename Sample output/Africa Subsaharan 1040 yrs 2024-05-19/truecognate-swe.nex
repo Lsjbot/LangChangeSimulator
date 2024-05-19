@@ -1,0 +1,83 @@
+#NEXUS
+BEGIN TAXA;
+	Dimensions NTax=61;
+	TaxLabels swe3 swe17 swe30 swe34 swe45 swe50 swe59 swe195 swe73 swe78 swe85 swe89 swe103 swe108 swe113 swe116 swe117 swe138 swe145 swe153 swe159 swe165 swe175 swe185 swe186 swe188 swe189 swe206 swe211 swe228 swe230 swe232 swe245 swe257 swe272 swe275 swe276 swe296 swe300 swe304 swe317 swe319 swe327 swe332 swe346 swe348 swe350 swe361 swe367 swe386 swe391 swe396 swe414 swe417 swe429 swe440 swe448 swe450 swe462 swe468 protoswe4;
+END;
+
+BEGIN CHARACTERS;
+	Dimensions NChar=10;
+	format datatype=standard symbols="A~Z" gap =-;
+	charlabels  'NINE' 'ONE' 'SEVEN' 'SIX' 'TEN' 'THREE' 'TWO' 'EIGHT' 'FIVE' 'FOUR';
+	Matrix
+	swe3 AAAAAAAAAA
+	swe17 AAAAAAAAAA
+	swe30 AAAAAAAAAA
+	swe34 AAAAAAAAAA
+	swe45 AAAAAAAAAA
+	swe50 AAAAAAAAAA
+	swe59 ABAAAAAAAA
+	swe195 AAAAAAAAAA
+	swe73 ABAAAAAAAA
+	swe78 ABAAAAAAAA
+	swe85 AAAAAAAAAA
+	swe89 AAAAAAAAAA
+	swe103 AAAAAAAAAA
+	swe108 AAAAAAAAAA
+	swe113 AAAAAAAAAA
+	swe116 AAAAAAAAAA
+	swe117 ABAAAAAAAA
+	swe138 ABAAAAAAAA
+	swe145 AAAAAAAAAA
+	swe153 AAAAAAAAAA
+	swe159 AAAAAAAAAA
+	swe165 AAAAAAAAAA
+	swe175 ABAAAAAAAA
+	swe185 AAAAAAAAAA
+	swe186 AAAAAAAAAA
+	swe188 AAAAAAAAAA
+	swe189 AAAAAAAAAA
+	swe206 AAAAAAAAAA
+	swe211 AAAAAAAAAA
+	swe228 ABAAAAAAAA
+	swe230 AAAAAAAAAA
+	swe232 AAAAAAAAAA
+	swe245 AAAAAAAAAA
+	swe257 ABAAAAAAAA
+	swe272 AAAAAAAAAA
+	swe275 AAAAAAAAAA
+	swe276 AAAAAAAAAA
+	swe296 AAAAAAAAAA
+	swe300 ABAAAAAAAA
+	swe304 AAAAAAAAAA
+	swe317 AAAAAAAAAA
+	swe319 AAAAAAAAAA
+	swe327 AAAAAAAAAA
+	swe332 AAAAAAAAAA
+	swe346 ABAAAAAAAA
+	swe348 AAAAAAAAAA
+	swe350 AAAAAAAAAA
+	swe361 AAAAAAAAAA
+	swe367 AAAAAAAAAA
+	swe386 ABAAAAAAAA
+	swe391 AAAAAAAAAA
+	swe396 AAAAAAAAAA
+	swe414 ABAAAAAAAA
+	swe417 AAAAAAAAAA
+	swe429 AAAAAAAAAA
+	swe440 ABAAAAAAAA
+	swe448 AAAAAAAAAA
+	swe450 AAAAAAAAAA
+	swe462 ABAAAAAAAA
+	swe468 AAAAAAAAAA
+	protoswe4 AAAAAAAAAA
+;
+END;
+
+BEGIN PAUP;
+	outgroup protoswe4;
+	set criterion=parsimony;
+	hsearch nreps=25;
+	describe 1 / plot=phylogram;
+	savetrees file=G:\Ling\LangChangeSimulator\output\Africa Subsaharan 1040 yrs 2024-05-19\truecognate-swe.tre brlens;
+	contree /treeFile=G:\Ling\LangChangeSimulator\output\Africa Subsaharan 1040 yrs 2024-05-19\truecognate-swe-consensus.nex;
+END;
